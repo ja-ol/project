@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.1 {width:22px; height:22px; background:url('mobile_sprite.png') no-repeat left top;}
+.2 {width:22px; height:22px; background:url('mobile_sprite.png') no-repeat left -32px;}
+.3 {width:22px; height:22px; background:url('mobile_sprite.png') no-repeat left -64px;}
+
+/* 가변 크기 */
+.1 {background-size:100% 390.9%;}
+.2 {background-position:left 50%; background-size:100% 390.9%;}
+.3 {background-position:left 100%; background-size:100% 390.9%;}

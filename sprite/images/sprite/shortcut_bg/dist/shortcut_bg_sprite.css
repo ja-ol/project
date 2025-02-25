@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.01 {width:27px; height:29px; background:url('shortcut_bg_sprite.png') no-repeat left top;}
+.02 {width:27px; height:29px; background:url('shortcut_bg_sprite.png') no-repeat left -39px;}
+
+/* 가변 크기 */
+.01 {background-size:100% 234.48%;}
+.02 {background-position:left 100%; background-size:100% 234.48%;}

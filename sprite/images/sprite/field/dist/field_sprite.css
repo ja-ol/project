@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+.01 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left top;}
+.02 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -52px;}
+.03 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -104px;}
+.04 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -156px;}
+.05 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -208px;}
+.06 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -260px;}
+.07 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -312px;}
+.08 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -364px;}
+.09 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -416px;}
+.10 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -468px;}
+.11 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -520px;}
+.12 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -572px;}
+.13 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -624px;}
+.14 {width:42px; height:42px; background:url('field_sprite.png') no-repeat left -676px;}
+
+/* 가변 크기 */
+.01 {background-size:100% 1709.52%;}
+.02 {background-position:left 7.69%; background-size:100% 1709.52%;}
+.03 {background-position:left 15.38%; background-size:100% 1709.52%;}
+.04 {background-position:left 23.07%; background-size:100% 1709.52%;}
+.05 {background-position:left 30.76%; background-size:100% 1709.52%;}
+.06 {background-position:left 38.46%; background-size:100% 1709.52%;}
+.07 {background-position:left 46.15%; background-size:100% 1709.52%;}
+.08 {background-position:left 53.84%; background-size:100% 1709.52%;}
+.09 {background-position:left 61.53%; background-size:100% 1709.52%;}
+.10 {background-position:left 69.23%; background-size:100% 1709.52%;}
+.11 {background-position:left 76.92%; background-size:100% 1709.52%;}
+.12 {background-position:left 84.61%; background-size:100% 1709.52%;}
+.13 {background-position:left 92.3%; background-size:100% 1709.52%;}
+.14 {background-position:left 100%; background-size:100% 1709.52%;}

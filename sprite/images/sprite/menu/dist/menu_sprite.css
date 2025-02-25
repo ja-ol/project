@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.01 {width:11px; height:7px; background:url('menu_sprite.png') no-repeat left top;}
+.02 {width:11px; height:7px; background:url('menu_sprite.png') no-repeat left -17px;}
+.03 {width:14px; height:13px; background:url('menu_sprite.png') no-repeat left -34px;}
+.04 {width:14px; height:13px; background:url('menu_sprite.png') no-repeat left -57px;}
+.05 {width:14px; height:13px; background:url('menu_sprite.png') no-repeat left -80px;}
+.06 {width:14px; height:13px; background:url('menu_sprite.png') no-repeat left -103px;}
+
+/* 가변 크기 */
+.01 {background-size:127.27% 1657.14%;}
+.02 {background-position:left 15.59%; background-size:127.27% 1657.14%;}
+.03 {background-position:left 33%; background-size:100% 892.3%;}
+.04 {background-position:left 55.33%; background-size:100% 892.3%;}
+.05 {background-position:left 77.66%; background-size:100% 892.3%;}
+.06 {background-position:left 100%; background-size:100% 892.3%;}
