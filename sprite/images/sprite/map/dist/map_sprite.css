@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+.01 {width:620px; height:495px; background:url('map_sprite.png') no-repeat left top;}
+.02 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -505px;}
+.03 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -1010px;}
+.04 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -1515px;}
+.05 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -2020px;}
+.06 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -2525px;}
+.07 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -3030px;}
+.08 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -3535px;}
+.09 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -4040px;}
+.10 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -4545px;}
+.11 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -5050px;}
+.12 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -5555px;}
+.13 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -6060px;}
+.14 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -6565px;}
+.15 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -7070px;}
+.16 {width:623px; height:495px; background:url('map_sprite.png') no-repeat left -7575px;}
+
+/* 가변 크기 */
+.01 {background-size:100.48% 1630.3%;}
+.02 {background-position:left 6.66%; background-size:100% 1630.3%;}
+.03 {background-position:left 13.33%; background-size:100% 1630.3%;}
+.04 {background-position:left 20%; background-size:100% 1630.3%;}
+.05 {background-position:left 26.66%; background-size:100% 1630.3%;}
+.06 {background-position:left 33.33%; background-size:100% 1630.3%;}
+.07 {background-position:left 40%; background-size:100% 1630.3%;}
+.08 {background-position:left 46.66%; background-size:100% 1630.3%;}
+.09 {background-position:left 53.33%; background-size:100% 1630.3%;}
+.10 {background-position:left 60%; background-size:100% 1630.3%;}
+.11 {background-position:left 66.66%; background-size:100% 1630.3%;}
+.12 {background-position:left 73.33%; background-size:100% 1630.3%;}
+.13 {background-position:left 80%; background-size:100% 1630.3%;}
+.14 {background-position:left 86.66%; background-size:100% 1630.3%;}
+.15 {background-position:left 93.33%; background-size:100% 1630.3%;}
+.16 {background-position:left 100%; background-size:100% 1630.3%;}

@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.1 {width:10px; height:14px; background:url('gnb_sprite.png') no-repeat left top;}
+.2 {width:10px; height:14px; background:url('gnb_sprite.png') no-repeat left -24px;}
+.3 {width:14px; height:14px; background:url('gnb_sprite.png') no-repeat left -48px;}
+.4 {width:14px; height:14px; background:url('gnb_sprite.png') no-repeat left -72px;}
+
+/* 가변 크기 */
+.1 {background-size:140% 614.28%;}
+.2 {background-position:left 33.33%; background-size:140% 614.28%;}
+.3 {background-position:left 66.66%; background-size:100% 614.28%;}
+.4 {background-position:left 100%; background-size:100% 614.28%;}

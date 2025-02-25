@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.01 {width:16px; height:17px; background:url('bb_sprite.png') no-repeat left top;}
+.02 {width:16px; height:17px; background:url('bb_sprite.png') no-repeat left -27px;}
+.03 {width:16px; height:17px; background:url('bb_sprite.png') no-repeat left -54px;}
+.04 {width:16px; height:17px; background:url('bb_sprite.png') no-repeat left -81px;}
+.5 {width:169px; height:144px; background:url('bb_sprite.png') no-repeat left -108px;}
+.6 {width:211px; height:144px; background:url('bb_sprite.png') no-repeat left -262px;}
+.7 {width:189px; height:153px; background:url('bb_sprite.png') no-repeat left -416px;}
+.08 {width:169px; height:144px; background:url('bb_sprite.png') no-repeat left -579px;}
+.09 {width:211px; height:144px; background:url('bb_sprite.png') no-repeat left -733px;}
+.10 {width:189px; height:153px; background:url('bb_sprite.png') no-repeat left -887px;}
+
+/* 가변 크기 */
+.01 {background-size:1318.75% 6117.64%;}
+.02 {background-position:left 2.63%; background-size:1318.75% 6117.64%;}
+.03 {background-position:left 5.27%; background-size:1318.75% 6117.64%;}
+.04 {background-position:left 7.91%; background-size:1318.75% 6117.64%;}
+.5 {background-position:left 12.05%; background-size:124.85% 722.22%;}
+.6 {background-position:left 29.24%; background-size:100% 722.22%;}
+.7 {background-position:left 46.89%; background-size:111.64% 679.73%;}
+.08 {background-position:left 64.62%; background-size:124.85% 722.22%;}
+.09 {background-position:left 81.8%; background-size:100% 722.22%;}
+.10 {background-position:left 100%; background-size:111.64% 679.73%;}

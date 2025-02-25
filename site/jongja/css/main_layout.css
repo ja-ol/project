@@ -1,0 +1,370 @@
+@charset "UTF-8";
+
+/* 로라체 */
+@font-face{font-family:'Lora'; font-weight:300; src:url("/site/jongja/fonts/Lora-Regular.woff2")format('woff2'), url("/site/jongja/fonts/Lora-Regular.woff")format('woff');}
+/* 리디바탕체 */
+@font-face{font-family:'RIDIBatang'; font-weight:400; src:url("/site/jongja/fonts/RIDIBatang.woff2")format('woff2'), url("/site/jongja/fonts/RIDIBatang.woff")format('woff');}
+/* 어그로체 */
+@font-face{font-family:'SBAggroM'; src:url("/site/jongja/fonts/SBAggroM.woff2")format('woff2'), url("/site/jongja/fonts/SBAggroM.woff")format('woff');}
+/* 코어드림체 */
+@font-face{font-family:'SCDream'; font-weight:300; src:url("/site/jongja/fonts/SCDream-light.woff2")format('woff2'), url("/site/jongja/fonts/SCDream-light.woff")format('woff');}
+@font-face{font-family:'SCDream'; font-weight:400; src:url("/site/jongja/fonts/SCDream-Regular.woff2")format('woff2'), url("/site/jongja/fonts/SCDream-Regular.woff")format('woff');}
+@font-face{font-family:'SCDream'; font-weight:600; src:url("/site/jongja/fonts/SCDream-bold.woff2")format('woff2'), url("/site/jongja/fonts/SCDream-bold.woff")format('woff');}
+
+/* 메뉴 */
+#lnb .nav:before{display:none;}
+
+main{position:relative;}
+main:before{display:block; position:absolute; top:0; left:0; z-index:-10; width:100%; height:1262px; background:url('/site/jongja/images/main/main_bg.jpg') no-repeat center center;}
+@media all and (max-width:1400px){
+    main:before{height:1422px;}
+}
+@media all and (max-width:1000px){
+    main:before{height:1176px;}
+}
+@media all and (max-width:640px){
+    main:before{height:1146px;}
+}
+
+/* 비주얼 */
+.rowgroup .wrap{width:1400px;}
+@media all and (max-width:1600px){
+    .rowgroup .wrap{width:1200px;}
+}
+@media all and (max-width:1400px){
+    .rowgroup .wrap{width:1000px;}
+}
+@media all and (max-width:1200px){
+    .rowgroup .wrap{width:900px;}
+}
+@media all and (max-width:1000px){
+    .rowgroup .wrap{width:auto; margin:0 3%;}
+}
+
+.visual{position:relative; z-index:10; height:570px; margin:0 120px; border-radius:160px 0 210px 0; background:url('/site/jongja/images/main/visual_img.jpg') no-repeat center / cover; color:#fff;}
+.visual .visual_slogan{position:relative; padding-top:159px;}
+.visual .visual_text{position:relative; font-family:'RIDIBatang'; font-size:28px; line-height:32px;}
+.visual .visual_text:after{display:inline-block; width:184px; height:1px; margin-left:18px; background-color:#fff; vertical-align:middle;}
+.visual .visual_title{margin-top:30px; font-family:'SBAggroM'; font-size:56px; line-height:68px; text-shadow:3px 4px 40px rgba(0, 0, 0, 0.31);}
+.visual .visual_title span{background:linear-gradient(to right, #fe4a30, #fbea13); -webkit-background-clip:text; -webkit-text-fill-color:transparent;}
+.visual .visual_title br:last-child{display:none;}
+.visual .shortcut{position:relative;}
+.visual .shortcut_list{position:absolute; right:0; padding-top:16px; font-size:0; line-height:0;}
+.visual .shortcut_item{display:inline-block; position:relative; vertical-align:top;}
+.visual .shortcut_item:before{display:block; position:absolute; top:-14px; left:-14px; z-index:-10; width:100%; height:100%; border-radius:35px 35px 0 35px; background:linear-gradient(180deg, rgba(0,158,110,1)0%, rgba(254,208,36,1)100%);}
+.visual .shortcut_item.n2:before{top:auto; bottom:-14px; left:auto; right:-14px;}
+.visual .shortcut_item.n1{margin-top:46px;}
+.visual .shortcut_item.n2{margin-top:95px; margin-left:34px;}
+.visual .shortcut_item.n3{margin-left:57px;}
+.visual .shortcut_anchor{display:block; width:220px; height:260px; padding-top:45px; padding-left:25px; border-radius:35px 35px 0 35px; box-shadow:0 0 57px 0 rgba(0, 0, 0, 0.25); text-align:left; text-decoration:none; transition-property:background-color,color; transition-timing-function:linear; transition-duration:0.25s;}
+.visual .shortcut_anchor:before{display:block; position:absolute; transition-timing-function:linear; transition-duration:0.25s;}
+.visual .shortcut_item.n1 .shortcut_anchor{background:url('/site/jongja/images/main/visual_shortcut_bg1.png') #fff no-repeat left 67px bottom 33px;}
+.visual .shortcut_item.n2 .shortcut_anchor{background:url('/site/jongja/images/main/visual_shortcut_bg2.png') #fff no-repeat left 80px bottom 27px;}
+.visual .shortcut_item.n3 .shortcut_anchor{background:url('/site/jongja/images/main/visual_shortcut_bg3.png') #fff no-repeat left 90px bottom 20px;}
+.visual .shortcut_item.n1 .shortcut_anchor:before{bottom:46px; right:-22px; width:166px; height:79px; background:url('/site/jongja/images/main/visual_shortcut_icon1.png') no-repeat 0 0 / cover;}
+.visual .shortcut_item.n2 .shortcut_anchor:before{bottom:46px; right:-26px; width:142px; height:115px; background:url('/site/jongja/images/main/visual_shortcut_icon2.png') no-repeat 0 0 / cover;}
+.visual .shortcut_item.n3 .shortcut_anchor:before{bottom:30px; right:-36px; width:153px; height:182px; background:url('/site/jongja/images/main/visual_shortcut_icon3.png') no-repeat 0 0 / cover;}
+.visual .shortcut_title{display:block; position:relative; font-size:26px; line-height:30px; font-family:'RIDIBatang';}
+
+/* 활성화 */
+.visual .visual_slogan,
+.visual .visual_title,
+.visual .shortcut_list{visibility:hidden; opacity:0; transition-property:visibility,opacity,transform; transition-duration:0.6s; transition-timing-function:linear; transform:translate3d(0, 100px, 0);}
+.visual.active .visual_slogan,
+.visual.active .visual_title,
+.visual.active .shortcut_list{visibility:visible; opacity:1; transform:none;}
+.visual.active .visual_title{transition-delay:0.6s;}
+.visual.active .shortcut_list{transition-delay:1s;}
+@media all and (min-width:1001px){
+.visual .shortcut_item:hover:before{background:#fff;}
+.visual .shortcut_item:hover .shortcut_anchor{padding-left:0; background:linear-gradient(180deg, rgba(0,158,110,1)0%, rgba(254,208,36,1)100%);}
+.visual .shortcut_item.n1:hover .shortcut_anchor:before{bottom:55px; right:30px;}
+.visual .shortcut_item.n2:hover .shortcut_anchor:before{bottom:34px; right:28px;}
+.visual .shortcut_item.n3:hover .shortcut_anchor:before{bottom:24px; right:10px;}
+.visual .shortcut_item:hover .shortcut_title{color:#fff; text-align:center;}
+}
+@media all and (max-width:1700px){
+    .visual{margin:0;}
+}
+@media all and (max-width:1200px){
+    .visual{margin:0 3%;}
+}
+@media all and (max-width:1000px){
+    .visual{height:436px; border-bottom-right-radius:170px; text-align:center;}
+    .visual .visual_slogan{display:inline-block; padding-top:99px; text-align:left;}
+    .visual .visual_text{font-size:22px; line-height:26px;}
+    .visual .visual_text:after{width:128px;}
+    .visual .visual_title{margin-top:22px; font-size:40px; line-height:48px;}
+    .visual .shortcut_list{position:relative; padding-top:52px; left:0; text-align:center;}
+    .visual .shortcut_item.n2{margin-left:27px;}
+    .visual .shortcut_item.n3{margin-left:46px;}
+    .visual .shortcut_item:before{top:-9px; left:-9px;}
+    .visual .shortcut_item.n2:before{bottom:-9px; right:-9px;}
+    .visual .shortcut_item.n1 .shortcut_anchor{background-size:152px auto; background-position:left 54px bottom 26px;}
+    .visual .shortcut_item.n2 .shortcut_anchor{background-size:138px auto; background-position:left 64px bottom 20px;}
+    .visual .shortcut_item.n3 .shortcut_anchor{background-size:111px auto; background-position:left 72px bottom 16px;}
+    .visual .shortcut_item.n1 .shortcut_anchor:before{bottom:37px; width:135px; height:64px;}
+    .visual .shortcut_item.n2 .shortcut_anchor:before{right:-22px; bottom:37px; width:113px; height:91px;}
+    .visual .shortcut_item.n3 .shortcut_anchor:before{right:-30px; bottom:25px; width:122px; height:145px;}
+    .visual .shortcut_anchor{width:176px; height:208px; padding-top:32px; padding-left:18px;}
+    .visual .shortcut_title{font-size:21px; line-height:25px;}
+}
+@media all and (max-width:760px){
+    .visual .shortcut_item.n3{margin-left:40px;}
+    .visual .shortcut_anchor{width:154px; height:182px;}
+    .visual .shortcut_item.n1 .shortcut_anchor:before{width:116px; height:55px;}
+    .visual .shortcut_item.n2 .shortcut_anchor:before{width:99px; height:80px;}
+    .visual .shortcut_item.n3 .shortcut_anchor:before{width:107px; height:127px;}
+    .visual .shortcut_title{font-size:19px; line-height:23px;}
+}
+@media all and (max-width:640px){
+    .visual{margin:0; border-radius:85px 0 140px 0; background:url('/site/jongja/images/main/visual_img_640.jpg') 0 0 no-repeat;}
+    .visual .visual_slogan{padding-top:94px;}
+    .visual .visual_text{font-size:17px; line-height:21px;}
+    .visual .visual_text:after{width:102px; margin-left:12px;}
+    .visual .visual_title{margin-top:11px; font-size:32px; line-height:38px; text-align:center;}
+    .visual .visual_title br:last-child{display:block;}
+    .visual .shortcut_list{padding-top:91px;}
+    .visual .shortcut_item{width:100%; padding-left:7px;}
+    .visual .shortcut_item.n1{margin-top:0;}
+    .visual .shortcut_item.n2,.visual .shortcut_item.n3{margin-top:17px; margin-left:0;}
+    .visual .shortcut_anchor{width:100%; height:60px; padding-top:20px; padding-left:30px; border-radius:15px 15px 0 15px;}
+    .visual .shortcut_item:before{top:auto; bottom:-7px; left:0; width:calc(100% - 7px); border-radius:15px 15px 0 15px; background:linear-gradient(130deg, rgba(0,158,110,1)0%, rgba(254,208,36,1)100%);}
+    .visual .shortcut_item.n2:before{bottom:-7px; left:0;}
+    .visual .shortcut_item.n1 .shortcut_anchor{background-size:109px auto; background-position:right 6px bottom 6px;}
+    .visual .shortcut_item.n2 .shortcut_anchor{background-size:89px auto; background-position:right 14px bottom -6px;}
+    .visual .shortcut_item.n3 .shortcut_anchor{background-image:none;}
+    .visual .shortcut_item.n1 .shortcut_anchor:before{right:15px; bottom:14px; width:96px; height:46px;}
+    .visual .shortcut_item.n2 .shortcut_anchor:before{right:20px; bottom:5px; width:73px; height:59px;}
+    .visual .shortcut_item.n3 .shortcut_anchor:before{right:22px; bottom:0; width:72px; height:73px;}
+    .visual .shortcut_title{font-size:17px; line-height:21px;}
+}
+@media all and (max-width:480px){
+    .visual{background-position:-100px 0;}
+}
+
+/* 공지사항 */
+.rowgroup2{position:relative;}
+.rowgroup2:before{display:block; position:absolute; bottom:0; left:0; margin-left:auto; width:819px; height:756px; background:url('/site/jongja/images/main/main_deco1.png') no-repeat 0 bottom;}
+.rowgroup2:after{display:block; position:absolute; bottom:250px; right:-82px; width:458px; height:536px; background:url('/site/jongja/images/main/main_deco2.png') no-repeat center;}
+@media all and (max-width:1400px){
+    .rowgroup2 .wrap{width:1200px;}
+}
+@media all and (max-width:1200px){
+    .rowgroup2 .wrap{width:auto; margin:0 3%;}
+}
+@media all and (max-width:1000px){
+    .rowgroup2:before{left:-60px; width:844px; height:216px; background-image:url('/site/jongja/images/main/main_deco3.png');}
+    .rowgroup2:after{bottom:365px; right:-55px; width:293px; height:345px; background-size:contain;}
+    .board:before{display:block; position:absolute; top:97px; left:147px; width:268px; height:175px; background:url('/site/jongja/images/main/main_deco4.png') no-repeat;}
+}
+@media all and (max-width:640px){
+    .rowgroup2:before{left:-42px; width:443px; height:157px; background-image:url('/site/jongja/images/main/main_deco5.png');}
+    .rowgroup2:after{bottom:368px; right:-70px; width:235px; height:277px;}
+}
+
+.board{position:relative; padding-top:76px; padding-bottom:86px; font-family:'SCDream'; font-weight:300; font-size:0; line-height:0;}
+.board .board_title{font-size:45px; line-height:50px; color:#41311c; font-family:'SBAggroM'; font-weight:500;}
+.board .board_text{margin-top:16px; font-size:20px; line-height:24px; color:#605d5a;}
+.board .board_wrap{position:relative; z-index:10;}
+.board .slick-list{padding-bottom:30px;}
+.board .board_list{margin-top:60px; padding-right:140px;}
+.board .board_item{display:inline-block; width:calc(33.33% - 40px); margin-right:60px; vertical-align:top;}
+.board .board_item:last-child{margin-right:0;}
+.board .board_anchor{display:block; position:relative; padding:42px 28px 44px 30px; border-radius:35px 35px 0 35px; background-color:#fff; box-shadow:6px 10px 13px 0 rgba(0, 0, 0, 0.07); text-decoration:none;}
+.board .board_anchor:before{opacity:0; display:block; position:absolute; bottom:30px; right:30px; width:52px; height:52px; background:url('/site/jongja/images/main/arrow_sprite.png') no-repeat left 17.5%;}
+.board .board_anchor .board_subject{overflow:hidden; display:-webkit-box; height:72px; font-size:24px; line-height:36px; font-weight:600; letter-spacing:-0.035em; color:#474747; text-overflow:ellipsis; white-space:normal; word-wrap:break-word; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+.board .board_anchor .board_content{margin-top:24px;}
+.board .board_anchor .board_content span{overflow:hidden; display:block; position:relative; padding-left:10px; text-overflow:ellipsis; white-space:nowrap; font-size:16px; line-height:26px; color:#6d6d6d;}
+.board .board_anchor .board_content span:before{display:inline-block; position:absolute; top:0; bottom:0; left:0; width:6px; height:1px; margin:auto 0; background-color:#6d6d6d;}
+.board .board_anchor .board_date{opacity:0.8; margin-top:64px; font-size:16px; line-height:26px; font-family:'Lora'; color:#6d6d6d;}
+.board .board_control{position:absolute; top:105px; right:0; z-index:10; width:140px;}
+.board .board_control button{display:block; position:relative; width:72px; height:72px; border:1px solid #d0bba2; border-radius:50%;}
+.board .board_control button.board_prev{position:absolute; top:89px;}
+.board .board_control button:before{display:block; position:absolute; top:0; right:0; bottom:0; left:0; margin:auto; width:16px; height:25px; background:url('/site/jongja/images/main/arrow_sprite.png') no-repeat left top / 325% 1008%;}
+.board .board_control button.board_prev:before{transform:rotate(180deg);}
+
+/* 활성화 */
+.board .board_anchor:hover{background-image:url('/site/jongja/images/main/board_item_bg.png'), url('/site/jongja/images/main/board_item_bg2.png'); background-position:0 0, top 184px left 195px; background-repeat:no-repeat, no-repeat; background-size:100% 100%, auto; background-color:#868400;}
+.board .board_anchor:hover:before{opacity:1;}
+.board .board_anchor:hover .board_subject{color:#fff;}
+.board .board_anchor:hover .board_content{color:#fff;}
+.board .board_anchor:hover .board_date{color:#fff;}
+@media all and (max-width:1400px){
+    .board{padding-top:156px;}
+    .board .board_item{margin-right:40px;}
+    .board .board_anchor:hover{background-image:url('/site/jongja/images/main/board_item_bg.png'), url('/site/jongja/images/main/board_item_bg2.png'); background-position:0 0, top 184px left 145px;}
+}
+@media all and (max-width:1200px){
+    .board .board_item{margin-right:35px;}
+    .board .board_anchor:hover{background-image:url('/site/jongja/images/main/board_item_bg.png'), url('/site/jongja/images/main/board_item_bg2.png'); background-position:0 0, top 184px left 125px;}
+}
+@media all and (max-width:1000px){
+    .board{padding-top:215px; padding-left:30px; padding-bottom:85px;}
+    .board .board_title{font-size:36px; line-height:40px;}
+    .board .board_text{margin-top:12px; font-size:16px; line-height:20px;}
+    .board .board_list{margin-top:58px; padding-right:77px;}
+    .board .board_item{margin-right:28px;}
+    .board .board_anchor{padding:33px 23px 35px;}
+    .board .board_anchor:before{bottom:24px; right:24px; width:41px; height:41px; background-size:cover;}
+    .board .board_anchor:hover{background-image:url('/site/jongja/images/main/board_item_bg.png'), url('/site/jongja/images/main/board_item_bg2.png'); background-position:0 0, top 148px left 156px; background-size:auto, 187px 187px;}
+    .board .board_anchor .board_subject{height:58px; font-size:19px; line-height:29px;}
+    .board .board_anchor .board_content{margin-top:19px;}
+    .board .board_anchor .board_content span{font-size:14px; line-height:22px;}
+    .board .board_anchor .board_date{margin-top:49px; font-size:14px; line-height:20px;}
+    .board .board_control{top:75px; width:77px;}
+    .board .board_control button{width:60px; height:60px;}
+    .board .board_control button.board_prev{top:71px;}
+    .board .board_control button:before{width:12px; height:20px;}
+}
+@media all and (max-width:640px){
+    .board{padding-top:176px; padding-left:0; padding-bottom:53px;}
+    .board .board_title{font-size:30px; line-height:34px;}
+    .board .board_text{margin-top:15px; font-size:14px; line-height:18px;}
+    .board .board_list{width:calc(103% + 1px); margin-top:19px; padding-top:85px; padding-right:0;}
+    .board .board_item.slick-slide{width:237px; height:280px; margin-right:20px;}
+    .board .board_control{top:0; left:0; right:auto; width:auto;}
+    .board .board_control button{display:inline-block; width:45px; height:45px; vertical-align:top;}
+    .board .board_control button:before{width:9px; height:15px;}
+    .board .board_control button.board_prev{position:relative; top:0;}
+    .board .board_control .board_next{margin-top:0; margin-left:10px;}
+}
+
+/* 종자소식 */
+.rowgroup3{margin-bottom:90px;}
+@media all and (max-width:1400px){
+    .rowgroup3 .wrap{width:1200px;}
+}
+@media all and (max-width:1200px){
+    .rowgroup3 .wrap{width:auto; margin:0 3%;}
+}
+@media all and (max-width:640px){
+    .rowgroup3{margin-bottom:43px;}
+}
+
+.news{margin-top:110px; padding-bottom:95px; font-family:'SCDream'; font-weight:300;}
+.news .news_title{font-size:45px; line-height:50px; color:#045b3e; font-family:'SBAggroM'; font-weight:500;}
+.news .news_list.text{width:700px; margin-top:45px; border-bottom-right-radius:35px; box-shadow:-5px 0 54px 0 rgba(0, 0, 0, 0.08); background-color:#fff;}
+.news .news_list.text .news_content{padding:56px 50px 38px 40px;}
+.news .news_list.text .news_subject{font-size:32px; line-height:38px; color:#000; font-family:'SCDream'; font-weight:600; word-break:keep-all;}
+.news .news_list.text .news_text{margin-top:38px; margin-bottom:46px;}
+.news .news_list.text .news_text span{overflow:hidden; display:block; position:relative; text-overflow:ellipsis; white-space:nowrap; font-size:18px; line-height:36px; color:#424242;}
+.news .news_list.text .news_text span:nth-child(2){padding-left:10px;}
+.news .news_list.text .news_text span:nth-child(2):before{display:inline-block; position:absolute; top:0; bottom:0; left:0; width:6px; height:1px; margin:auto 0; background-color:#424242;}
+.news .news_list.text .news_more{position:relative; margin-left:7px; padding-right:55px; font-size:17px; line-height:42px; font-weight:400; color:#474242; text-decoration:none;}
+.news .news_list.text .news_more:before{display:block; position:absolute; top:0; bottom:0; right:0; margin:auto; width:42px; height:42px; border-radius:50%; background:url('/site/jongja/images/main/arrow_sprite.png') #fef092 no-repeat left 46.19% / 123.8% 600%; transition-duration:0.25s; transition-timing-function:linear;}
+.news .news_list.img{overflow:hidden; position:absolute; top:0; right:0; z-index:-1;}
+.news .news_list.img .slick-list{width:980px; height:520px;}
+.news .news_list.img .news_img span{width:100%; height:520px; border-radius:20px; background-repeat:no-repeat; background-position:center;}
+.news .news_control{position:absolute; width:420px; height:95px; padding-right:52px; font-size:0; line-height:0; text-align:right;}
+.news .news_control button{display:inline-block; position:relative; width:39px; height:24px; margin-top:37px;}
+.news .news_control button:before{display:block; position:absolute; top:0; bottom:0; margin:auto; width:14px; height:24px; background:url('/site/jongja/images/main/arrow_sprite.png') no-repeat left 65.35% / 371.42% 1050%;}
+.news .news_control button.news_prev:before{left:0;}
+.news .news_control button.news_next:before{right:0; transform:rotate(180deg);}
+
+/* 활성화 */
+.news .news_list.text .news_more:hover:before{transform:rotate(360deg);}
+.news .news_control button:hover:before{background-position:left 80.26%;}
+@media all and (max-width:1400px){
+    .news{padding-bottom:69px;}
+    .news .news_list.text{width:595px; margin-top:25px;}
+    .news .news_list.text .news_content{padding:38px 40px 30px 32px;}
+    .news .news_list.text .news_subject{font-size:26px; line-height:32px;}
+    .news .news_list.img .slick-list{width:735px; height:442px;}
+    .news .news_list.img .news_img span{height:442px; background-size:auto 442px;}
+    .news .news_control{width:calc(100% - 735px); height:69px;}
+    .news .news_control button{margin-top:24px;}
+}
+@media all and (max-width:1000px){
+    .news{margin-top:82px; padding-bottom:52px;}
+    .news .news_title{font-size:36px; line-height:40px;}
+    .news .news_list.text{width:440px; margin-top:26px;}
+    .news .news_list.text .news_text{margin-top:23px; margin-bottom:23px;}
+    .news .news_list.text .news_text span{font-size:15px; line-height:26px;}
+    .news .news_list.text .news_more{margin-left:5px; padding-right:42px; font-size:14px; line-height:35px;}
+    .news .news_list.text .news_more:before{width:35px; height:35px;}
+    .news .news_list.img .slick-list{width:588px; height:396px;}
+    .news .news_list.img .news_img span{height:396px; background-size:auto 396px;}
+    .news .news_control{width:calc(100% - 588px); height:63px;}
+    .news .news_control button{width:30px; margin-top:23px;}
+    .news .news_control button:before{width:11px; height:19px;}
+}
+@media all and (max-width:900px){
+    .news .news_list.img .slick-list{width:486px;}
+    .news .news_control{width:calc(100% - 486px); padding-right:32px;}
+}
+@media all and (max-width:760px){
+    .news .news_list.img .slick-list{width:440px;}
+    .news .news_control{width:calc(100% - 440px);}
+}
+@media all and (max-width:640px){
+    .news{margin-top:40px; padding-bottom:0;}
+    .news .news_title{font-size:30px; line-height:34px;}
+    .news .news_list.text{width:100%; margin-top:20px;}
+    .news .news_list.text .news_content{padding:25px;}
+    .news .news_list.text .news_subject{font-size:20px; line-height:26px;}
+    .news .news_list.text .news_text span{font-size:13px; line-height:20px;}
+    .news .news_list.text .news_more{margin-left:3px; padding-right:36px; font-size:12px; line-height:28px;}
+    .news .news_list.text .news_more:before{width:28px; height:28px;}
+    .news .news_list.img{display:none;}
+    .news .news_control{position:absolute; top:4px; right:0; width:auto; height:24px; padding-right:0;}
+    .news .news_control button{width:24px; margin-top:0;}
+    .news .news_control button:before{width:9px; height:16px;}
+}
+
+/* 국립농산물품질관리원 바로가기 */
+@media all and (max-width:1400px){
+    .rowgroup4 .wrap{width:1200px;}
+}
+@media all and (max-width:1200px){
+    .rowgroup4 .wrap{width:auto; margin:0 3%;}
+}
+
+.quality{position:relative;}
+.quality:before{display:block; position:absolute; z-index:-10; top:0; right:0; width:100vw; height:100%; border-radius:0 200px 200px 0; background-color:#003a30;}
+.quality .quality_anchor{display:block; position:relative; padding:78px 0 74px; border-radius:0 200px 200px 0; background:url('/site/jongja/images/main/quality_deco4.png') no-repeat top 40px right -49px; text-align:center; text-decoration:none;}
+.quality .quality_anchor:before,.quality .quality_anchor:after{display:block; position:absolute; bottom:0;}
+.quality .quality_anchor:before{left:-187px; width:583px; height:235px; background:url('/site/jongja/images/main/quality_deco1.png') no-repeat;}
+.quality .quality_anchor:after{left:165px; width:304px; height:219px; background:url('/site/jongja/images/main/quality_deco2.png') no-repeat;}
+.quality .quality_title{position:relative; z-index:10; font-size:40px; line-height:48px; font-family:'SBAggroM'; color:#fff;}
+.quality .quality_title:before{display:block; position:absolute; z-index:-1; top:-117px; right:137px; width:280px; height:288px; background:url('/site/jongja/images/main/quality_deco3.png') no-repeat;}
+.quality .quality_title p{color:#fcac28;}
+.quality .quality_title p span:nth-child(1){color:#1bb947;}
+.quality .quality_title p span:nth-child(2){color:#b0cf55;}
+.quality .quality_title .quality_more{position:relative; padding-right:46px;}
+.quality .quality_title .quality_more:before{display:block; position:absolute; top:3px; right:0; width:36px; height:35px; background:url('/site/jongja/images/main/arrow_sprite.png') no-repeat left 100% / 144.44% 720%}
+@media all and (max-width:1400px){
+    .quality .quality_anchor:before{left:-287px;}
+    .quality .quality_anchor:after{left:65px;}
+    .quality .quality_title:before{right:117px;}
+}
+@media all and (max-width:1200px){
+    .quality .quality_anchor{padding:58px 0 54px;}
+    .quality .quality_anchor:before{left:-197px; width:466px; height:188px; background-size:cover;}
+    .quality .quality_anchor:after{left:95px; width:243px; height:175px; background-size:cover;}
+    .quality .quality_title{font-size:36px; line-height:44px;}
+    .quality .quality_title:before{top:auto; bottom:-54px; right:97px; width:224px; height:230px; background-size:cover;}
+    .quality .quality_title .quality_more:before{width:32px; height:31px;}
+}
+@media all and (max-width:1000px){
+    .quality .quality_anchor{overflow:hidden; padding:51px 0 78px 0; background-size:138px auto; background-position:top 64px right -17px;}
+    .quality .quality_anchor:before{left:-125px; width:369px; height:139px;}
+    .quality .quality_anchor:after{left:70px; width:195px; height:128px;}
+    .quality .quality_title{font-size:29px; line-height:35px;}
+    .quality .quality_title:before{bottom:-78px; right:70px; width:168px; height:173px;}
+    .quality .quality_title .quality_more{padding-right:33px;}
+    .quality .quality_title .quality_more:before{width:26px; height:25px;}
+}
+@media all and (max-width:640px){
+    .quality .quality_anchor{overflow:visible; width:360px; margin:0 auto; padding:25px 0 140px; background-image:none;}
+    .quality:before{border-radius:0 25px 25px 0;}
+    .quality .quality_anchor:before{left:auto; right:140px; width:303px; height:106px;}
+    .quality .quality_anchor:after{left:auto; right:-10px; width:157px; height:103px;}
+    .quality .quality_title{font-size:24px; line-height:29px;}
+    .quality .quality_title:before{bottom:-140px; left:-3%; right:0; width:120px; height:124px; margin:0 auto;}
+    .quality .quality_title .quality_more{padding-right:23px;}
+    .quality .quality_title .quality_more:before{width:19px; height:18px;}
+}
+@media all and (max-width:480px){
+    .quality .quality_anchor{width:338px;}
+}

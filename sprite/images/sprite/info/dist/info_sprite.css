@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.1 {width:14px; height:13px; background:url('info_sprite.png') no-repeat left top;}
+.2 {width:14px; height:13px; background:url('info_sprite.png') no-repeat left -23px;}
+.3 {width:14px; height:13px; background:url('info_sprite.png') no-repeat left -46px;}
+.4 {width:14px; height:13px; background:url('info_sprite.png') no-repeat left -69px;}
+
+/* 가변 크기 */
+.1 {background-size:100% 630.76%;}
+.2 {background-position:left 33.33%; background-size:100% 630.76%;}
+.3 {background-position:left 66.66%; background-size:100% 630.76%;}
+.4 {background-position:left 100%; background-size:100% 630.76%;}
