@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+.1 {width:74px; height:59px; background:url('shortcut_sprite.png') no-repeat left top;}
+.2 {width:64px; height:57px; background:url('shortcut_sprite.png') no-repeat left -69px;}
+.3 {width:65px; height:54px; background:url('shortcut_sprite.png') no-repeat left -136px;}
+.4 {width:59px; height:52px; background:url('shortcut_sprite.png') no-repeat left -200px;}
+.5 {width:70px; height:66px; background:url('shortcut_sprite.png') no-repeat left -262px;}
+.6 {width:77px; height:59px; background:url('shortcut_sprite.png') no-repeat left -338px;}
+.7 {width:51px; height:67px; background:url('shortcut_sprite.png') no-repeat left -407px;}
+.8 {width:66px; height:55px; background:url('shortcut_sprite.png') no-repeat left -484px;}
+.9 {width:74px; height:59px; background:url('shortcut_sprite.png') no-repeat left -549px;}
+.10 {width:64px; height:57px; background:url('shortcut_sprite.png') no-repeat left -618px;}
+.11 {width:65px; height:54px; background:url('shortcut_sprite.png') no-repeat left -685px;}
+.12 {width:59px; height:52px; background:url('shortcut_sprite.png') no-repeat left -749px;}
+.13 {width:70px; height:66px; background:url('shortcut_sprite.png') no-repeat left -811px;}
+.14 {width:77px; height:59px; background:url('shortcut_sprite.png') no-repeat left -887px;}
+.15 {width:51px; height:67px; background:url('shortcut_sprite.png') no-repeat left -956px;}
+.16 {width:66px; height:55px; background:url('shortcut_sprite.png') no-repeat left -1033px;}
+.17 {width:12px; height:12px; background:url('shortcut_sprite.png') no-repeat left -1098px;}
+
+/* 가변 크기 */
+.1 {background-size:104.05% 1881.35%;}
+.2 {background-position:left 6.55%; background-size:120.31% 1947.36%;}
+.3 {background-position:left 12.87%; background-size:118.46% 2055.55%;}
+.4 {background-position:left 18.9%; background-size:130.5% 2134.61%;}
+.5 {background-position:left 25.09%; background-size:110% 1681.81%;}
+.6 {background-position:left 32.15%; background-size:100% 1881.35%;}
+.7 {background-position:left 39.02%; background-size:150.98% 1656.71%;}
+.8 {background-position:left 45.87%; background-size:116.66% 2018.18%;}
+.9 {background-position:left 52.23%; background-size:104.05% 1881.35%;}
+.10 {background-position:left 58.68%; background-size:120.31% 1947.36%;}
+.11 {background-position:left 64.86%; background-size:118.46% 2055.55%;}
+.12 {background-position:left 70.79%; background-size:130.5% 2134.61%;}
+.13 {background-position:left 77.68%; background-size:110% 1681.81%;}
+.14 {background-position:left 84.39%; background-size:100% 1881.35%;}
+.15 {background-position:left 91.65%; background-size:150.98% 1656.71%;}
+.16 {background-position:left 97.91%; background-size:116.66% 2018.18%;}
+.17 {background-position:left 100%; background-size:641.66% 9250%;}

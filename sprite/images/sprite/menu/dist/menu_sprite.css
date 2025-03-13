@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.1 {width:38px; height:34px; background:url('menu_sprite.png') no-repeat left top;}
+.2 {width:36px; height:32px; background:url('menu_sprite.png') no-repeat left -44px;}
+.3 {width:33px; height:34px; background:url('menu_sprite.png') no-repeat left -86px;}
+.4 {width:32px; height:37px; background:url('menu_sprite.png') no-repeat left -130px;}
+.5 {width:26px; height:38px; background:url('menu_sprite.png') no-repeat left -177px;}
+.6 {width:41px; height:37px; background:url('menu_sprite.png') no-repeat left -225px;}
+.7 {width:34px; height:39px; background:url('menu_sprite.png') no-repeat left -272px;}
+.8 {width:37px; height:29px; background:url('menu_sprite.png') no-repeat left -321px;}
+.9 {width:32px; height:34px; background:url('menu_sprite.png') no-repeat left -360px;}
+.10 {width:27px; height:37px; background:url('menu_sprite.png') no-repeat left -404px;}
+
+/* 가변 크기 */
+.1 {background-size:107.89% 1297.05%;}
+.2 {background-position:left 10.75%; background-size:113.88% 1378.12%;}
+.3 {background-position:left 21.13%; background-size:124.24% 1297.05%;}
+.4 {background-position:left 32.17%; background-size:128.12% 1191.89%;}
+.5 {background-position:left 43.92%; background-size:157.69% 1160.52%;}
+.6 {background-position:left 55.69%; background-size:100% 1191.89%;}
+.7 {background-position:left 67.66%; background-size:120.58% 1130.76%;}
+.8 {background-position:left 77.91%; background-size:110.81% 1520.68%;}
+.9 {background-position:left 88.45%; background-size:128.12% 1297.05%;}
+.10 {background-position:left 100%; background-size:151.85% 1191.89%;}
