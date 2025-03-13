@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+/* WantedSans */
+@font-face{
+	font-family: 'WantedSans';
+	font-weight: 400;
+	src: url("../fonts/WantedSans-Regular.woff2") format('woff2'),
+	url("../fonts/WantedSans-Regular.woff") format('woff');
+}
+@font-face{
+	font-family: 'WantedSans';
+	font-weight: 500;
+	src: url("../fonts/WantedSans-Medium.woff2") format('woff2'),
+	url("../fonts/WantedSans-Medium.woff") format('woff');
+}
+@font-face{
+	font-family: 'WantedSans';
+	font-weight: 600;
+	src: url("../fonts/WantedSans-SemiBold.woff2") format('woff2'),
+	url("../fonts/WantedSans-SemiBold.woff") format('woff');
+}
+@font-face{
+	font-family: 'WantedSans';
+	font-weight: 700;
+	src: url("../fonts/WantedSans-Bold.woff2") format('woff2'),
+	url("../fonts/WantedSans-Bold.woff") format('woff');
+}
+@font-face{
+	font-family: 'WantedSans';
+	font-weight: 800;
+	src: url("../fonts/WantedSans-Black.woff2") format('woff2'),
+	url("../fonts/WantedSans-Black.woff") format('woff');
+}
+@font-face{
+	font-family: 'WantedSans';
+	font-weight: 900;
+	src: url("../fonts/WantedSans-ExtraBold.woff2") format('woff2'),
+	url("../fonts/WantedSans-ExtraBold.woff") format('woff');
+}
+@font-face{
+	font-family: 'WantedSans';
+	font-weight: 950;
+	src: url("../fonts/WantedSans-ExtraBlack.woff2") format('woff2'),
+	url("../fonts/WantedSans-ExtraBlack.woff") format('woff');
+}
+
+/* 고운바탕 */
+@font-face{
+	font-family:'GowunBatang';
+	font-weight:400;
+	src:url("../fonts/GowunBatang-Regular.woff2") format('woff2'),
+	url("../fonts/GowunBatang-Regular.woff") format('woff');
+}
+@font-face{
+	font-family:'GowunBatang';
+	font-weight:600;
+	src:url("../fonts/GowunBatang-Bold.woff2") format('woff2'),
+	url("../fonts/GowunBatang-Bold.woff") format('woff');
+}
+
+/* Pretendard */
+@font-face{
+	font-family:'Pretendard';
+	font-weight:400;
+	src:url("../fonts/Pretendard-Regular.woff2") format('woff2'),
+	url("../fonts/Pretendard-Regular.woff") format('woff');
+}
+@font-face{
+	font-family:'Pretendard';
+	font-weight:600;
+	src:url("../fonts/Pretendard-Bold.woff2") format('woff2'),
+	url("../fonts/Pretendard-Bold.woff") format('woff');
+}
+
+/* Montserrat */
+@font-face{
+	font-family:'Montserrat';
+	font-weight:600;
+	src:url("../fonts/Montserrat-SemiBold.woff2") format('woff2'),
+	url("../fonts/Montserrat-SemiBold.woff") format('woff');
+}
