@@ -1,0 +1,922 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}" />
+    <meta name="description" content="@@{siteInfo.siteDc}" />
+    <link rel="stylesheet" type="text/css" href="/common/css/font.css" />
+    <link rel="stylesheet" type="text/css" href="/site/english/css/font.css"/>
+    <link rel="stylesheet" href="/site/english/css/sub.css">
+    <script src="/common/js/jquery-1.12.4.min.js"></script>
+    <script src="/common/js/plugins.js"></script>
+    <script src="/site/english/js/common.js"></script>
+    <script src="/site/english/js/sub.js"></script>
+    <script src="/site/english/js/splitting.min.js"></script>
+    <title>@@{menuInfo.cntntsNm} - @@{siteInfo.siteNm}</title>
+</head>
+
+<body id="${siteInfo.tmplatId}" class="@@{siteInfo.siteId} page@@{key}">
+<div id="wrapper">
+
+    <header id="header">
+        <div class="accessibility">
+            <a href="#contents">본문 바로가기</a>
+        </div>
+
+        <div class="gnb">
+            <div class="wrap">
+                <div class="link">
+                    <ul class="link_list">
+                        <li class="link_item"><a href="#" class="link_anchor">HOME</a></li>
+                        <li class="link_item"><a href="#" class="link_anchor">CONTACTUS</a></li>
+                        <li class="link_item"><a href="#" target="_blank" title="새창" class="link_anchor">KOREAN</a></li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <ul class="sns_list">
+                        <li class="sns_item instagram"><a href="#n" target="_blank" title="새창" class="sns_anchor">instagram</a></li>
+                        <li class="sns_item facebook"><a href="#n" target="_blank" title="새창" class="sns_anchor">facebook</a></li>
+                        <li class="sns_item twitter"><a href="#n" target="_blank" title="새창" class="sns_anchor">twitter</a></li>
+                        <li class="sns_item youtube"><a href="#n" target="_blank" title="새창" class="sns_anchor">youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="group">
+            <div class="logo">
+                <div class="wrap">
+                    <a href="./index.do" class="logo_anchor">
+                        <img src="/site/english/images/common/logo.png" alt="Ministry of Patriots and Veterans Affairs">
+                    </a>
+                </div>
+            </div>
+
+            <div class="lnb">
+                <div class="menu_show">
+                    <button type="button" class="menu_btn">주메뉴 열기</button>
+                </div>
+                <nav class="menu after eachdown">
+                    <h2 class="skip">주메뉴</h2>
+                    <div class="menu_header">
+                        <a href="#n" class="header_home"><span>HOME</span></a>
+                        <div class="menu_header_top">
+                            <div class="link">
+                                <ul class="link_list">
+                                    <li class="link_item"><a href="#" target="_blank" title="새창" class="link_anchor">CONTACTUS</a></li>
+                                    <li class="link_item"><a href="#" target="_blank" title="새창" class="link_anchor">KOREAN</a></li>
+                                </ul>
+                            </div>
+                            <div class="sns">
+                                <ul class="sns_list">
+                                    <li class="sns_item instagram"><a href="#n" target="_blank" title="새창" class="sns_anchor">instagram</a></li>
+                                    <li class="sns_item facebook"><a href="#n" target="_blank" title="새창" class="sns_anchor">facebook</a></li>
+                                    <li class="sns_item twitter"><a href="#n" target="_blank" title="새창" class="sns_anchor">twitter</a></li>
+                                    <li class="sns_item youtube"><a href="#n" target="_blank" title="새창" class="sns_anchor">youtube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="search">
+                            <h2 class="skip">통합검색</h2>
+                            <div class="search_panel">
+                                <form method="" action="" name="" id="" class="search_form">
+                                    <fieldset class="search_fieldset">
+                                        <legend>검색</legend>
+                                        <div class="search_input">
+                                            <input type="search" id="" name="" title="검색어 입력" class="search_query">
+                                        </div>
+                                        <input type="submit" class="search_submit" value="검색">
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <div class="depth depth1"><!-- 차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 : depth#, depth#_#) -->
+                            <ul class="depth_list depth1_list cut">
+                                <li class="depth_item depth1_item active"><!-- 현재 선택된 메뉴(상위 메뉴 포함) .depth_item에 active 추가해주세요 -->
+                                    <a href="#n" target="_self" class="depth_text depth1_text">Who We Are</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list cut">
+                                            <li class="depth_item depth2_item active">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">about MPVA</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item active">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text">Greetings</a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item active">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">4depth Mission & Vision</a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">History</a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">History</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">Mission & Vision</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text">History</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">about MPVA</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text">Greetings</a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">4depth Mission & Vision</a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">History</a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">History</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">Mission & Vision</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text">History</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">Our Ministers</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text">Greetings</a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">4depth Mission & Vision</a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">History</a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">History</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">Mission & Vision</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text">History</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">Organization</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text">Greetings</a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">4depth Mission & Vision</a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">History</a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text">History</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">Mission & Vision</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text">History</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">Location and Contact Info</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">Location and Contact Info</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text">What We Do</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list cut">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">Honoring Heroes</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text">What’s New</a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text">Information</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu_hide">
+                        <button type="button" class="menu_btn">주메뉴 닫기</button>
+                    </div>
+                </nav>
+                <div class="wrap menu_wrap">
+                    <div class="menu_right">
+                        <div class="search">
+                            <h2 class="skip">통합검색</h2>
+                            <div class="search_panel">
+                                <form method="" action="" name="" id="" class="search_form">
+                                    <fieldset class="search_fieldset">
+                                        <legend>검색</legend>
+                                        <div class="search_input">
+                                            <input type="search" id="" name="" title="검색어 입력" class="search_query">
+                                        </div>
+                                        <input type="submit" class="search_submit" value="검색">
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="sitemap">
+                            <a href="#n" class="sitemap_anchor">사이트맵</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="container">
+        <div class="wrap clearfix">
+
+            <header class="sub_head">
+                <div class="sub_title">
+                    <h2 class="text split_ani" data-splitting="" data-css-property="animation" data-speed="0.05" data-speed-delay="0">Greetings</h2><!-- 현재 메뉴명 넣어주세요! -->
+                </div>
+                <div class="sub_head_wrap">
+                    <div class="breadcrumbs">
+                        <ol class="breadcrumbs_list">
+                            <!-- 차수에 맞게 링크 추가해주세요! -->
+                            <li class="breadcrumbs_item home"><a href="./index.do" class="breadcrumbs_anchor">홈</a></li>
+                            <li class="breadcrumbs_item n1"><a href="#n" class="breadcrumbs_anchor">Who We Are</a></li>
+                            <li class="breadcrumbs_item n2"><a href="#n" class="breadcrumbs_anchor">about MPVA</a></li>
+                            <li class="breadcrumbs_item n3"><a href="#n" class="breadcrumbs_anchor">Greetings</a></li>
+                            <li class="breadcrumbs_item n4">Colleage Student Scholarship</li><!-- 마지막차수 링크 없음 -->
+                        </ol>
+                    </div>
+                    <div class="addons">
+                        <ul class="addons_list">
+                            <li class="addons_item print">
+                                <button type="button" onclick="window.print();" class="addons_button"><span>Print</span></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <div id="side" class="side">
+                <div class="side_title">
+                    <span class="side_subject">Who We Are</span><!-- 1차 메뉴명 넣어주세요! -->
+                </div>
+                <div class="side_menu">
+                    <nav class="menu init">
+                        <h2 class="skip">서브메뉴</h2>
+                        <div class="depth depth1">
+                            <ul class="depth_list depth1_list">
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">2depth about MPVA</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item has">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3depth Greetings</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4depth Mission & Vision</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">History</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_blank" title="새창" rel="noopener noreferrer">Mission & Vision</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">History</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth1_text">2dpteh Our Ministers</a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">Organization</a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">Location and Contact Info</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item has">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3depth Greetings</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4depth Mission & Vision</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">History</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_blank" title="새창" rel="noopener noreferrer">Mission & Vision</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">History</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <main class="colgroup">
+                <article>
+
+                    <div id="contents" class="cts@@{key}">
+
+                        <div class="tab">
+                            <button class="tab_select"><span>탭메뉴</span></button><!-- 현재메뉴명 입력해주세요 -->
+                            <div class="tab_panel">
+                                <ul class="tab_list">
+                                    <li class="tab_item active"><button type="button" class="tab_button"><span>5depth Country Profile</span></button></li>
+                                    <li class="tab_item"><button type="button" class="tab_button"><span>Key Roles</span></button></li>
+                                    <li class="tab_item"><button type="button" class="tab_button"><span>Key Roles</span></button></li>
+                                    <li class="tab_item"><button type="button" class="tab_button"><span>Key Roles</span></button></li>
+                                </ul>
+                            </div>
+                            <div class="tab_content active">5depth Country Profile</div>
+                            <div class="tab_content">Key Roles 1</div>
+                            <div class="tab_content">Key Roles 2</div>
+                            <div class="tab_content">Key Roles 3</div>
+                        </div>
+
+                        <br/>
+                        <br/>
+
+                        <h3>box</h3>
+                        <h4>.box.image</h4>
+                        <div class="box image">
+                            <div class="box_image">
+                                <img src="/site/english/images/template/box_image.jpg" alt="이미지 alt">
+                            </div>
+                            <div class="box_content">
+                                <h3 class="title">This program was initiated in 2003 to enable next of kin family members to visit the graves or the memorials of their fallen loved ones.</h3>
+                                <p class="text">The goal of the Revisit Korea Program is to express gratitude to the Korean War veterans from the 22 UN Sending States and to foster pride by letting them witness how Korea enjoys peace and prosperity today thanks to their noble sacrifices and dedication in the past.</p>
+                            </div>
+                        </div>
+
+                        <h4>.box.image.type2</h4>
+                        <div class="box image type2">
+                            <div class="box_image">
+                                <img src="/site/english/images/template/box_image2.jpg" alt="이미지 alt">
+                            </div>
+                            <div class="box_content">
+                                <h3 class="title">Monument for the Participation of Australia in the Korean War</h3>
+                                <p class="text">Australia dispatched Army, Air Force, and Navy units as a part of the UN forces for World peace when the korean War broke out. <br/>
+                                    In order to commemorate their participation, and to respect their heroic death in the korean war, the Association of UN Participated Nations in korea established the monument on April 24, 1963. It was reestablished December 27, 1983.</p>
+                            </div>
+                        </div>
+
+                        <h4>.box.image.type3</h4>
+                        <div class="box image type3">
+                            <div class="box_image">
+                                <div class="image">
+                                    <img src="/site/english/images/contents/cts1368_img.jpg" alt="이미지 alt">
+                                </div>
+                                <span>A warship with soldiers and refugees <br/>on board at the port of Hungnam</span>
+                            </div>
+                            <h3 class="title">Battle of Kimhwa Jatgol (1953. 2. 26~4. 21)</h3>
+                            <p class="text">
+                                The 3rd US Division advanced northward from Wonsan as the UN and South Korean forces near the Chosin Reservoir were in a predicament.<br/>
+                                This brought about security problems in Wonsan and they lost Wonsan and the adjacent area south of the city to the enemy.<br/>
+                                Thus, the 10th US Army Corps and the 1st Korean Army Corps had to withdraw to the sea as their retreat path was blocked.<br/>
+                                The first unit that withdrew from Hungnam was the 3rd Korean Division, and then, the 1st US Marine Division evacuated from the area.<br/>
+                                While the evacuation continued, the communist forces took on the fierce offensive.<br/>
+                                The UN and South Korean forces fought against the enemy taking into account that it would be difficult to secure a bridgehead unless they
+                            </p>
+                        </div>
+
+                        <h4>.box.image.type3.none</h4>
+                        <div class="box image type3 none">
+                            <h3 class="title">Battle of Kimhwa Jatgol (1953. 2. 26~4. 21)</h3>
+                            <p class="text">
+                                The 3rd US Division advanced northward from Wonsan as the UN and South Korean forces near the Chosin Reservoir were in a predicament.<br/>
+                                This brought about security problems in Wonsan and they lost Wonsan and the adjacent area south of the city to the enemy.<br/>
+                                Thus, the 10th US Army Corps and the 1st Korean Army Corps had to withdraw to the sea as their retreat path was blocked.<br/>
+                                The first unit that withdrew from Hungnam was the 3rd Korean Division, and then, the 1st US Marine Division evacuated from the area.<br/>
+                                While the evacuation continued, the communist forces took on the fierce offensive.<br/>
+                                The UN and South Korean forces fought against the enemy taking into account that it would be difficult to secure a bridgehead unless they
+                            </p>
+                        </div>
+
+                        <h4>.box.photo</h4>
+                        <div class="box photo">
+                            <ul class="photo_list">
+                                <li class="photo_item">
+                                    <div class="photo_image">
+                                        <img src="/site/english/images/template/box_image.jpg" alt="이미지 alt">
+                                    </div>
+                                </li>
+                                <li class="photo_item">
+                                    <div class="photo_image">
+                                        <img src="/site/english/images/template/box_image.jpg" alt="이미지 alt">
+                                    </div>
+                                </li>
+                                <li class="photo_item">
+                                    <div class="photo_image">
+                                        <img src="/site/english/images/template/box_image.jpg" alt="이미지 alt">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h4>.box.photo.type2</h4>
+                        <div class="box photo type2">
+                            <ul class="photo_list">
+                                <li class="photo_item">
+                                    <div class="photo_image">
+                                        <img src="/site/english/images/template/box_image.jpg" alt="이미지 alt">
+                                    </div>
+                                </li>
+                                <li class="photo_item">
+                                    <div class="photo_image">
+                                        <img src="/site/english/images/template/box_image.jpg" alt="이미지 alt">
+                                    </div>
+                                </li>
+                                <li class="photo_item">
+                                    <div class="photo_image">
+                                        <img src="/site/english/images/template/box_image.jpg" alt="이미지 alt">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <h4>.box.icon</h4>
+                        <div class="box icon n1">
+                            <div class="box_wrap">
+                                <h3 class="title">Privacy</h3>
+                                <p class="text">When you visit this web site, we make a record of your visit and log the following information for statistical purposes : the user's server address; the date and time of visit to the site, etc</p>
+                            </div>
+                        </div>
+
+                        <div class="box icon n2">
+                            <div class="box_wrap">
+                                <h3 class="title">RSS</h3>
+                                <p class="text">This homepage provides the information relating by RSS. With the RSS service, users may receive the updated latest materials without having access to the homepage. Please register into the RSS Reader the menus that you want from the following menu lists.</p>
+                            </div>
+                        </div>
+
+                        <h4>.box.basic</h4>
+                        <div class="box basic">
+                            <div class="box_wrap">
+                                <p>box_inner<br/>box_inner<br/>box_inner</p>
+                            </div>
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <h3>img_zoom</h3>
+                        <div class="img_zoom">
+                            <img src="/site/english/images/template/box_image.jpg" alt="대체텍스트">
+                            <span class="zoom_btn">
+                                <a href="/site/english/images/template/box_image.jpg" target="_blank" title="새창 이미지 확대보기">이미지 확대보기</a>
+                            </span>
+                        </div>
+
+                        <div class="box basic">
+                            <div class="img_zoom">
+                                <img src="/site/english/images/template/box_image.jpg" alt="대체텍스트">
+                                <span class="zoom_btn">
+                                    <a href="/site/english/images/template/box_image.jpg" target="_blank" title="새창 이미지 확대보기">이미지 확대보기</a>
+                                </span>
+                            </div>
+                        </div>
+
+
+
+                        <br/>
+                        <br/>
+
+                        <!-- 제목 -->
+                        <h3>Number of veterans invited</h3>
+                        <h4>Purpose</h4>
+
+                        <!-- 본문 -->
+                        <p>The goal of the Revisit Korea Program is to express gratitude to the Korean War veterans from the 22 UN Sending States and to foster pride by letting them witness how Korea enjoys peace and prosperity today thanks to their noble sacrifices and dedication in the past.</p>
+
+                        <!-- 목록 -->
+                        <h3>list</h3>
+                        <h4>.bu</h4>
+                        <ul class="bu">
+                            <li>Implications of the Korean War on world history</li>
+                            <li>The role of the Armistice Agreement and UN Command</li>
+                            <li>Ways to improve rehabilitation policies for veterans</li>
+                        </ul>
+
+                        <h4>.bu.dl</h4>
+                        <ul class="bu dl">
+                            <li>
+                                <div class="fiexbox">
+                                    <span class="dt">February 1976</span>
+                                    <span class="dd">Hongik University Girls’ High School</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fiexbox">
+                                    <span class="dt">February 1980</span>
+                                    <span class="dd">B.A. in Management, Sookmyung Women’s University</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fiexbox">
+                                    <span class="dt">February 1982</span>
+                                    <span class="dd">M.A. in Management, Sookmyung Women’s University</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fiexbox">
+                                    <span class="dt">February 1988</span>
+                                    <span class="dd">Ph.D in Human Resources Economics, Université Paris 1 Panthéon-Sorbonne</span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <h4>.num</h4>
+                        <ol class="num">
+                            <li><span class="count">1</span>Implications of the Korean War on world history</li>
+                            <li><span class="count">2</span>Implications of the Korean War on world history</li>
+                            <li><span class="count">3</span>Implications of the Korean War on world history</li>
+                        </ol>
+
+                        <br/>
+                        <br/>
+
+                        <h3>caution</h3>
+                        <p class="caution">
+                            <span class="caution_icon">caution</span>Implications of the Korean War on world history
+                        </p>
+
+                        <br/>
+                        <br/>
+
+                        <!-- 블릿 -->
+                        <h3>blt</h3>
+                        <p class="blt">Implications of the Korean War on world history</p>
+
+                        <br/>
+                        <br/>
+
+                        <!-- 강조텍스트 -->
+                        <h3>point</h3>
+                        <em class="em_point1">point text 1</em>
+                        <em class="em_point2">point text 2</em>
+                        <em class="em_point3">point text 3</em>
+
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <!-- 버튼 -->
+                        <h3>btn</h3>
+                        <a href="" class="btn"><span>box text</span></a>
+                        <a href="" class="btn type2"><span>box text</span></a>
+                        <a href="" class="btn type3"><span>box text</span></a>
+                        <br/>
+                        <br/>
+                        <a href="" class="btn type4"><span>box text</span></a>
+                        <a href="" class="btn type5"><span>box text</span></a>
+                        <a href="" class="btn short"><span>box text</span></a>
+
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <!-- 팝업 -->
+                        <h3>popup</h3>
+                        <button type="button" class="btn popup_btn">popup</button>
+                        <div class="popup">
+                            <div class="popup_wrap">
+                                <div class="pop_inner">
+                                    <h3 class="popup_title">Welfare Policy Division</h3>
+                                    <div class="popup_content">
+                                        <div class="popup_info n1">
+                                            <span class="subject">TEL</span>
+                                            <span class="tel">044-202-5640~8</span>
+                                        </div>
+                                        <div class="popup_info n2">
+                                            <span class="subject">Details</span>
+                                            <div class="info_box">
+                                                <ol class="num">
+                                                    <li><span class="count">1</span>Establishment of a basic plan for veterans' medical care and generalization and adjustment of medical policies</li>
+                                                    <li><span class="count">2</span>Establishment of a basic plan for veterans' medical care and generalization and adjustment of medical policies</li>
+                                                    <li><span class="count">3</span>Establishment of a basic plan for veterans' medical care and generalization and adjustment of medical policies</li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="button" class="popup_close" value="닫기">
+                                </div>
+                            </div>
+                        </div>
+
+                        <br/>
+                        <br/>
+                        <br/>
+
+                        <!-- 테이블 -->
+                        <h3>table</h3>
+                        <h4>.table</h4>
+                        <table class="table">
+                            <caption>테이블제목 - 순으로 정보를 제공</caption>
+                            <colgroup>
+                                <col style="width:33.33%;">
+                                <col style="width:33.33%;">
+                                <col style="width:33.33%;">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th scope="col">Title</th>
+                                <th scope="col">Title</th>
+                                <th scope="col">Title</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Contents</td>
+                                <td>
+                                    <ul class="bu">
+                                        <li>Implications</li>
+                                        <li>The role</li>
+                                    </ul>
+                                </td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Contents</td>
+                                <td>
+                                    <ul class="bu">
+                                        <li>Implications</li>
+                                        <li>The role</li>
+                                    </ul>
+                                </td>
+                                <td></td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <h4>.table</h4>
+                        <table class="table">
+                            <caption>테이블제목 - 순으로 정보를 제공</caption>
+                            <colgroup>
+                                <col style="width:30%;">
+                                <col style="width:70%;">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Title</th>
+                                <td>Contents</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Title</th>
+                                <td>Contents</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <h4>.table</h4>
+                        <table class="table">
+                            <caption>테이블제목 - 순으로 정보를 제공</caption>
+                            <colgroup>
+                                <col style="width:30%;">
+                                <col style="width:35%;">
+                                <col style="width:35%;">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th scope="col" rowspan="3">Title</th>
+                                <th scope="col" colspan="2">Title</th>
+                            </tr>
+                            <tr>
+                                <th scope="col">Title</th>
+                                <th scope="col">Title</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Contents</td>
+                                <td>Contents</td>
+                                <td>Contents</td>
+                            </tr>
+                            <tr>
+                                <td>Contents</td>
+                                <td>Contents</td>
+                                <td>Contents</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <h4>.table.responsive</h4>
+                        <table class="table responsive">
+                            <caption>테이블제목 - 순으로 정보를 제공</caption>
+                            <colgroup>
+                                <col style="width:33.33%;">
+                                <col style="width:33.33%;">
+                                <col style="width:33.33%;">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th scope="col">Title 1</th>
+                                <th scope="col">Title 2</th>
+                                <th scope="col">Title 3</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Contents 1-1</th>
+                                <td>Contents 1-2</td>
+                                <td>Contents 1-3</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Contents 2-1</th>
+                                <td>Contents 2-2</td>
+                                <td>Contents 2-3</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <h4>.table_scroll</h4>
+                        <div class="table_scroll">
+                            <table class="table">
+                                <caption>테이블제목 - 순으로 정보를 제공</caption>
+                                <colgroup>
+                                    <col style="width:33.33%;">
+                                    <col style="width:33.33%;">
+                                    <col style="width:33.33%;">
+                                </colgroup>
+                                <thead>
+                                <tr>
+                                    <th scope="col">Title 1</th>
+                                    <th scope="col">Title 2</th>
+                                    <th scope="col">Title 3</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <th scope="row">Contents 1-1</th>
+                                    <td>Contents 1-2</td>
+                                    <td>Contents 1-3</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Contents 2-1</th>
+                                    <td>Contents 2-2</td>
+                                    <td>Contents 2-3</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <br/>
+                        <br/>
+
+                        <h3 class="mb50">pattern_box</h3>
+                        <div class="pattern_box">
+                            <div class="pattern_inner">
+                                <p>
+                                    At the dawn of June 25, 1950, North Korean forces began the sudden invasion of South Korea.<br/>
+                                    North Korean forces premeditated the invasion and started the attack targeting Seoul.<br/>
+                                    North Korea tried to conceal the fact that they launched a provocative and premeditated invasion to South Korea and hold the South accountable for the war by claiming that they launched a counterattack as South Korea invaded the North.<br/>
+                                    <br/>
+                                    However, numerous evidence shows that the North's claim is all false.<br/>
+                                    <br/>
+                                    In particular, relevant data released by communist nations, especially Russia, after the war clearly shows that the Soviet Union, China and North Korea premeditated the war and began the invasion to South Korea. Moreover, a large number of communist officials who participated in the war testified that North Korea invaded South Korea.<br/>
+                                    Also, the former President of Russia Boris N. Yeltsin provided the former President of Korea Kim Young-sam, who was on his state visit to Russia in 1994, with classified documentation related to the Korean War that says the war began as Joseph V. Stalin approved Kim Il-sung's request.<br/>
+                                    Therefore, those who insisted that South Korea invaded the North lost the grounds to their claim. On June 26, 1950, Uijeongbu, a city located just north of Seoul, was captured by the North Korean forces. The South Korean forces made utmost efforts to establish a defensive post. At night of June 27, 1950, the North Korean forces resumed the attack and at the dawn of June 28, 1950, Seoul fell into the hands of North Korean forces.
+                                </p>
+                            </div>
+                        </div>
+
+                        <br/>
+                        <br/>
+
+                        <h3>flag_box</h3>
+                        <div class="flag_box">
+                            <div class="flag_img">
+                                <img src="/site/english/images/contents/cts973_img.jpg" alt="The war monument for the Australia 3rd Battalion located in Gapyung-gun Jukdun-ri">
+                            </div>
+                            <p class="flag_text">The war monument for the Australia 3rd Battalion<br/> located in Gapyung-gun Jukdun-ri</p>
+                        </div>
+
+                        <div class="svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0 0 400 400">
+                                <defs>
+                                    <clipPath id="mask">
+                                        <path d="M200.000,0.000 L399.1000,152.786 L323.607,399.1000 L76.393,399.1000 L0.000,152.786 L200.000,0.000 Z"></path>
+                                    </clipPath>
+                                </defs>
+                                <g id="mask" clip-path="url(#mask)">
+                                    <image width="400" height="400" xlink:href="/site/english/images/template/box_image.jpg"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+
+                </article>
+            </main>
+
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="wrap">
+            <div class="logo">
+                <a href="./index.do" class="logo_anchor">
+                    <img src="/site/english/images/common/footer_logo.png" alt="Ministry of Patriots and Veterans Affairs">
+                </a>
+            </div>
+
+            <div class="footer_content">
+                <ul class="link">
+                    <li class="link_item"><a href="#n">Privacy</a></li>
+                    <li class="link_item"><a href="#n">Contact us</a></li>
+                </ul>
+                <div class="info">
+                    <address>
+                        <span class="address">9, Doum 4-ro, Sejong-si, Republic of Korea 30113</span>
+                        <span class="tel">TEL 1577-0606</span>
+                    </address>
+                    <p class="copyright">Copyright Ministry of Patriots and Veterans Affairs.<br/> All Rights Reserved.</p>
+                </div>
+                <div class="site">
+                    <h2 class="skip">관련기관</h2>
+                    <button type="button" class="site_show"><span>Select Related Site</span></button>
+                    <div class="site_panel">
+                        <ul class="site_ul">
+                            <li class="site_li"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="site_anchor">Seoul National Cemetery</a></li>
+                            <li class="site_li"><a href="http://global.i815.or.kr/en/" target="_blank" title="새창" rel="noopener noreferrer" class="site_anchor">The independence Hall of Korea</a></li>
+                            <li class="site_li"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="site_anchor">UN Memorial Cemetery</a></li>
+                            <li class="site_li"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="site_anchor">The War Memorial of Korea</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+        cms 정보 불러오기
+        <div class="footer_info">
+            <address><span class="info_address">@@{siteInfo.insttAdres}</span><span class="info_tel">TEL : @@{siteInfo.insttTelno}</span></address>
+            <p class="info_copyright">@@{siteInfo.siteCpyrht}</p>
+        </div>
+        -->
+    </footer>
+
+
+</div>
+</body>
+</html>
