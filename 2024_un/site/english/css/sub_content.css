@@ -3,8 +3,8 @@
 /* 997 Greeting */
 .greeting{position:relative;}
 .greeting .greeting_top{position:relative; padding-top:195px; padding-bottom:20px;}
-.greeting .greeting_top:before{display:block; position:absolute; top:32px; right:141px; width:410px; height:409px; background:url('/site/english/images/contents/cts997_bg.png') no-repeat 0 0 / cover;}
-.greeting .greeting_top:after{display:block; position:absolute; top:124px; left:0; width:866px; height:105px; background:url('/site/english/images/contents/cts997_text.png') no-repeat 0 0 / cover;}
+.greeting .greeting_top:before{display:block; position:absolute; top:32px; right:141px; width:410px; height:409px; background:url('../../../site/english/images/contents/cts997_bg.png') no-repeat 0 0 / cover;}
+.greeting .greeting_top:after{display:block; position:absolute; top:124px; left:0; width:866px; height:105px; background:url('../../../site/english/images/contents/cts997_text.png') no-repeat 0 0 / cover;}
 .greeting .greeting_top .greeting_img{position:absolute; z-index:10; top:0; right:9px;}
 .greeting .greeting_top .title{position:relative; z-index:10; color:#2d5ec1; font-size:30px; line-height:48px; letter-spacing:0; font-weight:600; font-family:'Montserrat';}
 .greeting .greeting_top .text{display:block; z-index:10; position:relative; margin-top:32px; padding-left:21px; color:#1a1a1a; font-size:18px; line-height:28px; font-weight:500; font-family:'Montserrat';}
