@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}" />
+    <meta name="description" content="@@{siteInfo.siteDc}" />
+    <meta name="theme-color" content="#383c4c" />
+    <link rel="stylesheet" type="text/css" href="../../common/css/font.css" />
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../../common/css/font_ie8.css" /><![endif]-->
+    <link rel="stylesheet" type="text/css" href="../../site/health/css/main.css" />
+    <!--[if lt IE 9]><script src="../../common/js/html5.js"></script><![endif]-->
+    <script src="../../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../../common/js/jquery.easing.1.3.min.js"></script>
+    <script src="../../common/js/jquery.screen.min.js"></script>
+    <script src="../../common/js/jquery.menu.min.js"></script>
+    <script src="../../common/js/slick.min.js"></script>
+    <script src="../../common/js/slick.extensions.min.js"></script>
+    <script src="../../common/js/layout.js"></script>
+    <script src="../../common/js/common.js"></script>
+    <script src="../../site/health/js/main.js"></script>
+    <title>안양시 보건소</title>
+</head>
+<body id="@@{layout}@@{menuInfo.naviList[0].menuOrdr}" class="@@{siteInfo.siteId} page@@{key}">
+<div id="wrapper">
+    <header id="header">
+        <div class="accessibility">
+            <a href="#container">본문 바로가기</a>
+        </div>
+        <div class="gnb">
+            <div class="wrap clearfix">
+                <div class="gnb_list_wrap">
+                    <ul class="gnb_list">
+                        <li class="gnb_item nth1"><a href="/loginView.do" class="gnb_text">로그인</a></li>
+                        <li class="gnb_item nth5"><a href="/userJoinStplatAgre.do" class="gnb_text">회원가입</a></li>
+                        <li class="gnb_item nth2"><a href="http://tv.anyang.go.kr/" target="_blank" title="새창" class="gnb_text">안녕안양</a></li>
+                        <li class="gnb_item nth3"><a href="/health/sitemap.do?key=2028" class="gnb_text">사이트맵</a></li>
+                        <li class="gnb_item nth4"><a href="/main/index.do" target="_blank" title="새창" class="gnb_text">안양시청</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="logo">
+            <h1 class="wrap">
+                <a href="main.html">
+                    <span class="main_logo">안양시</span>
+                    <span class="sub_logo">안양시보건소</span>
+                </a>
+            </h1>
+        </div>
+        <div class="search">
+            <h2 class="skip">검색</h2>
+            <div class="wrap">
+                <form action="" method="get">
+                    <fieldset>
+                        <label class="select_custom">
+                            <select name="" title="통합검색 선택">
+                                <option value="">통합검색</option>
+                                <option value="">통합검색2</option>
+                                <option value="">통합검색3</option>
+                            </select>
+                        </label>
+                        <legend>검색</legend>
+                        <label><input type="search" class="search_query" title="검색어" /></label>
+                        <label><input type="submit" value="검색" class="search_submit" title="검색" /></label>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="lnb">
+            <div class="menu_show">
+                <button type="button" class="menu_button">주메뉴 토글</button>
+            </div>
+            <div class="lnb_title">
+                <div class="lnb_logo"><span>보건소</span></div>
+            </div>
+            <nav class="menu after pulldown">
+                <h2 class="skip">주메뉴</h2>
+                <div class="depth depth1">
+                    <!-- 차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 : depth#, depth#_#) -->
+                    <ul class="depth_list depth1_list clearfix">
+                        <li class="depth_item depth1_item">
+                            <a href="#" class="depth_text depth1_text">안양시보건소 소개</a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item">
+                                        <a href="#" class="depth_text depth2_text">구청장실</a>
+                                        <div class="depth depth3">
+                                            <ul class="depth_list depth3_list">
+                                                <li class="depth_item depth3_item">
+                                                    <a href="#" class="depth_text depth3_text">구청장실 depth3구청장실 depth3구청장실 depth3</a>
+                                                </li>
+                                                <li class="depth_item depth3_item">
+                                                    <a href="#" class="depth_text depth3_text">구청장실 depth3</a>
+                                                </li>
+                                                <li class="depth_item depth3_item">
+                                                    <a href="#" class="depth_text depth3_text">구청장실 depth3</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li> <!-- 접근한 메뉴의 마지막 a 태그에 spy 클래스를 넣어주세요 -->
+                                    <li class="depth_item depth2_item">
+                                        <a href="#" class="depth_text depth2_text">지명유래</a>
+                                        <div class="depth depth3">
+                                            <ul class="depth_list depth3_list">
+                                                <li class="depth_item depth3_item">
+                                                    <a href="#" class="depth_text depth3_text">구청장실 depth3구청장실 depth3구청장실 depth3</a>
+                                                </li>
+                                                <li class="depth_item depth3_item">
+                                                    <a href="#" class="depth_text depth3_text">구청장실 depth3</a>
+                                                </li>
+                                                <li class="depth_item depth3_item">
+                                                    <a href="#" class="depth_text depth3_text">구청장실 depth3</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">행정구역변천사</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">일반현황</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">조직및 업무</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">주요전화번호</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">청사안내도</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">오시는길</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">만원구 관내도</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item">
+                            <a href="#" class="depth_text depth1_text">진료안내</a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">민원신청</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">민원발급</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">민원안내</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">행정서비스헌장</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">열린콜센터</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item">
+                            <a href="#" class="depth_text depth1_text">예방접종</a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">민원소통</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">주민차치센터</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">프로그램</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">조직 및 업무</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">찾아오시는길</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">주민자치센터상세</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">행정복지센터 상세</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item">
+                            <a href="#" class="depth_text depth1_text">사업안내</a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">새소식</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">시정소식</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">부서장 업무추진비</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">공개</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">고시/공고</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">행사교육</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">포토뉴스</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item">
+                            <a href="#" class="depth_text depth1_text">민원안내</a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">소비자/경제</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">기업/일자리</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">문화/관광/체육</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">부동산</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">복지</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">교육</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">환경/보건/위생</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">재난/안전</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">교통</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item">
+                            <a href="#" class="depth_text depth1_text">열린광장</a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">소비자/경제</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">기업/일자리</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">문화/관광/체육</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">부동산</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">복지</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">교육</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">환경/보건/위생</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">재난/안전</a></li>
+                                    <li class="depth_item depth2_item"><a href="#" class="depth_text depth2_text">교통</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lnb_banner">
+                    <span class="banner_image nth1">안양시에서 상담해드려요</span>
+                    <span class="banner_image nth2">열린콜센터 : 031-8045-7000</span>
+                    <span class="banner_image nth3">복지콜센터 : 031-8045-7979</span>
+                </div>
+            </nav>
+            <div class="menu_hide">
+                <button type="button" class="menu_button">주메뉴 닫기</button>
+            </div>
+        </div>
+    </header>
+
+    <main id="container">
+
+        <div class="rowgroup">
+            <div class="wrap">
+                <section class="visual">
+                    <h2 class="skip">비주얼 팝업</h2>
+                    <div class="visual_list">
+                        <div class="visual_item">
+                            <a href="#" class="visual_anchor">
+                                <!-- pc, 모바일 이미지 따로 등록할수 있게 해주세요! -->
+                                <img src="../../site/health/images/main/visual_image.jpg" alt="이미지 alt" class="visual_pc_image"><!-- pc -->
+                                <img src="../../site/health/images/main/visual_m_image.jpg" alt="이미지 alt" class="visual_mobile_image"><!-- 모바일 -->
+                            </a>
+                        </div>
+                        <div class="visual_item">
+                            <a href="#" class="visual_anchor">
+                                <!-- pc, 모바일 이미지 따로 등록할수 있게 해주세요! -->
+                                <img src="../../site/health/images/main/visual_image.jpg" alt="이미지 alt" class="visual_pc_image"><!-- pc -->
+                                <img src="../../site/health/images/main/visual_m_image.jpg" alt="이미지 alt" class="visual_mobile_image"><!-- 모바일 -->
+                            </a>
+                        </div>
+                        <div class="visual_item">
+                            <a href="#" class="visual_anchor">
+                                <!-- pc, 모바일 이미지 따로 등록할수 있게 해주세요! -->
+                                <img src="../../site/health/images/main/visual_image.jpg" alt="이미지 alt" class="visual_pc_image"><!-- pc -->
+                                <img src="../../site/health/images/main/visual_m_image.jpg" alt="이미지 alt" class="visual_mobile_image"><!-- 모바일 -->
+                            </a>
+                        </div>
+                        <div class="visual_item">
+                            <a href="#" class="visual_anchor">
+                                <!-- pc, 모바일 이미지 따로 등록할수 있게 해주세요! -->
+                                <img src="../../site/health/images/main/visual_image.jpg" alt="이미지 alt" class="visual_pc_image"><!-- pc -->
+                                <img src="../../site/health/images/main/visual_m_image.jpg" alt="이미지 alt" class="visual_mobile_image"><!-- 모바일 -->
+                            </a>
+                        </div>
+                        <div class="visual_item">
+                            <a href="#" class="visual_anchor">
+                                <!-- pc, 모바일 이미지 따로 등록할수 있게 해주세요! -->
+                                <img src="../../site/health/images/main/visual_image.jpg" alt="이미지 alt" class="visual_pc_image"><!-- pc -->
+                                <img src="../../site/health/images/main/visual_m_image.jpg" alt="이미지 alt" class="visual_mobile_image"><!-- 모바일 -->
+                            </a>
+                        </div>
+                    </div>
+                    <div class="visual_control">
+                        <div class="visual_count">
+                            <span class="visual_current"></span>
+                            <span class="visual_total"></span>
+                        </div>
+                        <button type="button" class="visual_button prev">이전</button>
+                        <button type="button" class="visual_button auto">일시정지</button>
+                        <button type="button" class="visual_button next">다음</button>
+                        <button type="button" class="visual_more">모아보기</button>
+                    </div>
+                    <div class="visual_all">
+                        <div class="visual_all_box">
+                            <h2 class="skip">비주얼 팝업 모아보기</h2>
+                            <h2 class="visual_all_title">총 <span>12개</span>의 <em>팝업 알림</em>이 있습니다.</h2>
+                            <div class="visual_all_inner">
+                                <div class="visual_all_list">
+                                    <div class="visual_all_item">
+                                        <a href="#" class="visual_all_anchor" style="background-image:url('../../site/health/images/main/visual_image.jpg')">
+                                            <span>이미지 alt 이미지 alt 이미지 alt</span>
+                                        </a>
+                                    </div>
+                                    <div class="visual_all_item">
+                                        <a href="#" class="visual_all_anchor" style="background-image:url('../../site/health/images/main/visual_image.jpg')">
+                                            <span>이미지 alt 이미지 alt 이미지 alt</span>
+                                        </a>
+                                    </div>
+                                    <div class="visual_all_item">
+                                        <a href="#" class="visual_all_anchor" style="background-image:url('../../site/health/images/main/visual_image.jpg')">
+                                            <span>이미지 alt 이미지 alt 이미지 alt</span>
+                                        </a>
+                                    </div>
+                                    <div class="visual_all_item">
+                                        <a href="#" class="visual_all_anchor" style="background-image:url('../../site/health/images/main/visual_image.jpg')">
+                                            <span>이미지 alt 이미지 alt 이미지 alt</span>
+                                        </a>
+                                    </div>
+                                    <div class="visual_all_item">
+                                        <a href="#" class="visual_all_anchor" style="background-image:url('../../site/health/images/main/visual_image.jpg')">
+                                            <span>이미지 alt 이미지 alt 이미지 alt</span>
+                                        </a>
+                                    </div>
+                                    <div class="visual_all_item">
+                                        <a href="#" class="visual_all_anchor" style="background-image:url('../../site/health/images/main/visual_image.jpg')">
+                                            <span>이미지 alt 이미지 alt 이미지 alt</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="visual_close">비주얼 팝업 모아보기 닫기</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="colgroup">
+                    <div class="guide">
+                        <h2 class="title"><span>보건소</span> 이용 안내</h2>
+                        <span class="guide_notice">토·일 공휴일 휴무</span>
+                        <ul class="guide_list">
+                            <li class="guide_item n1">
+                                <span class="dt">진료시간</span>
+                                <span class="dd"><em>평일</em> 09:00 ~ 8:00</span>
+                            </li>
+                            <li class="guide_item n2">
+                                <span class="dt">점심시간</span>
+                                <span class="dd">12:00 ~ 13:00</span>
+                            </li>
+                            <li class="guide_item n3">
+                                <span class="dt">제증명 검사시간</span>
+                                <span class="dd">
+                                    <span><em>오전</em>09:00 ~ 11:50</span>
+                                    <span><em>오후</em>13:00 ~ 17:50</span>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="shortcut">
+                        <a href="#" class="shortcut_anchor n1"><em class="icon"></em><span>온라인 제증명<br>보건증 발급</span></a>
+                        <a href="#" class="shortcut_anchor n2"><em class="icon"></em><span>조직도</span></a>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="rowgroup2 fade">
+            <div class="wrap">
+                <section class="business">
+                    <h2 class="title">보건소 주요사업</h2>
+                    <div class="business_list">
+                        <div class="business_item n1">
+                            <span class="icon"></span>
+                            <a href="#" class="business_anchor"><span><em>구강건강</em></span></a>
+                        </div>
+                        <div class="business_item n2">
+                            <span class="icon"></span>
+                            <a href="#" class="business_anchor"><span><em>금연</em></span></a>
+                        </div>
+                        <div class="business_item n3">
+                            <span class="icon"></span>
+                            <a href="#" class="business_anchor"><span><em>건강생활<br/>실천</em></span></a>
+                        </div>
+                        <div class="business_item n4">
+                            <span class="icon"></span>
+                            <a href="#" class="business_anchor"><span><em>심뇌혈관</em><br><em>질환예방</em></span></a>
+                        </div>
+                        <div class="business_item n5">
+                            <span class="icon"></span>
+                            <a href="#" class="business_anchor"><span><em>감염병관리</em></span></a>
+                        </div>
+                        <div class="business_item n6">
+                            <span class="icon"></span>
+                            <a href="#" class="business_anchor"><span><em>암 검진</em></span></a>
+                        </div>
+                        <div class="business_item n7">
+                            <span class="icon"></span>
+                            <a href="#" class="business_anchor"><span><em>방문건강<br/>관리</em></span></a>
+                        </div>
+                        <div class="business_item n8">
+                            <span class="icon"></span>
+                            <a href="#" class="business_anchor"><span><em>모자보건</em></span></a>
+                        </div>
+                        <div class="business_item n9">
+                            <span class="icon"></span>
+                            <a href="#" class="business_anchor"><span><em>검사안내</em><br/><em>(예시)</em></span></a>
+                        </div>
+                    </div>
+                    <div class="business_dots"></div>
+                </section>
+            </div>
+        </div>
+
+        <div class="rowgroup3 fade">
+            <div class="wrap">
+                <section class="board">
+                    <h2 class="skip">공지사항</h2>
+                    <div class="board_tab">
+                        <div class="tab_list">
+                            <div class="tab_item active"><button type="button" class="tab_button">전체</button></div>
+                            <div class="tab_item"><button type="button" class="tab_button">공지사항</button></div>
+                            <div class="tab_item"><button type="button" class="tab_button">자료실</button></div>
+                            <div class="tab_item"><button type="button" class="tab_button">감염병소식지</button></div>
+                            <div class="tab_item"><button type="button" class="tab_button">사진소식</button></div>
+                        </div>
+                        <div class="tab_control">
+                            <button type="button" class="tab_prev"></button>
+                            <button type="button" class="tab_next"></button>
+                        </div>
+                    </div>
+                    <div class="board_content">
+                        <div class="board_panel active">
+                            <div class="board_list">
+                                <!-- 4개까지만 표출되게 해주세요 -->
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">만안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">24년 1월 2주차 골밀도 검사예약 실시</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">공공심야약국 운영안내</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">동안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">9월 고혈압·당뇨 건강교실 참여자 모집</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">2024년 의료기관 신고의무자 교육이수 및 결과제출 안내</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#" class="board_more">더보기</a>
+                        </div>
+                        <div class="board_panel">
+                            <div class="board_list">
+                                <!-- 4개까지만 표출되게 해주세요 -->
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">만안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">24년 1월 2주차 골밀도 검사예약 실시22</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">공공심야약국 운영안내22</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">동안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">9월 고혈압·당뇨 건강교실 참여자 모집22</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">2024년 의료기관 신고의무자 교육이수 및 결과제출 안내22</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#" class="board_more">더보기</a>
+                        </div>
+                        <div class="board_panel">
+                            <div class="board_list">
+                                <!-- 4개까지만 표출되게 해주세요 -->
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">만안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">24년 1월 2주차 골밀도 검사예약 실시33</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">공공심야약국 운영안내33</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">동안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">9월 고혈압·당뇨 건강교실 참여자 모집33</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">2024년 의료기관 신고의무자 교육이수 및 결과제출 안내33</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#" class="board_more">더보기</a>
+                        </div>
+                        <div class="board_panel">
+                            <div class="board_list">
+                                <!-- 4개까지만 표출되게 해주세요 -->
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">만안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">24년 1월 2주차 골밀도 검사예약 실시44</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">공공심야약국 운영안내44</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">동안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">9월 고혈압·당뇨 건강교실 참여자 모집44</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">2024년 의료기관 신고의무자 교육이수 및 결과제출 안내44</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#" class="board_more">더보기</a>
+                        </div>
+                        <div class="board_panel">
+                            <div class="board_list">
+                                <!-- 4개까지만 표출되게 해주세요 -->
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">만안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">24년 1월 2주차 골밀도 검사예약 실시55</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">공공심야약국 운영안내55</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">동안구보건소</span>
+                                            </div>
+                                            <p class="board_subject">9월 고혈압·당뇨 건강교실 참여자 모집55</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="board_item">
+                                    <a href="#" class="board_anchor">
+                                        <div class="board_inner">
+                                            <div class="board_top">
+                                                <span class="board_date">2024.08.29</span>
+                                                <span class="board_region">공통</span>
+                                            </div>
+                                            <p class="board_subject">2024년 의료기관 신고의무자 교육이수 및 결과제출 안내55</p>
+                                            <span class="board_type">공지사항</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#" class="board_more">더보기</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="rowgroup4 fade">
+            <div class="wrap">
+                <section class="banner">
+                    <h2 class="title">배너<br>ZONE</h2>
+                    <ul class="banner_list">
+                        <li class="banner_item n1"><a href="#" target="_blank" title="새창" class="banner_anchor"><span>동네 병의원 및 약국찾기</span></a></li>
+                        <li class="banner_item n2"><a href="#" target="_blank" title="새창" class="banner_anchor"><span>한국의료분쟁 조정중재원</span></a></li>
+                        <li class="banner_item n3"><a href="#" target="_blank" title="새창" class="banner_anchor"><span>한국의약품 안전관리원</span></a></li>
+                        <li class="banner_item n4"><a href="#" target="_blank" title="새창" class="banner_anchor"><span>자동심장충격기 관리페이지</span></a></li>
+                        <li class="banner_item n5"><a href="#" target="_blank" title="새창" class="banner_anchor"><span>심사평가원 진료비확인 서비스</span></a></li>
+                        <li class="banner_item n6"><a href="#" target="_blank" title="새창" class="banner_anchor"><span>안양시청 누리집 </span></a></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div class="rowgroup5 fade">
+            <div class="consult">
+                <div class="wrap">
+                    <h2 class="title">주요 상담번호</h2>
+                    <div class="consult_list">
+                        <div class="consult_item n1">
+                            <span class="consult_subject">보건소 대표번호</span>
+                            <ul class="consult_info">
+                                <li>
+                                    <span class="consult_name">만안구</span>
+                                    <span class="consult_num">031-8045-3742</span>
+                                </li>
+                                <li>
+                                    <span class="consult_name">동안구</span>
+                                    <span class="consult_num">031-8045-4472</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="consult_item n2">
+                            <span class="consult_subject">예방접종 상담</span>
+                            <ul class="consult_info">
+                                <li>
+                                    <span class="consult_name">만안구</span>
+                                    <span class="consult_num">031-8045-3742</span>
+                                </li>
+                                <li>
+                                    <span class="consult_name">동안구</span>
+                                    <span class="consult_num">031-8045-4472</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="consult_item n3">
+                            <span class="consult_subject">난임부부 상담</span>
+                            <ul class="consult_info">
+                                <li>
+                                    <span class="consult_name">만안구</span>
+                                    <span class="consult_num">031-8045-3742</span>
+                                </li>
+                                <li>
+                                    <span class="consult_name">동안구</span>
+                                    <span class="consult_num">031-8045-4472</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="consult_item n4">
+                            <span class="consult_subject">치매센터</span>
+                            <ul class="consult_info">
+                                <li>
+                                    <span class="consult_name">만안구</span>
+                                    <span class="consult_num">031-8045-3742</span>
+                                </li>
+                                <li>
+                                    <span class="consult_name">동안구</span>
+                                    <span class="consult_num">031-8045-4472</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer id="footer">
+        <div class="footer_banner">
+            <div class="wrap">
+                <div class="footer_banner_content">
+                    <div class="footer_banner_title clearfix">
+                        <h2>배너모음</h2>
+                        <div class="footer_banner_control">
+                            <button type="button" class="footer_banner_prev">이전</button>
+                            <button type="button" class="footer_banner_auto">&nbsp;</button>
+                            <button type="button" class="footer_banner_next">다음</button>
+                        </div>
+                    </div>
+                    <div class="footer_banner_list">
+                        <div class="footer_banner_item">
+                            <a href="#">경기도청</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">생활안전지도</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">경기도대기오염정보센터</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">민원24</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">당번약국</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">새주소안내</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">경인지방경찰정</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">노인장기요양보험</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">당번약국</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">새주소안내</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">경인지방경찰정</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">노인장기요양보험</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">당번약국</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">새주소안내</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">경인지방경찰정</a>
+                        </div>
+                        <div class="footer_banner_item">
+                            <a href="#">노인장기요양보험</a>
+                        </div>
+                    </div>
+                    <!--<a href="#" class="footer_banner_more">더보기</a>-->
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="footer_top">
+                <a href="#wrapper">위로</a>
+            </div>
+            <div class="footer_content">
+                <div class="footer_logo">
+                    <img src="../../common/images/footer_logo.png" alt="" />
+                </div>
+                <div class="footer_nav">
+                    <div class="footer_nav_link">
+                        <ul class="clearfix">
+                            <li class="privacy"><a href="#">개인정보처리방침</a></li>
+                            <li><a href="#">저작권정책</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">이용안내</a></li>
+                            <li><a href="#">RSS안내</a></li>
+                            <li><a href="#">사이트맵</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_info">
+                    <address>
+                        만안구보건소 : 우)14035 경기도 안양시 만안구 문예로 48(안양동)<br>
+                        <mark class="tel">TEL: 031-8045-3472,</mark> FAX: 031-8045-6527
+                    </address>
+                    <address>
+                        동안구보건소 : 우)14047 경기도 안양시 동안구 평촌대로253번길 41(비산동)<br>
+                        <mark class="tel">TEL: 031-8045-4471,</mark> FAX: 031-8045-6528
+                    </address>
+                    <p>Copyright All Right Reserved 2019 by Anyang City</p>
+                </div>
+                <div class="footer_sns">
+                    <ul class="clearfix">
+                        <li class="facebook"><a href="#">페이스북</a></li>
+                        <li class="twitter"><a href="#">트위터</a></li>
+                        <li class="blog"><a href="#">블로그</a></li>
+                        <li class="youtube"><a href="#">유투브</a></li>
+                        <li class="kakaostory"><a href="#">카카오스토리</a></li>
+                        <li class="instagram"><a href="#">인스타그램</a></li>
+                    </ul>
+                </div>
+                <div class="footer_site">
+                    <ul class="footer_site_list clearfix">
+                        <li class="footer_site_item">
+                            <button type="button" class="footer_site_btn">구청/동행정복지센터</button>
+                            <div class="footer_site_content">
+                                <strong>구청/동행정복지센터</strong>
+                                <div class="footer_site_link">
+                                    <ul>
+                                        <li><a href="http://manan.anyang.go.kr/manan/main.do" title="새창" target="_blank">만안구청홈페이지</a></li>
+                                        <li><a href="http://www.anyang.go.kr/anyang1/dong/main.do" title="새창" target="_blank">안양1동</a></li>
+                                        <li><a href="http://www.anyadiv clkr/anyang2/dong/main.do" title="새창" target="_blank">안양2동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/anyang3/dong/main.do" title="새창" target="_blank">안양3동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/anyang4/dong/main.do" title="새창" target="_blank">안양4동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/anyang5/dong/main.do" title="새창" target="_blank">안양5동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/anyang6/dong/main.do" title="새창" target="_blank">안양6동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/anyang7/dong/main.do" title="새창" target="_blank">안양7동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/anyang8/dong/main.do" title="새창" target="_blank">안양8동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/anyang9/dong/main.do" title="새창" target="_blank">안양9동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/seoksu1/dong/main.do" title="새창" target="_blank">석수1동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/seoksu2/dong/main.do" title="새창" target="_blank">석수2동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/seoksu3/dong/main.do" title="새창" target="_blank">석수3동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/bakdal1/dong/main.do" title="새창" target="_blank">박달1동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/bakdal2/dong/main.do" title="새창" target="_blank">박달2동</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="http://dongan.anyang.go.kr/dongan/main.do" title="새창" target="_blank">동안구청홈페이지</a></li>
+                                        <li><a href="http://www.anyang.go.kr/bisan1/dong/main.do" title="새창" target="_blank">비산1동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/bisan2/dong/main.do" title="새창" target="_blank">비산2동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/bisan3/dong/main.do" title="새창" target="_blank">비산3동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/buheung/dong/main.do" title="새창" target="_blank">부흥동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/dalan/dong/main.do" title="새창" target="_blank">달안동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/gwanyang1/dong/main.do" title="새창" target="_blank">관양1동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/gwanyang2/dong/main.do" title="새창" target="_blank">관양2동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/burim/dong/main.do" title="새창" target="_blank">부림동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/pyeongchon/dong/main.do" title="새창" target="_blank">평촌동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/pyeongan/dong/main.do" title="새창" target="_blank">평안동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/gwiin/dong/main.do" title="새창" target="_blank">귀인동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/hogye1/dong/main.do" title="새창" target="_blank">호계1동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/hogye2/dong/main.do" title="새창" target="_blank">호계2동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/hogye3/dong/main.do" title="새창" target="_blank">호계3동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/beomgye/dong/main.do" title="새창" target="_blank">범계동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/sinchon/dong/main.do" title="새창" target="_blank">신촌동</a></li>
+                                        <li><a href="http://www.anyang.go.kr/galsan/dong/main.do" title="새창" target="_blank">갈산동</a></li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="footer_site_close">닫기</button>
+                            </div>
+                        </li>
+                        <li class="footer_site_item">
+                            <button type="button" class="footer_site_btn">안양시 운영</button>
+                            <div class="footer_site_content active">
+                                <strong>안양시 운영 선택</strong>
+                                <div class="footer_site_link">
+                                    <ul>
+                                        <li><a href="http://aycouncil.go.kr/index.jsp" title="새창" target="_blank">안양시의회</a></li>
+                                        <li><a href="http://health.anyang.go.kr" title="새창" target="_blank">안양시 보건소</a></li>
+                                        <li><a href="http://learning.anyang.go.kr/" title="새창" target="_blank">평생교육원</a></li>
+                                        <li><a href="http://lib.anyang.go.kr" title="새창" target="_blank">시립도서관</a></li>
+                                        <li><a href="http://water.anyang.go.kr" title="새창" target="_blank">상하수도홈페이지</a></li>
+                                        <li><a href="http://new.anyang.go.kr/rent" title="새창" target="_blank">공공계약(시설대관)</a></li>
+                                        <li><a href="http://new.anyang.go.kr/forest" title="새창" target="_blank">안양형산림복지</a></li>
+                                        <li><a href="http://clean.anyang.go.kr" title="새창" target="_blank">대형폐기물인터넷배출신고</a></li>
+                                        <li><a href="http://new.anyang.go.kr/newtown" title="새창" target="_blank">도시정비사업</a></li>
+                                        <li><a href="http://market.anyang.go.kr" title="새창" target="_blank">농수산물도매시장</a></li>
+                                        <li><a href="http://learning.anyang.go.kr/DS" title="새창" target="_blank">동안노인복지회관</a></li>
+                                        <li><a href="http://learning.anyang.go.kr/DW" title="새창" target="_blank">동안평생교육센터</a></li>
+                                        <li><a href="http://learning.anyang.go.kr/MS" title="새창" target="_blank">만안노인복지회관</a></li>
+                                        <li><a href="http://learning.anyang.go.kr/MW" title="새창" target="_blank">만안평생교육센터</a></li>
+                                        <li><a href="http://bis.anyang.go.kr/" title="새창" target="_blank">버스정보시스템</a></li>
+                                        <li><a href="http://cyber.anyang.go.kr" title="새창" target="_blank">사이버과학축제</a></li>
+                                        <li><a href="http://river.anyang.go.kr" title="새창" target="_blank">안양천생태이야기관</a></li>
+                                        <li><a href="http://caranyang.anyang.go.kr" title="새창" target="_blank">안양시주정차과태료</a></li>
+                                        <li><a href="http://job.anyang.go.kr" title="새창" target="_blank">안양시일자리센터</a></li>
+                                        <li><a href="http://tv.anyang.go.kr/" title="새창" target="_blank">안양인터넷방송</a></li>
+                                        <li><a href="https://parkingsms.anyang.go.kr" title="새창" target="_blank">주정차단속 문자알림 서비스</a></li>
+                                        <li><a href="http://photo.anyang.go.kr" title="새창" target="_blank">역사포토갤러리</a></li>
+                                        <li><a href="http://www.anyang.go.kr/anyang/m10/m10_12/m10_12_01/m10_12_01_01.jsp" title="새창" target="_blank">안양시노사민정협의회</a></li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="footer_site_close">닫기</button>
+                            </div>
+                        </li>
+                        <li class="footer_site_item">
+                            <button type="button" class="footer_site_btn">안양시 관련기관</button>
+                            <div class="footer_site_content">
+                                <strong>안양시 관련기관 선택</strong>
+                                <div class="footer_site_link">
+                                    <ul>
+                                        <li><a href="http://www.aca.or.kr" title="새창" target="_blank">안양창조산업진흥원</a></li>
+                                        <li><a href="http://www.happytown.or.kr/" title="새창" target="_blank">안양시노인종합복지관</a></li>
+                                        <li><a href="http://www.ayf.or.kr/dongan/index.do" title="새창" target="_blank">동안청소년수련관</a></li>
+                                        <li><a href="http://www.ayf.or.kr/manan/index.do" title="새창" target="_blank">만안청소년수련관</a></li>
+                                        <li><a href="http://www.ayf.or.kr/index.do" title="새창" target="_blank">안양시청소년재단</a></li>
+                                        <li><a href="http://www.ayf.or.kr/1388/index.do" title="새창" target="_blank">청소년상담복지센터</a></li>
+                                        <li><a href="http://www.ayf.or.kr/life/index.do" title="새창" target="_blank">만안청소년문화의집</a></li>
+                                        <li><a href="http://www.ayf.or.kr/way/index.do" title="새창" target="_blank">석수청소년문화의집</a></li>
+                                        <li><a href="http://www.ayf.or.kr/hogye/index.do" title="새창" target="_blank">호계청소년문화의집</a></li>
+                                        <li><a href="http://www.ayac.or.kr" title="새창" target="_blank">안양문화예술재단</a></li>
+                                        <li><a href="http://buheungswc.org/" title="새창" target="_blank">부흥사회복지관</a></li>
+                                        <li><a href="http://bisansw.or.kr/" title="새창" target="_blank">비산사회복지관</a></li>
+                                        <li><a href="http://www.aysports.or.kr" title="새창" target="_blank">안양시체육회</a></li>
+                                        <li><a href="http://anyang1308.or.kr" title="새창" target="_blank">안양시장애인체육회</a></li>
+                                        <li><a href="http://www.ansi.or.kr/" title="새창" target="_blank">안양도시공사</a></li>
+                                        <li><a href="http://www.aytalent.or.kr" title="새창" target="_blank">안양시인재육성장학재단</a></li>
+                                        <li><a href="http://www.yhealing.or.kr" title="새창" target="_blank">안양YWCA가정폭력상담소</a></li>
+                                        <li><a href="http://yulmok.net" title="새창" target="_blank">율목종합사회복지관</a></li>
+                                        <li><a href="http://www.asrc.or.kr" title="새창" target="_blank">수리장애인종합복지관</a></li>
+                                        <li><a href="http://anyanghotline.or.kr/" title="새창" target="_blank">안양여성의전화</a></li>
+                                        <li><a href="http://www.anyangcenter.or.kr" title="새창" target="_blank">안양여성인력개발센터</a></li>
+                                        <li><a href="http://www.aycvc.or.kr" title="새창" target="_blank">안양지역범죄피해자지원센터</a></li>
+                                        <li><a href="http://www.agucfc.or.kr" title="새창" target="_blank">안양군포의왕 공동급식지원센터</a></li>
+                                        <li><a href="http://www.automart.co.kr/" title="새창" target="_blank">인터넷차량공매</a></li>
+                                        <li><a href="http://www.familynet.or.kr/fn_areacenter/main/index.do?ci_domain=anyang" title="새창" target="_blank"> 건강가정지원센터</a></li>
+                                        <li><a href="http://www.aycteducare.go.kr" title="새창" target="_blank">육아종합지원센터 </a></li>
+                                        <li><a href="http://www.telepsy.co.kr/" title="새창" target="_blank">안양시정신건강복지센</a></li>
+                                        <li><a href="http://www.anyang1365.or.kr/" title="새창" target="_blank">안양시자원봉사센터</a></li>
+                                    </ul>
+                                </div>
+                                <button type="button" class="footer_site_close">닫기</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

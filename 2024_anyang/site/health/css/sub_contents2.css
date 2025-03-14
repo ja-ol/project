@@ -1,0 +1,77 @@
+/* 만안구 보건소 조직도 */
+.cts1303 .health_org22 > ol{list-style:none; padding:47px 12px 14px 13px;background:#fafafa; letter-spacing:0; text-align:center;}
+.cts1303 .health_org2 > ol > li{position:relative;padding: 55px 0 89px;background-position:left calc(50% + 5px) top;background-repeat:no-repeat;text-align:center;}
+.cts1303 .health_org2 > ol > li > a{font-size:18px; font-weight:600; color:#fff;}
+.cts1303 .health_org2 > ol > li .tit a{font-size:16px; font-weight:600; color:#fff;}
+.cts1303 .health_org2 > ol > li:nth-child(1){z-index:2; background-image:url('/site/health/images/contents/health_org_bg01.png');}
+.cts1303 .health_org2 > ol > li:nth-child(2){z-index: 3;width: 49%;display:inline-block;padding-bottom:100px;background-image:url('/site/health/images/contents/health_org_bg02.png');margin-top: 40px;}
+.cts1303 .health_org2 > ol > li:nth-child(3){z-index:3; width:49%; display:inline-block; padding-bottom:100px; background-image:url('/site/health/images/contents/health_org_bg02.png');}
+.cts1303 .health_org2 > ol > li:before{z-index: -1;display:block;position:absolute;top: -29px;left:50%;width:1px;height: 32px;background:#afafaf;content:"";}
+.cts1303 .health_org2 > ol > li:nth-child(1)::after{z-index: -1;display:block;position:absolute;bottom: -11px;left: 24.5%;width: 49.5%;height: 1px;background:#afafaf;content:"";}
+.cts1303 .health_org2 > ol > li:nth-child(1)::before{z-index: -1;display:block;position:absolute;bottom: -11px;left:50%;width:1px;height: 36px;background:#afafaf;content:"";top: unset;}
+.cts1303 .health_org2 > ol > li:nth-child(2):after,.health_org2 > ol > li:nth-child(3):after{z-index: -1;display:block;position:absolute;top: 144px;left:50%;width:1px;height: 52px;background:#afafaf;content:"";}
+.cts1303 .health_org2 > ol > li > ul{position:relative;width:100%;margin-top: 150px;}
+.cts1303 .health_org2 > ol > li > ul:before{display:block;position:absolute;top:-34px;left: calc((25% - 3px)/2);width: calc(100% - 25%);height:1px;background:#afafaf;}
+.cts1303 .health_org2 > ol > li > ul > li{float:left; position:relative; width:calc(25% - 5px); height:284px; margin-right:5px; padding:6px; background-color:#fff; background-image:url(/site/health/images/contents/dot_horizontal.png), url(/site/health/images/contents/dot_vertical.png), url(/site/health/images/contents/dot_vertical.png), url(/site/health/images/contents/dot_horizontal.png); background-position:left bottom, right top, left top, left top; background-repeat:repeat-x, repeat-y, repeat-y, repeat-x; box-sizing:border-box;}
+.cts1303 .health_org2 > ol > li > ul > li:last-child{margin-right:0;}
+.cts1303 .health_org2 > ol > li > ul > li:before{display:block; position:absolute; top:-34px; left:50%; width:1px; height:34px; background:#afafaf;}
+.cts1303 .health_org2 > ol > li > ul > li .tit{display:block; margin-bottom:17px; background:#4f4f4f; line-height:23px; padding:20px 0;}
+.cts1303 .health_org2 > ol > li > ul > li > ul{}
+.cts1303 .health_org2 > ol > li > ul > li > ul > li{margin-bottom:5px; color:#555; font-size:0.95em; line-height:20px;}
+.cts1303 .health_org2 > ol > li > ul > li > ul > li:last-child{margin-bottom:0;}
+
+@media all and (max-width:800px){
+    .cts1303 .health_org2 > ol > li:nth-child(2){width:100%;}
+    .cts1303 .health_org2 > ol > li:nth-child(3){width:100%;}
+    .cts1303 .health_org2 > ol > li > ul > li{width:calc(25% - 4px); padding:5px;}
+    .cts1303 .health_org2 > ol > li > ul:before{left:calc((25% - 3px)/2); width:calc(100% - 24.5%);}
+    .cts1303 .health_org2 > ol > li > ul > li:nth-child(4){margin-right:0;}
+    .cts1303 .health_org2 > ol > li:nth-child(1)::after{display:none;}
+	}
+
+@media all and (max-width:400px){
+    .cts1303 .health_org2 > ol > li > ul > li{width:100%; padding:5px; margin-top:10px;}
+    .cts1303 .health_org2 > ol > li > ul:before{display:none;}
+    .cts1303 .health_org2 > ol > li > ul > li:first-child::before{display:block;top:-80px;height:65px;}
+    .cts1303 .health_org2 > ol > li > ul > li:before{display:none;}
+    .cts1303 .health_org2 > ol > li > ul > li:nth-child(4){margin-right:0;}
+	}
+
+/* 만안구 보건소 조직도 */
+.cts1304 .health_org22 > ol{list-style:none; padding:47px 12px 14px 13px;background:#fafafa; letter-spacing:0; text-align:center;}
+.cts1304 .health_org2 > ol > li{position:relative;padding: 55px 0 89px;background-position:left calc(50% + 5px) top;background-repeat:no-repeat;text-align:center;}
+.cts1304 .health_org2 > ol > li > a{font-size:18px; font-weight:600; color:#fff;}
+.cts1304 .health_org2 > ol > li .tit a{font-size:16px; font-weight:600; color:#fff;}
+.cts1304 .health_org2 > ol > li:nth-child(1){z-index:2; background-image:url('/site/health/images/contents/health_org_bg01.png');}
+.cts1304 .health_org2 > ol > li:nth-child(2){z-index: 3;width: 49%;display:inline-block;padding-bottom:100px;background-image:url('/site/health/images/contents/health_org_bg02.png');margin-top: 40px;}
+.cts1304 .health_org2 > ol > li:nth-child(3){z-index:3; width:49%; display:inline-block; padding-bottom:100px; background-image:url('/site/health/images/contents/health_org_bg02.png');}
+.cts1304 .health_org2 > ol > li:before{z-index: -1;display:block;position:absolute;top: -29px;left:50%;width:1px;height: 32px;background:#afafaf;content:"";}
+.cts1304 .health_org2 > ol > li:nth-child(1)::after{z-index: -1;display:block;position:absolute;bottom: -11px;left: 24.5%;width: 49.5%;height: 1px;background:#afafaf;content:"";}
+.cts1304 .health_org2 > ol > li:nth-child(1)::before{z-index: -1;display:block;position:absolute;bottom: -11px;left:50%;width:1px;height: 36px;background:#afafaf;content:"";top: unset;}
+.cts1304 .health_org2 > ol > li:nth-child(2):after,.health_org2 > ol > li:nth-child(3):after{z-index: -1;display:block;position:absolute;top: 144px;left:50%;width:1px;height: 52px;background:#afafaf;content:"";}
+.cts1304 .health_org2 > ol > li > ul{position:relative;width:100%;margin-top: 150px;}
+.cts1304 .health_org2 > ol > li > ul:before{display:block;position:absolute;top:-34px;left: calc((25% - 3px)/2);width: calc(100% - 25%);height:1px;background:#afafaf;}
+.cts1304 .health_org2 > ol > li > ul > li{float:left; position:relative; width:calc(25% - 5px); height:284px; margin-right:5px; padding:6px; background-color:#fff; background-image:url(/site/health/images/contents/dot_horizontal.png), url(/site/health/images/contents/dot_vertical.png), url(/site/health/images/contents/dot_vertical.png), url(/site/health/images/contents/dot_horizontal.png); background-position:left bottom, right top, left top, left top; background-repeat:repeat-x, repeat-y, repeat-y, repeat-x; box-sizing:border-box;}
+.cts1304 .health_org2 > ol > li > ul > li:last-child{margin-right:0;}
+.cts1304 .health_org2 > ol > li > ul > li:before{display:block; position:absolute; top:-34px; left:50%; width:1px; height:34px; background:#afafaf;}
+.cts1304 .health_org2 > ol > li > ul > li .tit{display:block; margin-bottom:17px; background:#4f4f4f; line-height:23px; padding:20px 0;}
+.cts1304 .health_org2 > ol > li > ul > li > ul{}
+.cts1304 .health_org2 > ol > li > ul > li > ul > li{margin-bottom:5px; color:#555; font-size:0.95em; line-height:20px;}
+.cts1304 .health_org2 > ol > li > ul > li > ul > li:last-child{margin-bottom:0;}
+
+@media all and (max-width:800px){
+    .cts1304 .health_org2 > ol > li:nth-child(2){width:100%;}
+    .cts1304 .health_org2 > ol > li:nth-child(3){width:100%;}
+    .cts1304 .health_org2 > ol > li > ul > li{width:calc(25% - 4px); padding:5px;}
+    .cts1304 .health_org2 > ol > li > ul:before{left:calc((25% - 3px)/2); width:calc(100% - 24.5%);}
+    .cts1304 .health_org2 > ol > li > ul > li:nth-child(4){margin-right:0;}
+    .cts1304 .health_org2 > ol > li:nth-child(1)::after{display:none;}
+	}
+
+@media all and (max-width:400px){
+    .cts1304 .health_org2 > ol > li > ul > li{width:100%; padding:5px; margin-top:10px;}
+    .cts1304 .health_org2 > ol > li > ul:before{display:none;}
+    .cts1304 .health_org2 > ol > li > ul > li:first-child::before{display:block;top:-80px;height:65px;}
+    .cts1304 .health_org2 > ol > li > ul > li:before{display:none;}
+    .cts1304 .health_org2 > ol > li > ul > li:nth-child(4){margin-right:0;}
+	}
