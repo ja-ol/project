@@ -4,218 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2024_안양보건소">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/css/common_layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/css/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/css/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/css/program.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/GmarketSans-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/GmarketSans-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/GmarketSans-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/GmarketSans-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/GmarketSans-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/GmarketSans-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumBarunGothic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumBarunGothic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumBarunGothicBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumBarunGothicBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumGothicBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumGothicBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumGothicBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumMyeongjo.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumMyeongjo.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumPen.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumPen.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareB.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareB.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareB.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareR.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareR.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareR.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareRoundB.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareRoundB.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareRoundB.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareRoundR.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareRoundR.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/NanumSquareRoundR.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/OpensansB.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/OpensansB.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/OpensansB.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/OpensansR.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/OpensansR.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/OpensansR.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulHangangB.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulHangangB.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulHangangM.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulHangangM.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulNamsanB.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulNamsanB.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulNamsanB.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulNamsanM.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulNamsanM.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SeoulNamsanM.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SpoqaHanSans-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SpoqaHanSans-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SpoqaHanSans-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SpoqaHanSans-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SpoqaHanSans-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/SpoqaHanSans-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/xeicon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/xeicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/xeicon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/xeicon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/font/xeicon.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/Jalnan.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NEXEN_TIRE_Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NEXEN_TIRE_Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NEXON Lv2 Gothic Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NEXON Lv2 Gothic Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NEXON Lv2 Gothic Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NEXON Lv2 Gothic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NEXONLv1GothicBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NEXONLv1GothicLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NEXONLv1GothicRegular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-DemiLight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-DemiLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/NotoSansCJKkr-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-3Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-3Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-4Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-4Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-5.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-6Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-6Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-7ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/S-CoreDream-7ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/Saenggeo_Jincheon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/fonts/Saenggeo_Jincheon.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/common/blank_sprite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/common/icon_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/common/lnb_banner_sprite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/common/lnb_banner_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/common/logo_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/common/smart_ay.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/footer_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/layout/footer_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/layout/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/layout/wa_mark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/comment_smile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/finger_gesture.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/img_opencode1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/img_opencode2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/img_opencode3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/img_opencode4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/map_info_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/map_marker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/no-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/p-icon-view.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/p-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/p-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/p-icon@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/p-icon_calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/images/program/select_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/NeoVirtualKeyboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/clipboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/html5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/jquery.easing.1.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/jquery.menu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/jquery.screen.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/program.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/program.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/slick.extensions.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/slick.min.custom.1.8.0.11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/slick.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/common/js/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/css/common_layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/css/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/css/main_layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/css/sub.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/css/sub_contents2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/NEXEN_TIRE_Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/NEXEN_TIRE_Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/NEXEN_TIRE_Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/NEXEN_TIRE_Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-3Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-3Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-4Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-4Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-5Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-5Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-6SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-6SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-7Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-7Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-8ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/fonts/Paperlogy-8ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/common/footer_top_arrow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/banner_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/banner_deco01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/banner_deco02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/banner_deco03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/banner_deco04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/banner_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/banner_title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/banner_title02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/board_arrow01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/board_arrow02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/board_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/board_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/board_more.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/business_arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/business_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/business_mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/business_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/character.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_call.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_deco01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_deco02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_deco03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_deco04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_deco05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_icon01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_icon02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_icon03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_icon04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/consult_icon05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/guide_deco01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/guide_deco02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/guide_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/rowgroup_deco01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/rowgroup_deco02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/shortcut_icon01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/shortcut_icon02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/visual_close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/visual_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/visual_m_image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/visual_more01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/visual_more02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/visual_more_all.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/images/main/visual_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/health/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/public/images/common/icon_sprite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024_anyang/site/public/images/common/smart_ay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/프로젝트.iml" beforeDir="false" />
-    </list>
+    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2024_안양보건소" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -280,7 +69,7 @@
       <workItem from="1741916189472" duration="2416000" />
       <workItem from="1741918925140" duration="318000" />
       <workItem from="1741919251413" duration="1483000" />
-      <workItem from="1741920749774" duration="2179000" />
+      <workItem from="1741920749774" duration="2487000" />
     </task>
     <task id="LOCAL-00001" summary="2024_보은청년플랫폼">
       <created>1741917016667</created>
@@ -289,7 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1741917016667</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="새 폴더 추가">
+      <created>1741925388518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741925388518</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2024_안양보건소">
+      <created>1741925523486</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741925523486</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +113,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2024_보은청년플랫폼" />
     <MESSAGE value="2024_서울현충원" />
+    <MESSAGE value="새 폴더 추가" />
     <MESSAGE value="2024_안양보건소" />
     <option name="LAST_COMMIT_MESSAGE" value="2024_안양보건소" />
   </component>
