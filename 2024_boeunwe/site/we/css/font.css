@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Paperlogy */
+@font-face{
+    font-family:'Paperlogy';
+    font-weight:100;
+    src:url("../font/Paperlogy-1Thin.woff2") format('woff2'),
+    url("../font/Paperlogy-1Thin.woff") format('woff');
+}
+@font-face{
+    font-family:'Paperlogy';
+    font-weight:300;
+    src:url("../font/Paperlogy-3Light.woff2") format('woff2'),
+    url("../font/Paperlogy-3Light.woff") format('woff');
+}
+@font-face{
+    font-family:'Paperlogy';
+    font-weight:400;
+    src:url("../font/Paperlogy-4Regular.woff2") format('woff2'),
+    url("../font/Paperlogy-4Regular.woff") format('woff');
+}
+@font-face{
+    font-family:'Paperlogy';
+    font-weight:500;
+    src:url("../font/Paperlogy-5Medium.woff2") format('woff2'),
+    url("../font/Paperlogy-5Medium.woff") format('woff');
+}
+@font-face{
+    font-family:'Paperlogy';
+    font-weight:600;
+    src:url("../font/Paperlogy-6SemiBold.woff2") format('woff2'),
+    url("../font/Paperlogy-6SemiBold.woff") format('woff');
+}
+@font-face{
+    font-family:'Paperlogy';
+    font-weight:700;
+    src:url("../font/Paperlogy-7Bold.woff2") format('woff2'),
+    url("../font/Paperlogy-7Bold.woff") format('woff');
+}
+@font-face{
+    font-family:'Paperlogy';
+    font-weight:800;
+    src:url("../font/Paperlogy-8ExtraBold.woff2") format('woff2'),
+    url("../font/Paperlogy-8ExtraBold.woff") format('woff');
+}
+
+/* WantedSans */
+@font-face{
+    font-family:'WantedSans';
+    font-weight:500;
+    src:url("../font/WantedSans-SemiBold.woff2") format('woff2'),
+    url("../font/WantedSans-SemiBold.woff") format('woff');
+}
+
+/* HakgyoansimTtwimteul */
+@font-face{
+    font-family:'HakgyoansimTtwimteul';
+    font-weight:600;
+    src:url("../font/HakgyoansimTtwimteul.woff2") format('woff2'),
+    url("../font/HakgyoansimTtwimteul.woff") format('woff');
+}
+
+/* HakgyoansimKossuyeom */
+@font-face{
+    font-family:'HakgyoansimKossuyeom';
+    font-weight:600;
+    src:url("../font/HakgyoansimKossuyeomR.woff2") format('woff2'),
+    url("../font/HakgyoansimKossuyeomR.woff") format('woff');
+}
+
+/* Jalnan */
+@font-face{
+    font-family:'Jalnan';
+    font-weight:600;
+    src:url("../font/Jalnan.woff2") format('woff2'),
+    url("../font/Jalnan.woff") format('woff');
+}
+
+/* Tangerine */
+@font-face{
+    font-family:'Tangerine';
+    font-weight:600;
+    src:url("../font/Tangerine-Bold.woff2") format('woff2'),
+    url("../font/Tangerine-Bold.woff") format('woff');
+}
+
+/* Cooper */
+@font-face{
+    font-family:'Cooper';
+    font-weight:600;
+    src:url("../font/CooperBlack-Std.woff2") format('woff2'),
+    url("../font/CooperBlack-Std.woff") format('woff');
+}

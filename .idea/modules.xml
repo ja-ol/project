@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/포트폴리오.iml" filepath="$PROJECT_DIR$/.idea/포트폴리오.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/프로젝트.iml" filepath="$PROJECT_DIR$/.idea/프로젝트.iml" />
+>>>>>>> 483b5d8 (2024_보은청년플랫폼)
     </modules>
   </component>
 </project>

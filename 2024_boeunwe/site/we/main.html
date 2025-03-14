@@ -1,0 +1,1389 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}" />
+    <meta name="description" content="@@{siteInfo.siteDc}" />
+    <link rel="stylesheet" type="text/css" href="../../common/css/font.css" />
+    <link rel="stylesheet" href="../../site/we/css/main.css">
+    <script src="../../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../../common/js/plugins.js"></script>
+    <script src="../../site/we/js/common.js"></script>
+    <script src="../../site/we/js/main.js"></script>
+    <link rel="icon" href="../../site/we/images/common/favicon.png" type="image/x-icon">
+    <title>보은 청년 공유 플랫폼</title>
+</head>
+
+<body id="${siteInfo.tmplatId}">
+
+<!--<div class="we_layer">
+    <div class="layer_inner">
+        <div class="layer_top">
+            <span class="layer_title">POPUP ZONE</span>
+            <span class="total">총 <em>4</em>건</span>
+        </div>
+        <div class="layer_slide">
+            <div class="layer_list">
+                <div class="layer_item">
+                    <a href="#" class="layer_anchor">
+                        <span></span>
+                        <img src="../../site/we/images/main/popupzone_image01.jpg" alt="이미지 alt">
+                    </a>
+                </div>
+                <div class="layer_item">
+                    <a href="#" class="layer_anchor">
+                        <span></span>
+                        <img src="../../site/we/images/main/popupzone_image02.jpg" alt="이미지 alt">
+                    </a>
+                </div>
+                <div class="layer_item">
+                    <a href="#" class="layer_anchor">
+                        <span></span>
+                        <img src="../../site/we/images/main/popupzone_image01.jpg" alt="이미지 alt">
+                    </a>
+                </div>
+                <div class="layer_item">
+                    <a href="#" class="layer_anchor">
+                        <span></span>
+                        <img src="../../site/we/images/main/popupzone_image02.jpg" alt="이미지 alt">
+                    </a>
+                </div>
+                <div class="layer_item">
+                    <a href="#" class="layer_anchor">
+                        <span></span>
+                        <img src="../../site/we/images/main/popupzone_image01.jpg" alt="이미지 alt">
+                    </a>
+                </div>
+                <div class="layer_item">
+                    <a href="#" class="layer_anchor">
+                        <span></span>
+                        <img src="../../site/we/images/main/popupzone_image02.jpg" alt="이미지 alt">
+                    </a>
+                </div>
+            </div>
+            <div class="layer_control">
+                <button type="button" class="layer_button prev">이전</button>
+                <button type="button" class="layer_button next">다음</button>
+            </div>
+        </div>
+        <div class="layer_bottom">
+            <span class="be_input">
+                <input type="checkbox" id="todayClose" name="" value=""> &lt;!&ndash; 오늘하루 열지않기 기능 개발 필요 &ndash;&gt;
+                <label for="todayClose">오늘하루 열지않기</label>
+            </span>
+            <button type="button" class="layer_close" onclick="layerClose();"><span>팝업닫기</span></button>
+        </div>
+    </div>
+
+    <script>
+        function layerClose(){
+            $('.we_layer').fadeOut(500, function(){
+                $('.we_layer').remove();
+            });
+        }
+    </script>
+</div>-->
+
+<div id="wrapper">
+
+    <header id="header">
+        <div class="accessibility">
+            <a href="#container">본문 바로가기</a>
+        </div>
+
+        <div class="wrap">
+            <div class="top_banner">
+                <span class="top_banner_title">Notice</span>
+                <div class="top_banner_list">
+                    <div class="top_banner_item"><a href="#" class="top_banner_anchor">로컬크리에이터 모집중! 많은참여 바랍니다</a></div>
+                    <div class="top_banner_item"><a href="#" class="top_banner_anchor">한줄공지 한줄공지 한줄공지</a></div>
+                    <div class="top_banner_item"><a href="#" class="top_banner_anchor">한줄공지 한줄공지 한줄공지 한줄공지 한줄공지 한줄공지 한줄공지 한줄공지 한줄공지 한줄공지 한줄공지 한줄공지 한줄공지</a></div>
+                </div>
+                <div class="top_banner_control">
+                    <button type="button" class="top_banner_button prev"></button>
+                    <button type="button" class="top_banner_button next"></button>
+                </div>
+            </div>
+
+            <div class="gnb">
+                <div class="weather">
+                    <h2 class="skip">날씨</h2>
+                    <div class="weather_content">
+                        <div class="weather_info">
+                            <!-- 맑음:type1, 구름조금:type2, 구름많음:type3, 눈:type4, 눈비:type5, 흐림:type6, 낙뢰:type7, 비:type8 -->
+                            <span class="weather_sate type1">맑음</span>
+                        </div>
+                        <div class="weather_indicator">
+                            <div class="weather_aqi type1"><!-- 미세먼지좋음:type1, 미세먼지보통:type2, 미세먼지나쁨:type3 -->
+                                <span class="weather_title">미세먼지</span>
+                                <span class="weather_index"><span>좋음</span></span>
+                            </div>
+                            <span class="weather_celsius"><span>27</span><span>℃</span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="group">
+                <div class="logo">
+                    <a href="./index.do" class="logo_anchor">
+                        <img src="../../site/we/images/common/logo.svg" alt="군민이 행복한 도시형 농촌 보은">
+                        <span class="logo_text">
+                            <span><em>W</em><em>E</em></span> 청년 공유 플랫폼
+                        </span>
+                    </a>
+                </div>
+                <div class="lnb">
+
+                    <div class="menu_show">
+                        <button type="button" class="menu_btn">주메뉴 열기</button>
+                    </div>
+
+                    <nav class="menu after dropdown init">
+                        <h2 class="skip">주메뉴</h2>
+
+                        <div class="menu_header">
+                            <div class="link">
+                                <ul class="link_list">
+                                    <li class="link_item login"><a href="#" class="link_anchor">로그인</a></li>
+                                    <!-- <li class="link_item logout"><a href="#" class="link_anchor">로그아웃</a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="wrap">
+                            <div class="depth depth1"><!-- 차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 : depth#, depth#_#) -->
+                                <ul class="depth_list depth1_list cut">
+                                    <li class="depth_item depth1_item">
+                                        <a href="#n" target="_self" class="depth_text depth1_text">청년정책</a>
+                                        <div class="depth depth2">
+                                            <div class="depth2_content">
+                                                <ul class="depth_list depth2_list cut">
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="depth_item depth1_item">
+                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth1_text">청년지원</a>
+                                    </li>
+                                    <li class="depth_item depth1_item">
+                                        <a href="#n" target="_self" class="depth_text depth1_text">일자리</a>
+                                        <div class="depth depth2">
+                                            <div class="depth2_content">
+                                                <ul class="depth_list depth2_list cut">
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="depth_item depth1_item">
+                                        <a href="#n" target="_self" class="depth_text depth1_text">지역청년공간</a>
+                                        <div class="depth depth2">
+                                            <div class="depth2_content">
+                                                <ul class="depth_list depth2_list cut">
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="depth_item depth1_item">
+                                        <a href="#n" target="_self" class="depth_text depth1_text">소통광장</a>
+                                        <div class="depth depth2">
+                                            <div class="depth2_content">
+                                                <ul class="depth_list depth2_list cut">
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="#n" target="_self" class="depth_text depth2_text">2차메뉴</a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="menu_hide">
+                            <button type="button" class="menu_btn">주메뉴 닫기</button>
+                        </div>
+                    </nav>
+
+                </div>
+                <div class="link">
+                    <ul class="link_list">
+                        <li class="link_item login"><a href="#" class="link_anchor">로그인</a></li>
+                        <!-- <li class="link_item logout"><a href="#" class="link_anchor">로그아웃</a></li> -->
+                        <li class="link_item sitemap"><a href="#" class="link_anchor">사이트맵</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="container">
+        <main>
+
+            <div class="rowgroup">
+                <div class="wrap">
+                    <section class="visual">
+                        <h2 class="skip">비주얼영역</h2>
+                        <div class="visual_bg">
+                            <span class="star n1"></span>
+                            <span class="star n2"></span>
+                            <span class="star n3"></span>
+                            <span class="star n4"></span>
+                            <span class="star n5"></span>
+                            <span class="star n6"></span>
+                            <span class="star n7"></span>
+                        </div>
+                        <p class="visual_text">청년이 만들어가는 <span>보은군,</span> 청년플랫폼이 함께합니다!</p>
+                        <span class="visual_title" style="background-image:url('../../site/we/images/main/visual_title.png')">보은군 청년 공유 플랫폼</span>
+                    </section>
+                    <section class="shortcut">
+                        <h2 class="skip">바로가기</h2>
+                        <ul class="shortcut_list">
+                            <li class="shortcut_item n1"><a href="#" class="shortcut_anchor"><span>청년<br/>플랫폼이란</span></a></li>
+                            <li class="shortcut_item n2"><a href="#" class="shortcut_anchor"><span>대관신청</span></a></li>
+                            <li class="shortcut_item n3"><a href="#" class="shortcut_anchor"><span>청년모임</span></a></li>
+                            <li class="shortcut_item n4"><a href="#" class="shortcut_anchor"><span>청년문자<br/>알림 신청</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup2 fade">
+                <div class="wrap">
+                    <section class="search">
+                        <span class="main_title">지원사업 <br/>안내</span>
+                        <div class="search_box">
+                            <h2 class="search_title">청년정책 검색</h2>
+                            <form name="" method="post" action="./">
+                                <fieldset>
+                                    <legend>검색</legend>
+                                    <!-- 아래 select의 경우, 디자인 적용을 위해 화면에서는 ul, li로 뜨도록 스크립트 작업되어있습니다. 참고 부탁드립니다. -->
+                                    <div class="search_wrap">
+                                        <div class="search_select n1">
+                                            <select name="ctgy1" id="ctgy1" class="skip" title="분야 선택">
+                                                <option value="">분야</option>
+                                                <option value="">분야명1_ov</option>
+                                                <option value="">분야명2</option>
+                                                <option value="">분야명3</option>
+                                                <option value="">분야명4</option>
+                                            </select>
+                                        </div>
+                                        <div class="search_select n2">
+                                            <select name="ctgy3" id="ctgy3" class="skip" title="대상 선택">
+                                                <option value="">대상</option>
+                                                <option value="">대상별1</option>
+                                                <option value="">대상별2</option>
+                                                <option value="">대상별3</option>
+                                                <option value="">대상별4</option>
+                                            </select>
+                                        </div>
+                                        <div class="search_select n3">
+                                            <select name="ctgy4" id="ctgy4" class="skip" title="모집상태 선택">
+                                                <option value="">모집상태</option>
+                                                <option value="">모집예정</option>
+                                                <option value="">모집중</option>
+                                                <option value="">모집마감</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="search_submit">
+                                        <span><input type="submit" value="검색"></span>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </section>
+                    <section class="business">
+                        <h2 class="skip">지원사업 목록</h2>
+                        <div class="business_tab">
+                            <ul class="business_list">
+                                <!-- data-type all:전체, 1:금융지원, 2:주거지원, 3:교육지원, 4:문화지원, 5:복지지원 -->
+                                <li class="tab_item active" data-type="all"><button type="button" class="tab_button"><span>전체</span></button></li>
+                                <li class="tab_item" data-type="1"><button type="button" class="tab_button"><span>금융지원</span></button></li>
+                                <li class="tab_item" data-type="2"><button type="button" class="tab_button"><span>주거지원</span></button></li>
+                                <li class="tab_item" data-type="3"><button type="button" class="tab_button"><span>교육지원</span></button></li>
+                                <li class="tab_item" data-type="4"><button type="button" class="tab_button"><span>문화지원</span></button></li>
+                                <li class="tab_item" data-type="5"><button type="button" class="tab_button"><span>복지지원</span></button></li>
+                                <!-- 마지막 li만 클래스명 달라요! -->
+                                <li class="tab_anchor"><a href="#" target="_blank" title="새창" class="tab_button"><span>전국 청년정책 바로가기</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="business_panel">
+                            <h3 class="skip">전체 목록</h3>
+                            <div class="business_list">
+                                <!-- data-type 1:금융지원, 2:주거지원, 3:교육지원, 4:문화지원, 5:복지지원 -->
+                                <div class="business_item" data-type="1">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n1">금융지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_image" style="background-image:url('../../site/we/images/main/business_image01.jpg')"></div>
+                                        <div class="business_inner">
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="2">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n2">주거지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image02.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n2"><span>모집<br/>예정</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="3">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n3">교육지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image03.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n3"><span>모집<br/>완료</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="4">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n4">문화지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image04.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <!--
+                             <div class="business_item" data-type="5">
+                                 <a href="#" class="business_anchor">
+                                     <span class="business_type n5">복지지원</span>&lt;!&ndash; n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 &ndash;&gt;
+                                     <div class="business_inner">
+                                         <div class="business_image noimage"></div>&lt;!&ndash; 이미지 없을경우 'noimage' 붙여주세요  &ndash;&gt;
+                                         <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                         <ul class="business_info">
+                                             <li>
+                                                 <span class="dt">기간</span>
+                                                 <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                             </li>
+                                             <li>
+                                                 <span class="dt">신청</span>
+                                                 <span class="dd">온라인연계신청</span>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                     <div class="business_stat n1"><span>모집중</span></div>&lt;!&ndash; n1:모집중, n2:모집예정, n3:모집완료 &ndash;&gt;
+                                 </a>
+                                 <span class="line n1"></span>
+                                 <span class="line n2"></span>
+                                 <span class="line n3"></span>
+                                 <span class="line n4"></span>
+                             </div>
+                             -->
+
+                                <div class="business_item" data-type="1">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n1">금융지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_image" style="background-image:url('../../site/we/images/main/business_image01.jpg')"></div>
+                                        <div class="business_inner">
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="2">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n2">주거지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image02.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n2"><span>모집<br/>예정</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="3">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n3">교육지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image03.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n3"><span>모집<br/>완료</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="4">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n4">문화지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image04.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <!--
+                             <div class="business_item" data-type="5">
+                                 <a href="#" class="business_anchor">
+                                     <span class="business_type n5">복지지원</span>&lt;!&ndash; n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 &ndash;&gt;
+                                     <div class="business_inner">
+                                         <div class="business_image noimage"></div>&lt;!&ndash; 이미지 없을경우 'noimage' 붙여주세요  &ndash;&gt;
+                                         <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                         <ul class="business_info">
+                                             <li>
+                                                 <span class="dt">기간</span>
+                                                 <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                             </li>
+                                             <li>
+                                                 <span class="dt">신청</span>
+                                                 <span class="dd">온라인연계신청</span>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                     <div class="business_stat n1"><span>모집중</span></div>&lt;!&ndash; n1:모집중, n2:모집예정, n3:모집완료 &ndash;&gt;
+                                 </a>
+                                 <span class="line n1"></span>
+                                 <span class="line n2"></span>
+                                 <span class="line n3"></span>
+                                 <span class="line n4"></span>
+                             </div>
+                             -->
+
+                                <div class="business_item" data-type="1">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n1">금융지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_image" style="background-image:url('../../site/we/images/main/business_image01.jpg')"></div>
+                                        <div class="business_inner">
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="2">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n2">주거지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image02.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n2"><span>모집<br/>예정</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="3">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n3">교육지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image03.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n3"><span>모집<br/>완료</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="4">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n4">문화지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image04.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <!--
+                             <div class="business_item" data-type="5">
+                                 <a href="#" class="business_anchor">
+                                     <span class="business_type n5">복지지원</span>&lt;!&ndash; n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 &ndash;&gt;
+                                     <div class="business_inner">
+                                         <div class="business_image noimage"></div>&lt;!&ndash; 이미지 없을경우 'noimage' 붙여주세요  &ndash;&gt;
+                                         <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                         <ul class="business_info">
+                                             <li>
+                                                 <span class="dt">기간</span>
+                                                 <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                             </li>
+                                             <li>
+                                                 <span class="dt">신청</span>
+                                                 <span class="dd">온라인연계신청</span>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                     <div class="business_stat n1"><span>모집중</span></div>&lt;!&ndash; n1:모집중, n2:모집예정, n3:모집완료 &ndash;&gt;
+                                 </a>
+                                 <span class="line n1"></span>
+                                 <span class="line n2"></span>
+                                 <span class="line n3"></span>
+                                 <span class="line n4"></span>
+                             </div>
+                             -->
+
+                                <div class="business_item" data-type="1">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n1">금융지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_image" style="background-image:url('../../site/we/images/main/business_image01.jpg')"></div>
+                                        <div class="business_inner">
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="2">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n2">주거지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image02.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n2"><span>모집<br/>예정</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="3">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n3">교육지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image03.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n3"><span>모집<br/>완료</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="4">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n4">문화지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image04.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <!--
+                             <div class="business_item" data-type="5">
+                                 <a href="#" class="business_anchor">
+                                     <span class="business_type n5">복지지원</span>&lt;!&ndash; n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 &ndash;&gt;
+                                     <div class="business_inner">
+                                         <div class="business_image noimage"></div>&lt;!&ndash; 이미지 없을경우 'noimage' 붙여주세요  &ndash;&gt;
+                                         <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                         <ul class="business_info">
+                                             <li>
+                                                 <span class="dt">기간</span>
+                                                 <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                             </li>
+                                             <li>
+                                                 <span class="dt">신청</span>
+                                                 <span class="dd">온라인연계신청</span>
+                                             </li>
+                                         </ul>
+                                     </div>
+                                     <div class="business_stat n1"><span>모집중</span></div>&lt;!&ndash; n1:모집중, n2:모집예정, n3:모집완료 &ndash;&gt;
+                                 </a>
+                                 <span class="line n1"></span>
+                                 <span class="line n2"></span>
+                                 <span class="line n3"></span>
+                                 <span class="line n4"></span>
+                             </div>
+                             -->
+
+                                <div class="business_item" data-type="1">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n1">금융지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_image" style="background-image:url('../../site/we/images/main/business_image01.jpg')"></div>
+                                        <div class="business_inner">
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="2">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n2">주거지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image02.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n2"><span>모집<br/>예정</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="3">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n3">교육지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image03.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n3"><span>모집<br/>완료</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <div class="business_item" data-type="4">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n4">문화지원</span><!-- n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 -->
+                                        <div class="business_inner">
+                                            <div class="business_image" style="background-image:url('../../site/we/images/main/business_image04.jpg')"></div>
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div><!-- n1:모집중, n2:모집예정, n3:모집완료 -->
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                <!--
+                                <div class="business_item" data-type="5">
+                                    <a href="#" class="business_anchor">
+                                        <span class="business_type n5">복지지원</span>&lt;!&ndash; n1:금융지원, n2:주거지원, n3:교육지원, n4:문화지원, n5:복지지원 &ndash;&gt;
+                                        <div class="business_inner">
+                                            <div class="business_image noimage"></div>&lt;!&ndash; 이미지 없을경우 'noimage' 붙여주세요  &ndash;&gt;
+                                            <span class="business_subject">청년주택 임차보증금 지원 사업</span>
+                                            <ul class="business_info">
+                                                <li>
+                                                    <span class="dt">기간</span>
+                                                    <span class="dd">2024.02.26 ~ 2025.02.01</span>
+                                                </li>
+                                                <li>
+                                                    <span class="dt">신청</span>
+                                                    <span class="dd">온라인연계신청</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="business_stat n1"><span>모집중</span></div>&lt;!&ndash; n1:모집중, n2:모집예정, n3:모집완료 &ndash;&gt;
+                                    </a>
+                                    <span class="line n1"></span>
+                                    <span class="line n2"></span>
+                                    <span class="line n3"></span>
+                                    <span class="line n4"></span>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                        <div class="business_control">
+                            <button type="button" class="business_button prev">이전</button>
+                            <button type="button" class="business_button next">다음</button>
+                        </div>
+                        <a href="#" class="business_more"><span>전국 청년정책 바로가기</span></a>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup3 fade">
+                <div class="wrap">
+                    <section class="board">
+                        <h2 class="skip">알림</h2>
+                        <ul class="board_tab">
+                            <li class="tab_item active"><button type="button" class="tab_button">공지사항</button></li>
+                            <li class="tab_item"><button type="button" class="tab_button">새소식</button></li>
+                        </ul>
+                        <div class="board_content">
+                            <div class="skip">공지사항 목록</div>
+                            <div class="board_panel active">
+                                <ul class="board_list">
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="new">new</span>
+                                            <span class="board_subject">2024년 청년의날 청년축제 개최</span>
+                                            <span class="board_date">2024.09.15</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="board_subject">2024년 보은군 평생학습 어울림 축제</span>
+                                            <span class="board_date">2024.08.20</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="board_subject">대학생 학자금대출 이자지원 사업 신청자 하반기 모집공고</span>
+                                            <span class="board_date">2024.07.03</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="board_subject">2024년 세계 정신건강의 날 심포지엄</span>
+                                            <span class="board_date">2024.06.23</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="board_more"><span>더보기</span></a>
+                            </div>
+                            <div class="board_panel">
+                                <ul class="board_list">
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="new">new</span>
+                                            <span class="board_subject">2024년 청년의날 청년축제 개최2</span>
+                                            <span class="board_date">2024.09.15</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="board_subject">2024년 보은군 평생학습 어울림 축제2</span>
+                                            <span class="board_date">2024.08.20</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="board_subject">대학생 학자금대출 이자지원 사업 신청자 하반기 모집공고2</span>
+                                            <span class="board_date">2024.07.03</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="board_subject">2024년 세계 정신건강의 날 심포지엄2</span>
+                                            <span class="board_date">2024.06.23</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="board_more"><span>더보기</span></a>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class="popupzone">
+                        <h2 class="skip">팝업존</h2>
+                        <div class="popupzone_list">
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor"><img src="../../site/we/images/main/popupzone_image01.jpg" alt="이미지 alt"></a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor"><img src="../../site/we/images/main/popupzone_image02.jpg" alt="이미지 alt"></a>
+                            </div>
+                        </div>
+                        <div class="popupzone_control">
+                            <div class="popupzone_count">
+                                <span class="popupzone_current"></span>
+                                <span class="popupzone_total"></span>
+                            </div>
+                            <button type="button" class="popupzone_button prev">이전</button>
+                            <button type="button" class="popupzone_button next">다음</button>
+                            <button type="button" class="popupzone_button auto">일시정지</button>
+                        </div>
+                    </section>
+
+                    <section class="webzine">
+                        <h2 class="skip">웹진</h2>
+                        <a href="#" class="webzine_anchor">
+                            <div class="webzine_date">2024 <span>11</span></div>
+                            <span class="webzine_subject">Webzine</span>
+                            <div class="webzine_image">
+                                <span style="background-image:url('../../site/we/images/main/webzine_image.jpg')"></span>
+                            </div>
+                        </a>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup4 fade">
+                <div class="wrap">
+                    <section class="notice">
+                        <h2 class="notice_title">일자리 안내</h2>
+                        <div class="notice_list">
+                            <div class="notice_item">
+                                <a href="#" class="notice_anchor">
+                                    <div class="notice_inner">
+                                        <span class="notice_subject">시각장애인 복지관 (장애인 활동지원사 교육기관 전담 인력 모집)</span>
+                                        <ul class="notice_info">
+                                            <li class="notice_info_item n1">보은군 장안면</li>
+                                            <li class="notice_info_item n2">연봉 4,000만원 ~ 5,000만원</li>
+                                            <li class="notice_info_item n3">경력무관·학력무관</li>
+                                            <li class="notice_info_item n4">2024-10-26 까지</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="notice_item">
+                                <a href="#" class="notice_anchor">
+                                    <div class="notice_inner">
+                                        <span class="notice_subject">주식회사 양평도우누리 (현장 매니저 모집)</span>
+                                        <ul class="notice_info">
+                                            <li class="notice_info_item n1">보은군 전체</li>
+                                            <li class="notice_info_item n2">연봉 4,000만원 ~ 5,000만원</li>
+                                            <li class="notice_info_item n3">경력무관·학력무관</li>
+                                            <li class="notice_info_item n4">2024-10-26 까지</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="notice_item">
+                                <a href="#" class="notice_anchor">
+                                    <div class="notice_inner">
+                                        <span class="notice_subject">에이치오(HO) 메디 (생산 관리 업무 직원 모집)</span>
+                                        <ul class="notice_info">
+                                            <li class="notice_info_item n1">보은군 전체</li>
+                                            <li class="notice_info_item n2">연봉 4,000만원 ~ 5,000만원</li>
+                                            <li class="notice_info_item n3">경력무관·학력무관</li>
+                                            <li class="notice_info_item n4">2024-10-26 까지</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="notice_item">
+                                <a href="#" class="notice_anchor">
+                                    <div class="notice_inner">
+                                        <span class="notice_subject">에이치오(HO) 메디 (생산 관리 업무 직원 모집)</span>
+                                        <ul class="notice_info">
+                                            <li class="notice_info_item n1">보은군 전체</li>
+                                            <li class="notice_info_item n2">연봉 4,000만원 ~ 5,000만원</li>
+                                            <li class="notice_info_item n3">경력무관·학력무관</li>
+                                            <li class="notice_info_item n4">2024-10-26 까지</li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <a href="#" class="notice_more"><span>더보기</span></a>
+                    </section>
+                    <div class="youth">
+                        <h2 class="skip">우리동네 청년사장 바로가기</h2>
+                        <a href="#" class="youth_anchor">
+                            <span>보은군의 청년창업 현황</span>
+                            <span>우리동네 청년사장</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer id="footer">
+        <div class="wrap">
+            <div class="banner">
+                <h2 class="banner_title">배너모음</h2>
+                <div class="banner_list">
+                    <div class="banner_item"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">충북창조경제혁신센터</a></div>
+                    <div class="banner_item"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">고용노동부</a></div>
+                    <div class="banner_item"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">충청북도기업진흥원</a></div>
+                    <div class="banner_item"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">충청북도</a></div>
+                    <div class="banner_item"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">충북문화재단</a></div>
+                    <div class="banner_item"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">사이버진로교육센터</a></div>
+                    <div class="banner_item"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">일자리포털</a></div>
+                    <div class="banner_item"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">충북청년포털</a></div>
+                    <div class="banner_item"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">보은군청</a></div>
+                </div>
+                <div class="banner_control">
+                    <button type="button" class="banner_prev">이전</button>
+                    <button type="button" class="banner_auto"></button>
+                    <button type="button" class="banner_next">다음</button>
+                </div>
+            </div>
+            <div class="footer_content">
+                <div class="footer_link">
+                    <h2 class="skip">바로가기</h2>
+                    <ul class="link_list">
+                        <li class="link_item"><a href="#" class="link_anchor">개인정보처리방침</a></li>
+                        <li class="link_item"><a href="#" class="link_anchor">이메일무단수집거부</a></li>
+                        <li class="link_item"><a href="#" class="link_anchor">홈페이지오류신고</a></li>
+                        <li class="link_item"><a href="#" class="link_anchor">저작권보호정책</a></li>
+                        <li class="link_item"><a href="#" class="link_anchor">오시는길</a></li>
+                    </ul>
+                </div>
+                <div class="footer_info">
+                    <address>
+                        <span class="info_address">[28943] 충북 보은군 보은읍 군청길 38</span>
+                        <span class="info_tel">대표전화: 043-540-3000, 4000</span>
+                    </address>
+                    <p class="info_copyright">COPYRIGHT (C) BOEUN GUN. ALL RIGHTS RESERVED. <span>본사이트에 게시된 이메일주소는 자동수집을 거부하며, 이를 위반시 정보통신망법에 의해 처벌될 수 있습니다.</span></p>
+                </div>
+
+                <!--
+                <div class="wa">
+                    <a href="http://webwatch.or.kr/certification/situation.html" target="_blank" title="새창" rel="noopener noreferrer" class="wa_anchor">
+                        <img src="/common/images/layout/wa_mark.png" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)">
+                    </a>
+                </div>
+                -->
+
+            </div>
+            <button type="button" class="up_button">
+                <span class="circle"></span>top
+            </button>
+        </div>
+
+        <!--
+        cms 정보 불러오기
+        <div class="footer_info">
+            <address><span class="info_address">@@{siteInfo.insttAdres}</span><span class="info_tel">TEL : @@{siteInfo.insttTelno}</span></address>
+            <p class="info_copyright">@@{siteInfo.siteCpyrht}</p>
+        </div>
+        -->
+
+    </footer>
+
+</div>
+</body>
+</html>
