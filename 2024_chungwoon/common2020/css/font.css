@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* 본고딕 */
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 200;
+	src: url("../fonts/NotoSansCJKkr-Light.woff2") format('woff2'),
+	url("../fonts/NotoSansCJKkr-Light.woff") format('woff');
+}
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 300;
+    src: url("../fonts/NotoSansCJKkr-Regular.woff2") format('woff2'),
+    url("../fonts/NotoSansCJKkr-Regular.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 500;
+	src: url("../fonts/NotoSansCJKkr-Medium.woff2") format('woff2'),
+	url("../fonts/NotoSansCJKkr-Medium.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 600;
+	src: url("../fonts/NotoSansCJKkr-Bold.woff2") format('woff2'),
+	url("../fonts/NotoSansCJKkr-Bold.woff") format('woff');
+}
+
+/* 지마켓 폰트 GmarketSans */
+@font-face{
+    font-family:'GmarketSans';
+    font-weight:200;
+    src:url("/common2020/fonts/GmarketSans-Light.woff2") format('woff2'),
+    url("/common2020/fonts/GmarketSans-Light.woff") format('woff');
+}
+@font-face{
+    font-family:'GmarketSans';
+    font-weight:400;
+    src:url("/common2020/fonts/GmarketSansMedium.eot");
+    src:url("/common2020/fonts/GmarketSansMedium.eot?#iefix") format('embedded-opentype'),
+    url("/common2020/fonts/GmarketSansMedium.woff") format('woff');
+}
+@font-face{
+    font-family:'GmarketSans';
+    font-weight:600;
+    src:url("/common2020/fonts/GmarketSansBold.eot");
+    src:url("/common2020/fonts/GmarketSansBold.eot?#iefix") format('embedded-opentype'),
+    url("/common2020/fonts/GmarketSansBold.woff") format('woff');
+}
+
+/* Opensans */
+@font-face{
+    font-family:'Opensans';
+    font-weight: 400;
+    src: url("/common2020/fonts/OpensansR.woff2") format('woff2'),
+    url("/common2020/fonts/OpensansR.woff") format('woff');
+}
+
+@font-face{
+    font-family:'Opensans';
+    font-weight: 600;
+    src: url("/common2020/fonts/OpensansB.woff2") format('woff2'),
+    url("/common2020/fonts/OpensansB.woff") format('woff');
+}

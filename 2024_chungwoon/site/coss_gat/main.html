@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}" />
+    <meta name="description" content="@@{siteInfo.siteDc}" />
+    <link rel="stylesheet" type="text/css" href="../../site/coss_gat/css/font.css" />
+    <link rel="stylesheet" type="text/css" href="../../site/coss_gat/css/main.css" />
+    <!--[if lt IE 9]><script src="../../common2020/js/html5.js"></script><![endif]-->
+    <script src="../../common2020/js/jquery-1.12.4.min.js"></script>
+    <script src="../../common2020/js/jquery.easing.1.3.min.js"></script>
+    <script src="../../common2020/js/plugins.js"></script>
+    <script src="../../common2020/js/program.js"></script>
+    <script src="../../site/coss_gat/js/main.js"></script>
+    <script>
+        var site = {
+            id : '@@{siteInfo.siteId}',
+            key : '@@{key}',
+            layout : '@@{layout}',
+            order : '@@{menuInfo.naviList[0].menuOrdr}',
+            login : '<% if( null != loginVO ) { %>true<% }else{ %>false<% } %>'
+        };
+    </script>
+    <script src="../../common2020/js/layout.js"></script>
+    <script src="../../site/coss_gat/js/common.js"></script>
+    <script src="../../site/coss_gat/js/sub.js"></script>
+    <link rel="icon" href="../../site/coss_gat/images/common/favicon.png" type="image/x-icon">
+    <title>G.A.T 평생교육 통합관리플랫폼</title>
+</head>
+<body id="${siteInfo.tmplatId}">
+<div id="wrapper">
+    <header id="header">
+        <h1 class="skip">G.A.T 평생교육 통합관리플랫폼</h1>
+        <div class="accessibility">
+            <a href="#contents">본문 바로가기</a>
+        </div>
+
+        <div class="gnb">
+            <div class="wrap clearfix">
+                <div class="site">
+                    <ul class="site_list gnb_list clearfix">
+                        <li class="site_item n1"><a href="#n" target="_self" class="site_anchor">로그인</a></li>
+                        <li class="site_item n2"><a href="#n" target="_blank" title="새창" class="site_anchor">청운대학교</a></li>
+                        <li class="site_item n3"><a href="#n" target="_blank" title="새창" class="site_anchor">사이트맵</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="home">
+            <div class="logo">
+                <div class="wrap">
+                    <a href="#n" class="logo_anchor">
+                        <span class="logo_image">청운대학교 CHUNGWOON UNIVERSITY</span>
+                        <span class="logo_name">G.A.T 평생교육 통합관리플랫폼</span>
+                    </a>
+                </div>
+            </div>
+
+            <div id="lnb" class="lnb">
+                <div class="menu_show">
+                    <button type="button" class="menu_btn">주메뉴 열기</button>
+                </div>
+
+                <nav class="menu after eachdown init">
+                    <h2 class="skip">주메뉴</h2>
+
+                    <div class="menu_header">
+                        <div class="link">
+                            <ul class="link_list clearfix">
+                                <li class="link_item"><a href="#n" class="link_anchor">Home</a></li>
+                                <li class="link_item"><a href="#n" class="link_anchor">로그인</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="depth depth1"> <!-- 차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 : depth#, depth#_#) -->
+
+                        <div class="depth_title depth1_title">
+                            <div class="depth1_info">
+                            </div>
+                        </div>
+
+                        <ul class="depth_list depth1_list">
+                            <li class="depth_item depth1_item n1">
+                                <a href="#n" target="_self" class="depth_text depth1_text">비학위 프로그램</a>
+                                <div class="depth depth2">
+                                    <div class="depth2_content">
+                                        <div class="depth2_title"><span>비학위 프로그램</span></div>
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">전체</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">몸맘얼 프로그램</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">상담(학습/진로/컴퓨터)</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">직무 및 취창업</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">장애인활동지원사</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">기타</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="depth_item depth1_item n2">
+                                <a href="#n" target="_self" class="depth_text depth1_text">설문조사</a>
+                            </li>
+                            <li class="depth_item depth1_item n3">
+                                <a href="#n" target="_self" class="depth_text depth1_text">커뮤니티</a>
+                                <div class="depth depth2">
+                                    <div class="depth2_content">
+                                        <div class="depth2_title"><span>커뮤니티</span></div>
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">공지사항</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">자료실</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">FAQ</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">Q&A</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="depth_item depth1_item n4">
+                                <a href="#n" target="_self" class="depth_text depth1_text">마이페이지</a>
+                                <div class="depth depth2">
+                                    <div class="depth2_content">
+                                        <div class="depth2_title"><span>마이페이지</span></div>
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text">신청 내역</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menu_hide">
+                        <button type="button" class="menu_btn">주메뉴 닫기</button>
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+
+    <div id="container">
+        <main>
+
+            <div class="rowgroup">
+                <section class="visual">
+
+                    <div class="visual_bg">
+
+                    </div>
+
+                    <div class="wrap">
+                        <div class="visual_title">
+                            <span class="title n1">G.A.T 평생교육</span>
+                            <span class="title n2">통합관리플랫폼</span>
+                        </div>
+
+                        <div class="visual_search">
+                            <form method="" action="" name="" id="" class="search_form">
+                                <fieldset>
+                                    <legend>통합검색</legend>
+                                    <div class="search_wrap">
+                                        <div class="search_select">
+                                            <button type="button" class="selected_button" title="접수상태 목록 열기">접수상태전체</button>
+                                            <ul class="select_panel">
+                                                <li class="select_item"><button type="button" class="select_button">접수(대기)중</button></li>
+                                                <li class="select_item"><button type="button" class="select_button">운영중</button></li>
+                                                <li class="select_item"><button type="button" class="select_button">마감</button></li>
+                                            </ul>
+                                        </div>
+                                        <input type="search" id="" name="" title="검색어 입력" class="search_query" placeholder="강좌 관련 검색어를 입력하세요."/>
+                                        <button type="submit" title="검색" class="search_submit">검색</button>
+                                    </div>
+                                    <button type="button" class="search_open">상세검색</button>
+                                </fieldset>
+                            </form>
+
+                            <!-- 상세검색 -->
+                            <form method="" action="" name="" id="" class="search_form_detail">
+                                <fieldset>
+                                    <legend>통합검색</legend>
+                                    <div class="search_detail">
+                                        <div class="search_detail_wrap">
+                                            <div class="detail_box">
+                                                <ul class="detail_list n1">
+                                                    <li class="detail_item">
+                                                        <span>모집대상</span>
+                                                        <div>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check1" value=""><label for="check1">전체</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check2" value=""><label for="check2">재학생</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check3" value="" checked><label for="check3">지역주민</label></span>
+                                                        </div>
+                                                    </li>
+                                                    <li class="detail_item">
+                                                        <span>선정방법</span>
+                                                        <div>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check4" value=""><label for="check4">선착순</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check5" value=""><label for="check5">추첨</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check6" value=""><label for="check6">승인</label></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul class="detail_list n2">
+                                                    <li class="detail_item">
+                                                        <span>강좌구분</span>
+                                                        <div>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check7" value=""><label for="check7">전체</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check8" value=""><label for="check8">몸맘얼 프로그램</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check9" value=""><label for="check9">기초학습</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check10" value=""><label for="check10">상담(학습/진로/컴퓨터)</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check11" value=""><label for="check11">직무 및 취창업</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check12" value=""><label for="check12">장애인 활동지원사</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check13" value=""><label for="check13">기타</label></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul class="detail_list n3">
+                                                    <li class="detail_item">
+                                                        <span>접수기간</span>
+                                                        <div>
+                                                            <div class="p-date-group">
+                                                                <div class="p-form-group p-date" data-date="datepicker">
+                                                                    <input type="text" name="" value="" placeholder="yyyy-mm-dd">
+                                                                    <span class="date_button"><button type="button" class="p-date__icon">달력 열기</button></span>
+                                                                </div>
+                                                                <span class="date_split">~</span>
+                                                                <div class="p-form-group p-date" data-date="datepicker">
+                                                                    <input type="text" name="" value="" placeholder="yyyy-mm-dd">
+                                                                    <span class="date_button"><button type="button" class="p-date__icon">달력 열기</button></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="detail_item">
+                                                        <span>교육기간</span>
+                                                        <div>
+                                                            <div class="p-date-group">
+                                                                <div class="p-form-group p-date" data-date="datepicker">
+                                                                    <input type="text" name="" value="" placeholder="yyyy-mm-dd">
+                                                                    <span class="date_button"><button type="button" class="p-date__icon">달력 열기</button></span>
+                                                                </div>
+                                                                <span class="date_split">~</span>
+                                                                <div class="p-form-group p-date" data-date="datepicker">
+                                                                    <input type="text" name="" value="" placeholder="yyyy-mm-dd">
+                                                                    <span class="date_button"><button type="button" class="p-date__icon">달력 열기</button></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul class="detail_list n4">
+                                                    <li class="detail_item">
+                                                        <span>접수상태</span>
+                                                        <div>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check14" value=""><label for="check14">접수예정</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check15" value=""><label for="check15">선착순 접수중</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check16" value=""><label for="check16">추첨 접수중</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check17" value=""><label for="check17">승인 접수중</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check18" value=""><label for="check18">접수마감</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check19" value=""><label for="check19">교육중</label></span>
+                                                            <span class="gat_input"><input type="checkbox" name="checkbox" id="check20" value=""><label for="check20">교육종료</label></span>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                                <ul class="detail_list n5">
+                                                    <li class="detail_item">
+                                                        <select name="" id="" class="detail_select">
+                                                            <option value="">전체</option>
+                                                            <option value="">교육명</option>
+                                                            <option value="">강사명</option>
+                                                            <option value="">내용</option>
+                                                        </select>
+                                                        <input type="search" id="" name="" title="검색어 입력" class="search_query" placeholder="내용을 입력하세요.">
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="btn_wrap">
+                                                <div class="text_center">
+                                                    <button type="submit" title="검색" class="search_submit">검색</button>
+                                                    <button type="button" class="search_close">창닫기</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <!-- //상세검색 -->
+                        </div>
+
+                        <div class="visual_scroll">
+                            <span class="scroll"></span>
+                        </div>
+                    </div>
+
+
+
+                </section>
+            </div>
+
+            <div class="rowgroup2 fade">
+                <div class="wrap">
+                    <section class="shortcut">
+                        <h2 class="skip">바로가기</h2>
+                        <div class="shortcut_list">
+                            <div class="shortcut_item n1"><a href="#n" class="shortcut_anchor"><span>전체</span></a></div>
+                            <div class="shortcut_item n2"><a href="#n" class="shortcut_anchor"><span>몸맘얼<br/> 프로그램</span></a></div>
+                            <div class="shortcut_item n3"><a href="#n" class="shortcut_anchor"><span>기초학습</span></a></div>
+                            <div class="shortcut_item n4"><a href="#n" class="shortcut_anchor"><span>상담 <em>(학습/진로/컴퓨터)</em></span></a></div>
+                            <div class="shortcut_item n5"><a href="#n" class="shortcut_anchor"><span>직무 및<br/> 취창업</span></a></div>
+                            <div class="shortcut_item n6"><a href="#n" class="shortcut_anchor"><span>장애인<br/> 활동지원사</span></a></div>
+                            <div class="shortcut_item n7"><a href="#n" class="shortcut_anchor"><span>기타</span></a></div>
+                        </div>
+                        <div class="shortcut_dots"></div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup3 fade">
+                <div class="wrap">
+                    <section class="program">
+                        <h2 class="program_title">프로그램 목록</h2>
+
+                        <!-- program_stat n1 : 종료, program_stat n2 : 마감 -->
+                        <div class="program_list">
+                            <div class="program_item">
+                                <a href="#" class="program_anchor">
+                                    <span class="program_image">
+                                        <span class="image" style="background-image:url('../coss_gat/images/main/program_img1.jpg')"></span>
+                                    </span>
+                                    <div class="program_stat n1"><!-- 종료 : 'program_stat n1' -->
+                                        <span>종료 <em>D-99</em></span>
+                                    </div>
+                                    <div class="program_content">
+                                        <span class="program_text">2024 – 1학기 몸맘얼 프로그램 </span>
+                                        <p class="program_subject">반려견을 위한 목줄 만들기</p>
+                                        <ul class="program_info">
+                                            <li class="program_info_item date">
+                                                <span class="program_info_title">교육일정</span>
+                                                <span class="program_info_text">2023-06-05 ~ 2023-08-21</span>
+                                            </li>
+                                            <li class="program_info_item time">
+                                                <span class="program_info_title">교육시간</span>
+                                                <span class="program_info_text">13:00 ~ 15:00</span>
+                                            </li>
+                                            <li class="program_info_item person">
+                                                <span class="program_info_title">신청인원</span>
+                                                <span class="program_info_text">
+                                                    <span class="program_progress">
+                                                        <span class="progress num">40</span><!-- 신청인원 넣어주세요! -->
+                                                        <span class="progress total">50</span><!-- 총인원 넣어주세요! -->
+                                                    </span>
+                                                    <span class="program_number"><!-- 신청인원 / 총인원 'program_progress'와 동일하게 넣어주세요! -->
+                                                        <em class="num">40</em> / <span class="total">50</span>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="program_item">
+                                <a href="#" class="program_anchor">
+                                    <span class="program_image">
+                                        <span class="image" style="background-image:url('../coss_gat/images/main/program_img1.jpg')"></span>
+                                    </span>
+                                    <div class="program_stat n1"><!-- 종료 : 'program_stat n1' -->
+                                        <span>종료 <em>D-4</em></span>
+                                    </div>
+                                    <div class="program_content">
+                                        <span class="program_text">2024 – 1학기 몸맘얼 프로그램 </span>
+                                        <p class="program_subject">MBTI말고 DISC  행동유형분석!</p>
+                                        <ul class="program_info">
+                                            <li class="program_info_item date">
+                                                <span class="program_info_title">교육일정</span>
+                                                <span class="program_info_text">2023-06-05 ~ 2023-08-21</span>
+                                            </li>
+                                            <li class="program_info_item time">
+                                                <span class="program_info_title">교육시간</span>
+                                                <span class="program_info_text">13:00 ~ 15:00</span>
+                                            </li>
+                                            <li class="program_info_item person">
+                                                <span class="program_info_title">신청인원</span>
+                                                <span class="program_info_text">
+                                                    <span class="program_progress">
+                                                        <span class="progress num">60</span><!-- 신청인원 넣어주세요! -->
+                                                        <span class="progress total">100</span><!-- 총인원 넣어주세요! -->
+                                                    </span>
+                                                    <span class="program_number"><!-- 신청인원 / 총인원 'program_progress'와 동일하게 넣어주세요! -->
+                                                        <em class="num">60</em> / <span class="total">100</span>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="program_item">
+                                <a href="#" class="program_anchor">
+                                    <span class="program_image">
+                                        <span class="image" style="background-image:url('../coss_gat/images/main/program_img1.jpg')"></span>
+                                    </span>
+                                    <div class="program_stat n2"><!-- 마감 : 'program_stat n2' -->
+                                        <span>마감</span>
+                                    </div>
+                                    <div class="program_content">
+                                        <span class="program_text">2024 – 1학기 몸맘얼 프로그램 </span>
+                                        <p class="program_subject">홍성의 역사와 인물들</p>
+                                        <ul class="program_info">
+                                            <li class="program_info_item date">
+                                                <span class="program_info_title">교육일정</span>
+                                                <span class="program_info_text">2023-06-05 ~ 2023-08-21</span>
+                                            </li>
+                                            <li class="program_info_item time">
+                                                <span class="program_info_title">교육시간</span>
+                                                <span class="program_info_text">13:00 ~ 15:00</span>
+                                            </li>
+                                            <li class="program_info_item person">
+                                                <span class="program_info_title">신청인원</span>
+                                                <span class="program_info_text">
+                                                    <span class="program_progress">
+                                                        <span class="progress num">40</span>
+                                                        <span class="progress total">100</span>
+                                                    </span>
+                                                    <span class="program_number">
+                                                        <em class="num">40</em> / <span class="total">100</span>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="program_item">
+                                <a href="#" class="program_anchor">
+                                    <span class="program_image">
+                                        <span class="image" style="background-image:url('../coss_gat/images/main/program_img1.jpg')"></span>
+                                    </span>
+                                    <div class="program_stat n1">
+                                        <span>종료<em>D-4</em></span>
+                                    </div>
+                                    <div class="program_content">
+                                        <span class="program_text">취∙ 창업 역량강화프로그램 운영(비학위)</span>
+                                        <p class="program_subject">놀이치료사 양성과정 (기초반)</p>
+                                        <ul class="program_info">
+                                            <li class="program_info_item date">
+                                                <span class="program_info_title">교육일정</span>
+                                                <span class="program_info_text">2023-06-05 ~ 2023-08-21</span>
+                                            </li>
+                                            <li class="program_info_item time">
+                                                <span class="program_info_title">교육시간</span>
+                                                <span class="program_info_text">13:00 ~ 15:00</span>
+                                            </li>
+                                            <li class="program_info_item person">
+                                                <span class="program_info_title">신청인원</span>
+                                                <span class="program_info_text">
+                                                    <span class="program_progress">
+                                                        <span class="progress num">40</span>
+                                                        <span class="progress total">100</span>
+                                                    </span>
+                                                    <span class="program_number">
+                                                        <em class="num">40</em> / <span class="total">100</span>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="program_item">
+                                <a href="#" class="program_anchor">
+                                    <span class="program_image">
+                                        <span class="image" style="background-image:url('../coss_gat/images/main/program_img1.jpg')"></span>
+                                    </span>
+                                    <div class="program_stat n1">
+                                        <span>종료<em>D-4</em></span>
+                                    </div>
+                                    <div class="program_content">
+                                        <span class="program_text">2024-1학기 몸맘얼 프로그램</span>
+                                        <p class="program_subject">반려견을 위한 목줄 만들기</p>
+                                        <ul class="program_info">
+                                            <li class="program_info_item date">
+                                                <span class="program_info_title">교육일정</span>
+                                                <span class="program_info_text">2023-06-05 ~ 2023-08-21</span>
+                                            </li>
+                                            <li class="program_info_item time">
+                                                <span class="program_info_title">교육시간</span>
+                                                <span class="program_info_text">13:00 ~ 15:00</span>
+                                            </li>
+                                            <li class="program_info_item person">
+                                                <span class="program_info_title">신청인원</span>
+                                                <span class="program_info_text">
+                                                    <span class="program_progress">
+                                                        <span class="progress num">40</span>
+                                                        <span class="progress total">100</span>
+                                                    </span>
+                                                    <span class="program_number">
+                                                        <em class="num">40</em> / <span class="total">100</span>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="program_item">
+                                <a href="#" class="program_anchor">
+                                    <span class="program_image">
+                                        <span class="image" style="background-image:url('../coss_gat/images/main/program_img1.jpg')"></span>
+                                    </span>
+                                    <div class="program_stat n1">
+                                        <span>종료<em>D-4</em></span>
+                                    </div>
+                                    <div class="program_content">
+                                        <span class="program_text">2024-1학기 몸맘얼 프로그램</span>
+                                        <p class="program_subject">맞춤형 화장품 조제관리사 (국가자격)</p>
+                                        <ul class="program_info">
+                                            <li class="program_info_item date">
+                                                <span class="program_info_title">교육일정</span>
+                                                <span class="program_info_text">2023-06-05 ~ 2023-08-21</span>
+                                            </li>
+                                            <li class="program_info_item time">
+                                                <span class="program_info_title">교육시간</span>
+                                                <span class="program_info_text">13:00 ~ 15:00</span>
+                                            </li>
+                                            <li class="program_info_item person">
+                                                <span class="program_info_title">신청인원</span>
+                                                <span class="program_info_text">
+                                                    <span class="program_progress">
+                                                        <span class="progress num">40</span>
+                                                        <span class="progress total">100</span>
+                                                    </span>
+                                                    <span class="program_number">
+                                                        <em class="num">40</em> / <span class="total">100</span>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="program_item">
+                                <a href="#" class="program_anchor">
+                                    <span class="program_image">
+                                        <span class="image" style="background-image:url('../coss_gat/images/main/program_img1.jpg')"></span>
+                                    </span>
+                                    <div class="program_stat n1">
+                                        <span>종료<em>D-4</em></span>
+                                    </div>
+                                    <div class="program_content">
+                                        <span class="program_text">2024 – 1학기 몸맘얼 프로그램 </span>
+                                        <p class="program_subject">MBTI말고 DISC  행동유형분석!</p>
+                                        <ul class="program_info">
+                                            <li class="program_info_item date">
+                                                <span class="program_info_title">교육일정</span>
+                                                <span class="program_info_text">2023-06-05 ~ 2023-08-21</span>
+                                            </li>
+                                            <li class="program_info_item time">
+                                                <span class="program_info_title">교육시간</span>
+                                                <span class="program_info_text">13:00 ~ 15:00</span>
+                                            </li>
+                                            <li class="program_info_item person">
+                                                <span class="program_info_title">신청인원</span>
+                                                <span class="program_info_text">
+                                                    <span class="program_progress">
+                                                        <span class="progress num">40</span>
+                                                        <span class="progress total">100</span>
+                                                    </span>
+                                                    <span class="program_number">
+                                                        <em class="num">40</em> / <span class="total">100</span>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="program_item">
+                                <a href="#" class="program_anchor">
+                                    <span class="program_image">
+                                        <span class="image" style="background-image:url('../coss_gat/images/main/program_img1.jpg')"></span>
+                                    </span>
+                                    <div class="program_stat n2">
+                                        <span>마감</span>
+                                    </div>
+                                    <div class="program_content">
+                                        <span class="program_text">2024 – 1학기 몸맘얼 프로그램 </span>
+                                        <p class="program_subject">홍성의 역사와 인물들</p>
+                                        <ul class="program_info">
+                                            <li class="program_info_item date">
+                                                <span class="program_info_title">교육일정</span>
+                                                <span class="program_info_text">2023-06-05 ~ 2023-08-21</span>
+                                            </li>
+                                            <li class="program_info_item time">
+                                                <span class="program_info_title">교육시간</span>
+                                                <span class="program_info_text">13:00 ~ 15:00</span>
+                                            </li>
+                                            <li class="program_info_item person">
+                                                <span class="program_info_title">신청인원</span>
+                                                <span class="program_info_text">
+                                                    <span class="program_progress">
+                                                        <span class="progress num">40</span>
+                                                        <span class="progress total">100</span>
+                                                    </span>
+                                                    <span class="program_number">
+                                                        <em class="num">40</em> / <span class="total">100</span>
+                                                    </span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="program_control">
+                            <div class="program_button">
+                                <button type="button" class="program_prev">이전</button>
+                                <button type="button" class="program_next">다음</button>
+                            </div>
+                            <a href="#" class="program_more">더보기</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup4 fade">
+                <div class="wrap">
+                    <section class="board">
+                        <h2 class="skip">알림</h2>
+                        <div class="board_tab">
+                            <ul class="tab_list">
+                                <li class="tab_item active"><button type="button" class="tab_button"><span>공지사항</span></button></li>
+                                <li class="tab_item"><button type="button" class="tab_button"><span>자료실</span></button></li>
+                            </ul>
+                        </div>
+                        <div class="board_content">
+                            <div class="skip">공지사항 목록</div>
+                            <div class="board_panel active">
+                                <ul class="board_list">
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="date"><em>23</em>2023-06</span>
+                                            <span class="subject">2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 시상식 시상식 2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 시상식 시상식 2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 시상식 시상식</span>
+                                            <span class="text">우수상, 장려상 이름은 가나다순으로 표기 - 재학생은 장학금으로 지급, 재학생은 장학금으로</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="date"><em>23</em>2023-06</span>
+                                            <span class="subject">2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 시상식 시상식</span>
+                                            <span class="text">우수상, 장려상 이름은 가나다순으로 표기 - 재학생은 장학금으로 지급, 재학생은 장학금으로</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="date"><em>23</em>2023-06</span>
+                                            <span class="subject">2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 시상식 시상식</span>
+                                            <span class="text">우수상, 장려상 이름은 가나다순으로 표기 - 재학생은 장학금으로 지급, 재학생은 장학금으로</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="date"><em>23</em>2023-06</span>
+                                            <span class="subject">2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 시상식 시상식</span>
+                                            <span class="text">우수상, 장려상 이름은 가나다순으로 표기 - 재학생은 장학금으로 지급, 재학생은 장학금으로</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="board_more"><span>공지사항 더보기</span></a>
+                            </div>
+                            <div class="board_panel">
+                                <ul class="board_list">
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="date"><em>23</em>2023-06</span>
+                                            <span class="subject">2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 22</span>
+                                            <span class="text">우수상, 장려상 이름은 가나다순으로 표기 - 재학생은 장학금으로 지급, 재학생은 장학금으로</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="date"><em>23</em>2023-06</span>
+                                            <span class="subject">2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 22</span>
+                                            <span class="text">우수상, 장려상 이름은 가나다순으로 표기 - 재학생은 장학금으로 지급, 재학생은 장학금으로</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="date"><em>23</em>2023-06</span>
+                                            <span class="subject">2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 22</span>
+                                            <span class="text">우수상, 장려상 이름은 가나다순으로 표기 - 재학생은 장학금으로 지급, 재학생은 장학금으로</span>
+                                        </a>
+                                    </li>
+                                    <li class="board_item">
+                                        <a href="" class="board_anchor">
+                                            <span class="date"><em>23</em>2023-06</span>
+                                            <span class="subject">2024년 평생교육 통합플랫폼 수기 공모전 수상 결과 및 22</span>
+                                            <span class="text">우수상, 장려상 이름은 가나다순으로 표기 - 재학생은 장학금으로 지급, 재학생은 장학금으로</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#" class="board_more"><span>자료실 더보기</span></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup5 fade">
+                <div class="wrap">
+                    <section class="quick">
+                        <h2 class="skip">바로가기</h2>
+                        <ul class="quick_list">
+                            <li class="quick_item n1">
+                                <a href="#" class="quick_anchor active"><span>플랫폼 소개</span></a>
+                                <span class="quick_more">바로가기</span>
+                            </li>
+                            <li class="quick_item n2">
+                                <a href="#" class="quick_anchor"><span>설문조사</span></a>
+                                <span class="quick_more">바로가기</span>
+                            </li>
+                            <li class="quick_item n3">
+                                <a href="#" class="quick_anchor"><span>마이페이지</span></a>
+                                <span class="quick_more">바로가기</span>
+                            </li>
+                            <li class="quick_item n4">
+                                <a href="#" class="quick_anchor"><span>Q&A</span></a>
+                                <span class="quick_more">바로가기</span>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer id="footer">
+        <div class="link">
+            <div class="wrap">
+                <div class="link_scroll">
+                    <ul class="link_list clearfix">
+                        <li class="link_item n1"><a href="#n" class="link_anchor">개인정보처리방침</a></li>
+                        <li class="link_item n2"><a href="#n" class="link_anchor">개인정보 목적외 이용·제공대장</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="footer_content">
+                <div class="footer_info">
+                    <address>
+                        <span class="address">홍성캠퍼스 : (32244) 충남 홍성군 홍성읍 대학길</span>
+                        <span class="tel n1"><em>TEL.</em> 041-630-3114</span>
+                        <span class="tel n2"><em>FAX.</em> 041-634-8700</span>
+                    </address>
+                    <address>
+                        <span class="address">인천캠퍼스 : (22100) 인천광역시 남구 숙골로 113</span>
+                        <span class="tel n1"><em>TEL.</em> 032-770-8114</span>
+                        <span class="tel n2"><em>FAX.</em> 032-770-8126</span>
+                    </address>
+                    <p class="copyright">COPYRIGHT(C) CHUNGWOON UNIVERSITY. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+
+            <div class="site">
+                <ul class="site_list clearfix">
+                    <li class="site_item n1">
+                        <button type="button" class="site_open">교내기관</button>
+                        <div class="site_panel">
+                            <ul class="site_box">
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">기획처</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">교무연구처</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">교육혁신센터</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">교수학습지원센터</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">교직학부</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">교육혁신원</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">융합교육원</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">생명윤리심의위원회</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">비교과지원센터</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">학생처</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">장애학생지원센터</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">성희롱·성폭력 상담소</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">청운학사</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">입학처</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">대회협력처</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">교무연구처 연구지원팀</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">방송/예술연구소</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">취&middot;창업지원처 취업진로지원팀</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">취&middot;창업지원처 창업교육센터</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">취&middot;창업지원처 Design Thinking Center</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">현장실습지원센터</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">사무처</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">교학처</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">도서관</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">공연예술센터(청운예술극장)</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">전산정보지원팀</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">청운방송국</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">청운도서관(인천)</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">국제교육원</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">평생교육원</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">인천캠퍼스 평생교육원</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">사회공헌센터</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">창업보육센터</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">산학협력단</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">인천캠퍼스 산학협력단</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">예비군대대본부(홍성)</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">예비군대대본부(인천)</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">진로&middot;심리상담센터</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="site_item n2">
+                        <button type="button" class="site_open">교내사이트</button>
+                        <div class="site_panel">
+                            <ul class="site_box">
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-교양대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-공연영상예술대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">연극예술학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">뮤지컬학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">실용음악과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">공연기획경영학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">방송영화영상학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">미디어커뮤니케이션학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-호텔관광대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">호텔경영학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">관광경영학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">호텔조리식당경영학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">항공서비스경영학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-창의융합대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">디자인학부</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">디자인학부 공간디자인전공</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">디자인학부 무대영상디자인전공</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">디자인학부 패션디자인전공</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">융합경영학부</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-보건복지간호대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">간호학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">식품영양학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">사회복지학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">사회서비스대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-글로벌학부</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">영어전공</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">중국학전공</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">베트남학전공</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">미래창업학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-공연영상디자인대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">무대예술학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">패션뷰티디자인학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">공간디자인학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-공과대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">건축공학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">건축공학과 에너지소방전공</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">토목환경공학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">전자공학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">컴퓨터공학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">멀티미디어학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">화학공학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-경영대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">글로벌경영학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">광고홍보학과</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-산업대학</a></li>
+                                <li class="site_element"><a href="#n" target="_self" class="site_anchor">-대학원</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,629 @@
+/* */
+.cnt1284_icon{background-image:url(../images/contents/cnt1284_icon.png);}
+.cnt1292_icon{background-image:url(../images/contents/cnt1292_icon.png);}
+.cnt1293_icon{background-image:url(../images/contents/cnt1293_icon.png);}
+.cnt1298_icon{background-image:url(../images/contents/cnt1298_icon.png);}
+.cnt1299_icon{background-image:url(../images/contents/cnt1299_icon.png);}
+.cnt1304_icon{background-image:url(../images/contents/cnt1304_icon.png);}
+.cnt1305_icon{background-image:url(../images/contents/cnt1305_icon.png);}
+.cnt1308_icon{background-image:url(../images/contents/cnt1308_icon.png);}
+.cnt1309_icon{background-image:url(../images/contents/cnt1309_icon.png);}
+.cnt1335_icon{background-image:url(../images/contents/cnt1335_icon.png);}
+.cnt1336_icon{background-image:url('/common2020/images/program/cnt1336_icon.png');}
+.cnt1364_icon{background-image:url(../images/contents/cnt1364_icon.png);}
+.cnt1365_icon{background-image:url(../images/contents/cnt1365_icon.png);}
+.cnt1366_icon{background-image:url(../images/contents/cnt1366_icon.png);}
+.cnt1381_icon{background-image:url(../images/contents/cnt1381_icon.png);}
+.cnt1382_icon{background-image:url(../images/contents/cnt1382_icon.png);}
+.cnt1383_icon{background-image:url(../images/contents/cnt1383_icon.png);}
+.cnt1392_icon{background-image:url(../images/contents/cnt1392_icon.png);}
+.cnt1393_icon{background-image:url(../images/contents/cnt1393_icon.png);}
+.cnt1421_icon{background-image:url(../images/contents/cnt1421_icon.png);}
+.cnt1429_icon{background-image:url(../images/contents/cnt1429_icon.png);}
+.cnt1431_icon{background-image:url(../images/contents/cnt1431_icon.png);}
+.cnt1444_icon{background-image:url(../images/contents/cnt1444_icon.png);}
+.cnt1468_icon{background-image:url(../images/contents/cnt1468_icon.png);}
+.cnt1469_icon{background-image:url(../images/contents/cnt1469_icon.png);}
+.cnt1485_icon{background-image:url(../images/contents/cnt1485_icon.png);}
+.cnt1486_icon{background-image:url(../images/contents/cnt1486_icon.png);}
+.cnt1487_icon{background-image:url(../images/contents/cnt1487_icon.png);}
+.cnt1488_icon{background-image:url(../images/contents/cnt1488_icon.png);}
+.cnt1489_icon{background-image:url(../images/contents/cnt1489_icon.png);}
+.cnt1490_icon{background-image:url(../images/contents/cnt1490_icon.png);}
+.cnt1495_icon{background-image:url(../images/contents/cnt1495_icon.png);}
+.cnt1496_icon{background-image:url(../images/contents/cnt1496_icon.png);}
+.cnt1500_icon{background-image:url(../images/contents/cnt1500_icon.png);}
+.cnt1546_icon{background-image:url(../images/contents/cnt1546_icon.png);}
+.cnt1549_icon{background-image:url(../images/contents/cnt1549_icon.png);}
+.cnt1561_icon{background-image:url(../images/contents/cnt1561_icon.png);}
+.cnt1569_icon{background-image:url(../images/contents/cnt1569_icon.png);}
+.cnt1607_icon{background-image:url(../images/contents/cnt1607_icon.png);}
+.cnt2332_icon{background-image:url(../images/contents/cnt2332_icon.png);}
+.cnt2333_icon{background-image:url(../images/contents/cnt2333_icon.png);}
+.cnt2747_icon{background-image:url(../images/contents/cnt2747_icon.png);}
+/* */
+.visit_minwon{padding:50px 40px;background-color:#448ccb;}
+.visit_minwon .bg_box{padding:25px 0 0 315px;background:url(../images/contents/cnt1307_bg.png) no-repeat left top;color:#fff;}
+#contents .visit_minwon h3{margin:0;padding:0;background:none;color:#00f6ff;font-size:30px;line-height:32px;}
+.visit_minwon p{margin:15px 0 0 0;}
+@media all and (max-width:717px) {
+  .visit_minwon{padding:5% 4%;}
+  .visit_minwon .bg_box{padding:0;background:none;}
+}
+/* */
+.video_box{}
+.video_box .media{margin:0 0 20px;}
+.video_box .media video{width:100%;height:auto;}
+#contents .video_box h3{margin:0 0 15px;padding:0;background:none;font-size:25px;line-height:27px;}
+.video_box h3 i{display:inline-block;width:39px;height:28px;background:url(../images/contents/video_icon.gif) no-repeat 50%;vertical-align:middle;}
+.subtitle{padding:0 0 30px 0;background:url(../images/sub/sub_head_line.png) repeat-x left bottom;}
+.subtitle .inner{padding:15px;height:260px;border:1px solid #eee;}
+.subtitle .inner div{height:100%;overflow-y:auto;}
+/* */
+.market_top{position:relative;height:225px;padding:30px 0 0 300px;background-color:#272542;color:#fff;}
+.market_top .image{position:absolute;top:0;left:0;width:255px;height:255px;background:url(../images/contents/cnt1521.jpg) no-repeat 50%;}
+.market_top .image .mask{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background:url(../images/contents/contents_top1_bg.png) no-repeat left top;}
+.market_top .bg_right{display:block;position:absolute;top:0;right:0;width:132px;height:100%;background:url(../images/contents/contents_top1_bg.png) no-repeat right 50%;}
+.market_top .title{margin:0 0 15px 0;color:#fff;font-family:Makgeolli,NanumS;font-size:60px;line-height:64px;}
+.market_top .text{position:relative;z-index:1;}
+.market_top .text p{margin:0 0 20px;}
+.market_top .text p span{display:block;}
+.market_top .text ul li{color:#9392a1;}
+@media all and (max-width:717px) {
+  .market_top{height:auto;padding:5%;}
+  .market_top .image{display:none;}
+  .market_top .bg_right{opacity:0.4;}
+}
+@media all and (max-width:414px) {
+  .market_top .title{font-size:45px;line-height:49px;}
+}
+  /* */
+.market_info{padding:5%;background-color:#f9f9f9;border:1px solid #dadada;border-top:none;}
+.market_info .num li{float:left;width:25%;padding:0;}
+.market_info .num li div{padding:0 0 0 24px;}
+@media all and (max-width:768px) {
+  .market_info .num li{width:33.333333%;}
+}
+@media all and (max-width:560px) {
+  .market_info .num li{width:50%;}
+}
+@media all and (max-width:4000px) {
+  .market_info .num li{width:100%;}
+}
+/* 해뜨는 서산 > 상징물 > 상징물 */
+.left_image{position:relative;min-height:238px;padding:1px 0 35px 375px;}
+.left_image .image{position:absolute;top:0;left:0;width:375px;text-align:center;}
+.left_image.cnt1372{padding-left:250px;}
+.left_image.cnt1372 .image{width:250px;}
+.left_image.mobile_none_image{padding-left:250px;min-height:160px;}
+.left_image.mobile_none_image .image{top:15px;width:250px;}
+#contents .cts1372 .middle2{letter-spacing:0;}
+@media all and (max-width:640px) {
+  #contents .left_image{min-height:inherit;padding:0 0 35px 0}
+  .left_image .image{position:static;top:inherit;left:inherit;width:100%;margin:0 0 15px;text-align:center;}
+  .left_image .image img{width:100%;}
+  .left_image.mobile_none_image .image{display:none;}
+}
+/* */
+.festival_top{background:url(../images/contents/cnt1505_img.jpg) no-repeat 50% top;}
+.festival_top.cnt1506{background-image:url(../images/contents/cnt1506_img.jpg);}
+.festival_top.cnt1507{background-image:url(../images/contents/cnt1507_img.jpg);}
+.festival_top.cnt1508{background-image:url(../images/contents/cnt1508_img.jpg);}
+.festival_top.cnt1509{background-image:url(../images/contents/cnt1509_img.jpg);}
+.festival_top.cnt1510{background-image:url(../images/contents/cnt1510_img.jpg);}
+.festival_top.cnt1511{background-image:url(../images/contents/cnt1511_img.jpg);}
+
+.festival_top.cnt5769{background-image:url(../images/contents/cnt5769_img.jpg);}
+.festival_top.cnt5770{background-image:url(../images/contents/cnt5770_img.jpg);}
+.festival_top.cnt5771{background-image:url(../images/contents/cnt5771_img.jpg);}
+.festival_top.cnt5772{background-image:url(../images/contents/cnt5772_img.jpg);}
+
+.festival_top .title{width:300px;height:225px;padding:185px 20px 0 25px;background:url(../images/contents/festival_top.png) no-repeat left bottom;color:#fff;font-family:NanumBP;font-size:42px;line-height:66px;}
+.festival_top .title i{display:block;width:35px;height:2px;margin:0 0 48px;background-color:#fff;border-radius:2px;}
+.festival_top .title span{display:block;}
+@media screen and (max-width:414px) {
+  .festival_top{background-position:50%;}
+  .festival_top .title{width:100%;height:125px;padding:85px 0 0 0;background:rgba(0,52,113,.6);font-size:21px;line-height:23px;text-align:center;}
+  .festival_top .title span{display:inline-block;}
+  .festival_top .title i{margin:0 auto 10px;}
+}
+/* 해뜨는 서산 > 일반현황 > 위치/지리적여건 */
+.box .cnt1363 .inner_box{padding:5%;}
+.cnt1363 .text{float:left;width:45%;margin:50px 0 0 0;}
+.cnt1363 .point_text{margin:0 0 20px;color:#434343;font-size:37px;letter-spacing:-1px;line-height:39px;}
+.cnt1363 .point_text span{display:block;}
+.cnt1363 .point_text span .point_t1{color:#448ccb;font-size:45px;line-height:49px;}
+.cnt1363 .point_text .point_t2{color:#f26c4f;font-size:57px;font-weight:600;line-height:61px;}
+.cnt1363 .image{float:right;width:49%;height:360px;background:url(../images/contents/cnt1363_img1.png) no-repeat left bottom;text-align:right;}
+.cnt1363 a{display:inline-block;width:102px;height:102px;background:url(../images/contents/cnt1363_btn.png) no-repeat 50%;text-align:center;}
+.cnt1363 a i{display:inline-block;width:1px;height:102px;line-height:102px;vertical-align:middle;}
+.cnt1363 a span{display:inline-block;color:#fff;font-size:16px;line-height:18px;vertical-align:middle;}
+.cnt1363 a span em{display:block;}
+.cts1363 .img_original{}
+.cts1363 .img_original > span{display:block;margin-top:20px;font-size:15px;line-height:18px;}
+@media all and (max-width:890px) {
+  .box.type2 > .cnt1363{position:relative;padding:0;background:url(../images/contents/cnt1363_img1.png) #fff no-repeat 50%;}
+  .cnt1363 .text{position:relative;width:90%;margin:0;padding:5%;background-color:rgba(255,255,255,0.7);}
+  .cnt1363 .image{width:0;height:0;background:none;}
+  .cnt1363 a{position:absolute;top:50%;right:20px;margin:-51px 0 0 0;}
+}
+@media all and (max-width:414px) {
+  .cnt1363 .point_text span{display:inline-block;margin:0 10px 0 0;}
+  .cnt1363 .point_text,.cnt1363 .point_text span .point_t1,.cnt1363 .point_text .point_t2{font-size:21px;line-height:23px;}
+}
+@media all and (max-width:360px) {
+  .cnt1363 a{top:40px;right:30px;margin:0;}
+}
+/* */
+.cnt1383{position:relative;width:894px;height:444px;border:3px solid #e4e4e4;}
+.cnt1383 > a{display:block;position:absolute;padding:0 0 10px 0;background:url(../images/contents/map_bul.png) no-repeat 50% bottom;color:#fff;}
+.cnt1383 > a span{display:block;padding:0 25px;background-color:#f7941d;font-size:20px;line-height:38px;}
+.cnt1383 .city_btn1{top:79px;left:69px;}
+.cnt1383 .city_btn2{top:255px;left:687px;}
+@media all and (max-width:920px) {
+  .cnt1383{width:100%;height:auto;box-sizing:border-box;text-align:center;}
+  .cnt1383 img{width:100%;}
+  .cnt1383 > a{display:inline-block;position:static;top:inherit;left:inherit;background:none;}
+  .cnt1383 .img_original{margin:0;padding:0;}
+}
+@media all and (max-width:414px) {
+  .cnt1383 > a{display:block;width:100%;margin:2px;padding:0;text-align:center;}
+}
+/* */
+.organ{}
+#contents .organ h4{margin:0;padding:0;background:none;text-align:center;}
+#contents .organ h4 span{display:inline-block;padding:0 66px 0 0;background:url(../images/contents/cnt1382_bul.png) no-repeat right 50%;font-size:inherit; margin:0;}
+.organ h4 span em{display:inline-block;padding:0 0 0 65px;background:url(../images/contents/cnt1382_bul.png) no-repeat left 50%;color:#060606;font-size:30px;line-height:32px;}
+.office_list{width:101%;margin:0 0 0 -1%;}
+.office_list > li{float:left;margin:0 0 0 1%;text-align:center;}
+/* .office_list > li > a{display:block;padding:14px 0;color:#fff;font-size:18px;line-height:22px;} */
+.office_list > li > a{display:block;padding:14px 0;color:#fff;font-size:18px;line-height:22px;}
+
+.office_list ul{margin:5px 0 0 0;border-top:1px solid #d7d7d7;}
+.office_list li li{border:1px solid #d7d7d7;border-top:none;}
+.office_list li li a{display:block;color:#727272;font-size:15px;line-height:39px;}
+.office_list a:hover{font-weight:600;text-decoration:none;}
+.office_list a:hover span{font-weight:600;}
+.office_list > .vertical_org span{display:block;}
+.office_list > .vertical_org a:hover span{border-bottom:none;}
+.main_office{position:relative;margin:30px 0 55px;padding:409px 0 0 0;background:url(../images/contents/organ_line_01.png) no-repeat 50% 174px;text-align:center;}
+.main_office .mayor{display:block;position:absolute;top:0;left:50%;width:152px;height:119px;margin:0 0 0 -76px;padding:55px 0 0 0;background:url(../images/contents/cnt1382_title1.png) no-repeat 50%;text-align:center;color:#3862a0;font-size:20px;line-height:22px;}
+.main_office .mayor .name{display:block;margin:5px 0 0 0;font-size:28px;font-weight:600;line-height:30px;}
+.main_office .deputy_mayor{display:block;position:absolute;top:204px;left:50%;width:130px;height:147px;margin:0 0 0 -66px;padding:0;background:url(../images/contents/cnt1382_title2.png) no-repeat 50%;text-align:center;color:#3862a0;font-size:20px;line-height:147px;}
+.main_office .office_list > li{width:19%;}
+
+.main_office .office_list > li > a{background-color:#1893a5;}
+
+
+/* .main_office .office_list > .vertical_org{width:9%;} */
+/* .main_office .office_list > .vertical_org{width:5%;} */
+.main_office .office_list > .vertical_org{width:5%;}
+.main_office .office_list > .vertical_org :nth-child(1){background-color:#eeeeee; color:#666; }/*2020-05-14  색변경요청 css추가 */
+
+.direct_institution{float:left;width:39%;margin:0 0 55px;}
+.direct_institution .office_list{width:102%;margin:30px 0 0 -2%;}
+.direct_institution .office_list > li{width:48%;margin:0 0 0 2%;}
+.direct_institution .office_list > li > a{background-color:#5674b9;}
+.direct_institution .office_list > .single{width:98%;margin:5px 0 0 2%;}
+.direct_institution .office_list > .single :nth-child(1){background-color:#227326;} /*2020-05-14  색변경요청 css추가 */
+.business_place{float:right;width:37%; margin-right:89px;}
+.business_place .office_list{width:102%;margin:30px 0 0 -2%;}
+.business_place .office_list > li{width:23%;margin:0 0 0 2%;}
+.business_place .office_list > li > a{height:220px;background-color:#a06da3;}
+.town .office_list{width:102%;margin:30px 0 0 -2%;}
+.town .office_list > li{width:18%;margin:0 0 10px 2%;border-bottom:1px solid #d7d7d7;}
+.town .office_list > li > a{border:1px solid #d7d7d7;color:#727272;}
+.town .office_list > li > a span{color:#727272;}
+@media all and (max-width:640px) {
+  .office_list > .vertical_org span{display:inline-block;}
+  .main_office{padding:0;background:none;}
+  .main_office .mayor,.main_office .deputy_mayor{display:inline-block;position:static;top:inherit;left:inherit;margin:0;}
+  .main_office .office_list > .vertical_org{width:49%;margin:0 0 10px 1%;}
+  .main_office .office_list > li{width:24%;}
+  .direct_institution,.business_place{float:left;width:100%;margin:0 0 55px;}
+  .direct_institution .office_list > li,.direct_institution .office_list > .single{width:31.333333%;margin:0 0 0 2%;}
+  .business_place .office_list > li > a{height:36px;font-size:16px;line-height:18px;letter-spacing:-1px;}
+}
+@media all and (max-width:568px) {
+/*   .main_office .office_list > li{width:49%;min-height:420px;} */
+  .main_office .office_list > li{width:49%;min-height:360px;}
+/*   .main_office .office_list > .vertical_org{width:49%;min-height:inherit;margin:0 0 10px 1%;} */
+  .main_office .office_list > .vertical_org{width:100%;min-height:inherit;margin:0 0 10px 1%;}
+  .direct_institution,.business_place{float:left;width:100%;margin:0 0 55px;}
+  .direct_institution .office_list > li,.direct_institution .office_list > .single{width:31.333333%;margin:0 0 0 2%;}
+  .business_place .office_list > li{width:31.333333%;margin:0 0 5px 2%;}
+  .business_place .office_list > li > a{height:auto;}
+}
+@media all and (max-width:414px) {
+  .business_place .office_list > li{width:48%;}
+}
+@media all and (max-width:360px) {
+  .direct_institution .office_list > li{width:48%;margin:0 0 0 2%;}
+  .direct_institution .office_list > .single{width:98%;margin:5px 0 0 2%;}
+  .town .office_list > li{width:31.333333%;}
+}
+/* */
+.government{}
+.government .map_btn{}
+.map_btn{position:relative;}
+.map_btn button{display:block;position:absolute;padding:3px 10px;background-color:#f26522;color:#fff;}
+.map_btn button span{color:#fff;font-size:15px;line-height:17px;}
+.map_btn button:hover span,.map_btn button.active span{border-bottom:1px solid #fff;font-weight:600;}
+.map_btn #tab1m1{left:193px;top:212px;}/* 본관 */
+.map_btn #tab1m2{left:265px;top:225px;}/* 동별관 */
+.map_btn #tab1m3{left:127px;top:270px;}/* 서별관 */
+.map_btn #tab1m4{left:134px;top:182px;}/* 후별관 */
+.map_btn #tab1m5{left:1px;top:19px;}/* 문화회관 */
+.map_btn #tab1m6{left:186px;top:152px;}/* 서경관 */
+.map_btn #tab1m7{left:46px;top:382px;}/* 해양수산과 */
+.map_btn #tab1m8{left:197px;top:444px;}/* 수도과 */
+.map_btn #tab1m9{left:779px;top:456px;}/* 서산시청 제2청사 1동 */
+.map_btn #tab1m10{left:843px;top:393px;}/* 서산시청 제2청사 2동 */
+.map_btn #tab1m15{left:87px;top:233px;}/* 시민공동체과 */
+/*
+.map_btn #tab1m1{top:102px;left:103px;}
+.map_btn #tab1m2{top:102px;left:181px;}
+.map_btn #tab1m3{top:153px;left:31px;}
+.map_btn #tab1m4{top:64px;left:31px;}
+.map_btn #tab1m5{top:26px;left:99px;}
+.map_btn #tab1m6{top:64px;left:120px;}
+.map_btn #tab1m7{top:228px;left:41px;}
+.map_btn #tab1m8{top:304px;left:100px;}
+.map_btn #tab1m9{top:352px;left:741px;}
+.map_btn #tab1m10{top:283px;left:810px;}
+*/
+.select_btn{padding:30px 0;background-color:#4d5360;text-align:center;}
+.select_btn .title{display:inline-block;margin:0 18px 0 0;color:#fff;font-size:15px;line-height:35px;}
+.select_btn .title i{display:inline-block;width:20px;height:19px;vertical-align:middle;background:url(/common/images/sub/template_icon2.png) no-repeat -1086px -21px;}
+.select_btn .govern_list{display:inline-block;position:relative;width:55%;}
+.select_btn .govern_map{width:100%;margin:0;padding:0 0 0 15px;background:url('/common/images/sub/btn_open.png') #fff no-repeat 96% 50%;border:none;line-height:35px;vertical-align:middle;text-align:left;}
+.select_btn > button.govern_map.close{background-image:url('/common/images/sub/story_close.png');}
+.select_btn .layer{display:none;position:absolute;top:37px;left:0;width:100%;background-color:#fff;border-top:1px solid #dedede;border-left:1px solid #dedede;z-index:1;text-align:left;}
+.select_btn .layer li{float:left;width:33.333333%;font-size:13px;}
+.select_btn .layer li button,.select_btn .layer li a{width:100%;text-align:left;}
+.select_btn .layer li button span,.select_btn .layer li a span{display:block;padding:10px 15px;background:url('/common/images/sub/move_icon.png') no-repeat 95% 50%;border-right:1px solid #dedede;border-bottom:1px solid #dedede;}
+.government .map_ti{position:absolute;top:-2px;left:30px;width:130px;height:110px;padding:35px 0 0 0;background:url(../images/contents/govern_title.png) no-repeat left top;color:#fff;font-size:45px;line-height:47px;text-align:center;}
+@media all and (max-width:800px) {
+  .select_btn{padding:1% 0 3% 0;}
+  .select_btn .title{display:block;}
+  .select_btn .govern_list{width:90%;}
+  #contents .government .map_ti{display:block;position:static;top:inherit;left:inherit;height:23px;margin:0 0 15px 0;padding:5px 0;font-size:21px;line-height:23px;}
+  .government img{width:100%;}
+  .government .img_original{margin:0;padding:0;}
+  .government .map_btn button{position:static;top:inherit;left:inherit;}
+  .map_btn ul{width:100.0%;margin:0 0 0 -0.5%;}
+  .map_btn li{float:left;width:19.5%;margin:0 0 0.5% 0.5%;}
+  .map_btn button{width:100%;padding:5px 0;}
+}
+@media all and (max-width:568px) {
+  .map_btn li{float:left;width:24.5%;}
+}
+@media all and (max-width:414px) {
+  .select_btn .layer li{width:50%;}
+}
+@media all and (max-width:360px) {
+  .map_btn li{float:left;width:32.833333%;}
+}
+/* */
+.cnt1366{padding:5%;background:url(../images/contents/cnt1366_bg.png) repeat-x left bottom;text-align:center;}
+/* */
+.mayor{width:102%;margin:0 0 0 -2%;}
+.mayor > li{float:left;width:23%;margin:0 0 2% 2%;border-bottom:3px solid #7da7d9;}
+.mayor.type2 li{border-color:#8dc63f}
+.mayor.type3 li{border-color:#8781bd}
+.mayor.type4 li{border-color:#939393}
+.mayor .title{position:relative;padding:0 0 0 8px;background-color:#7da7d9;border:1px solid #7da7d9;color:#fff;font-size:17px;line-height:39px;}
+.mayor.type2 .title{background-color:#8dc63f;border-color:#8dc63f;}
+.mayor.type3 .title{background-color:#8781bd;border-color:#8781bd;}
+.mayor.type4 .title{background-color:#939393;border-color:#939393;}
+.mayor .title span{display:inline-block;position:absolute;top:0;right:0;padding:0 0 0 20px;background:url(/site/www/images/contents/mayor_pattern.png) no-repeat left top;}
+.mayor .title span em{display:block;padding:0 30px 0 10px;background-color:#fff;color:#000;line-height:39px;}
+.mayor li .line_box{min-height:215px;padding:35px 0;border-left:1px solid #dadada;border-right:1px solid #dadada;}
+.mayor .image{display:block;position:relative;width:91px;height:103px;margin:0 auto 25px auto;border:10px solid #f2f2f2;font-size:0;line-height:0;}
+.mayor .image img{position:absolute;top:0;left:0;bottom:0;right:0;width:100%;margin:auto;}
+.mayor .image.no_img{background:url(/common/images/program/no_img_pattern.png) no-repeat 50%;background-size:100% auto;}
+.mayor .text{margin:0 10px;color:#626262;font-size:15px;line-height:21px;vertical-align:middle;}
+.mayor .text li{position:relative;margin:3px 0;padding:0 0 0 48px;}
+.mayor .text span{display:block;position:absolute;top:0;left:0;width:40px;margin:0;background-color:#777;color:#fff;text-align:center;}
+.mayor .name{color:#003663;font-size:17px;line-height:21px;vertical-align:middle;}
+@media all and (max-width:800px) {
+  .mayor > li{width:31.333333%;}
+}
+@media all and (max-width:640px) {
+  .mayor > li{width:48%;}
+}
+@media all and (max-width:568px) {
+  .mayor > li{width:48%;}
+  .mayor .title{padding:0 0 0 1.5%;}
+}
+@media all and (max-width:360px) {
+  .mayor{width:100%;margin:0;}
+  .mayor > li{width:100%;margin:0 0 2%;}
+}
+/* */
+.cnt1380 .fleft{width:26.555556%;}
+.cnt1380 .fright{width:69%;}
+@media all and (max-width:800px) {
+  .cnt1380 .fleft{width:239px;}
+  .cnt1380 .fright{width:calc(100% - 264px);}
+}
+@media all and (max-width:640px) {
+  .cnt1380 .fleft{display:block;float:none;width:239px;margin:0 auto;}
+  .cnt1380 .fright{width:100%;margin:20px 0 0 0;}
+}
+/* */
+.cnt1379 .fright{width:60%;}
+.graphic_element{margin:25px;border-top:1px dashed #e5e5e5;}
+.graphic_element li{padding:0;border-bottom:1px dashed #e5e5e5;color:#000;font-family:NanumM, NanumS;font-size:23px;line-height:69px;vertical-align:middle;}
+.graphic_element li span{display:inline-block;height:69px;margin:0 60px 0 100px;font-size:0;line-height:69px;vertical-align:middle;}
+.graphic_element2{position:relative;padding:30px 0 30px 320px;color:#000;font-size:21px;line-height:23px;}
+.graphic_element2 span{position:absolute;top:50%;left:70px;margin:-34px 0 0 0;}
+@media all and (max-width:960px) {
+  .cnt1379 .fright{width:calc(100% - 335px);}
+}
+@media all and (max-width:840px) {
+  .graphic_element{}
+  .graphic_element li span{margin-left:0;}
+  .graphic_element2{padding:0;}
+  .graphic_element2 span{display:block;position:static;top:inherit;left:inherit;margin:10px 0;}
+  .graphic_element2 div{display:inline;margin:0 7px 0 0;}
+}
+@media all and (max-width:720px) {
+  .graphic_element li{padding:15px 0;font-size:17px;line-height:25px;}
+  .graphic_element li span{display:block;margin:0;}
+  .graphic_element li span img{width:100%;max-width:235px;}
+  .graphic_element2{font-size:17px;}
+}
+@media all and (max-width:568px) {
+  .cnt1379 .img_box{display:block;float:none;margin:0 0 10px;}
+  .cnt1379 .fright{width:100%;}
+}
+/* */
+.box2 .inner_box .cnt1512{position:relative;padding:0 0 0 300px;}
+.box2 .inner_box .cnt1512 img{position:absolute;top:50%;left:40px;width:100%;max-width:188px;margin:-94px 0 0 0;}
+@media all and (max-width:640px) {
+  .box2 .inner_box .cnt1512{padding:0;}
+  .box2 .inner_box .cnt1512 img{display:block;position:static;top:inherit;left:inherit;margin:10px auto;}
+}
+/* */
+.cnt1373{}
+.cnt1373 .img_box.type3{height:190px;padding:5% 0;}
+.cnt1373 > div{float:right;width:58.888889%;padding:0;margin:0;text-align:center;}
+.cnt1373 > div:first-child{float:left;width:38.888889%;}
+@media all and (max-width:1000px) {
+  .cnt1373 .img_original{padding:0;}
+  .cnt1373 .img_original a{display:none;}
+}
+@media all and (max-width:640px) {
+  #contents .cnt1373 > div{width:100%;margin:0 0 15px;}
+  .cnt1373 .img_box.type3{height:auto;padding:2% 0;}
+}
+@media all and (max-width:414px) {
+  .cnt1373 .img_box{position:relative;}
+  .cnt1373 .img_original{position:static;padding:0 0 55px;}
+  .cnt1373 .img_original a{display:block;}
+}
+/* */
+.cnt1374 > div{float:right;width:48%;padding:3% 0;margin:0;text-align:center;}
+.cnt1374 > div:first-child{float:left;}
+@media all and (max-width:1000px) {
+  .cnt1374 .img_original{padding:0;}
+  .cnt1374 .img_original a{display:none;}
+}
+@media all and (max-width:640px) {
+  #contents .cnt1374 > div{width:100%;margin:0 0 15px;}
+}
+@media all and (max-width:414px) {
+  .cnt1374 .img_box{position:relative;}
+  .cnt1374 .img_original{position:static;padding:0;}
+  .cnt1374 .img_original a{display:block;}
+}
+/* */
+.city_song{}
+.song_title{padding:30px 0;background-color:#685254;text-align:center;color:#fff;}
+.song_title .title{font-family:NanumM,NanumS;font-size:49px;line-height:53px;}
+.song_title .title i{display:inline-block;width:58px;height:61px;margin:0 7px 0 0;background:url(../images/contents/cnt1375_icon.png) no-repeat 50%;vertical-align:middle;}
+.song_title .songwriter{margin:15px 0 0 0;font-size:17px;line-height:21px;}
+.song_lyrics{padding:50px 0;border:1px solid #dfdfdf;border-top:none;}
+.song_lyrics .lyrics_image{float:left;width:51.666667%;text-align:right;}
+.song_lyrics .lyrics_text{float:right;width:33.333333%;}
+#contents .song_lyrics .lyrics_text h3{margin:0 0 30px;padding:0;background:none;color:#000;font-family:NanumM,NanumS;font-size:45px;line-height:49px;}
+#contents .song_lyrics .lyrics_text h4{margin:0 0 15px 0;padding:0;background:none;color:#000;font-size:19px;line-height:23px;}
+.song_lyrics .lyrics_text p{margin:0 0 50px;font-size:15px;line-height:19px;}
+.song_lyrics .lyrics_text p span{display:block;}
+@media all and (max-width:640px) {
+  .song_lyrics{padding:5%;}
+  .song_lyrics .lyrics_image{width:100%;text-align:center;}
+  .song_lyrics .lyrics_text{width:96%;padding:0 2%;}
+  .song_lyrics .lyrics_text p{margin:0;}
+  .song_lyrics .lyrics_text > div{float:left;width:50%;}
+}
+@media all and (max-width:414px) {
+  .song_lyrics .lyrics_text > div{width:100%;}
+  .song_title .title{font-size:23px;line-height:27px;}
+  #contents .song_lyrics .lyrics_text h3{margin:0 0 10px;font-size:21px;line-height:25px;}
+  #contents .song_lyrics .lyrics_text h4{margin:20px 0 5px;}
+  .song_lyrics .lyrics_text p span{color:#999;}
+}
+/* */
+.cnt1444{margin:40px 0 0 0;padding:0 0 20px;background:url(../images/contents/cnt1444_bg.jpg) no-repeat left top;text-align:center;}
+.cnt1444 .link{padding:45px 0;}
+.cnt1444 img{max-width:860px;}
+
+/* 미디어소통센터 */
+.menu_1208 > .wrap{width:100%;margin:0;}
+/*.menu_1208 #side,.menu_1208 .sub_head,*/.menu_1208 footer{display:none;}
+.menu_1208 .rowgroup{float:none;/*margin:0;width:100%;*/}
+.menu_1208 #contents{padding:0;}
+.media_center{}
+.media_center .media_box{padding:50px 0 34px;background-color:#ecf1f7;}
+.media_center .video_news{float:left;width:810px;padding:10px;background:#003471;}
+.media_center .video_news a{display:block;position:relative;padding-left:270px;color:#fff;}
+.media_center .video_news a span{display:block;}
+.media_center .video_news .txt{position:absolute;left:0;top:0;width:235px;padding:18px 15px 0 20px;font-size:18px;}
+.media_center .video_news a:hover .title,.media_center .video_news a:hover .cont,.media_center .video_news a:hover .more{text-decoration:underline;}
+.media_center .video_news .txt span{font-size:14px;}
+.media_center .video_news .title{display:block;overflow:hidden;max-height:87px;margin:25px 0;font-size:25px;line-height:29px;}
+.media_center .video_news .title em{display:block;}
+.media_center .video_news .cont{overflow:hidden;max-height:54px;margin-bottom:15px;line-height:18px;}
+.media_center .video_news .date{color:#809ab8;}
+.media_center .video_news .date i{display:inline-block;width:16px;height:16px;margin-right:5px;background:url('../images/contents/date_icon.png') no-repeat left top;vertical-align:middle;}
+.media_center .video_news .more{display:inline-block;width:138px;padding:8px 0;margin-top:20px;border:1px solid #7390b1;text-align:center;}
+.media_center .video_news .more i{display:inline-block;width:8px;height:8px;margin-left:5px;background:url('../images/contents/media_center_more01.png') no-repeat left top;vertical-align:middle;}
+.media_center .video_news .video_img{position:relative;overflow:hidden;width:540px;height:350px;line-height:0;}
+.media_center .video_news .video_img img{}
+.media_center .video_news .video_img .video_btn{display:block;position:absolute;left:50%;top:50%;width:70px;height:70px;margin:-35px 0 0 -35px;background:url('../images/contents/video_news_btn.png') no-repeat center center;}
+.media_center .sijeong_promotion{position:relative;float:left;width:300px;height:370px;padding:0 30px;margin-left:10px;background:#5674b9;}
+.media_center .sijeong_promotion h2{padding:25px 0 18px;font-size:25px;line-height:30px;color:#fff;font-weight:normal;}
+.media_center .sijeong_promotion .post_list{overflow:hidden;height:198px;}
+.media_center .sijeong_promotion .post_list li{position:relative;padding:13px 0 13px 12px;border-bottom:1px solid #6782c0;background:url('../images/contents/media_center_list_bu.png') no-repeat left center;}
+.media_center .sijeong_promotion .post_list a{display:block;overflow:hidden;margin-right:65px;font-size:15px;color:#fff;text-overflow:ellipsis;white-space:nowrap;}
+.media_center .sijeong_promotion .post_list a span{display:inline-block;position:absolute;right:0;top:50%;padding-right:12px;margin-top:-11px;background:url('../images/contents/media_center_more02.png') no-repeat right center;font-size:14px;color:#bbcaed;}
+.media_center .sijeong_promotion .e_book{display:inline-block;margin-top:36px;font-size:20px;line-height:23px;color:#fff;}
+.media_center .sijeong_promotion .e_book i{display:inline-block;width:26px;height:22px;margin-right:11px;background:url('../images/contents/media_center_book_icon.png') no-repeat left top;vertical-align:middle;}
+.media_center .sijeong_promotion .sns_box{position:absolute;right:40px;bottom:30px;}
+.media_center .sijeong_promotion .sns_box li{float:left;margin-left:4px;}
+
+.media_center .link_icon{border-top:1px solid #ddd;border-bottom:1px solid #ddd;}
+.media_center .link_icon li{float:left;width:25%;text-align:center;}
+.media_center .link_icon a{display:block;padding:20px 0;border-right:1px solid #ddd;font-size:20px;color:#4d5360;}
+.media_center .link_icon li:first-child a{border-left:1px solid #ddd;}
+.media_center .link_icon a:hover{color:#5674b9;}
+.media_center .link_icon a span{display:inline-block;overflow:hidden;margin-right:16px;border-radius:30px;line-height:0;vertical-align:middle;}
+.media_center .link_icon a span i{display:inline-block;width:60px;height:60px;background:#d1cbc9 url('../images/contents/media_link_icon01.png') no-repeat center center;}
+.media_center .link_icon i.icon01{background-image:url('../images/contents/media_link_icon01.png');}
+.media_center .link_icon i.icon02{background-image:url('../images/contents/media_link_icon02.png');}
+.media_center .link_icon i.icon03{background-image:url('../images/contents/media_link_icon03.png');}
+.media_center .link_icon i.icon04{background-image:url('../images/contents/media_link_icon04.png');}
+.media_center .link_icon a:hover span i{background-color:#5674b9;}
+
+.media_center .seosan_photo{padding:36px 0 50px;background:#f9f9f9;}
+.media_center .seosan_photo h2{margin-bottom:50px;text-align:center;}
+.media_center .seosan_photo ul{margin-left:-10px;}
+.media_center .seosan_photo li{float:left;margin:10px 0 0 10px;}
+.media_center .seosan_photo a{display:block;position:relative;color:#fff;}
+.media_center .seosan_photo a span{display:block;}
+.media_center .seosan_photo .img{overflow:hidden;max-width:293px;height:292px;line-height:0;}
+.media_center .seosan_photo .img_hover{display:none;position:absolute;left:0;top:0;width:100%;height:100%;background:url('../images/contents/photo_hover_bg.png') repeat left top;font-size:16px;text-align:center;}
+.media_center .seosan_photo a:hover .img_hover{display:block;}
+.media_center .seosan_photo .img_hover .kind{display:inline-block;padding:0 8px;margin:85px 0 30px;}
+.media_center .seosan_photo .img_hover .kind.color_bg01{background-color:#a864a8;}
+.media_center .seosan_photo .img_hover .kind.color_bg02{background-color:#f7941d;}
+.media_center .seosan_photo .img_hover .kind.color_bg03{background-color:#448ccb;}
+.media_center .seosan_photo .img_hover .tit{display:block;margin-bottom:20px;font-size:30px;line-height:35px;font-weight:normal;letter-spacing:-1px;}
+
+/* 행정정보 > 정보공개/개방 > 사전정보공개 */
+.cnt3110 {border-top:1px solid #333341; border-left:1px solid #333341;}
+.cnt3110 li {float:left; width:12.5%; text-align:center;}
+.cnt3110 li a {display:block; padding:80px 0 18px; border-right:1px solid #333341; border-bottom:1px solid #333341; background-repeat:no-repeat; background-position:center 26%; font-size:15px; color:#000;}
+.cnt3110 li a:hover {text-decoration:underline;}
+.cnt3110 .all a:hover {background-color:#333341; background-image:url('../images/contents/cnt3110_all_on.png'); color:#fff;}
+.cnt3110 .all a {background-image:url('../images/contents/cnt3110_all_off.png');}
+.cnt3110 .icon02 a {background-image:url('../images/contents/cnt3110_icon02.png');}
+.cnt3110 .icon03 a {background-image:url('../images/contents/cnt3110_icon03.png');}
+.cnt3110 .icon04 a {background-image:url('../images/contents/cnt3110_icon04.png');}
+.cnt3110 .icon05 a {background-image:url('../images/contents/cnt3110_icon05.png');}
+.cnt3110 .icon06 a {background-image:url('../images/contents/cnt3110_icon06.png');}
+.cnt3110 .icon07 a {background-image:url('../images/contents/cnt3110_icon07.png');}
+.cnt3110 .icon08 a {background-image:url('../images/contents/cnt3110_icon08.png');}
+.cnt3110 .icon09 a {background-image:url('../images/contents/cnt3110_icon09.png');}
+.cnt3110 .icon10 a {background-image:url('../images/contents/cnt3110_icon10.png');}
+.cnt3110 .icon11 a {background-image:url('../images/contents/cnt3110_icon11.png');}
+.cnt3110 .icon12 a {background-image:url('../images/contents/cnt3110_icon12.png');}
+.cnt3110 .icon13 a {background-image:url('../images/contents/cnt3110_icon13.png');}
+@media all and (max-width:860px) {
+	.cnt3110 li {width:16.66%;}
+}
+@media all and (max-width:639px) {
+	.cnt3110 li {width:25%;}
+}
+@media all and (max-width:450px) {
+	.cnt3110 li {width:50%;}
+}
+
+/* 절차 */
+.box_step{margin:5px 0 20px;border:1px dashed #d4d4d4;}
+.box_step .box_wrap{padding:40px 0 15px 5%;}
+.box_step li.dep1{float:left;width:50%;margin-bottom:25px;}
+.box_step .inner_box{position:relative;text-align:center;width:70%;height:86px;line-height:86px;border:1px solid #96a0bc;box-sizing:border-box;}
+.box_step .inner_box:before{position:absolute;right:-4px;bottom:-5px;display:inline-block;width:100%;height:100%;content:'';border-right:3px solid #ededed;border-bottom:4px solid #ededed;}
+.box_step .inner_box:after{position:absolute;right:-28px;bottom:50%;display:inline-block;width:28px;height:8px;margin-bottom:-4px;content:'→';line-height:0;color:transparent;background:url(../images/sub/step_arrow.png) right center no-repeat;overflow:hidden;}
+.box_step li.last .inner_box{line-height:82px;border:3px solid #2b4380;}
+.box_step li.last .inner_box:before{right:-6px;bottom:-7px;padding:4px 4px 0 0;}
+.box_step li.last .inner_box:after{display:none;}
+.box_step .inner_box span{position:relative;display:inline-block;width:96%;font-size:15px;padding:0 2%;line-height:18px;color:#464646;vertical-align:middle;}
+.box_step .inner_box span span{display:block;width:auto;padding:8px 0 0;font-size:13px;line-height:15px;}
+.box_step.type1 .box_wrap{padding-right:5%;}
+.box_step.type1 li.dep1{width:100%;}
+.box_step.type1 .inner_box{width:100%;}
+.box_step.type1 .inner_box:after{display:none;}
+.box_step.type2 li.dep1{width:50%;}
+.box_step.type2 .inner_box{width:80%;}
+.box_step.type3 li.dep1{width:33.3%;}
+.box_step.type4 li.dep1{width:25%;}
+.box_step.type5 li.dep1{width:20%;}
+
+@media screen and (max-width:640px) {
+.box_step .box_wrap{padding:40px 5% 15px;}
+.box_step li.dep1{float:none;width:auto !important;padding-bottom:15px;}
+.box_step .inner_box{width:100% !important;}
+.box_step .inner_box:after{left:50%;bottom:-19px;margin:0 0 0 -15px;transform:rotate(90deg);}
+.box_step li.last{padding-bottom:0;}
+.box_step.vertical li.dep1{margin-bottom:12px; padding:97px 0 0 8%;}
+.box_step.vertical.vertical_type1 .inner_box:after{bottom:-50px; left:-13px; width:72px; height:22px; background-size:77px 9px;}
+}
+
+
+/** 2021-01-28 오픈 추가부분 **/
+/* 재난배상책임보험 */
+.content3585 .promotion {position:relative; height:0; max-width:100%; margin-bottom:15px; padding-bottom:56.25%;}
+.content3585 .promotion iframe {display:block; position:absolute; top:0; left:0; width:100%; height:100%;}
+.content3585 img {min-width:100%; max-width:100%;}
+.content3585 .col2 {display:inline-block; width:49%; vertical-align:top;}
+.content3585 .table_cover{padding-right:20px; padding-left:20px;}
+.content3585 .table tbody tr td:last-child{border-right:1px solid #d9d9d9;}
+@media all and (max-width:640px){
+	.content3585 .table_cover{padding-right:0; padding-left:0;}
+}
+
+/* 안전신문고 */
+.content3592 .promotion {position:relative; height:0; max-width:100%; padding-bottom:56.25%;}
+.content3592 .promotion iframe {display:block; position:absolute; top:0; left:0; width:100%; height:100%;}
+.content3592 .icon_box:before{display:block; position:absolute; top:35px; left:33px; width:96px; height:72px; margin:0; background-image:url('/site/www/images/contents/cnt3592_icon.png'); content:'';}
+
+/* 국가 안전대진단 */
+.content3594 img {min-width:100%; max-width:100%;}
+.content3594 .icon_box:before{display:block; position:absolute; top:35px; left:26px; width:111px; height:70px; margin:0; background-image:url('/site/www/images/contents/cnt3594_icon.png'); content:'';}
+@media all and (max-width:568px) {
+	.content3592 .icon_box:before {display:none;}
+	.content3594 .icon_box:before {display:none;}
+}
+
+/* 각종 비상 연락처 */
+.content3578 .messagebox{position:relative; width:382px; margin:100px auto 0; padding:3px; border-radius:10px; background-color:#e7f2fb;}
+.content3578 .messagebox:before{display:block; position:absolute; bottom:64px; left:0; width:100%; height:1px; background-color:#eee; content:'';}
+.content3578 .messagebox_inner{padding:10px 16px 20px; border:1px solid #b0c0cf; border-radius:10px; box-sizing:border-box; background-color:#fff; text-align:center;}
+.content3578 .messagebox_title{padding-left:20px; font-size:18px; background-color:#e7f2fb; font-weight:600; text-align:left; color:#448ccc; line-height:32px;}
+.content3578 .messagebox_content{height:64px; color:#0e49b5; line-height:64px;}
+.content3578 .messagebox_buttons{display:block; width:56px; height:30px; margin:10px auto 0; border:1px solid #0e49b5; border-radius:3px; box-sizing:border-box; background-color:#5298de; font-size:14px; color:#fff; line-height:30px; text-decoration:none;}
+@media all and (max-width:480px) {
+	.content3578 .messagebox{width:320px; margin-top:50px;} 
+	.content3578 .messagebox_title{font-size:16px;}
+}
+
+/* 사회재난, 자연재난 */
+.content3589 .inner_type2{padding:20px 70px; line-height:30px;}
+.content3589 .warning_text{position:relative; margin:40px 0 15px; margin-left:25px; line-height:20px;}
+.content3589 .warning_text:before{display:block; position:absolute; left:-25px; width:20px; height:20px; background-image:url('/site/www/images/contents/warning_icon.png'); content:'';}
+.content3589 .link_group{margin-left:-15px; font-size:0;}
+.content3589 .link_group .link_item{display:inline-block; position:relative; width:33.33%; margin-bottom:15px; padding-left:15px; box-sizing:border-box;}
+.content3589 .link_group .link_item > a{display:block; text-align:left;}
+.content3589 .link_group .link_item > a > i{display:block; position:absolute; top:16px; right:25px;}
+@media all and (max-width:800px) {
+	.content3589 .inner_type2{padding:0;}
+	.content3589 .link_group .link_item{width:50%;}
+}
+@media all and (max-width:520px) {
+	.content3589 .link_group .link_item{width:100%;}
+	.content3589 .menu_3590 .link_group .link_item{width:50%;}
+}

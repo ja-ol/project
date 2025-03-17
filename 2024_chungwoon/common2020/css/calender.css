@@ -1,0 +1,83 @@
+/* 학사일정 */
+#container .calendar .calendar_title {position:relative; margin-bottom:33px; padding:21px 0 20px; border-top:3px solid #0067d1; border-bottom:1px solid #d8d8d8; font-size:0; text-align:center;}
+#container .calendar .calendar_all {position:absolute; top:50%; left:0; width:150px; margin-top:-25px; padding:12px 0; background-color:#0067d1; font-size:18px; color:#fff; text-align:center;}
+#container .calendar .calendar_all:before {display:inline-block; width:20px; height:16px; margin-right:10px; background:url('/common2020/images/calender/calender_sprite.png') no-repeat left 36.06% / 210% 862.5%; vertical-align:-1px;}
+#container .calendar .calendar_all:after {display:block; position:absolute; right:0; bottom:0; border-bottom:15px solid #fff; border-left:14px solid transparent;}
+#container .calendar .calendar_move {position:relative; width:45px; height:45px; border:1px solid #a2a7ad; border-radius:50%; font-size:0; line-height:0; vertical-align:middle;}
+#container .calendar .calendar_move:before {display:block; position:absolute; top:50%; left:50%; width:21px; height:12px; margin-top:-6px; margin-left:-11px; background:url('/common2020/images/calender/calender_sprite.png') no-repeat; background-size:200% 1150%;}
+#container .calendar .calendar_move.prev:before {background-position:left top;}
+#container .calendar .calendar_move.next:before {background-position:left 17.46%;}
+#container .calendar .calendar_month {display:inline-block; margin:0 39px; font-size:28px; font-weight:600; color:#0067d1; line-height:30px; vertical-align:middle;}
+@media all and (max-width:800px) {
+    #container .calendar .calendar_all {width:110px; margin-top:-20px; padding:7px 0;}
+}
+@media all and (max-width:640px) {
+    #container .calendar .calendar_title {padding:11px 0 10px;}
+    #container .calendar .calendar_all {display:block; position:relative; width:90px; margin:0 auto 10px; padding:5px 0; font-size:15px;}
+    #container .calendar .calendar_all:before {width:15px; height:11px; margin-right:5px; vertical-align:0;}
+    #container .calendar .calendar_all:after {border-bottom-width:10px; border-left-width:9px;}
+    #container .calendar .calendar_move {width:30px; height:30px;}
+    #container .calendar .calendar_move:before {width:16px; height:8px; margin-top:-4px; margin-left:-8px;}
+    #container .calendar .calendar_month {margin:0 15px; font-size:20px;}
+}
+
+/* 캘린더 */
+#container .calendar .calendar_table {width:100%; table-layout:fixed;}
+#container .calendar .calendar_table th {height:67px; background-color:#2d4661; font-size:18px;color:#fff; vertical-align:middle;}
+#container .calendar .calendar_table td {height:131px; padding:8px 9px; border-right:1px solid #d8d8d8; border-bottom:1px solid #d8d8d8; vertical-align:top;}
+#container .calendar .calendar_table tbody tr td:first-child {border-left:1px solid #d8d8d8;}
+#container .calendar .calendar_num {position:relative; margin-bottom:8px; font-size:17px; font-weight:600; color:#656565;}
+#container .calendar .calendar_text {display:block; overflow:hidden; position:relative; width:100%; padding-left:10px; font-size:15px; color:#555; line-height:20px; text-align:left; text-overflow:ellipsis; white-space:nowrap;}
+#container .calendar .calendar_text:before {display:block; position:absolute; top:8px; left:0; width:3px; height:3px; border-radius:50%; background-color:#0597c0;}
+#container .calendar .calendar_text:hover {text-decoration:underline;}
+/* 레이어팝업 */
+#container .calendar .calendar_popup {display:none; position:fixed; top:0; left:0; z-index:30; width:100%; height:100%; background-color:rgba(0, 0, 0, 0.4); text-align:center;}
+#container .calendar .calendar_popup:before {display:inline-block; height:100%; vertical-align:middle;}
+#container .calendar .calendar_popup .popup_inner {display:inline-block; position:relative; width:520px; background-color:#fff; text-align:left; vertical-align:middle;}
+#container .calendar .calendar_popup .popup_close {position:absolute; top:21px; right:26px; z-index:10; width:20px; height:20px; background:url('/common2020/images/calender/calender_sprite.png') no-repeat left 100% / 210% 690%; font-size:0; line-height:0;}
+#container .calendar .calendar_popup .popup_title {padding:18px 31px; background-color:#015acd; font-size:21px; font-weight:500; color:#fff;}
+#container .calendar .calendar_popup .popup_info {padding:29px 40px;}
+#container .calendar .calendar_popup .popup_item {margin-bottom:22px;}
+#container .calendar .calendar_popup .popup_item:last-child {margin-bottom:0;}
+#container .calendar .calendar_popup .popup_day {position:relative; border-top:7px solid #ddd; border-right:7px solid #eee; border-bottom:7px solid #eee; border-left:7px solid #ddd;}
+#container .calendar .calendar_popup .popup_day:before,
+#container .calendar .calendar_popup .popup_day:after {display:block; position:absolute; width:14px; height:7px;}
+#container .calendar .calendar_popup .popup_day:before {bottom:-7px; left:-7px; background-color:#ddd;}
+#container .calendar .calendar_popup .popup_day:after {top:-7px; right:-7px; background-color:#eee;}
+#container .calendar .calendar_popup .popup_day .day_inner {position:relative; padding:4px; font-size:15px; font-weight:200; color:#444; text-align:center;}
+#container .calendar .calendar_popup .popup_day .day_inner:before,
+#container .calendar .calendar_popup .popup_day .day_inner:after {display:block; position:absolute; width:42px; height:8px; background:url('/common2020/images/calender/calender_sprite.png') no-repeat left 76.92% / 100% 1725%;}
+#container .calendar .calendar_popup .popup_day .day_inner:before {bottom:-7px; left:7px;}
+#container .calendar .calendar_popup .popup_day .day_inner:after {top:-7px; right:7px;}
+#container .calendar .calendar_popup .popup_text {position:relative; margin-top:11px; padding-left:12px; font-size:18px; font-weight:600; color:#034ea2;}
+#container .calendar .calendar_popup .popup_text:before {display:block; position:absolute; top:12px; left:0; width:4px; height:4px; border-radius:50%; background-color:#034ea2;}
+#container .calendar .sun .calendar_num {color:#de1e23;}
+#container .calendar .sat .calendar_num {color:#009fc1;}
+#container .calendar .calendar_table tbody tr:last-child .no {position:relative;}
+#container .calendar .calendar_table tbody tr:last-child .no:before {display:block;position:absolute; top:0; left:0; width:100%; height:130px; background-color:#f5f6f7}
+/* 일정있을때 */
+#container .calendar .calendar_table td.active .calendar_num:before {display:block; position:absolute; bottom:0; left:0; width:25px; height:3px; background-color:#0597c0;}
+@media all and (max-width:640px) {
+    #container .calendar .calendar_table th {height:47px; font-size:16px;}
+    #container .calendar .calendar_table td {height:101px; padding:4px 5px;}
+    #container .calendar .calendar_num {font-size:14px;}
+    #container .calendar .calendar_text {font-size:13px;}
+    #container .calendar .calendar_table tbody tr:last-child .no:before {height:100px;}
+    /* 레이어팝업 */
+    #container .calendar .calendar_popup .popup_inner {width:94%;}
+    #container .calendar .calendar_popup .popup_close {top:15px; right:21px;}
+    #container .calendar .calendar_popup .popup_title {padding:11px 21px; font-size:18px;}
+    #container .calendar .calendar_popup .popup_info {padding:19px 20px;}
+    #container .calendar .calendar_popup .popup_text {font-size:16px;}
+    #container .calendar .calendar_popup .popup_text:before {top:9px;}
+}
+
+/* 전체보기 */
+#container .calendar.all .calendar_all:before {width:20px; height:20px; background-position:left 59.32%; background-size:210% 690%; vertical-align:-3px;}
+@media all and (max-width:800px) {
+    #container .calendar.all .calendar_all {width:140px;}
+}
+@media all and (max-width:640px) {
+    #container .calendar.all .calendar_all {width:120px;}
+    #container .calendar.all .calendar_all:before {width:16px; height:16px; vertical-align:-2px;}
+}

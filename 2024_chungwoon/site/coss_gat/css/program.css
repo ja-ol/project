@@ -1,0 +1,390 @@
+@charset "UTF-8";
+
+body{font-weight:300;}
+
+.bbs .card--bgcolor{padding-top:30px; padding-bottom:30px; border-radius:7px; border-color:#f6f8fa; background:#f6f8fa;}
+.bbs .p-search .p-input{height:48px;}
+.bbs .p-search .p-button{height:48px; margin-top:0; margin-bottom:0; padding-left:25px; padding-right:25px; border-radius:4px; border-color:#3065dc; background-color:#3065dc; color:#fff; font-weight:300;}
+.bbs .p-search .p-button:after{display:inline-block; width:15px; height:15px; margin-top:5px; margin-left:5px; background:url('/site/coss_gat/images/program/search_icon.png') no-repeat; vertical-align:top;}
+.bbs .p-search .p-button:hover{border-color:#1a49b1; background-color:#1a49b1;}
+.bbs .p-search select.p-input{background:#fff url('/site/coss_gat/images/program/select_btn.png') no-repeat center right -1px;}
+@media all and (max-width:640px){
+    .bbs .card--bgcolor{padding-top:12px; padding-bottom:12px;}
+    .bbs .p-search .p-input{height:42px;}
+    .bbs .p-search .p-button{height:42px;}
+}
+
+.p-input__addon .p-input__item, .p-input__split .p-input__item{}
+.p-input{height:35px; border-radius:4px; border-color:#c3c6cd; color:#7d7d7d; font-weight:200; letter-spacing:-0.035em;}
+.p-input::placeholder{color:#7d7d7d; font-size:16px; font-weight:200; letter-spacing:-0.035em;}
+textarea.p-input{height:auto;}
+.p-input__addon .p-input__item, .p-input__split .p-input__item{height:35px;}
+.p-input__split .p-input__item.p-date__icon{background-color:#f6f9ff;}
+.p-date__icon:before{width:16px; height:18px; background:url('/site/coss_gat/images/main/visual_calendar.png') no-repeat center;}
+.em_b_black{color:#222; font-weight:400;}
+@media all and (max-width:640px){
+    .p-input::placeholder{font-size:14px;}
+}
+
+.p-form__label{line-height:1.5;}
+.p-form-checkbox, .p-form-radio{margin-right:20px; vertical-align:top;}
+.p-form-checkbox__label,
+.p-form-radio__label{padding-left:30px; color:#4d4d4d; line-height:22px;}
+.p-form-checkbox__label:before,
+.p-form-radio__label:before{width:22px; height:22px; border-color:#c3c6cd;}
+.p-form-radio__input:checked~.p-form-radio__label:after{top:8px; left:7px; background:#3065dc;}
+.p-form-radio__input:checked~.p-form-radio__label:before{border-color:#3065dc;}
+
+
+.p-table caption+tbody tr:first-child td,
+.p-table caption+tbody tr:first-child th,
+.p-table colgroup+tbody tr:first-child td,
+.p-table colgroup+tbody tr:first-child th{border-top-color:#393f50;}
+.p-table caption+tbody th,
+.p-table colgroup+tbody th{background-color:#f6f8fa; color:#2c313d; text-align:center;}
+.p-table td, .p-table th{border-color:#e0e1e3;}
+.p-table th{padding:15px 8px; font-weight:300;}
+.p-table td{color:#666; font-weight:300;}
+.p-datepicker td{padding-left:0!important;}
+.p-datepicker th{padding:0;}
+.bbs__form .p-table td{padding-left:18px;}
+.bbs__list .p-table th{border-bottom-color:#393f50;}
+@media all and (max-width:640px){
+    .p-table th{padding-top:12px; padding-bottom:12px;}
+}
+
+
+/* pagination */
+.p-pagination{margin-top:50px;}
+.p-page__control .p-page__link{width:45px; height:45px; margin-right:2px; margin-left:2px; border-radius:50%; border:1px solid #cdd2d9;}
+.p-page__control, .p-page__link-group{border:none;}
+.p-page__control .next-end:before,
+.p-page__control .next:before{margin-right:-2px;}
+.p-page__control .prev-end:before,
+.p-page__control .prev:before{margin-left:-2px;}
+.p-page__control .p-page__link.prev-end:before{width:14px; height:13px; background:url('/site/coss_gat/images/program/pagination_arrow1.png') no-repeat 0 0;}
+.p-page__control .p-page__link.prev:before{width:7px; height:12px; background:url('/site/coss_gat/images/program/pagination_arrow2.png') no-repeat 0 0;}
+.p-page__control .p-page__link.next:before{width:7px; height:12px; background:url('/site/coss_gat/images/program/pagination_arrow2.png') no-repeat 0 0; transform:rotate(180deg);}
+.p-page__control .p-page__link.next-end:before{width:14px; height:13px; background:url('/site/coss_gat/images/program/pagination_arrow1.png') no-repeat 0 0; transform:rotate(180deg);}
+.p-page__link-group{margin-top:2px; font-size:0; line-height:0;}
+.p-page__link{display:inline-block; width:40px; height:40px;  border:none; color:#767d87; font-size:16px; line-height:40px; font-weight:300;}
+.p-page__link:hover{background:none;}
+.p-page__link.active{border-radius:50%; background-color:#082a6f; color:#fff;}
+.p-page__link.active:after{display:none;}
+@media all and (max-width:765px){
+    .p-pagination{margin:20px auto;}
+    .p-page__control .p-page__link{width:auto; height:40px; margin-left:0; margin-right:0; border-radius:0; line-height:38px;}
+}
+
+
+/* 강좌목록 */
+.program.lecture_list .shortcut_list{position:relative; margin:0 20px 40px; font-size:0; line-height:0;}
+.program.lecture_list .shortcut_item{overflow:hidden; display:inline-block; position:relative; width:calc(100%/7); height:190px; border-radius:25px; vertical-align:top; text-align:center;}
+.program.lecture_list .shortcut_item:before{opacity:0; display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(241,245,255,1) 100%); content:''; transition:opacity 0.3s ease-in-out;}
+.program.lecture_list .shortcut_item:after{opacity:0; display:block; position:absolute; top:0; left:0; width:100%; height:100%; background:url('/site/coss_gat/images/main/shortcut_deco.png') no-repeat 0 0 / cover; content:''; transition:opacity 0.3s ease-in-out;}
+.program.lecture_list .shortcut_item .shortcut_anchor{display:block; position:relative; z-index:10; width:100%; height:100%; padding-top:123px;}
+.program.lecture_list .shortcut_item .shortcut_anchor:before{display:block; position:absolute; left:0; right:0; margin:0 auto; background-repeat:no-repeat; background-size:cover; content:'';}
+.program.lecture_list .shortcut_item.n1 .shortcut_anchor:before{top:32px; width:67px; height:70px; background-image:url('/site/coss_gat/images/main/shortcut_icon1.png');}
+.program.lecture_list .shortcut_item.n2 .shortcut_anchor:before{top:41px; width:61px; height:52px; background-image:url('/site/coss_gat/images/main/shortcut_icon2.png');}
+.program.lecture_list .shortcut_item.n3 .shortcut_anchor:before{top:38px; width:43px; height:59px; background-image:url('/site/coss_gat/images/main/shortcut_icon3.png');}
+.program.lecture_list .shortcut_item.n4 .shortcut_anchor:before{top:39px; width:54px; height:57px; background-image:url('/site/coss_gat/images/main/shortcut_icon4.png');}
+.program.lecture_list .shortcut_item.n5 .shortcut_anchor:before{top:39px; width:56px; height:57px; background-image:url('/site/coss_gat/images/main/shortcut_icon5.png');}
+.program.lecture_list .shortcut_item.n6 .shortcut_anchor:before{top:36px; width:58px; height:62px; background-image:url('/site/coss_gat/images/main/shortcut_icon6.png');}
+.program.lecture_list .shortcut_item.n7 .shortcut_anchor:before{top:36px; width:66px; height:63px; background-image:url('/site/coss_gat/images/main/shortcut_icon7.png');}
+.program.lecture_list .shortcut_item .shortcut_anchor span{color:#333; font-size:16px; line-height:24px; letter-spacing:-0.035em; font-weight:300;}
+.program.lecture_list .shortcut_item .shortcut_anchor span em{font-size:14px;}
+.program.lecture_list .shortcut_item .shortcut_anchor span br{display:none;}
+.program.lecture_list .shortcut .shortcut_item.active:before{opacity:1;}
+.program.lecture_list .shortcut .shortcut_item.active:after{opacity:1;}
+
+.program.lecture_list .bbs .card--bgcolor{margin-bottom:47px;}
+.program.lecture_list .bbs .p-search .p-form-group{display:block; width:auto; text-align:center;}
+.program.lecture_list .bbs .p-search .lecture_select_wrap{display:inline-block; vertical-align:top;}
+.program.lecture_list .bbs .p-search .lecture_select{display:inline-block; margin-left:2px; margin-right:2px; vertical-align:top;}
+.program.lecture_list .bbs .p-search .lecture_select.n1{width:195px;}
+.program.lecture_list .bbs .p-search .lecture_select.n2{width:145px;}
+.program.lecture_list .bbs .p-search .lecture_select.n3{width:145px;}
+.program.lecture_list .bbs .p-search .lecture_input{width:306px; margin-left:2px; margin-right:2px;}
+.program.lecture_list .bbs .p-search .p-button{width:100px; margin-left:2px!important;}
+
+.program.lecture_list .lecture_list_wrap{position:relative;}
+.program.lecture_list .tab .tab_panel{position:absolute; top:-10px; right:0;}
+.program.lecture_list .tab .tab_item{width:85px; margin-right:0; margin-bottom:0; border-color:#4f5565;}
+.program.lecture_list .tab .tab_item.list_btn{border-top-right-radius:0; border-bottom-right-radius:0;}
+.program.lecture_list .tab .tab_item.card_btn{border-top-left-radius:0; border-bottom-left-radius:0;}
+.program.lecture_list .tab .tab_item:before{display:inline-block; position:absolute; top:13px; left:12px; width:15px; height:15px; background-repeat:no-repeat; vertical-align:top;}
+.program.lecture_list .tab .tab_item.list_btn:before{background-image:url('/site/coss_gat/images/program/list_btn1.png');}
+.program.lecture_list .tab .tab_item.card_btn:before{left:19px; background-image:url('/site/coss_gat/images/program/card_btn1.png');}
+.program.lecture_list .tab .tab_button{height:40px; padding-left:20px; padding-right:0; color:#4f5565; font-size:15px;}
+.program.lecture_list .tab .tab_item.card_btn .tab_button{padding-left:25px;}
+.program.lecture_list .tab .tab_content{margin-top:25px;}
+.program.lecture_list .tab .tab_item.active{background-color:#4f5565;}
+.program.lecture_list .tab .tab_item.active .tab_button{color:#fff;}
+.program.lecture_list .tab .tab_item.active.list_btn:before{background-image:url('/site/coss_gat/images/program/list_btn2.png');}
+.program.lecture_list .tab .tab_item.active.card_btn:before{background-image:url('/site/coss_gat/images/program/card_btn2.png');}
+
+.program.lecture_list .p-table .p-subject{text-align:center;}
+.program.lecture_list .p-table .p-subject a:hover{color:#666; text-decoration:underline; text-underline-offset:3px;}
+.program.lecture_list .p-table .receipt_status{width:90px; height:40px; border-radius:4px; background-color:#0e63c8; color:#fff; font-size:14px; letter-spacing:-0.035em; line-height:38px; text-align:center;}
+.program.lecture_list .p-table .receipt_status.n1{background-color:#0e63c8;}
+.program.lecture_list .p-table .receipt_status.n2{background-color:#299b2c;}
+.program.lecture_list .p-table .receipt_status.n3{background-color:#019f8a;}
+.program.lecture_list .p-table .receipt_status.n4{background-color:#e25a5a;}
+.program.lecture_list .p-table .receipt_status.n5{background-color:#624fd6;}
+.program.lecture_list .p-table .receipt_status.n6{background-color:#0088c0;}
+.program.lecture_list .p-table .receipt_status.n7{background-color:#828690;}
+.program.lecture_list .p-table .apply_btn{min-width:80px; height:40px; padding:0; border-color:#84888c; background-color:#fff; color:#84888c; font-size:15px; line-height:38px;}
+.program.lecture_list .p-table .apply_btn:hover{border-color:#4f5565; color:#4f5565;}
+
+.program.lecture_list .card_content .program_list{font-size:0; line-height:0;}
+.program.lecture_list .card_content .program_item{display:inline-block; width:calc((100% - 120px)/4); margin-right:40px; padding-bottom:60px; vertical-align:top; transition:opacity 0.3s ease-in-out;}
+.program.lecture_list .card_content .program_item:nth-child(4),
+.program.lecture_list .card_content .program_item:last-child{margin-right:0;}
+.program.lecture_list .card_content .program_item:nth-child(n+5){padding-bottom:0;}
+.program.lecture_list .card_content .program_item .program_anchor{overflow:hidden; display:block; position:relative; border-radius:10px; border:1px solid #ddd; text-decoration:none; transition:box-shadow 0.3s ease-in-out;}
+.program.lecture_list .card_content .program_item .program_image{overflow:hidden; display:block; position:relative; height:215px;}
+.program.lecture_list .card_content .program_item .program_image:before{opacity:0; display:block; position:absolute; z-index:10; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.65); content:''; transition:opacity 0.3s ease-in-out;}
+.program.lecture_list .card_content .program_item .program_image:after{opacity:0; display:block; position:absolute; z-index:11; top:9px; left:6px; right:0; bottom:0; width:34px; height:33px; margin:auto; background:url('/site/coss_gat/images/main/program_arrow3.png') no-repeat; content:''; transition:opacity 0.3s ease-in-out;}
+.program.lecture_list .card_content .program_item .program_image .image{display:block; width:100%; height:100%; background-repeat:no-repeat; background-position:center; background-size:cover; transition:transform 0.3s ease-in-out;}
+.program.lecture_list .card_content .program_item .program_stat{display:inline-block; position:absolute; z-index:20; top:165px; right:18px; width:81px; height:81px; border-radius:50%; border:8px solid #fff; background-color:#3065dc; text-align:center;}
+.program.lecture_list .card_content .program_item .program_stat.n2{background-color:#828690;}
+.program.lecture_list .card_content .program_item .program_stat:before{display:inline-block; height:100%; vertical-align:middle; content:'';}
+.program.lecture_list .card_content .program_item .program_stat span{display:inline-block; color:#fff; font-size:15px; line-height:20px; font-weight:300; vertical-align:middle;}
+.program.lecture_list .card_content .program_item .program_stat span em{display:block;}
+.program.lecture_list .card_content .program_item .program_content{position:relative; padding:28px 23px;}
+.program.lecture_list .card_content .program_item .program_text{overflow:hidden; display:block; margin-bottom:9px; color:#6d6d6d; font-size:15px; line-height:20px; letter-spacing:-0.035em; font-weight:300; text-overflow:ellipsis; white-space:nowrap;}
+.program.lecture_list .card_content .program_item .program_subject{overflow:hidden; display:-webkit-box; height:60px; color:#222; font-size:20px; line-height:30px; letter-spacing:-0.035em; font-weight:500; word-break:keep-all; text-overflow:ellipsis; white-space:normal; word-wrap:break-word; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+.program.lecture_list .card_content .program_item .program_info{margin-top:30px;}
+.program.lecture_list .card_content .program_item .program_info .program_info_item{position:relative; padding-left:25px; font-size:16px; line-height:24px; letter-spacing:-0.025em;}
+.program.lecture_list .card_content .program_item .program_info .program_info_item+.program_info_item{margin-top:10px;}
+.program.lecture_list .card_content .program_item .program_info .program_info_item:before{display:block; top:4px; left:0; width:18px; height:18px; position:absolute; background-repeat:no-repeat; background-size:cover; content:'';}
+.program.lecture_list .card_content .program_item .program_info .program_info_item.date:before{background-image:url('/site/coss_gat/images/main/program_icon1.png');}
+.program.lecture_list .card_content .program_item .program_info .program_info_item.time:before{background-image:url('/site/coss_gat/images/main/program_icon2.png');}
+.program.lecture_list .card_content .program_item .program_info .program_info_item.person:before{background-image:url('/site/coss_gat/images/main/program_icon3.png');}
+.program.lecture_list .card_content .program_item .program_info .program_info_title{color:#222; font-weight:300;}
+.program.lecture_list .card_content .program_item .program_info .program_info_text{display:block; color:#6d6d6d; font-weight:300;}
+.program.lecture_list .card_content .program_item .program_info .program_info_item.person .program_info_text{color:#4d4d4d; font-size:14px; font-weight:300;}
+.program.lecture_list .card_content .program_item .program_info .program_info_item.person .program_info_text .num{color:#3065dc; font-weight:500;}
+.program.lecture_list .card_content .program_item .program_info .program_info_item.person .program_progress{display:inline-block; position:relative; width:calc(100% - 100px); height:3px; margin-top:11px; margin-right:8px; background-color:#e5e5e5; vertical-align:top;}
+.program.lecture_list .card_content .program_item .program_info .program_info_item.person .program_progress .progress{display:inline-block; position:absolute; top:0; left:0; height:100%; background-color:#333; font-size:0; line-height:0;}
+@media all and (min-width:1001px){
+    /* hover */
+    .program.lecture_list .card_content .program_item:hover .program_anchor{box-shadow:10px 17px 46px 0 rgba(0,0,0,0.08);}
+    .program.lecture_list .card_content .program_item:hover .program_image .image{transform:scale(1.1);}
+    .program.lecture_list .card_content .program_item:hover .program_image:before{opacity:1;}
+    .program.lecture_list .card_content .program_item:hover .program_image:after{opacity:1;}
+}
+@media all and (max-width:1440px){
+    .program.lecture_list .table_scroll{max-width:100%; overflow-y:scroll;}
+    .program.lecture_list .table_scroll table{min-width:1400px;}
+
+    .program.lecture_list .card_content .program_item{width:calc((100% - 60px)/4); margin-right:20px;}
+    .program.lecture_list .card_content .program_item .program_content{padding-left:15px; padding-right:15px;}
+}
+@media all and (max-width:1000px){
+    .program.lecture_list .shortcut_list{margin-left:0; margin-right:0;}
+    .program.lecture_list .shortcut_item{width:calc(100%/4); height:130px; border-radius:10px;}
+    .program.lecture_list .shortcut_item:after{background-size:contain;}
+    .program.lecture_list .shortcut_item .shortcut_anchor{padding-top:85px;}
+    .program.lecture_list .shortcut_item .shortcut_anchor:before{top:15px!important; transform:scale(0.6);}
+    .program.lecture_list .shortcut_item .shortcut_anchor span{font-size:15px; line-height:19px;}
+    .program.lecture_list .shortcut_item .shortcut_anchor span em{font-size:13px;}
+
+    .program.lecture_list .bbs .p-search .p-form-group{}
+    .program.lecture_list .bbs .p-search .lecture_select_wrap{display:block;}
+    .program.lecture_list .bbs .p-search .lecture_select{width:calc((100% - 30px)/3) !important;}
+    .program.lecture_list .bbs .p-search .lecture_select.n3{margin-right:0;}
+    .program.lecture_list .bbs .p-search .lecture_input{width:calc(100% - 123px);}
+
+    .program.lecture_list .card_content .program_item{width:calc((100% - 20px)/2); padding-bottom:30px;}
+    .program.lecture_list .card_content .program_item:nth-child(2),
+    .program.lecture_list .card_content .program_item:nth-child(6){margin-right:0;}
+    .program.lecture_list .card_content .program_item:nth-child(n+5){padding-bottom:30px;}
+    .program.lecture_list .card_content .program_item .program_content{padding-left:15px; padding-right:15px;}
+}
+@media all and (max-width:640px){
+    .program.lecture_list .shortcut_list{margin-bottom:30px;}
+    .program.lecture_list .shortcut_item{width:calc(100%/3); height:100px;}
+    .program.lecture_list .shortcut_item .shortcut_anchor{padding-top:65px;}
+    .program.lecture_list .shortcut_item .shortcut_anchor:before{top:10px!important; transform:scale(0.5);}
+    .program.lecture_list .shortcut_item.n1 .shortcut_anchor:before{top:5px!important;}
+    .program.lecture_list .shortcut_item .shortcut_anchor span{font-size:14px; line-height:18px;}
+    .program.lecture_list .shortcut_item .shortcut_anchor span em{font-size:11px;}
+
+    .program.lecture_list .bbs .p-search .lecture_select{display:block; width:100% !important; margin-left:0; margin-right:0;}
+    .program.lecture_list .bbs .p-search .lecture_input{width:calc(100% - 108px); margin-left:0;}
+    .program.lecture_list .table_scroll table{min-width:1000px;}
+
+    .program.lecture_list .tab .tab_panel{top:-7px;}
+    .program.lecture_list .tab .tab_item{width:70px;}
+    .program.lecture_list .tab .tab_item:before{top:11px; left:7px; width:13px; height:13px; background-size:cover;}
+    .program.lecture_list .tab .tab_item.card_btn:before{left:13px;}
+    .program.lecture_list .tab .tab_button{height:35px; padding-left:18px; font-size:13px;}
+    .program.lecture_list .tab .tab_item.card_btn .tab_button{padding-left:18px;}
+
+    .program.lecture_list .card_content .program_item{width:100%; margin-right:0;}
+    .program.lecture_list .card_content .program_item:last-child{padding-bottom:0;}
+    .program.lecture_list .card_content .program_item .program_stat{top:170px; width:65px; height:65px; border-width:6px;}
+    .program.lecture_list .card_content .program_item .program_stat span{font-size:13px; line-height:16px;}
+    .program.lecture_list .card_content .program_item .program_content{padding:20px 15px;}
+    .program.lecture_list .card_content .program_item .program_text{margin-bottom:4px; font-size:13px;}
+    .program.lecture_list .card_content .program_item .program_subject{height:48px; font-size:16px; line-height:24px;}
+    .program.lecture_list .card_content .program_item .program_info{margin-top:10px;}
+    .program.lecture_list .card_content .program_item .program_info .program_info_item{padding-left:20px; font-size:14px; line-height:22px;}
+    .program.lecture_list .card_content .program_item .program_info .program_info_item:before{width:15px; height:15px;}
+    .program.lecture_list .card_content .program_item .program_info .program_info_item+.program_info_item{margin-top:6px;}
+    .program.lecture_list .card_content .program_item .program_info .program_info_item.person .program_progress{width:calc(100% - 70px);}
+}
+
+/* 강좌정보 상세 */
+.program.lecture_detail{}
+.program.lecture_detail .info_title{position:relative; font-size:0; line-height:0;}
+.program.lecture_detail .info_title .info_type{display:inline-block; width:140px; border-radius:30px; background-color:#0e63c8; color:#fff; font-size:17px; line-height:50px; letter-spacing:-0.035em; vertical-align:top; text-align:center;}
+.program.lecture_detail .info_title .info_text{display:inline-block; width:calc(100% - 140px); padding-top:10px; padding-left:22px; color:#222; font-size:24px; line-height:30px; letter-spacing:-0.035em; font-weight:400; vertical-align:top;}
+.program.lecture_detail .info_wrap{position:relative; margin-top:30px; margin-bottom:90px; font-size:0; line-height:0;}
+.program.lecture_detail .info_wrap .info_left{display:inline-block; position:relative; width:560px; vertical-align:top;}
+.program.lecture_detail .info_wrap .info_left .info_slide{overflow:hidden; display:block; height:365px; border-radius:15px;}
+.program.lecture_detail .info_wrap .info_left .info_slide_item{height:365px; background-repeat:no-repeat; background-size:cover; background-position:center;}
+.program.lecture_detail .info_wrap .info_left .info_nav{position:relative; margin:20px -8px 0;}
+.program.lecture_detail .info_wrap .info_left .info_nav_item{overflow:hidden; display:inline-block; height:116px; margin:0 8px; border-radius:7px;}
+.program.lecture_detail .info_wrap .info_left .info_nav_item button{display:block; width:100%; height:100%; background-repeat:no-repeat; background-size:cover; background-position:center; font-size:0; line-height:0;}
+.program.lecture_detail .info_wrap .info_left .info_control{position:absolute; z-index:10; top:330px; right:0; width:176px; height:50px; padding-top:15px; border-top-left-radius:40px; background-color:#fff; text-align:center;}
+.program.lecture_detail .info_wrap .info_left .info_control button{display:inline-block; width:20px; height:21px; background-repeat:no-repeat; background-size:cover; vertical-align:top;}
+.program.lecture_detail .info_wrap .info_left .info_control button.info_prev{background-image:url('/site/coss_gat/images/program/info_arrow1.png');}
+.program.lecture_detail .info_wrap .info_left .info_control button.info_next{background-image:url('/site/coss_gat/images/program/info_arrow2.png');}
+.program.lecture_detail .info_wrap .info_left .info_control .info_count{display:inline-block; margin:0 16px; color:#4d4d4d; font-size:16px; line-height:20px; letter-spacing:-0.035em; vertical-align:top;}
+.program.lecture_detail .info_wrap .info_left .info_control .info_current{color:#193983; font-size:17px; font-weight:500;}
+.program.lecture_detail .info_wrap .info_right{display:inline-block; width:calc(100% - 610px); margin-left:50px; vertical-align:top;}
+.program.lecture_detail .info_wrap .info_right .table{margin:0;}
+.program.lecture_detail .info_wrap .info_right .table td{font-size:16px; text-align:left;}
+.program.lecture_detail .info_wrap .info_right .table td em{color:#222; font-weight:400;}
+.program.lecture_detail .info_wrap .info_right .btn_box{position:relative; margin-top:15px; padding:23px 10px; border-radius:7px; background-color:#f6f8fa; text-align:center;}
+@media all and (max-width:1440px){
+    .program.lecture_detail .info_wrap .info_left{display:block; margin-left:auto; margin-right:auto;}
+    .program.lecture_detail .info_wrap .info_right{width:100%; margin-top:50px; margin-left:0;}
+}
+@media all and (max-width:1000px){
+    .program.lecture_detail .info_title .info_type{width:125px; font-size:16px; line-height:45px;}
+    .program.lecture_detail .info_title .info_text{width:calc(100% - 125px); padding-top:8px; padding-left:15px; font-size:22px; line-height:28px;}
+    .program.lecture_detail .info_wrap .info_left{width:500px;}
+    .program.lecture_detail .info_wrap .info_left .info_slide{height:325px;}
+    .program.lecture_detail .info_wrap .info_left .info_slide_item{height:325px;}
+    .program.lecture_detail .info_wrap .info_left .info_nav_item{height:100px;}
+    .program.lecture_detail .info_wrap .info_left .info_control{top:285px;}
+}
+@media all and (max-width:640px){
+    .program.lecture_detail .info_title{text-align:center;}
+    .program.lecture_detail .info_title .info_type{width:105px; font-size:14px; line-height:35px;}
+    .program.lecture_detail .info_title .info_text{width:100%; padding-left:0; font-size:20px; line-height:26px;}
+    .program.lecture_detail .info_wrap{margin-bottom:40px;}
+    .program.lecture_detail .info_wrap .info_left{width:330px;}
+    .program.lecture_detail .info_wrap .info_left .info_slide{height:215px;}
+    .program.lecture_detail .info_wrap .info_left .info_slide_item{height:215px;}
+    .program.lecture_detail .info_wrap .info_left .info_nav{margin:10px -3px 0 -5px;}
+    .program.lecture_detail .info_wrap .info_left .info_nav_item{height:70px; margin:0 5px;}
+    .program.lecture_detail .info_wrap .info_left .info_control{top:180px; width:130px; height:35px; padding-top:10px; border-top-left-radius:30px;}
+    .program.lecture_detail .info_wrap .info_left .info_control button{width:16px; height:17px;}
+    .program.lecture_detail .info_wrap .info_left .info_control .info_count{margin:0 12px; font-size:13px; line-height:17px;}
+    .program.lecture_detail .info_wrap .info_left .info_control .info_current{font-size:14px;}
+    .program.lecture_detail .info_wrap .info_right{margin-top:40px;}
+    .program.lecture_detail .info_wrap .info_right .table td{font-size:14px;}
+    .program.lecture_detail .info_wrap .info_right .btn_box{padding:15px 10px;}
+}
+
+
+/* 강좌신청 - 정보입력 */
+.bbs.bbs__form .postbtn{height:35px; padding:5px 15px; border-radius:2px; border:none; background-color:#4f5565; font-size:14px; line-height:24px; letter-spacing:-0.035em; font-weight:300;}
+.bbs.bbs__form + .adress{margin-top:12px;}
+
+.program.lecture_form .privacy_box{position:relative;  margin-bottom:50px; padding:40px; border-radius:7px; background-color:#f6f8fa;}
+.program.lecture_form .privacy_scroll{height:210px; margin-bottom:25px; padding:30px; border-radius:7px; background-color:#fff;}
+.program.lecture_form .privacy_scroll .privacy_inner{overflow-y:scroll; height:152px;  padding-right:20px; color:#4d4d4d;}
+.program.lecture_form .privacy_scroll .privacy_inner::-webkit-scrollbar{width:4px; border-radius:5px;}
+.program.lecture_form .privacy_scroll .privacy_inner::-webkit-scrollbar-track{background-color:#e8eaee; border-radius:5px;}
+.program.lecture_form .privacy_scroll .privacy_inner::-webkit-scrollbar-thumb{background-color:#8d96aa; border-radius:5px;}
+.program.lecture_form .p-table .sms_text{display:inline-block;}
+.program.lecture_form .p-table .sms_text .caution{display:inline-block; margin-left:20px; margin-right:14px;}
+.program.lecture_form .p-table .person_wrap{padding-bottom:8px;}
+.program.lecture_form .p-table .person_wrap .person_btn{min-width:90px; height:35px; padding:0; font-size:14px; line-height:33px;}
+.program.lecture_form .p-table .person_wrap .person_btn#addPerson:after{display:inline-block; width:10px; height:11px; margin-top:11px; margin-left:4px; background:url('/site/coss_gat/images/program/person_plus.png') no-repeat; vertical-align:top;}
+.program.lecture_form .p-table .person_wrap .person_btn#removePerson:after{display:inline-block; width:12px; height:3px; margin-top:15px; margin-left:4px; background:url('/site/coss_gat/images/program/person_minus.png') no-repeat; vertical-align:top;}
+.program.lecture_form .p-table .person_wrap .caution{display:inline-block; margin-top:6px; margin-left:20px; vertical-align:top;}
+.program.lecture_form .p-table .person_td{padding-bottom:0;}
+.program.lecture_form .p-table .person_box{width:calc(100% + 18px); height:55px; margin-left:-18px; border-top:1px solid #e0e1e3;}
+.program.lecture_form .p-table .person_box li{display:inline-block; vertical-align:top;}
+.program.lecture_form .p-table .person_box li .person_label{display:inline-block; width:110px; height:54px; background-color:#f6f8fa; line-height:54px; text-align:center; vertical-align:top;}
+.program.lecture_form .p-table .person_box li .p-date-group{display:inline-block; height:54px; padding-top:8px; padding-left:8px; vertical-align:top;}
+.program.lecture_form .p-table .person_box li:nth-child(2) .p-date-group{padding-top:15px;}
+.program.lecture_form .text_center .btn{min-width:150px;}
+@media all and (max-width:1440px){
+    .program.lecture_form .p-table .person_box{height:auto;}
+    .program.lecture_form .p-table .person_box li{width:49%;}
+}
+@media all and (max-width:1000px){
+    .program.lecture_form .p-table .person_box li{width:100%;}
+}
+@media all and (max-width:765px){
+    .program.lecture_form .p-table .sms_text{margin-top:6px;}
+    .program.lecture_form .p-table .sms_text .caution{margin-left:0;}
+    .program.lecture_form .p-table .person_box{width:100%; margin-left:0;}
+}
+@media all and (max-width:640px){
+    .program.lecture_form .privacy_box{padding:20px;}
+    .program.lecture_form .privacy_scroll{margin-bottom:15px; padding:15px;}
+    .program.lecture_form .text_center .btn{min-width:110px;}
+}
+
+/* 강좌신청 - 신청완료 */
+.program.lecture_complete{position:relative;}
+.program.lecture_complete .complete_box{position:relative; margin-bottom:40px; padding:80px; border-radius:7px; background-color:#f6f8fa;}
+.program.lecture_complete .complete_inner{padding:54px 94px 56px; border-radius:30px; box-shadow:9px 15px 38px 0 rgba(0,0,0,0.05); background-color:#fff; text-align:center;}
+.program.lecture_complete .complete_inner .complete_title{position:relative; margin-bottom:33px; padding-bottom:37px; background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAABCAYAAAAW/mTzAAAAAXNSR0IArs4c6QAAABNJREFUGFdjrGzp/99eU8jIgAQARFYEAqs7sbQAAAAASUVORK5CYII=') repeat-x left bottom; color:#222; font-size:20px; line-height:30px; letter-spacing:-0.035em; font-weight:400; word-break:keep-all;}
+.program.lecture_complete .complete_inner .complete_title span{color:#3065dc;}
+.program.lecture_complete .complete_inner .complete_text{color:#6d6d6d; font-size:17px; line-height:30px; letter-spacing:-0.035em; font-weight:300;}
+.program.lecture_complete .complete_inner .complete_text em{color:#2d2d2d;}
+.program.lecture_complete .text_center .btn{min-width:150px;}
+@media all and (max-width:1440px){
+    .program.lecture_complete .complete_inner{padding-left:54px; padding-right:54px;}
+}
+@media all and (max-width:1000px){
+    .program.lecture_complete .complete_box{padding:45px;}
+}
+@media all and (max-width:640px){
+    .program.lecture_complete .complete_box{margin-bottom:30px; padding:25px;}
+    .program.lecture_complete .complete_inner{padding:30px 20px;}
+    .program.lecture_complete .complete_inner .complete_title{margin-bottom:20px; padding-bottom:20px; font-size:16px; line-height:24px;}
+    .program.lecture_complete .complete_inner .complete_text{font-size:14px; line-height:22px;}
+    .program.lecture_complete .text_center .btn{min-width:110px;}
+}
+
+/* 신청내역 */
+.program.application_list{}
+.program.application_list .caution_view{position:relative; padding-left:24px; color:#556584; letter-spacing:-0.035em; word-break:keep-all;}
+.program.application_list .caution_view:before{display:block; position:absolute; top:5px; left:0; width:19px; height:18px; background:url('/site/coss_gat/images/program/caution_view.png') no-repeat;}
+.program.application_list .p-table .apply_btn{min-width:80px; height:40px; padding:0; border-color:#84888c; background-color:#fff; color:#84888c; font-size:15px; line-height:38px;}
+.program.application_list .p-table .apply_btn:hover{border-color:#4f5565; color:#4f5565;}
+@media all and (max-width:1440px){
+    .program.application_list .table_scroll{max-width:100%; overflow-y:scroll;}
+    .program.application_list .table_scroll table{min-width:1400px;}
+}
+@media all and (max-width:765px){
+    .program.application_list .caution_view{margin-top:5px;}
+}
+@media all and (max-width:640px){
+    .program.application_list .caution_view:before{top:3px;}
+    .program.application_list .table_scroll table{min-width:1200px;}
+}
+
+/* 신청내역 - 상세보기 */
+.program.application_view{}
+.program .table_box{position:relative; margin-bottom:40px; padding:49px 44px; border-radius:7px; border:1px solid #ddd;}
+.program .table_box .table{margin:0;}
+.program .table_box .table td{text-align:left;}
+@media all and (max-width:1000px){
+    .program .table_box{padding:35px 30px;}
+    .program.application_view .btn_wrap .col-12.right .btn{min-width:85px;}
+}
+@media all and (max-width:640px){
+    .program .table_box{margin-bottom:30px; padding:25px 20px;}
+    .program.application_view .btn_wrap .col-12{width:100%;}
+}
