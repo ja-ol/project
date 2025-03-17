@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.01.popup {width:30px; height:30px; background:url('popup_sprite.png') no-repeat left top;}
+.02.popup {width:30px; height:30px; background:url('popup_sprite.png') no-repeat left -40px;}
+.03.popup {width:30px; height:30px; background:url('popup_sprite.png') no-repeat left -80px;}
+.04.popup {width:30px; height:30px; background:url('popup_sprite.png') no-repeat left -120px;}
+
+/* 가변 크기 */
+.01.popup {background-size:100% 500%;}
+.02.popup {background-position:left 33.33%; background-size:100% 500%;}
+.03.popup {background-position:left 66.66%; background-size:100% 500%;}
+.04.popup {background-position:left 100%; background-size:100% 500%;}

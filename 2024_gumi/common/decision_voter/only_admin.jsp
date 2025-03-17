@@ -1,0 +1,2 @@
+<%@ page language="java" contentType="application/json; charset=UTF-8" pageEncoding="UTF-8"%><%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>{"menu_no":"<c:out value="${param.menu_no}"/>", "result":"<c:out value="${sessionScope_loginVO.userSe eq 'ADMIN'}"/>"}
+<% System.out.println("voter admin = " + request.getParameter("menu_no")); %>

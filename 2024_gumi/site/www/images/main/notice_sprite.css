@@ -1,0 +1,8 @@
+@charset "utf-8";
+
+.01.notice {width:16px; height:16px; background:url('notice_sprite.png') no-repeat left top;}
+.02.notice {width:16px; height:16px; background:url('notice_sprite.png') no-repeat left -26px;}
+
+/* 가변 크기 */
+.01.notice {background-size:100% 262.5%;}
+.02.notice {background-position:left 100%; background-size:100% 262.5%;}

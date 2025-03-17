@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.01.map {width:33px; height:33px; background:url('map_sprite.png') no-repeat left top;}
+.02.map {width:33px; height:33px; background:url('map_sprite.png') no-repeat left -43px;}
+.03.map {width:33px; height:33px; background:url('map_sprite.png') no-repeat left -86px;}
+.04.map {width:33px; height:33px; background:url('map_sprite.png') no-repeat left -129px;}
+.05.map {width:33px; height:33px; background:url('map_sprite.png') no-repeat left -172px;}
+
+/* 가변 크기 */
+.01.map {background-size:100% 621.21%;}
+.02.map {background-position:left 25%; background-size:100% 621.21%;}
+.03.map {background-position:left 50%; background-size:100% 621.21%;}
+.04.map {background-position:left 75%; background-size:100% 621.21%;}
+.05.map {background-position:left 100%; background-size:100% 621.21%;}

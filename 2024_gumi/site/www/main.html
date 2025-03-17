@@ -1,0 +1,1225 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}" />
+    <meta name="description" content="@@{siteInfo.siteDc}" />
+    <link rel="stylesheet" type="text/css" href="../../common/css/font.css" />
+    <link rel="stylesheet" href="../../site/www/css/main.css">
+    <script src="../../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../../common/js/plugins.js"></script>
+    <script src="../../site/www/js/common.js"></script>
+    <script src="../../site/www/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/EasePack.min.js"></script>
+    <link rel="icon" href="../../site/www/images/common/favicon.png" type="image/x-icon">
+    <title>구미시통합예약</title>
+</head>
+
+<body id="${siteInfo.tmplatId}">
+<div id="wrapper">
+
+    <div class="top_banner">
+        <div class="inner">
+            <span class="nuri_text">이 누리집은 대한민국 공식 전자정부 누리집입니다.</span>
+        </div>
+    </div>
+
+    <header id="header">
+        <div class="accessibility">
+            <a href="#contents">본문 바로가기</a>
+        </div>
+
+        <div class="gnb">
+            <div class="wrap">
+                <div class="site">
+                    <ul class="site_list">
+                        <li class="site_item n1 on"><a href="./index.do" class="site_anchor">통합예약</a></li>
+                        <li class="site_item n2"><a href="https://www.gumi.go.kr/main.do" target="_blank" title="새창" class="site_anchor">대표포털</a></li>
+                        <li class="site_item n3"><a href="https://www.gumi.go.kr/tour/main.do" target="_blank" title="새창" class="site_anchor">문화관광</a></li>
+                        <li class="site_item n4"><a href="https://www.gumi.go.kr/job/main.do" target="_blank" title="새창" class="site_anchor">일자리경제</a></li>
+                        <li class="site_item n5"><a href="https://www.gumi.go.kr/wel/main.do" target="_blank" title="새창" class="site_anchor">시민정책</a></li>
+                        <li class="site_item n6"><a href="https://www.gumi.go.kr/policy/main.do" target="_blank" title="새창" class="site_anchor">인구정책</a></li>
+                        <li class="site_item n7"><a href="https://www.gumi.go.kr/biz/main.do" target="_blank" title="새창" class="site_anchor">기업지원</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="group">
+
+            <div class="logo">
+                <div class="wrap">
+                    <a href="https://www.gumi.go.kr/main.do" class="logo_anchor"><img src="../www/images/common/logo.png" alt="구미시"></a>
+                    <a href="./index.do" class="logo_text"><span>통합예약</span></a>
+                </div>
+            </div>
+
+            <div class="lnb">
+
+                <div class="menu_show">
+                    <button type="button" class="menu_btn">주메뉴 열기</button>
+                </div>
+
+                <nav class="menu after eachdown init" style="">
+                    <h2 class="skip">주메뉴</h2>
+                    <div class="menu_header">
+                        <div class="link">
+                            <ul class="link_list">
+                                <li class="link_item login"><a href="#" class="link_anchor">로그인</a></li>
+                                <!-- <li class="link_item logout"><a href="#" class="link_anchor">로그아웃</a></li> -->
+                                <li class="link_item sitemap"><a href="#" class="link_anchor">구미시청</a></li>
+                                <li class="link_item sitemap"><a href="#" class="link_anchor">문화관광</a></li>
+                                <li class="link_item sitemap"><a href="#" class="link_anchor">구미시의회</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="wrap">
+                        <div class="depth depth1"><!-- 차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 : depth#, depth#_#) -->
+                            <ul class="depth_list depth1_list cut">
+                                <li class="depth_item depth1_item has">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>시설예약</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">교육·강좌</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item has">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴 새창으로</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item has">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 #484d6b</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list cut">
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #66c8c</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>박정희대통령역사자료관 단체관람</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item has">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴 새창으로</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item has">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list cut">
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #66c8c</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item has">
+                                    <a href="#n" class="depth_text depth1_text"><span>교육·강좌</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">공연·전시</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item has">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item has">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list cut">
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #66c8c</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>박정희대통령역사자료관 단체관람</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item has">
+                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth1_text"><span>공연·전시</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">관광·체험</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item has">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item has">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list cut">
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #66c8c</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>박정희대통령역사자료관 단체관람</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item has">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>관광·체험</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">행정·시설</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item has">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>행정서비스</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">다목적접수</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item has">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>이용안내</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">공지사항</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item has">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>나의예약</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">공지사항</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu_hide">
+                        <button type="button" class="menu_btn">주메뉴 닫기</button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="search">
+                <div class="wrap">
+                    <h2 class="skip">통합검색</h2>
+                    <button type="button" class="search_show">검색창 열기</button>
+                    <div class="search_panel">
+                        <form method="" action="" name="" id="" class="search_form">
+                            <fieldset class="search_fieldset">
+                                <legend>검색</legend>
+                                <div class="search_input">
+                                    <input type="search" id="" name="" title="검색어 입력" class="search_query" placeholder="무엇이 궁금하세요?">
+                                </div>
+                                <input type="submit" class="search_submit" value="검색">
+                            </fieldset>
+                        </form>
+                        <button type="button" class="search_hide">검색창 닫기</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="link">
+                <div class="wrap">
+                    <ul class="link_list">
+                        <li class="link_item login"><a href="#" class="link_anchor">로그인</a></li>
+                        <!-- <li class="link_item logout"><a href="#" class="link_anchor">로그아웃</a></li> -->
+                        <li class="link_item sitemap"><a href="#" class="link_anchor">사이트맵</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div id="container">
+        <main>
+
+            <div class="rowgroup fade">
+                <div class="wrap">
+                    <section class="quick">
+                        <h2 class="skip">구미시 시설&amp;서비스 빠른 예약</h2>
+                        <!--<p class="quick_slogan"><span>쉽게</span> 찾고, <br><span>빠르게</span> 예약하세요<i>!</i></p>-->
+                        <form>
+                            <fieldset>
+                                <legend></legend>
+
+                                <ul class="quick_list">
+                                    <!-- step1 -->
+                                    <li class="quick_item n1">
+                                        <div class="quick_step">
+                                            <div class="step_title"><span>STEP. <span>1</span></span>예약선택</div>
+                                            <div class="step_box">
+                                                <ul class="step_list">
+                                                    <li class="step_item">
+                                                        <input type="radio" name="step1" id="step1_1" value="a" checked>
+                                                        <label for="step1_1"><span>체육시설</span></label>
+                                                    </li>
+                                                    <li class="step_item">
+                                                        <input type="radio" name="step1" id="step1_2" value="b">
+                                                        <label for="step1_2"><span>공공시설</span></label>
+                                                    </li>
+                                                    <li class="step_item">
+                                                        <input type="radio" name="step1" id="step1_3" value="c">
+                                                        <label for="step1_3"><span>교육강좌</span></label>
+                                                    </li>
+                                                    <li class="step_item">
+                                                        <input type="radio" name="step1" id="step1_4" value="d">
+                                                        <label for="step1_4"><span>관람/체험/견학</span></label>
+                                                    </li>
+                                                    <li class="step_item">
+                                                        <input type="radio" name="step1" id="step1_5" value="e">
+                                                        <label for="step1_5"><span>공공서비스</span></label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="step_open">더보기</button>
+                                    </li>
+                                    <!-- //step1 -->
+
+                                    <!-- step2 -->
+                                    <li class="quick_item n2">
+                                        <div class="quick_step">
+                                            <div class="step_title"><span>STEP. <span>2</span></span>분류선택</div>
+                                            <div class="step_box">
+                                                <div class="step_scroll">
+                                                    <ul class="step_list">
+                                                        <!-- data-type a:체육시설, b:공공시설, c:교육강좌, d:관람/체험/견학, e:공공서비스 -->
+                                                        <li class="step_item" data-type="a">
+                                                            <input type="radio" name="step2" id="step2_1" value="a1">
+                                                            <label for="step2_1">축구장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="a">
+                                                            <input type="radio" name="step2" id="step2_2" value="a2">
+                                                            <label for="step2_2">야구장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="a">
+                                                            <input type="radio" name="step2" id="step2_3" value="a3">
+                                                            <label for="step2_3">족구장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="a">
+                                                            <input type="radio" name="step2" id="step2_4" value="a4">
+                                                            <label for="step2_4">풋살장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="a">
+                                                            <input type="radio" name="step2" id="step2_5" value="a5">
+                                                            <label for="step2_5">파크골프장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="a">
+                                                            <input type="radio" name="step2" id="step2_6" value="a6">
+                                                            <label for="step2_6">기타체육시설</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type="b">
+                                                            <input type="radio" name="step2" id="step2_7" value="b1">
+                                                            <label for="step2_7">공연장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="b">
+                                                            <input type="radio" name="step2" id="step2_8" value="b2">
+                                                            <label for="step2_8">대강당</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="b">
+                                                            <input type="radio" name="step2" id="step2_9" value="b3">
+                                                            <label for="step2_9">강의실</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="b">
+                                                            <input type="radio" name="step2" id="step2_11" value="b5">
+                                                            <label for="step2_11">회의실</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="b">
+                                                            <input type="radio" name="step2" id="step2_10" value="b4">
+                                                            <label for="step2_10">기타</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type="c">
+                                                            <input type="radio" name="step2" id="step2_12" value="c1">
+                                                            <label for="step2_12">평생학습원</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="c">
+                                                            <input type="radio" name="step2" id="step2_13" value="c2">
+                                                            <label for="step2_13">강동문화복지회관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="c">
+                                                            <input type="radio" name="step2" id="step2_14" value="c3">
+                                                            <label for="step2_14">성리학역사관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="c">
+                                                            <input type="radio" name="step2" id="step2_15" value="c4">
+                                                            <label for="step2_15">박정희대통령역사자료관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="c">
+                                                            <input type="radio" name="step2" id="step2_16" value="c5">
+                                                            <label for="step2_16">보건소</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="c">
+                                                            <input type="radio" name="step2" id="step2_17" value="c6">
+                                                            <label for="step2_17">농업기술센터</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type="d">
+                                                            <input type="radio" name="step2" id="step2_18" value="d1">
+                                                            <label for="step2_18">단체관람</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="d">
+                                                            <input type="radio" name="step2" id="step2_19" value="d2">
+                                                            <label for="step2_19">구미투어 및 해설사</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="d">
+                                                            <input type="radio" name="step2" id="step2_20" value="d3">
+                                                            <label for="step2_20">체험</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="d">
+                                                            <input type="radio" name="step2" id="step2_21" value="d4">
+                                                            <label for="step2_21">견학</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type="e">
+                                                            <input type="radio" name="step2" id="step2_22" value="e1">
+                                                            <label for="step2_22">구미 알리미 신청</label>
+                                                        </li>
+                                                        <li class="step_item" data-type="e">
+                                                            <input type="radio" name="step2" id="step2_23" value="e2">
+                                                            <label for="step2_23">시정소식지 구미시대 신청</label>
+                                                        </li>
+                                                        <!--<li class="step_item" data-type="e">
+                                                            <input type="radio" name="step2" id="step2_24" value="e3">
+                                                            <label for="step2_24">학업장려금신청</label>
+                                                        </li>-->
+                                                        <li class="step_item" data-type="e">
+                                                            <input type="radio" name="step2" id="step2_25" value="e4">
+                                                            <label for="step2_25">공용차량 무료이용 신청</label>
+                                                        </li>
+                                                        <!--<li class="step_item" data-type="e">
+                                                            <input type="radio" name="step2" id="step2_26" value="e5">
+                                                            <label for="step2_26">환경개선부담금 신청</label>
+                                                        </li>-->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="step_open">더보기</button>
+                                    </li>
+                                    <!-- //step2 -->
+
+                                    <!-- step3 -->
+                                    <li class="quick_item n3">
+                                        <div class="quick_step">
+                                            <div class="step_title"><span>STEP. <span>3</span></span>분류선택</div>
+                                            <div class="step_box">
+                                                <ul class="step_info">
+                                                    <li><span>무료</span></li>
+                                                    <li><span>유료</span></li>
+                                                </ul>
+                                                <div class="step_scroll">
+                                                    <ul class="step_list">
+                                                        <li class="step_item paid" data-type2="a1"><!-- 유료일 경우 paid 추가 -->
+                                                            <input type="radio" name="step3" id="step3_1">
+                                                            <label for="step3_1">낙동강체육공원</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a1">
+                                                            <input type="radio" name="step3" id="step3_2">
+                                                            <label for="step3_2">동락공원</label>
+                                                        </li>
+                                                        <li class="step_item paid" data-type2="a1">
+                                                            <input type="radio" name="step3" id="step3_3">
+                                                            <label for="step3_3">신동생활체육공원</label>
+                                                        </li>
+                                                        <li class="step_item paid" data-type2="a1">
+                                                            <input type="radio" name="step3" id="step3_4">
+                                                            <label for="step3_4">선산체육공원</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a1">
+                                                            <input type="radio" name="step3" id="step3_5">
+                                                            <label for="step3_5">4단지완충저류시설</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="a2">
+                                                            <input type="radio" name="step3" id="step3_6">
+                                                            <label for="step3_6">낙동강체육공원</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a2">
+                                                            <input type="radio" name="step3" id="step3_7">
+                                                            <label for="step3_7">강변야구장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a2">
+                                                            <input type="radio" name="step3" id="step3_8">
+                                                            <label for="step3_8">동락공원야구장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a2">
+                                                            <input type="radio" name="step3" id="step3_9">
+                                                            <label for="step3_9">동락공원 유소년야구장</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="a3">
+                                                            <input type="radio" name="step3" id="step3_10">
+                                                            <label for="step3_10">신동생활체육공원</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a3">
+                                                            <input type="radio" name="step3" id="step3_11">
+                                                            <label for="step3_11">4단지완충저류시설</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="a4">
+                                                            <input type="radio" name="step3" id="step3_12">
+                                                            <label for="step3_12">낙동강체육공원</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="a5">
+                                                            <input type="radio" name="step3" id="step3_13">
+                                                            <label for="step3_13">구미파크골프장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a5">
+                                                            <input type="radio" name="step3" id="step3_14">
+                                                            <label for="step3_14">도개파크골프장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a5">
+                                                            <input type="radio" name="step3" id="step3_15">
+                                                            <label for="step3_15">동락파크골프장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a5">
+                                                            <input type="radio" name="step3" id="step3_16">
+                                                            <label for="step3_16">선산파크골프장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a5">
+                                                            <input type="radio" name="step3" id="step3_17">
+                                                            <label for="step3_17">양포파크골프장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a5">
+                                                            <input type="radio" name="step3" id="step3_18">
+                                                            <label for="step3_18">해평파크골프장</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="a6">
+                                                            <input type="radio" name="step3" id="step3_19">
+                                                            <label for="step3_19">동락공원국궁장</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="a6">
+                                                            <input type="radio" name="step3" id="step3_20">
+                                                            <label for="step3_20">선산체육공원 핸드볼경기장</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="b1">
+                                                            <input type="radio" name="step3" id="step3_21">
+                                                            <label for="step3_21">배꼽마당</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b1">
+                                                            <input type="radio" name="step3" id="step3_22">
+                                                            <label for="step3_22">형곡전망대</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="b2">
+                                                            <input type="radio" name="step3" id="step3_23">
+                                                            <label for="step3_23">강동청소년문화의집</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b2">
+                                                            <input type="radio" name="step3" id="step3_24">
+                                                            <label for="step3_24">구미과학관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b2">
+                                                            <input type="radio" name="step3" id="step3_25">
+                                                            <label for="step3_25">선산문화회관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b2">
+                                                            <input type="radio" name="step3" id="step3_26">
+                                                            <label for="step3_26">상모정수도서관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b2">
+                                                            <input type="radio" name="step3" id="step3_27">
+                                                            <label for="step3_27">중앙도서관</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="b3">
+                                                            <input type="radio" name="step3" id="step3_28">
+                                                            <label for="step3_28">성리학역사관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b3">
+                                                            <input type="radio" name="step3" id="step3_29">
+                                                            <label for="step3_29">야은역사체험관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b3">
+                                                            <input type="radio" name="step3" id="step3_30">
+                                                            <label for="step3_30">박정희대통령역사자료관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b3">
+                                                            <input type="radio" name="step3" id="step3_31">
+                                                            <label for="step3_31">왕산허위기념관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b3">
+                                                            <input type="radio" name="step3" id="step3_32">
+                                                            <label for="step3_32">강동문화복지회관</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="b4">
+                                                            <input type="radio" name="step3" id="step3_33">
+                                                            <label for="step3_33">Ground9</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b4">
+                                                            <input type="radio" name="step3" id="step3_34">
+                                                            <label for="step3_34">결혼스토리</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="b5">
+                                                            <input type="radio" name="step3" id="step3_43">
+                                                            <label for="step3_43">성리학역사관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b5">
+                                                            <input type="radio" name="step3" id="step3_44">
+                                                            <label for="step3_44">야은역사체험관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b5">
+                                                            <input type="radio" name="step3" id="step3_45">
+                                                            <label for="step3_45">박정희대통령역사자료관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b5">
+                                                            <input type="radio" name="step3" id="step3_46">
+                                                            <label for="step3_46">왕산허위기념관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="b5">
+                                                            <input type="radio" name="step3" id="step3_47">
+                                                            <label for="step3_47">강동문화복지회관</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="c1">
+                                                            <input type="radio" name="step3" id="step3_48">
+                                                            <label for="step3_48">평생학습</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="c1">
+                                                            <input type="radio" name="step3" id="step3_49">
+                                                            <label for="step3_49">테마특강</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="c1">
+                                                            <input type="radio" name="step3" id="step3_50">
+                                                            <label for="step3_50">마을배움터</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="d1">
+                                                            <input type="radio" name="step3" id="step3_35">
+                                                            <label for="step3_35">성리학역사관</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="d1">
+                                                            <input type="radio" name="step3" id="step3_36">
+                                                            <label for="step3_36">박정희대통령역사관</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="d2">
+                                                            <input type="radio" name="step3" id="step3_37">
+                                                            <label for="step3_37">구미시티투어</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="d2">
+                                                            <input type="radio" name="step3" id="step3_38">
+                                                            <label for="step3_38">산업투어</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="d2">
+                                                            <input type="radio" name="step3" id="step3_39">
+                                                            <label for="step3_39">문화관광해설사</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="d3">
+                                                            <input type="radio" name="step3" id="step3_40">
+                                                            <label for="step3_40">구미에코랜드</label>
+                                                        </li>
+                                                        <li class="step_item" data-type2="d3">
+                                                            <input type="radio" name="step3" id="step3_41">
+                                                            <label for="step3_41">수상레포츠체험</label>
+                                                        </li>
+
+                                                        <li class="step_item" data-type2="d4">
+                                                            <input type="radio" name="step3" id="step3_42">
+                                                            <label for="step3_42">환경자원화시설</label>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="step_none"><span>아래 <em>"검색"</em>버튼을 클릭해주세요.</span></div>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="step_open">더보기</button>
+                                    </li>
+                                    <!-- //step3 -->
+                                </ul>
+
+                                <div class="quick_btn">
+                                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo">
+                                        <defs>
+                                            <filter id="goo">
+                                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                                                <feComposite in="SourceGraphic" in2="goo"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+
+                                    <span class="button--bubble__container n1">
+                                        <!--<button type="submit" class="quick_search button&amp;#45;&amp;#45;bubble">검색</button>-->
+                                        <button type="button" class="quick_search button--bubble" onclick="location.href='/www/sub.do?key=60'">검색</button>
+                                        <span class="button--bubble__effect-container">
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="button effect-button"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                        </span>
+                                    </span>
+
+                                    <span class="button--bubble__container n2">
+                                        <button type="button" class="quick_reset button--bubble">초기화</button>
+                                        <span class="button--bubble__effect-container">
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="circle top-left"></span>
+                                            <span class="button effect-button"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                            <span class="circle bottom-right"></span>
+                                        </span>
+                                    </span>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup2 fade">
+                <div class="wrap">
+                    <section class="situation fade_in">
+                        <h2 class="situation_title">예약 및 접수현황</h2>
+                        <div class="situation_tab">
+                            <ul class="situation_list">
+                                <li class="situation_item active" data-type="1">
+                                    <button type="button" class="situation_btn">교육강좌</button>
+                                </li>
+                                <li class="situation_item" data-type="2">
+                                    <button type="button" class="situation_btn">다목적접수</button>
+                                </li>
+                                <li class="situation_item" data-type="3">
+                                    <button type="button" class="situation_btn">공연/전시</button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="situation_panel">
+                            <h3 class="skip">교육강좌</h3>
+                            <div class="situation_list">
+                                <!-- data-type 1:교육강좌, 2:다목적접수, 3:공연/전시 -->
+                                <div class="situation_item" data-type="1">
+                                    <a href="">
+                                        <span class="situation_stat n1">접수중</span><!-- n1 : 접수중, n2 : 접수마감 -->
+                                        <span class="situation_subject">추첨 추가모집 - 2차 드럼 오전반 / 오전 (초급)</span>
+                                        <span class="situation_date">접수기간<span>2024.05.31 ~ 2024.07.04</span></span>
+                                        <span class="situation_agency">평생학습원</span>
+                                    </a>
+                                </div>
+                                <div class="situation_item" data-type="1">
+                                    <a href="">
+                                        <span class="situation_stat n2">접수마감</span>
+                                        <span class="situation_subject">추첨 추가모집 - 2차 드럼 오전반 / 오전 (초급) 추첨 추가모집 - 2차 드럼 오전반 / 오전 (초급)</span>
+                                        <span class="situation_date">접수기간<span>2024.05.31 ~ 2024.07.04</span></span>
+                                        <span class="situation_agency">평생학습원</span>
+                                    </a>
+                                </div>
+                                <div class="situation_item" data-type="1">
+                                    <a href="">
+                                        <span class="situation_stat n1">접수중</span>
+                                        <span class="situation_subject">추첨 추가모집 - 2차 드럼 오전반 / 오전 (초급)</span>
+                                        <span class="situation_date">접수기간<span>2024.05.31 ~ 2024.07.04</span></span>
+                                        <span class="situation_agency">평생학습원</span>
+                                    </a>
+                                </div>
+                                <div class="situation_item" data-type="1">
+                                    <a href="">
+                                        <span class="situation_stat n1">접수중</span>
+                                        <span class="situation_subject">추첨 추가모집 - 2차 드럼 오전반 / 오전 (초급)</span>
+                                        <span class="situation_date">접수기간<span>2024.05.31 ~ 2024.07.04</span></span>
+                                        <span class="situation_agency">평생학습원</span>
+                                    </a>
+                                </div>
+
+                                <div class="situation_item" data-type="2"><!-- n1 : 접수중, n2 : 접수마감 -->
+                                    <a href="">
+                                        <span class="situation_stat n1">접수중</span>
+                                        <span class="situation_subject">다목적접수</span>
+                                        <span class="situation_date">접수기간<span>2024.05.31 ~ 2024.07.04</span></span>
+                                        <span class="situation_agency">평생학습원</span>
+                                    </a>
+                                </div>
+                                <div class="situation_item" data-type="2">
+                                    <a href="">
+                                        <span class="situation_stat n2">접수마감</span>
+                                        <span class="situation_subject">다목적접수 다목적접수 다목적접수 다목적접수 다목적접수 다목적접수 다목적접수 다목적접수 다목적접수</span>
+                                        <span class="situation_date">접수기간<span>2024.05.31 ~ 2024.07.04</span></span>
+                                        <span class="situation_agency">평생학습원</span>
+                                    </a>
+                                </div>
+                                <div class="situation_item" data-type="2">
+                                    <a href="">
+                                        <span class="situation_stat n1">접수중</span>
+                                        <span class="situation_subject">다목적접수</span>
+                                        <span class="situation_date">접수기간<span>2024.05.31 ~ 2024.07.04</span></span>
+                                        <span class="situation_agency">평생학습원</span>
+                                    </a>
+                                </div>
+                                <div class="situation_item" data-type="2">
+                                    <a href="">
+                                        <span class="situation_stat n1">접수중</span>
+                                        <span class="situation_subject">다목적접수</span>
+                                        <span class="situation_date">접수기간<span>2024.05.31 ~ 2024.07.04</span></span>
+                                        <span class="situation_agency">평생학습원</span>
+                                    </a>
+                                </div>
+
+                                <div class="situation_item" data-type="3">
+                                    <a href="">
+                                        <span class="situation_img"><img src="../www/images/main/situation_img1.jpg" alt=""></span>
+                                        <span class="situation_stat n1">공연</span><!-- n1 : 공연, n2 : 전시 -->
+                                        <span class="situation_subject">오페라 메밀꽃 필 무렵</span>
+                                        <span class="situation_date">공연기간<span>2024.07.16 ~ 2024.07.16</span></span>
+                                        <span class="situation_agency">문화예술회관</span>
+                                    </a>
+                                </div>
+                                <div class="situation_item" data-type="3">
+                                    <a href="">
+                                        <span class="situation_img"><img src="../www/images/main/situation_img2.jpg" alt=""></span>
+                                        <span class="situation_stat n2">전시</span>
+                                        <span class="situation_subject">2024 찾아가는 미술관 &lt;밖으로 나온 미술3&gt; 2024 찾아가는 미술관 &lt;밖으로 나온 미술3&gt;</span>
+                                        <span class="situation_date">공연기간<span>2024.03.04 ~ 2024.11.30</span></span>
+                                        <span class="situation_agency">문화예술회관</span>
+                                    </a>
+                                </div>
+                                <div class="situation_item" data-type="3">
+                                    <a href="">
+                                        <span class="situation_img"><img src="../www/images/main/situation_img1.jpg" alt=""></span>
+                                        <span class="situation_stat n1">공연</span>
+                                        <span class="situation_subject">오페라 메밀꽃 필 무렵</span>
+                                        <span class="situation_date">공연기간<span>2024.07.16 ~ 2024.07.16</span></span>
+                                        <span class="situation_agency">문화예술회관</span>
+                                    </a>
+                                </div>
+                                <div class="situation_item" data-type="3">
+                                    <a href="">
+                                        <span class="situation_img"><img src="../www/images/main/situation_img2.jpg" alt=""></span>
+                                        <span class="situation_stat n2">전시</span>
+                                        <span class="situation_subject">2024 찾아가는 미술관 &lt;밖으로 나온 미술3&gt; 2024 찾아가는 미술관 &lt;밖으로 나온 미술3&gt;</span>
+                                        <span class="situation_date">공연기간<span>2024.03.04 ~ 2024.11.30</span></span>
+                                        <span class="situation_agency">문화예술회관</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="situation_control">
+                            <button type="button" class="situation_btn situation_arrow situation_prev">이전</button>
+                            <button type="button" class="situation_btn situation_arrow situation_next">다음</button>
+                            <a href="" class="situation_btn situation_more">더보기</a>
+                        </div>
+                    </section>
+
+                    <section class="popup fade_in">
+                        <h2 class="skip">팝업존</h2>
+                        <div class="popup_list">
+                            <div class="popup_item">
+                                <a href=""><img src="../www/images/main/popup_img.jpg" alt="대체텍스트"></a>
+                            </div>
+                            <div class="popup_item">
+                                <a href=""><img src="../www/images/main/popup_img.jpg" alt="대체텍스트"></a>
+                            </div>
+                            <div class="popup_item">
+                                <a href=""><img src="../www/images/main/popup_img.jpg" alt="대체텍스트"></a>
+                            </div>
+                        </div>
+                        <div class="popup_control">
+                            <span class="popup_count">
+                                <span class="popup_current">00</span><span class="popup_total">00</span>
+                            </span>
+                            <button type="button" class="popup_arrow popup_prev">이전</button>
+                            <button type="button" class="popup_arrow popup_auto"></button>
+                            <button type="button" class="popup_arrow popup_next">다음</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup3 fade">
+                <div class="wrap">
+                    <section class="map type1">
+                        <h2 class="map_title fade_in"><span>지도로 찾아보는</span>구미시 체육·공공시설</h2>
+                        <p class="map_text fade_in">우리시의 체육·공공시설을 한눈에 찾아보세요.</p>
+                        <div class="map_tab fade_in">
+                            <ul class="tab_list">
+                                <li class="tab_item n1 active">
+                                    <h3 class="tab_title">체육시설</h3>
+                                    <button type="button" class="tab_btn">열기</button>
+                                    <div class="tab_panel">
+                                        <ul class="panel_list">
+                                            <li class="panel_item active"><button type="button" value="a1"><span>축구장</span></button></li>
+                                            <li class="panel_item"><button type="button" value="a2"><span>야구장</span></button></li>
+                                            <li class="panel_item"><button type="button" value="a3"><span>족구장</span></button></li>
+                                            <li class="panel_item"><button type="button" value="a4"><span>파크골프장</span></button></li>
+                                            <li class="panel_item"><button type="button" value="a5"><span>풋살장</span></button></li>
+                                            <li class="panel_item"><button type="button" value="a6"><span>기타</span></button></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="tab_item n2">
+                                    <h3 class="tab_title">공공시설</h3>
+                                    <button type="button" class="tab_btn">열기</button>
+                                    <div class="tab_panel">
+                                        <ul class="panel_list">
+                                            <li class="panel_item active"><button type="button" value="b1"><span>공연장</span></button></li>
+                                            <li class="panel_item"><button type="button" value="b2"><span>강의실</span></button></li>
+                                            <li class="panel_item"><button type="button" value="b3"><span>대강당</span></button></li>
+                                            <li class="panel_item"><button type="button" value="b4"><span>세미나실</span></button></li>
+                                            <li class="panel_item"><button type="button" value="b5"><span>회의실</span></button></li>
+                                            <li class="panel_item"><button type="button" value="b6"><span>기타</span></button></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="map_box">
+                            <div class="map_bg">
+                                <img src="../www/images/main/map_img.png" alt="">
+                                <img src="../www/images/main/map_img2.png" alt="">
+                                <img src="../www/images/main/map_img3.png" alt="">
+                            </div>
+
+                            <div class="map_mark">
+                                <!-- 순서 수정 링크 추가 -->
+                                <a href="http://192.168.0.224:18080/www/contents.do?key=60" class="marker a1_1" data-type="a1"><span><span>낙동강체육공원</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/contents.do?key=60" class="marker a1_2" data-type="a1"><span><span>동락공원</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/contents.do?key=60" class="marker a1_3" data-type="a1"><span><span>신동생활체육공원</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/contents.do?key=60" class="marker a1_4" data-type="a1"><span><span>선산체육공원</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/contents.do?key=60" class="marker a1_5" data-type="a1"><span><span>4단지완충저류시설</span></span></a>
+
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=61" class="marker a2_1" data-type="a2"><span><span>낙동강체육공원</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=61" class="marker a2_2" data-type="a2"><span><span>강변야구장</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=61" class="marker a2_3" data-type="a2"><span><span>동락공원야구장</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=61" class="marker a2_4" data-type="a2"><span><span>동락공원 유소년야구장</span></span></a>
+
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=63" class="marker a3_1" data-type="a3"><span><span>신동생활체육공원</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=63" class="marker a3_2" data-type="a3"><span><span>4단지완충저류시설</span></span></a>
+
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=62" class="marker a4_1" data-type="a4"><span><span>구미파크골프장</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=62" class="marker a4_2" data-type="a4"><span><span>도개파크골프장</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=62" class="marker a4_3" data-type="a4"><span><span>동락파크골프장</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=62" class="marker a4_4" data-type="a4"><span><span>선산파크골프장</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=62" class="marker a4_5" data-type="a4"><span><span>양포파크골프장</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=62" class="marker a4_6" data-type="a4"><span><span>해평파크골프장</span></span></a>
+
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=64" class="marker a5_1" data-type="a5"><span><span>낙동강체육공원</span></span></a>
+
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=65" class="marker a6_1" data-type="a6"><span><span>동락공원국궁장</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=65" class="marker a6_2" data-type="a6"><span><span>선산체육공원 핸드볼경기장</span></span></a>
+
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=67" class="marker b1_1" data-type="b1"><span><span>배꼽마당</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=67" class="marker b1_2" data-type="b1"><span><span>형곡전망대</span></span></a>
+
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=69" class="marker b2_1" data-type="b2"><span><span>성리학역사관</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=69" class="marker b2_2" data-type="b2"><span><span>야은역사체험관</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=69" class="marker b2_3" data-type="b2"><span><span>박정희대통령역사자료관</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=69" class="marker b2_4" data-type="b2"><span><span>왕산허위기념관</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=69" class="marker b2_5" data-type="b2"><span><span>강동문화복지회관</span></span></a>
+
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=68" class="marker b3_1" data-type="b3"><span><span>강동청소년문화의집</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=68" class="marker b3_2" data-type="b3"><span><span>구미과학관</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=68" class="marker b3_3" data-type="b3"><span><span>선산문화회관</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=68" class="marker b3_4" data-type="b3"><span><span>상모정수도서관</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=68" class="marker b3_5" data-type="b3"><span><span>중앙도서관</span></span></a>
+
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=72" class="marker b6_1" data-type="b6"><span><span>Ground9</span></span></a>
+                                <a href="http://192.168.0.224:18080/www/emptyProgram.do?key=72" class="marker b6_2" data-type="b6"><span><span>결혼스토리</span></span></a>
+                                <a href="" class="marker d1_1" data-type="d1"><span><span>성리학역사관</span></span></a>
+                                <a href="" class="marker d1_2" data-type="d1"><span><span>박정희대통령역사관</span></span></a>
+
+                                <a href="" class="marker d2_1" data-type="d2"><span><span>구미시티투어</span></span></a>
+                                <a href="" class="marker d2_2" data-type="d2"><span><span>산업투어</span></span></a>
+                                <a href="" class="marker d2_3" data-type="d2"><span><span>문화관광해설사</span></span></a>
+
+                                <a href="" class="marker d3_1" data-type="d3"><span><span>구미에코랜드</span></span></a>
+                                <a href="" class="marker d3_2" data-type="d3"><span><span>수상레포츠체험</span></span></a>
+
+                                <a href="" class="marker d4_1" data-type="d4"><span><span>환경자원화시설</span></span></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup4 ">
+                <div class="wrap">
+                    <section class="service">
+                        <h2 class="skip">서비스</h2>
+                        <ul class="service_list fade">
+                            <li class="service_item">
+                                <div class="service_title">구미에서의 새로운 경험, <br>잊지 못할 추억<span>관광/체험</span></div>
+                                <ul class="service_link">
+                                    <li><a href="">구미에코랜드</a></li>
+                                    <li><a href="">금오산야영장</a></li>
+                                    <li><a href="">구미시티투어</a></li>
+                                    <li><a href="">산업문화유산투어</a></li>
+                                    <li><a href="">문화관광해설사</a></li>
+                                    <li><a href="">수상레포츠체험</a></li>
+                                </ul>
+                            </li>
+                            <li class="service_item">
+                                <div class="service_title">더 나은 일상, <br>편리한 구미시 행정서비스와 함께!<span>행정서비스</span></div>
+                                <ul class="service_link">
+                                    <li><a href="">수상레포츠체험</a></li>
+                                    <li><a href="">구미알리미</a></li>
+                                    <li><a href="">시정소식지</a></li>
+                                    <li><a href="">학업장려금</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup5">
+                <div class="wrap">
+                    <section class="notice fade">
+                        <h2 class="notice_title">공지사항</h2>
+
+                        <ul class="notice_list">
+                            <li class="notice_item">
+                                <a href="">
+                                    <span class="notice_type">평생학습과</span>
+                                    <span class="notice_subject">[제126회 야은아카데미]-'나는 자연인이다' 개그맨 이 [제126회 야은아카데미]-'나는 자연인이다' 개그맨 이</span>
+                                    <span class="notice_date">2024.05.28</span>
+                                </a>
+                            </li>
+                            <li class="notice_item">
+                                <a href="">
+                                    <span class="notice_type">기술개발과</span>
+                                    <span class="notice_subject">2024년 샤인머스켓 포도 농작업 전문인력 양성교육</span>
+                                    <span class="notice_date">2024.04.02</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <a href="" class="notice_more">더보기</a>
+                    </section>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer id="footer">
+        <div class="wrap">
+            <div class="link">
+                <h2 class="skip">바로가기</h2>
+                <ul class="link_list">
+                    <li class="link_item n1"><a href="#n" class="link_anchor">개인정보처리방침</a></li>
+                    <li class="link_item n2"><a href="#n" class="link_anchor">저작권 정책</a></li>
+                    <li class="link_item n3"><a href="#n" class="link_anchor">사이트맵</a></li>
+                    <li class="link_item n4"><a href="#n" class="link_anchor">오시는 길</a></li>
+                </ul>
+            </div>
+            <div class="footer_content">
+                <div class="logo">
+                    <a href="./index.do" class="logo_anchor">
+                        <img src="../www/images/common/logo_white.png" alt="구미시">
+                    </a>
+                </div>
+                <div class="info">
+                    <address>
+                        <span class="info_address">(39281) 경북 구미시 송정대로 55(송정동)</span>
+                        <span class="info_tel">전화 : 054-480-6114(평일 09시~18시/공휴일 제외)</span>
+                        <span class="info_fax">팩스 : 054-452-5529</span>
+                    </address>
+                    <p class="info_copyright">COPYRIGHT(C) Gumi-Si. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="up_button">맨위로</button>
+        <!--
+        cms 정보 불러오기
+        <div class="footer_info">
+            <address><span class="info_address">@@{siteInfo.insttAdres}</span><span class="info_tel">TEL : @@{siteInfo.insttTelno}</span></address>
+            <p class="info_copyright">@@{siteInfo.siteCpyrht}</p>
+        </div>
+        -->
+
+    </footer>
+
+</div>
+</body>
+</html>

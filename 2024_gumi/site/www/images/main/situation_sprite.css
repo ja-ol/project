@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.01.notice {width:22px; height:22px; background:url('situation_sprite.png') no-repeat left top;}
+.02.notice {width:22px; height:22px; background:url('situation_sprite.png') no-repeat left -32px;}
+.03.notice {width:22px; height:22px; background:url('situation_sprite.png') no-repeat left -64px;}
+.04.notice {width:22px; height:22px; background:url('situation_sprite.png') no-repeat left -96px;}
+.05.notice {width:22px; height:22px; background:url('situation_sprite.png') no-repeat left -128px;}
+.06.notice {width:22px; height:22px; background:url('situation_sprite.png') no-repeat left -160px;}
+.07.notice {width:22px; height:22px; background:url('situation_sprite.png') no-repeat left -192px;}
+
+/* 가변 크기 */
+.01.notice {background-size:100% 972.72%;}
+.02.notice {background-position:left 16.66%; background-size:100% 972.72%;}
+.03.notice {background-position:left 33.33%; background-size:100% 972.72%;}
+.04.notice {background-position:left 50%; background-size:100% 972.72%;}
+.05.notice {background-position:left 66.66%; background-size:100% 972.72%;}
+.06.notice {background-position:left 83.33%; background-size:100% 972.72%;}
+.07.notice {background-position:left 100%; background-size:100% 972.72%;}

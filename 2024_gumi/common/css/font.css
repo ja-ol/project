@@ -1,0 +1,82 @@
+/* 유니버셜 디자인 */
+@font-face{
+    font-family: 'KoddiUD';
+    font-weight: 400;
+    src: url("../font/KoddiUDOnGothic-Regular.woff2") format('woff2'),
+    url("../font/KoddiUDOnGothic-Regular.woff") format('woff');
+}
+
+@font-face{
+    font-family: 'KoddiUD';
+    font-weight: 700;
+    src: url("../font/KoddiUDOnGothic-Bold.woff2") format('woff2'),
+    url("../font/KoddiUDOnGothic-Bold.woff") format('woff');
+}
+
+@font-face{
+    font-family: 'KoddiUD';
+    font-weight: 800;
+    src: url("../font/KoddiUDOnGothic-ExtraBold.woff2") format('woff2'),
+    url("../font/KoddiUDOnGothic-ExtraBold.woff") format('woff');
+}
+
+/* 본고딕 */
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 200;
+    src: url("../font/NotoSansCJKkr-Light.woff2") format('woff2'),
+    url("../font/NotoSansCJKkr-Light.woff") format('woff');
+}
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 300;
+    src: url("../font/NotoSansCJKkr-DemiLight.woff2") format('woff2'),
+    url("../font/NotoSansCJKkr-DemiLight.woff") format('woff');
+}
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 400;
+    src: url("../font/NotoSansCJKkr-Regular.woff2") format('woff2'),
+    url("../font/NotoSansCJKkr-Regular.woff") format('woff');
+}
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 500;
+    src: url("../font/NotoSansCJKkr-Medium.woff2") format('woff2'),
+    url("../font/NotoSansCJKkr-Medium.woff") format('woff');
+}
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 700;
+    src: url("../font/NotoSansCJKkr-Bold.woff2") format('woff2'),
+    url("../font/NotoSansCJKkr-Bold.woff") format('woff');
+}
+
+/* Montserrat */
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    src: url("../font/Montserrat-Regular.woff2") format('woff2'),
+    url("../font/Montserrat-Regular.woff") format('woff');
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    src: url("../font/Montserrat-Bold.woff2") format('woff2'),
+    url("../font/Montserrat-Bold.woff") format('woff');
+}
+
+/* 어그로체 */
+@font-face{
+    font-family:'SBAggro';
+    font-weight: 300;
+    src:url("../font/SBAggroL.woff2") format('woff2'),
+    url("../font/SBAggroL.woff") format('woff');
+
+}@font-face{
+    font-family:'SBAggro';
+    font-weight: 600;
+    src:url("../font/SBAggroB.woff2") format('woff2'),
+    url("../font/SBAggroB.woff") format('woff');
+}

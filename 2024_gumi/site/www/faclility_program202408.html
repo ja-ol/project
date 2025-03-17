@@ -1,0 +1,1861 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}" />
+    <meta name="description" content="@@{siteInfo.siteDc}" />
+    <link rel="stylesheet" type="text/css" href="/reservation/common/css/font.css" />
+    <link rel="stylesheet" href="/reservation/site/www/css/sub.css">
+    <script src="/reservation/common/js/jquery-1.12.4.min.js"></script>
+    <script src="/reservation/common/js/plugins.js"></script>
+    <script src="/reservation/common/js/program.min.js"></script>
+    <script src="/reservation/site/www/js/common.js"></script>
+    <script src="/reservation/site/www/js/sub.js"></script>
+    <title>@@{menuInfo.cntntsNm} - @@{siteInfo.siteNm}</title>
+</head>
+
+<body id="${siteInfo.tmplatId}" class="@@{siteInfo.siteId} page@@{key}">
+<div id="wrapper">
+
+    <header id="header">
+        <div class="accessibility">
+            <a href="#contents">본문 바로가기</a>
+        </div>
+
+        <div class="gnb">
+            <div class="wrap">
+                <div class="site">
+                    <ul class="site_list">
+                        <li class="site_item n1"><a href="#" class="site_anchor">구미시청</a></li>
+                        <li class="site_item n2"><a href="#" class="site_anchor">문화관광</a></li>
+                        <li class="site_item n3"><a href="#" class="site_anchor">구미시의회</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="group">
+
+            <div class="logo">
+                <div class="wrap">
+                    <a href="./index.do" class="logo_anchor">
+                        <img src="../www/images/common/logo.png" alt="구미시">
+                        <span>통합예약</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="lnb">
+
+                <div class="menu_show">
+                    <button type="button" class="menu_btn">주메뉴 열기</button>
+                </div>
+
+                <nav class="menu after eachdown">
+                    <h2 class="skip">주메뉴</h2>
+                    <div class="menu_header">
+                        <div class="link">
+                            <ul class="link_list">
+                                <li class="link_item login"><a href="#" class="link_anchor">로그인</a></li>
+                                <!-- <li class="link_item logout"><a href="#" class="link_anchor">로그아웃</a></li> -->
+                                <li class="link_item sitemap"><a href="#" class="link_anchor">구미시청</a></li>
+                                <li class="link_item sitemap"><a href="#" class="link_anchor">문화관광</a></li>
+                                <li class="link_item sitemap"><a href="#" class="link_anchor">구미시의회</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="wrap">
+                        <div class="depth depth1"><!-- 차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 : depth#, depth#_#) -->
+                            <ul class="depth_list depth1_list cut">
+                                <li class="depth_item depth1_item active"><!-- 현재 열려있는 메뉴에 active 클래스 붙여주세요 (은평구청처럼 해주세요) -->
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>교육·강좌</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">교육·강좌</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br/> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item active">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴 새창으로</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item active">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 #484d6b</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list cut">
+                                                                        <li class="depth_item depth4_item active">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #66c8c</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>박정희대통령역사자료관 단체관람</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴 새창으로</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list cut">
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #66c8c</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text"><span>공연·전시</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">공연·전시</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br/> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list cut">
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #66c8c</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>박정희대통령역사자료관 단체관람</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth1_text"><span>관광·체험</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">관광·체험</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br/> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list cut">
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #66c8c</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text">3차메뉴(새창)</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>박정희대통령역사자료관 단체관람</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>행정·시설</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">행정·시설</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br/> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>다목적접수</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">다목적접수</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br/> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>공지사항</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">공지사항</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">구미시의 다양한 시설과 서비스를<br/> 빠르게 예약하세요!</p>
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #3e4466, 17pt</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth2_text"><span>2차메뉴 새창일때</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu_hide">
+                        <button type="button" class="menu_btn">주메뉴 닫기</button>
+                    </div>
+                </nav>
+
+            </div>
+
+            <div class="link">
+                <div class="wrap">
+                    <ul class="link_list">
+                        <li class="link_item login"><a href="#" class="link_anchor">로그인</a></li>
+                        <!-- <li class="link_item logout"><a href="#" class="link_anchor">로그아웃</a></li> -->
+                        <li class="link_item sitemap"><a href="#" class="link_anchor">사이트맵</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div id="container">
+        <div class="wrap clearfix">
+
+            <div id="side" class="side">
+                <div class="side_title">
+                    <span class="side_subject">교육·강좌</span><!-- 1차메뉴명 넣어주세요! -->
+                </div>
+                <div class="side_menu">
+                    <nav class="menu init">
+                        <h2 class="skip">서브메뉴</h2>
+                        <div class="depth depth1">
+                            <ul class="depth_list depth1_list">
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">2차메뉴명 16px; #3d435d;</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 15px #484d6b</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item has">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 hover</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_blank" title="새창" rel="noopener noreferrer">3차메뉴 새창으로</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 15px #484d6b</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">2차메뉴명</a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">2차메뉴명이길어질 경우에는 줄바꿈 해주세요.</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 15px #484d6b</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item has">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 hover</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_blank" title="새창" rel="noopener noreferrer">3차메뉴 새창으로</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 15px #484d6b</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth1_text">링크일때</a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">2차메뉴명 hover #e83fa6</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 15px #484d6b</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item has">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 hover</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_blank" title="새창" rel="noopener noreferrer">3차메뉴 새창으로</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 15px #484d6b</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">2차메뉴 on</a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 15px #484d6b</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item has">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 hover</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴</a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명 14px #484d6b</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_blank" title="새창" rel="noopener noreferrer">4차메뉴명 링크일 경우</a>
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" class="depth_text depth3_text" target="_self">4차메뉴명이 길경 우에는 줄바꿈 해주세요.</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_blank" title="새창" rel="noopener noreferrer">3차메뉴 새창으로</a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text" target="_self">3차메뉴 15px #484d6b</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">2차메뉴명</a>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" class="depth_text depth1_text" target="_self">2차메뉴명</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+            <main class="colgroup">
+                <article>
+
+                    <header class="sub_head">
+                        <div class="sub_title">
+                            <h2>컨텐츠 타이틀</h2><!-- 현재메뉴명 넣어주세요! -->
+                        </div>
+                        <div class="breadcrumbs">
+                            <ol class="breadcrumbs_list">
+                                <!-- 차수에 맞게 링크 추가해주세요! -->
+                                <li class="breadcrumbs_item home"><a href="./index.do" class="breadcrumbs_anchor">홈</a></li>
+                                <li class="breadcrumbs_item n1"><a href="#n" class="breadcrumbs_anchor">1차메뉴 15px / #484d6b</a></li>
+                                <li class="breadcrumbs_item n2"><a href="#n" class="breadcrumbs_anchor">2차메뉴</a></li>
+                                <li class="breadcrumbs_item n3">현재메뉴</li><!-- 마지막차수 링크 없음 -->
+                            </ol>
+                        </div>
+                        <div class="addons">
+                            <ul class="addons_list">
+                                <li class="addons_item share toggle">
+                                    <button type="button" class="addons_button share_show">공유하기</button>
+                                    <div class="share_panel">
+                                        <ul class="share_list clearfix">
+                                            <li class="share_item n1">
+                                                <a href="#" target="_blank" title="새창" rel="noopener noreferrer" class="share_anchor">트위터</a>
+                                            </li>
+                                            <li class="share_item n2">
+                                                <a href="#" target="_blank" title="새창" rel="noopener noreferrer" class="share_anchor">페이스북</a>
+                                            </li>
+                                            <li class="share_item n3">
+                                                <a href="#" target="_blank" title="새창" rel="noopener noreferrer" class="share_anchor">블로그</a>
+                                            </li>
+                                            <li class="share_item n4">
+                                                <a href="#" target="_blank" title="새창" rel="noopener noreferrer" class="share_anchor">카카오톡</a>
+                                            </li>
+                                        </ul>
+                                        <button type="button" class="share_hide">닫기</button>
+                                    </div>
+                                </li>
+                                <li class="addons_item print"><button type="button" onclick="window.print();" class="addons_button">인쇄</button></li>
+                            </ul>
+                        </div>
+                    </header>
+
+                    <div id="contents" class="cts@@{key}">
+
+                        <!-- 체육시설 예약관리 - 목록 -->
+                        <div class="program facility_list">
+                            <div class="p-wrap bbs bbs_new_skin bbs__list">
+                                <form name="bbsNttSearchForm" action="./selectBbsNttList.do" method="get" class="boardSearchForm">
+                                    <fieldset>
+                                        <legend>게시물 검색</legend>
+                                        <div class="card card--bgcolor p-search">
+                                            <div class="p-form-group">
+                                                <select name="" id="" class="p-input" title="검색영역선택">
+                                                    <option value="">전체</option>
+                                                    <option value="">제목</option>
+                                                    <option value="">내용</option>
+                                                    <option value="">작성</option>
+                                                </select>
+                                                <span class="p-form__split"></span>
+                                                <input type="text" name="" id="" class="p-input p-input--beside" title="검색단어 입력" value="" placeholder="검색어를 입력하세요.">
+                                                <span class="p-form-group__button">
+                                                    <button type="submit" class="p-button black">검색</button>
+                                                </span>
+
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+
+                                <div class="facility_guide">
+                                    <span class="guide_title">예약방법 안내</span>
+                                    <ul class="guide_process">
+                                        <li class="guide_item online">온라인</li>
+                                        <li class="guide_item tel">전화</li>
+                                        <li class="guide_item visit">방문</li>
+                                        <li class="guide_item site">외부사이트</li>
+                                    </ul>
+                                    <p class="warning type3 small"><span class="skip">안내</span>외부사이트 선택 시 해당 사이트로 이동합니다.</p>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12 col-sm-24 margin_t_10 small">
+                                        <div class="bbs_page">
+                                            <span class="item count">총 1,234건 </span>
+                                            <span class="item page"> [<em>1</em>/26페이지]</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="sport_list">
+                                    <!--
+                                    예약방법 클래스, 가능한 예약방법일 경우 'active' 추가
+                                    온라인 : process_item online
+                                    전화 : process_item tel
+                                    방문 : process_item visit
+                                    외부사이트 : process_item site
+
+                                    유료/무료 클래스
+                                    유료 : sport_price
+                                    무료 : sport_price free
+                                    -->
+                                    <div class="sport_item">
+                                        <a href="#" target="_blank" title="새창" class="sport_anchor"><!-- 외부사이트일때 새창으로 해주세요! -->
+                                            <div class="sport_image">
+                                                <span style="background-image:url('../www/images/program/sport_image.jpg')"></span>
+                                            </div>
+                                            <div class="sport_content">
+                                                <span class="sport_place">낙동강 체육공원</span>
+                                                <span class="sport_subject">축구장 1</span>
+                                                <ul class="sport_process"><!-- 가능한 예약방법에 'active' 클래스 추가해주세요! -->
+                                                    <li class="process_item online active">온라인</li>
+                                                    <li class="process_item tel active">전화</li>
+                                                    <li class="process_item visit">방문</li>
+                                                    <li class="process_item site active">외부사이트</li>
+                                                </ul>
+                                            </div>
+                                            <div class="sport_price"><span>유료</span></div><!-- 유료 : sport_price -->
+                                            <div class="sport_more"><span>자세히 보기</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="sport_item">
+                                        <a href="#" target="_blank" title="새창" class="sport_anchor"><!-- 외부사이트일때 새창으로 해주세요! -->
+                                            <div class="sport_image">
+                                                <span style="background-image:url('../www/images/program/sport_image.jpg')"></span>
+                                            </div>
+                                            <div class="sport_content">
+                                                <span class="sport_place">낙동강 체육공원</span>
+                                                <span class="sport_subject">축구장 1</span>
+                                                <ul class="sport_process"><!-- 가능한 예약방법에 'active' 클래스 추가해주세요! -->
+                                                    <li class="process_item online active">온라인</li>
+                                                    <li class="process_item tel">전화</li>
+                                                    <li class="process_item visit">방문</li>
+                                                    <li class="process_item site active">외부사이트</li>
+                                                </ul>
+                                            </div>
+                                            <div class="sport_price free"><span>무료</span></div><!-- 무료 : sport_price free-->
+                                            <div class="sport_more"><span>자세히 보기</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="sport_item">
+                                        <a href="#" class="sport_anchor">
+                                            <div class="sport_image">
+                                                <span style="background-image:url('../www/images/program/sport_image.jpg')"></span>
+                                            </div>
+                                            <div class="sport_content">
+                                                <span class="sport_place">낙동강 체육공원</span>
+                                                <span class="sport_subject">축구장 1</span>
+                                                <ul class="sport_process"><!-- 가능한 예약방법에 'active' 클래스 추가해주세요! -->
+                                                    <li class="process_item online active">온라인</li>
+                                                    <li class="process_item tel active">전화</li>
+                                                    <li class="process_item visit active">방문</li>
+                                                    <li class="process_item site">외부사이트</li>
+                                                </ul>
+                                            </div>
+                                            <div class="sport_price free"><span>무료</span></div><!-- 무료 : sport_price free-->
+                                            <div class="sport_more"><span>자세히 보기</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="sport_item">
+                                        <a href="#" target="_blank" title="새창" class="sport_anchor"><!-- 외부사이트일때 새창으로 해주세요! -->
+                                            <div class="sport_image noimage"><!-- 이미지없을경우 'noimage' 붙여주세요! -->
+                                                <span></span>
+                                            </div>
+                                            <div class="sport_content">
+                                                <span class="sport_place">낙동강 체육공원</span>
+                                                <span class="sport_subject">축구장 1</span>
+                                                <ul class="sport_process"><!-- 가능한 예약방법에 'active' 클래스 추가해주세요! -->
+                                                    <li class="process_item online active">온라인</li>
+                                                    <li class="process_item tel">전화</li>
+                                                    <li class="process_item visit">방문</li>
+                                                    <li class="process_item site active">외부사이트</li>
+                                                </ul>
+                                            </div>
+                                            <div class="sport_price"><span>유료</span></div><!-- 유료 : sport_price -->
+                                            <div class="sport_more"><span>자세히 보기</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="sport_item">
+                                        <a href="#" class="sport_anchor">
+                                            <div class="sport_image">
+                                                <span style="background-image:url('../www/images/program/sport_image.jpg')"></span>
+                                            </div>
+                                            <div class="sport_content">
+                                                <span class="sport_place">낙동강 체육공원</span>
+                                                <span class="sport_subject">축구장 1</span>
+                                                <ul class="sport_process"><!-- 가능한 예약방법에 'active' 클래스 추가해주세요! -->
+                                                    <li class="process_item online">온라인</li>
+                                                    <li class="process_item tel active">전화</li>
+                                                    <li class="process_item visit">방문</li>
+                                                    <li class="process_item site">외부사이트</li>
+                                                </ul>
+                                            </div>
+                                            <div class="sport_price free"><span>무료</span></div><!-- 무료 : sport_price free-->
+                                            <div class="sport_more"><span>자세히 보기</span></div>
+                                        </a>
+                                    </div>
+                                    <div class="sport_item">
+                                        <a href="#" class="sport_anchor">
+                                            <div class="sport_image">
+                                                <span style="background-image:url('../www/images/program/sport_image.jpg')"></span>
+                                            </div>
+                                            <div class="sport_content">
+                                                <span class="sport_place">낙동강 체육공원</span>
+                                                <span class="sport_subject">축구장 1</span>
+                                                <ul class="sport_process"><!-- 가능한 예약방법에 'active' 클래스 추가해주세요! -->
+                                                    <li class="process_item online">온라인</li>
+                                                    <li class="process_item tel active">전화</li>
+                                                    <li class="process_item visit active">방문</li>
+                                                    <li class="process_item site">외부사이트</li>
+                                                </ul>
+                                            </div>
+                                            <div class="sport_price"><span>유료</span></div><!-- 유료 : sport_price-->
+                                            <div class="sport_more"><span>자세히 보기</span></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="p-pagination">
+                                    <div class="p-page">
+                                        <span class="p-page__control">
+                                            <a href="#" class="p-page__link prev-end"><span class="skip">처음 페이지</span></a>
+                                            <a href="#" class="p-page__link prev"><span class="skip">이전 10 페이지</span></a>
+                                            <a href="#" class="p-page__link prev-one">이전 페이지</a>
+                                        </span>
+                                        <span class="p-page__link-group">
+                                            <strong title="현재 1페이지" class="p-page__link">1</strong>
+                                            <a href="" title="2페이지 이동" class="p-page__link active">2</a>
+                                            <a href="" title="3페이지 이동" class="p-page__link">3</a>
+                                            <a href="" title="4페이지 이동" class="p-page__link">4</a>
+                                            <a href="" title="5페이지 이동" class="p-page__link">5</a>
+                                            <a href="" title="6페이지 이동" class="p-page__link">6</a>
+                                            <a href="" title="7페이지 이동" class="p-page__link">7</a>
+                                            <a href="" title="8페이지 이동" class="p-page__link">8</a>
+                                            <a href="" title="9페이지 이동" class="p-page__link">9</a>
+                                            <a href="" title="10페이지 이동" class="p-page__link">110</a>
+                                        </span>
+                                        <span class="p-page__control">
+                                            <a href="#" class="p-page__link next-one">다음 페이지</a>
+                                            <a href="#" class="p-page__link next"><span class="skip">다음 10 페이지</span></a>
+                                            <a href="#" class="p-page__link next-end"><span class="skip">끝 페이지</span></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //체육시설 예약관리 - 목록 -->
+
+                        <br/><br/><br/><br/><br/><br/>
+
+                        <!-- 체육시설 예약관리 - 상세 -->
+                        <div class="program facility_view">
+                            <div class="p-wrap bbs bbs_new_skin bbs__view">
+                                <div class="facility_left">
+                                    <div class="facility_slide">
+                                        <div class="facility_slide_list">
+                                            <div class="facility_slide_item">
+                                                <img src="../www/images/program/sport_image.jpg" alt="이미지 alt">
+                                            </div>
+                                            <div class="facility_slide_item">
+                                                <img src="../www/images/program/sport_image.jpg" alt="이미지 alt">
+                                            </div>
+                                            <div class="facility_slide_item">
+                                                <img src="../www/images/program/sport_image.jpg" alt="이미지 alt">
+                                            </div>
+                                            <div class="facility_slide_item">
+                                                <img src="../www/images/program/sport_image.jpg" alt="이미지 alt">
+                                            </div>
+                                            <div class="facility_slide_item">
+                                                <img src="../www/images/program/no_image.jpg" alt="등록된 이미지가 없습니다.">
+                                            </div>
+                                        </div>
+                                        <div class="facility_slide_control">
+                                            <div class="facility_slide_count">
+                                                <span class="facility_slide_current"></span>&nbsp;/&nbsp;<span class="facility_slide_total"></span>
+                                            </div>
+                                            <button type="button" class="facility_slide_prev"><span class="skip">이전</span></button>
+                                            <button type="button" class="facility_slide_auto"><span class="skip"></span></button>
+                                            <button type="button" class="facility_slide_next"><span class="skip">다음</span></button>
+                                        </div>
+                                    </div>
+                                    <div class="facility_calendar">
+                                        <div class="calender_header">
+                                            <a href="#" class="calender_button prev"><span>이전</span></a>
+                                            <span class="calender_text">2024. 08</span>
+                                            <a href="#" class="calender_button next"><span>다음</span></a>
+                                        </div>
+                                        <!--
+                                         th 클래스
+                                         일요일 : sun
+                                         토요일 : sat
+
+                                         td 클래스
+                                         일요일 : sun
+                                         토요일 : sat
+                                         오늘 : today
+                                         예약불가 : empty
+                                         선택된날 : active
+                                        -->
+                                        <table class="calendar_table">
+                                            <caption>달력 - 일요일 ~ 토요일 일정 포함</caption>
+                                            <thead>
+                                            <tr>
+                                                <th scope="col" class="sun"><span>일</span></th><!-- 일요일 : sun -->
+                                                <th scope="col"><span>월</span></th>
+                                                <th scope="col"><span>화</span></th>
+                                                <th scope="col"><span>수</span></th>
+                                                <th scope="col"><span>목</span></th>
+                                                <th scope="col"><span>금</span></th>
+                                                <th scope="col" class="sat"><span>토</span></th><!-- 토요일 : sat -->
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="sun"></td><!-- 일요일 : sun -->
+                                                <td></td>
+                                                <td></td>
+                                                <td></td>
+                                                <td class="empty"><!-- 예약불가 'empty' 붙여주세요! -->
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">1</span>
+                                                    </a>
+                                                </td>
+                                                <td class="empty"><!-- 예약불가 'empty' 붙여주세요! -->
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">2</span>
+                                                    </a>
+                                                </td>
+                                                <td class="empty sat"><!-- 예약불가 'empty' 붙여주세요!, 토요일 : sat -->
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">3</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="empty sun"><!-- 일요일 : sun -->
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">4</span>
+                                                    </a>
+                                                </td>
+                                                <td class="today"><!-- 오늘 : today -->
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">5</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">6</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">7</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">8</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">9</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td class="sat"><!-- 토요일 : sat -->
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">10</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="sun">
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">11</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">12</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">13</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">14</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">15</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">16</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td class="sat">
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">17</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="sun">
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">18</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">19</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">20</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">21</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td class="empty">
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">22</span>
+                                                        <p class="empty_text">축구골대 골망정비</p>
+                                                    </a>
+                                                </td>
+                                                <td class="empty">
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">23</span>
+                                                        <p class="empty_text">축구골대 골망정비</p>
+                                                    </a>
+                                                </td>
+                                                <td class="sat">
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">24</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="sun">
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">25</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">26</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td class="active"><!-- 선택된 날 'active' 붙여주세요! -->
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">27</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">28</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">29</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">30</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                                <td class="sat">
+                                                    <a href="#" class="calendar_anchor">
+                                                        <span class="day">31</span>
+                                                        <span class="person">0/4</span>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <ul class="facility_calendar_info">
+                                        <li class="n1">신청/총모집</li>
+                                        <li class="n2">오늘</li>
+                                        <li class="n3">선택일</li>
+                                        <li class="n4">예약불가</li>
+                                    </ul>
+                                </div>
+                                <div class="facility_right">
+                                    <p class="facility_name">축구장2</p>
+                                    <table class="table type2">
+                                        <caption>체육시설정보 - 체육시설구분, 시설/기관명, 이용대상, 이용정원, 이용요금, 운영시간안내, 정기휴관, 예약방법, 신청/예약제한, 예약가능일자, 취소기간, 주소, 문의전화 순으로 정보를 제공</caption>
+                                        <colgroup>
+                                            <col style="width:30%"/>
+                                            <col />
+                                        </colgroup>
+                                        <tbody>
+                                        <tr>
+                                            <th scope="row">체육시설 구분</th>
+                                            <td>축구</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">시설/기관명</th>
+                                            <td>낙동강 체육공원</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">이용대상</th>
+                                            <td>전체</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">이용정원</th>
+                                            <td>30명</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">이용요금</th>
+                                            <td>
+                                                평일 : 50,000원 <br/>
+                                                토·일·공휴일 : 75,000원
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">운영시간안내</th>
+                                            <td>
+                                                하절기(3월 ~ 10월) 09시 ~ 18시 <br/>
+                                                동절기(11월  ~ 2월) 09시 ~ 17시
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">정기휴관</th>
+                                            <td>해당없음</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">예약방법</th>
+                                            <td>온라인, 전화, 방문</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">신청/예약제한</th>
+                                            <td>이용시간 전까지 예약 가능(당일 예약 가능)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">예약가능일자</th>
+                                            <td>이용시간 전까지 예약 가능(당일 예약 가능)</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">예약가능일자</th>
+                                            <td>1일 1인 당구장 / 1타임만 신청 가능</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">취소기간</th>
+                                            <td>이용시간 전까지 취소가능</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">주소</th>
+                                            <td>경상북도 구미시 낙동제방길 200</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">문의전화</th>
+                                            <td>054-480-4114</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="btn_wrap">
+                                        <input type="submit" class="btn type2" value="예약하기">
+                                        <a href="#n" class="btn">목록으로</a>
+                                    </div>
+                                </div>
+
+                                <span class="line type3"></span>
+
+                                <div class="tab facility_tab">
+                                    <div class="tab_menu">
+                                        <button class="tab_select"><span>시설소개</span></button><!-- 현재메뉴명 입력해주세요 -->
+                                        <div class="tab_panel">
+                                            <ul class="tab_list n1">
+                                                <li class="tab_item active"><button type="button" class="tab_button"><span>시설소개</span></button></li>
+                                                <li class="tab_item"><button type="button" class="tab_button"><span>시설이용안내</span></button></li>
+                                                <li class="tab_item"><button type="button" class="tab_button"><span>예약안내</span></button></li>
+                                                <li class="tab_item"><button type="button" class="tab_button"><span>미 이용시 주의사항</span></button></li>
+                                                <li class="tab_item"><button type="button" class="tab_button"><span>취소/환불안내</span></button></li>
+                                                <li class="tab_item"><button type="button" class="tab_button"><span>오시는길</span></button></li>
+                                            </ul>
+                                        </div>
+                                        <div class="tab_content active">
+                                            <div class="facility_box">
+                                                <img src="../www/images/program/facility_image.jpg" alt="이미지 alt">
+                                            </div>
+                                            <p>구미시 지산동 일원의 낙동강 체육공원은 다목적 생활체육시설로 축구장 9면(유료), 야구장 3면(유료), 풋살장 5면(유료), 종합경기장 1면(7번 축구장), 기타 20면(족구장, 농구장, 배드민턴장, 게이트볼장, 인라인스케이트장), 자전거도로 등 시민들의 여가·레저 문화 확산에 좋은 역할을 하고 있습니다.</p>
+                                        </div>
+                                        <div class="tab_content"><p>시설이용안내</p></div>
+                                        <div class="tab_content"><p>예약안내</p></div>
+                                        <div class="tab_content"><p>미 이용시 주의사항</p></div>
+                                        <div class="tab_content"><p>취소/환불안내</p></div>
+                                        <div class="tab_content">
+                                            <div class="map_box">
+                                                <div class="map_inner" data-timestamp="1724030422826" data-key="2kdfj">
+                                                    <div id="daumRoughmapContainer1724030422826" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+                                                    <script src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+                                                    <script charset="UTF-8">
+                                                        new daum.roughmap.Lander({
+                                                            "timestamp" : "1724030422826",
+                                                            "key" : "2kdfj",
+                                                        }).render();
+                                                    </script>
+                                                </div>
+                                            </div>
+                                            <div class="map_info">
+                                                <ul class="map_info_list">
+                                                    <li class="map_info_item address">(39193) 경북 구미시 낙동제방길 200 (양호동) 낙동강체육공원</li>
+                                                    <li class="map_info_item tel">054)480-5395</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //체육시설 예약관리 - 상세 -->
+
+                        <br/><br/><br/><br/><br/><br/>
+
+                        <!-- 체육시설 예약관리 - 신청 -->
+                        <div class="program facility_from facility_view">
+                            <div class="p-wrap bbs bbs_new_skin bbs__form">
+                                <h3 class="sport_name">축구장2</h3>
+                                <div class="temp_box n2">
+                                    <div class="box_wrap">
+                                        <h3 class="box_title">예약일자 / 회차 선택</h3>
+                                        <ul class="bu">
+                                            <li>날짜를 먼저 선택하신 후 회차를 선택해 주세요.</li>
+                                            <li>회차는 최소 [1]회차, 최대[1]회차까지 선택가능합니다.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="facility_wrap">
+                                    <div class="facility_left">
+                                        <div class="facility_calendar">
+                                            <div class="calender_header">
+                                                <a href="#" class="calender_button prev"><span>이전</span></a>
+                                                <span class="calender_text">2024. 08</span>
+                                                <a href="#" class="calender_button next"><span>다음</span></a>
+                                            </div>
+                                            <!--
+                                             th 클래스
+                                             일요일 : sun
+                                             토요일 : sat
+
+                                             td 클래스
+                                             일요일 : sun
+                                             토요일 : sat
+                                             오늘 : today
+                                             예약불가 : empty
+                                             선택된날 : active
+                                            -->
+                                            <table class="calendar_table">
+                                                <caption>달력 - 일요일 ~ 토요일 일정 포함</caption>
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col" class="sun"><span>일</span></th><!-- 일요일 : sun -->
+                                                    <th scope="col"><span>월</span></th>
+                                                    <th scope="col"><span>화</span></th>
+                                                    <th scope="col"><span>수</span></th>
+                                                    <th scope="col"><span>목</span></th>
+                                                    <th scope="col"><span>금</span></th>
+                                                    <th scope="col" class="sat"><span>토</span></th><!-- 토요일 : sat -->
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td class="sun"></td><!-- 일요일 : sun -->
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td class="empty"><!-- 예약불가 'empty' 붙여주세요! -->
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">1</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="empty"><!-- 예약불가 'empty' 붙여주세요! -->
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">2</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="empty sat"><!-- 예약불가 'empty' 붙여주세요!, 토요일 : sat -->
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">3</span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="empty sun"><!-- 일요일 : sun -->
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="today"><!-- 오늘 : today -->
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">5</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">6</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">7</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">8</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">9</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="sat"><!-- 토요일 : sat -->
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">10</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sun">
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">11</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">12</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">13</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">14</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">15</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">16</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="sat">
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">17</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sun">
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">18</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">19</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">20</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">21</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="empty">
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">22</span>
+                                                            <p class="empty_text">축구골대 골망정비</p>
+                                                        </a>
+                                                    </td>
+                                                    <td class="empty">
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">23</span>
+                                                            <p class="empty_text">축구골대 골망정비</p>
+                                                        </a>
+                                                    </td>
+                                                    <td class="sat">
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">24</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sun">
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">25</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">26</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="active"><!-- 선택된 날 'active' 붙여주세요! -->
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">27</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">28</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">29</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td>
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">30</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                    <td class="sat">
+                                                        <a href="#" class="calendar_anchor">
+                                                            <span class="day">31</span>
+                                                            <span class="person">0/4</span>
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <ul class="facility_calendar_info">
+                                            <li class="n1">신청/총모집</li>
+                                            <li class="n2">오늘</li>
+                                            <li class="n3">선택일</li>
+                                            <li class="n4">예약불가</li>
+                                        </ul>
+                                    </div>
+                                    <div class="facility_right">
+                                        <div class="time_wrap">
+                                            <div class="time_title"><span>예약하실 회차를 선택해주세요.</span></div>
+                                            <ul class="time_list">
+                                                <li class="p-form-checkbox p-form-checkbox--button time_item">
+                                                    <input type="radio" class="p-form-radio__input" name="time" id="time1">
+                                                    <label for="time1" class="p-form-radio__label">1회차 (06:00 ~ 09:00)  <span class="time_text">예약가능</span></label>
+                                                </li>
+                                                <li class="p-form-checkbox p-form-checkbox--button time_item">
+                                                    <input type="radio" class="p-form-radio__input" name="time" id="time2" checked="checked">
+                                                    <label for="time2" class="p-form-radio__label">2회차 (09:00 ~ 12:00)  <span class="time_text">예약가능</span></label>
+                                                </li>
+                                                <li class="p-form-checkbox p-form-checkbox--button time_item">
+                                                    <input type="radio" class="p-form-radio__input" name="time" id="time3" disabled>
+                                                    <label for="time3" class="p-form-radio__label">3회차 (12:00 ~ 15:00) <span class="time_text">예약불가</span></label>
+                                                </li>
+                                                <li class="p-form-checkbox p-form-checkbox--button time_item">
+                                                    <input type="radio" class="p-form-radio__input" name="time" id="time4" disabled>
+                                                    <label for="time4" class="p-form-radio__label">4회차 (15:00 ~ 18:00) <span class="time_text">예약불가</span></label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <form name="bbsNttForm" id="" method="post" action="" onsubmit="" enctype="multipart/form-data">
+                                    <fieldset>
+                                        <legend>신청 정보 작성</legend>
+
+                                        <h3>신청자 / 신청내용</h3>
+                                        <div class="p-caution">
+                                            <span class="p-icon p-icon__info-circle">주의사항</span>
+                                            <span class="p-form__required--icon">필수</span> 표시는 필수항목입니다.
+                                        </div>
+                                        <table class="p-table mobile block">
+                                            <caption>체육시설 예약 - 예약자명, 기관/단체명, 휴대전화, 주소, 사용인원, 사용목적, 첨부서류 정보 제공</caption>
+                                            <colgroup>
+                                                <col class="w20p">
+                                                <col>
+                                            </colgroup>
+                                            <tbody class="p-table--th-left">
+                                            <tr>
+                                                <th scope="col">예약자명</th>
+                                                <td>홍길동</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="col">
+                                                    <label for="" class="p-form__label">기관/단체명</label>
+                                                </th>
+                                                <td>
+                                                    <input type="text" name="" id="" title="기관/단체명" class="p-input p-input--auto" value="한신FC">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">휴대전화 <span class="p-form__required--icon">필수</span></th>
+                                                <td>
+                                                    <div class="row telbox">
+                                                        <div class="col-12 col-sm-24 ">
+                                                            <div class="p-form-group">
+                                                                <select name="" id="" class="p-input" title="휴대전화 첫번째 번호 선택">
+                                                                    <option value="">010</option>
+                                                                    <option value="">011</option>
+                                                                    <option value="">016</option>
+                                                                    <option value="">017</option>
+                                                                    <option value="">018</option>
+                                                                    <option value="">019</option>
+                                                                </select>
+                                                                <span class="p-form__split"> - </span>
+                                                                <input type="tel" name="" class="p-input" title="휴대전화 중간번호 입력" value="1234">
+                                                                <span class="p-form__split"> - </span>
+                                                                <input type="tel" name="" class="p-input" title="휴대전화 마지막번호 입력" value="5678">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="small margin_t_5 p-warning">
+                                                        <span class="p-icon p-icon__info-circle-solid">주의사항</span> 숫자만 입력해 주세요.
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">주소 <span class="p-form__required--icon">필수</span></th>
+                                                <td>
+                                                    <div class="addressbox">
+                                                        <div class="post">
+                                                            <input type="number" class="p-input p-input--auto zipcode" title="주소를 검색하세요" placeholder="주소를 검색하세요">
+                                                            <button type="button" title="새창" class="p-button primary postbtn">우편번호</button>
+                                                        </div>
+                                                        <div class="adress">
+                                                            <input type="text" class="p-input adressinput" title="상세주소 입력" placeholder="상세주소를 입력해주세요">
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="col">
+                                                    <label for="" class="p-form__label">사용인원 <span class="p-form__required--icon">필수</span></label>
+                                                </th>
+                                                <td>
+                                                    <span>총&nbsp;</span>
+                                                    <input type="text" name="" id="" title="사용인원" class="p-input p-input--auto person">
+                                                    <span>명</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="col">
+                                                    <label for="" class="p-form__label">사용목적 <span class="p-form__required--icon">필수</span></label>
+                                                </th>
+                                                <td>
+                                                    <input type="text" name="" id="" title="사용목적" class="p-input">
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">파일 첨부</th>
+                                                <td>
+                                                    <div class="p-upload">
+                                                        <div class="p-form-group">
+                                                            <div class="p-form-group__upload">
+                                                                <input type="file" id="fileorg1" class="p-upload__file--hidden" title="{항목명 표시} 파일 첨부">
+                                                                <span id="filename1" class="p-input disabled"></span>
+                                                                <button type="button" class="p-upload__clear clear">1번째 첨부 파일 제거</button>
+                                                            </div>
+                                                            <div class="p-input__addon">
+                                                                <label for="fileorg1" class="p-button p-button--small primary" data-button="upload" data-parent=".p-upload" data-original="#fileorg1" data-showfilename="#filename1"><span class="skip">0번째 </span>파일선택</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="small margin_t_5 p-warning">
+                                                        <span class="p-icon p-icon__info-circle-solid">주의사항</span> 예약신청서 양식을 다운로드 받아 작성 후 파일을 첨부해주시기 바랍니다.
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                        <h3>자격검증</h3>
+                                        <table class="p-table mobile block">
+                                            <caption>자격검증 - 구미시민 여부, 감면자격 여부, 자격검증 정보 제공</caption>
+                                            <colgroup>
+                                                <col class="w20p">
+                                                <col>
+                                            </colgroup>
+                                            <tbody class="p-table--th-left">
+                                            <tr>
+                                                <th scope="col">구미시민 여부</th>
+                                                <td>구미시민 확인</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">감면자격 여부</th>
+                                                <td>
+                                                    <span class="gumi_input">
+                                                        <input type="radio" name="reduce" id="reduce1" value="" checked="">
+                                                        <label for="reduce1">해당없음</label>
+                                                    </span>
+                                                    <span class="gumi_input">
+                                                        <input type="radio" name="reduce" id="reduce2" value="">
+                                                        <label for="reduce2">국가유공자 및 직계존·비속</label>
+                                                    </span>
+                                                    <span class="gumi_input">
+                                                        <input type="radio" name="reduce" id="reduce3" value="">
+                                                        <label for="reduce3">기초생활수급자</label>
+                                                    </span>
+                                                    <span class="gumi_input">
+                                                        <input type="radio" name="reduce" id="reduce4" value="">
+                                                        <label for="reduce4">장애인</label>
+                                                    </span>
+                                                    <span class="gumi_input">
+                                                        <input type="radio" name="reduce" id="reduce5" value="">
+                                                        <label for="reduce5">다자녀가정 대상자</label>
+                                                    </span>
+                                                    <span class="gumi_input">
+                                                        <input type="radio" name="reduce" id="reduce6" value="">
+                                                        <label for="reduce6">한부모가정 대상자</label>
+                                                    </span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">자격 검증</th>
+                                                <td>
+                                                    <span class="gumi_input">
+                                                        <input type="radio" name="national" id="national1" value="" checked="">
+                                                        <label for="national1">내국인</label>
+                                                    </span>
+                                                    <span class="gumi_input">
+                                                        <input type="radio" name="national" id="national2" value="">
+                                                        <label for="national2">외국인</label>
+                                                    </span>
+                                                    <div class="row telbox jumin">
+                                                        <div class="col-12 col-sm-24 margin_t_5">
+                                                            <div class="p-form-group">
+                                                                <input type="text" name="" class="p-input p-input--auto" title="주민등록번호 앞자리 입력" value="" maxlength="6">
+                                                                <span class="p-form__split">-</span>
+                                                                <input type="text" name="" class="p-input p-input--auto" title="주민등록번호 뒷자리 입력" value="" maxlength="7">
+                                                                <a href="#" class="btn type3 use_btn">자격확인</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="small margin_t_5 p-warning">
+                                                        <span class="p-icon p-icon__info-circle-solid">주의사항</span> 주민번호는 자격확인용으로만 사용하며, 본 시스템에 저장하지 않습니다.<br/>
+                                                        <span class="p-icon p-icon__info-circle-solid">주의사항</span> 신청자 본인의 주민번호를 입력 후 자격확인을 클릭하세요.
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </fieldset>
+                                </form>
+
+                                <h3>개인정보 수집동의</h3>
+                                <div class="line_box">
+                                    <h4>개인 정보의 수집·이용 목적</h4>
+                                    <p>체육시설 예약신청을 위한 개인정보 수집</p>
+
+                                    <h4>개인 정보 수집 대상</h4>
+                                    <ul class="bu dl">
+                                        <li>
+                                            <span class="dt">필수 수집 항목</span>
+                                            <span class="dd">성명, 휴대전화 , 주소</span>
+                                        </li>
+                                        <li>
+                                            <span class="dt">선택 수집 항목</span>
+                                            <span class="dd">해당없음</span>
+                                        </li>
+                                        <li>
+                                            <span class="dt">자동 수집 항목</span>
+                                            <span class="dd">IP(Internet Protocol) 주소, 이용 내역 기록</span>
+                                        </li>
+                                    </ul>
+
+                                    <h4>개인 정보의 보유 및 이용 기간</h4>
+                                    <p>5년</p>
+
+                                    <span class="line type1"></span>
+                                    <p class="warning type1"><span class="skip">경고</span>동의를 거부할 권리가 있으나 동의하지 않을 시 서비스 이용에 제한이 있습니다.</p>
+                                </div>
+                                <div class="facility_radio_wrap">
+                                    <span class="gumi_input">
+                                        <input type="radio" name="agree_check1" id="agree_check1" class="agree_y" value="">
+                                        <label for="agree_check1">동의함</label>
+                                    </span>
+                                    <span class="gumi_input">
+                                        <input type="radio" name="agree_check1" id="agree_check2" class="agree_n" value="">
+                                        <label for="agree_check2">동의안함</label>
+                                    </span>
+                                </div>
+                                <h3>제3자 정보제공 동의</h3>
+                                <div class="line_box">
+                                    <h4>제공 받는 기관</h4>
+                                    <p>구미시청, 읍면동 행정복지센터</p>
+
+                                    <h4>개인정보 제공 받는 자의 이용 목적</h4>
+                                    <p>체육시설 신청내역 확인 등</p>
+
+                                    <h4>제공할 개인정보 항목</h4>
+                                    <p> 성명, 휴대전화</p>
+
+                                    <span class="line type1"></span>
+                                    <p class="warning type1"><span class="skip">경고</span>동의를 거부할 권리가 있으나 동의하지 않을 시 서비스 이용에 제한이 있습니다.</p>
+                                </div>
+                                <div class="facility_radio_wrap">
+                                    <span class="gumi_input">
+                                        <input type="radio" name="agree_check3" id="agree_check3" class="agree_y" value="">
+                                        <label for="agree_check3">동의함</label>
+                                    </span>
+                                    <span class="gumi_input">
+                                        <input type="radio" name="agree_check3" id="agree_check4" class="agree_n" value="">
+                                        <label for="agree_check4">동의안함</label>
+                                    </span>
+                                </div>
+
+                                <div class="btn_wrap text_center margin_t_30">
+                                    <input type="submit" class="btn type2" value="예약하기">
+                                    <a href="" class="btn">뒤로가기</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //체육시설 예약관리 - 신청 -->
+
+                    </div>
+
+                </article>
+            </main>
+
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="wrap">
+            <div class="link">
+                <h2 class="skip">바로가기</h2>
+                <ul class="link_list">
+                    <li class="link_item n1"><a href="#n" class="link_anchor">개인정보처리방침</a></li>
+                    <li class="link_item n2"><a href="#n" class="link_anchor">저작권 정책</a></li>
+                    <li class="link_item n3"><a href="#n" class="link_anchor">사이트맵</a></li>
+                    <li class="link_item n4"><a href="#n" class="link_anchor">오시는 길</a></li>
+                </ul>
+            </div>
+            <div class="footer_content">
+                <div class="logo">
+                    <a href="./index.do" class="logo_anchor">
+                        <img src="../www/images/common/logo_white.png" alt="구미시">
+                    </a>
+                </div>
+                <div class="info">
+                    <address>
+                        <span class="info_address">(39281) 경북 구미시 송정대로 55(송정동)</span>
+                        <span class="info_tel">전화 : 054-480-6114(평일 09시~18시/공휴일 제외)</span>
+                        <span class="info_fax">팩스 : 054-452-5529</span>
+                    </address>
+                    <p class="info_copyright">COPYRIGHT(C) Gumi-Si. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="up_button">맨위로</button>
+        <!--
+        cms 정보 불러오기
+        <div class="footer_info">
+            <address><span class="info_address">@@{siteInfo.insttAdres}</span><span class="info_tel">TEL : @@{siteInfo.insttTelno}</span></address>
+            <p class="info_copyright">@@{siteInfo.siteCpyrht}</p>
+        </div>
+        -->
+
+    </footer>
+
+</div>
+</body>
+</html>
