@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* ���� */
+@font-face{
+	font-family:'NanumG';
+	font-weight: 400;
+	src:url("../font/NanumBarunGothic.eot");
+	src:url("../font/NanumBarunGothic.eot?#iefix") format('embedded-opentype'),
+	    url("../font/NanumBarunGothic.woff") format('woff');
+}
+@font-face{
+	font-family:'NanumG';
+	font-weight: 600;
+	src:url("../font/NanumGothicBold.eot");
+ 	src:url("../font/NanumGothicBold.eot?#iefix") format('embedded-opentype'),
+	    url("../font/NanumGothicBold.woff") format('woff');
+}
+
+@font-face{
+	font-family:'NanumS';
+	font-weight: 400;
+	src:url("../font/NanumSquareR.eot");
+	src:url("../font/NanumSquareR.eot?#iefix") format('embedded-opentype'),
+		url("../font/NanumSquareR.woff") format('woff');
+}
+@font-face{
+	font-family:'NanumS';
+	font-weight: 600;
+	src:url("../font/NanumSquareB.eot");
+	src:url("../font/NanumSquareB.eot?#iefix") format('embedded-opentype'),
+		url("../font/NanumSquareB.woff") format('woff');
+}	
+@font-face{
+	font-family:'NanumP';
+	font-weight: 400;
+	src:url("../font/NanumPen.eot");
+	src:url("../font/NanumPen.eot?#iefix") format('embedded-opentype'),
+		url("../font/NanumPen.woff") format('woff');
+}
+@font-face{
+	font-family:'NanumM';
+	font-weight: 400;
+	src:url("../font/NanumMyeongjo.eot");
+	src:url("../font/NanumMyeongjo.eot?#iefix") format('embedded-opentype'),
+		url("../font/NanumMyeongjo.woff") format('woff');
+}
+
+/*  OpenSans */
+@font-face{
+	font-family:'Opensans';
+	font-weight: 400;
+	src:url("../font/OpensansR.eot");
+	src:url("../font/OpensansR.eot?#iefix") format('embedded-opentype'),
+	    url("../font/OpensansR.woff") format('woff');
+}
+@font-face{
+	font-family:'Opensans';
+	font-weight: 600;
+	src:url("../font/OpensansB.eot");
+ 	src:url("../font/OpensansB.eot?#iefix") format('embedded-opentype'),
+	    url("../font/OpensansB.woff") format('woff');
+}
+
+/* 지마켓 */
+
+@font-face{
+	font-family:'gmarket';
+	font-weight: 300;
+	src:url("../font/GmarketSansTTFLight.ttf") format('truetype');
+}
+@font-face{
+	font-family:'gmarket';
+	font-weight: 500;
+	src:url("../font/GmarketSansTTFMedium.ttf") format('truetype');
+}
+@font-face{
+	font-family:'gmarket';
+	font-weight: 700;
+	src:url("../font/GmarketSansTTFBold.ttf") format('truetype');
+}
+
+/* S-CoreDream */
+@font-face{
+	font-family: 'S-CoreDream';
+	font-weight: 300;
+	src: url("../font/S-CoreDream-3Light.woff") format('woff');
+}
+@font-face{
+	font-family: 'S-CoreDream';
+	font-weight: 400;
+	src: url("../font/S-CoreDream-4Regular.woff") format('woff');
+}
+@font-face{
+	font-family: 'S-CoreDream';
+	font-weight: 500;
+	src: url("../font/S-CoreDream-5Medium.woff") format('woff');
+}
+@font-face{
+	font-family: 'S-CoreDream';
+	font-weight: 600;
+	src: url("../font/S-CoreDream-6Bold.woff") format('woff');
+}

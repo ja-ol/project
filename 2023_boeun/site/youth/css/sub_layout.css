@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* colgroup */
+.colgroup{float:right;position:relative;width:1070px;margin-top: 58px;/* margin-bottom:30px; */}
+@media all and (max-width:1400px){
+    .colgroup{width:1000px}
+}
+@media all and (max-width:1000px){
+    .colgroup{float:none; width:auto}
+}
+@media all and (max-width:640px){
+    .colgroup{margin-top:20px}
+}
+
+/* 콘텐츠 */
+#contents{position:relative; min-height:600px; margin-top:50px; margin-bottom:50px}
+.cms_tab + #contents{margin-top:40px;}
+.cms_tab + .tab + #contents{margin-top:40px;}
+@media all and (max-width:640px){
+    #contents{min-height:300px; margin-top:0; margin-bottom:25px}
+}
+
+/*경로*/
+.path{display:block; position:relative; width:100%; height:70px; vertical-align:top; z-index:10;}
+.path:before{display:block; position:absolute; bottom:0; left:-200vw; width:500vw; height:70px; background-color:#0aa7a5; content:'';}
+.path > ul{font-size:0; line-height:0;}
+.path ul li{position:relative; display:inline-block; line-height:70px; vertical-align:top; font-size:14px; color:#fff; background-color:#180f73;}
+.path ul li:first-child{border-radius: 40px 0 0 40px;}
+.path ul li:before{display:block; position:absolute; top:0; right:0; width:1px; height:100%; background-color:#6f7a79; content:'';}
+.path ul li.home{margin-left:0; padding-left:0;}
+.path ul li.home a{display:inline-block;position:relative;width: 70px;height:70px;vertical-align:top;color:transparent;font-size:0;border-radius: 20px 0 0 20px;}
+.path ul li.home a:before{display:block; position:absolute; top: calc(50% - 10px); left: calc(50% - 10px); width:20px; height:19px; background:url(/site/youth/images/home1.png) no-repeat 50% 50%; content:''}
+.path ul li .path_btn{display:block; position:relative; width:100%; margin:0; padding:24px 20px; box-sizing:border-box; line-height:22px; text-align:left; color:#fff; font-size:14px; letter-spacing:-0.03em; transition:background-color 200ms ease-in-out; }
+.path ul li .path_btn:before{display:block; position:absolute; top:calc(50% - 4px); right:21px; width:14px; height:8px; background:url(/site/youth/images/arrow.png) 0 0 no-repeat; content:'';}
+.path ul li span{display:block; color:#fefefe; font-size:14px; font-weight:300;}
+.path ul li.list{position:relative; display:inline-block; min-width:205px; margin:0;}
+.path ul li.list .layer{display:none; position:absolute; top:70px; left:0; width:100%; border-bottom-left-radius:30px; border-bottom-right-radius:30px; background-color:#637079; padding:12px 20px;}
+.path ul li.list .layer ul li{display:block; line-height:22px;}
+.path ul li.list .layer ul li a{display:block; padding:9px 0;}
+.path ul li.list .layer ul li a span{display:inline-block; position:relative; font-size:14px; line-height:22px; color:#fefefe; z-index:5; font-weight:300;}
+
+/* 활성화 */
+.path ul li.active .path_btn:before{transform:rotate(-180deg);}
+.path ul li.list .layer ul li:before{display:block; position:absolute; bottom:0; left:0; width:100%; height:1px; background-color:#6f7a79; content:'';}
+.path ul li.list .layer ul li:first-child:before{display:none;}
+.path ul li.list .layer ul li a:hover span{font-weight:600;}
+.path ul li.list .layer ul li a:hover span:before{display:block; position:absolute; bottom:0; left:0; width:100%; height:1px; background-color:#fff;}
+
+/* 사이드 메뉴 */
+.side{float:left; position:relative; z-index:30; width:250px; margin-top:47px; font-size:0; line-height:0}
+
+/* 사이트 타이틀 */
+.side .side_title{position:relative; padding:32px 0 18px; border-bottom:2px solid #171a19; text-align:left;}
+.side .side_title:after{display:inline-block; height:100%; vertical-align:middle}
+.side .side_subject{display:inline-block; vertical-align:middle; color:#000; font-size:24px; line-height:26px; letter-spacing:-0.03em; font-weight:500}
+.side .side_menu{position:relative}
+
+/* 2차 메뉴 */
+.side .menu .depth1_item{margin-top:-1px; border-bottom:1px solid #eaebea; box-sizing:border-box}
+.side .menu .depth1_item:first-child{padding-top:1px; border-top-width:0}
+.side .menu .depth1_text{display:block; position:relative; padding:14px 0; color:#000; font-size:16px; line-height:22px; font-weight:500; letter-spacing:-0.03em; text-decoration:none; word-break:keep-all; transition-property:background,color}
+.side .menu .depth1_text:hover{color:#0f64ce;}
+.side .menu .depth1_text:after{display:block; position:absolute; top:0; right:0; bottom:0; margin-top:auto; margin-bottom:auto; background-image:url(/common/images/layout/sub_sprite.png); background-repeat:no-repeat;}
+.side .menu .depth1_item.has .depth1_text:after{width:7px; height:12px;background-position:left 36.15%; background-size:285.71% 1183.33%; transition:none}
+
+/* 2차 메뉴 활성화 */
+.side .menu .depth1_item.active{position:relative; z-index:10}
+.side .menu .depth1_item.active .depth1_text{color:#0f64ce; border-bottom:1px solid #eaebea;}
+.side .menu .depth1_item.active .depth1_text:before{visibility:visible; opacity:1}
+.side .menu .depth1_item.active .depth1_text:hover{text-decoration:none}
+.side .menu .depth1_item.has.active .depth1_text:after{width:10px; height:6px; background-position:left 50.73%; background-size:200% 2366.66%;}
+
+/* 3차 메뉴 */
+.side .menu .depth2{transition-property:visibility,opacity}
+.side .menu .depth2_list{}
+.side .menu .depth2_item{margin-top:0; transition-property:margin-top}
+.side .menu .depth2_text{display:none; position:relative; padding-top:8px; padding-bottom:9px; padding-left:17px; text-decoration:none; transition:none; font-weight:300;}
+.side .menu .depth2_text:before{visibility:hidden; opacity:0; display:none; position:absolute; top:15px; left:9px;width:4px; height:4px; border-radius:100%; background-color:#3472c5; transition-property:visibility,opacity}
+.side .menu .depth2_text:hover{text-decoration:underline}
+
+/* 3차 메뉴 활성화 */
+.side .menu .depth1_item.active .depth2{visibility:visible; opacity:1}
+.side .menu .depth1_item.active .depth2_list{margin-top:6px;}
+.side .menu .depth1_item.active .depth2_item{}
+.side .menu .depth1_item.active .depth2_text{display:block; font-size:14px; line-height:18px; color:#666;}
+.side .menu .depth1_item.active .depth2_item.active .depth2_text{color:#000; font-weight:400;}
+.side .menu .depth1_item.active .depth2_item.has.active .depth2_text:after{height:6px}
+.side .menu .depth1_item.active .depth2_text:before{visibility:visible; opacity:1; display:block}
+
+/* 4차 메뉴 */
+.side .menu .depth3{transition-property:visibility,opacity}
+.side .menu .depth3_list{margin-top:0; padding-top:0; transition-property:margin-top,padding-top,margin-bottom,padding-bottom}
+.side .menu .depth3_item{margin-top:0; transition-property:margin-top}
+.side .menu .depth3_text{position:relative; padding-left:0; color:#000; font-size:0; line-height:0; letter-spacing:-0.03em; word-break:keep-all; transition:none}
+.side .menu .depth3_text:before{visibility:hidden; opacity:0; display:block; position:absolute; top:17px; left:30px; width:0; height:0; background-color:#000; transition:none}
+
+/* 4차 메뉴 활성화 */
+.side .menu .depth1_item.active .depth2_item.active .depth3{visibility:visible; opacity:1}
+.side .menu .depth1_item.active .depth2_item.active .depth3_list{padding-top:17px; padding-bottom:15px; background-color:#f2f3f2;}
+.side .menu .depth1_item.active .depth2_item.active .depth3_item{margin-top:4px}
+.side .menu .depth1_item.active .depth2_item.active .depth3_item:first-child{margin-top:0}
+.side .menu .depth1_item.active .depth2_item.active .depth3_text{padding:8px 15px 8px 40px; font-size:14px; line-height:18px; color:#666;}
+.side .menu .depth1_item.active .depth2_item.active .depth3_text:hover{color:#000; font-weight:400;}
+.side .menu .depth1_item.active .depth2_item.active .depth3_text:before{visibility:visible; opacity:1; width:5px; height:1px}
+.side .menu .depth1_item.active .depth2_item.active .depth3_text[target='_blank']:after{width:12px; height:12px}
+.side .menu .depth1_item.active .depth2_item.active .depth3_text.active span{color:#000; text-decoration:underline}
+
+@media all and (max-width:1000px){
+    .side{display:none}
+}
+
+/* 서브헤드 */
+.sub_head{position:relative;padding-bottom: 35px;border-bottom:2px solid #171a19;}
+.sub_head .sub_title{font-size:0; line-height:0;}
+.sub_head .sub_title h2{font-weight:500; color:#000; font-size:30px; line-height:32px; letter-spacing:-0.03em; font-family: 'S-CoreDream';}
+.sub_head .sub_title span{margin-top:8px; font-size:14px; line-height:16px; color:#888; font-weight:400;}
+
+/* 공유, 인쇄 */
+.addons{position:absolute; right:0; bottom:27px; font-size:0; line-height:0}
+.addons .addons_item{display:inline-block;position:relative;margin-left: 10px;vertical-align:top;}
+.addons .addons_item:first-child{margin-left: 0}
+.addons .addons_button{position:relative; padding-left:17px; width:45px; height:45px; border:1px solid #ddd; border-radius:8px; font-size:0; line-height:0; font-weight:300; color:#333; letter-spacing:-0.03em;}
+.addons .addons_button:before{display:block;position:absolute;top: calc(50% - 9px);left: calc(50% - 10px);background-image:url(/site/youth/images/addons_icon.png);background-repeat:no-repeat;}
+
+.addons .copy .addons_button:before{width:20px;height: 17px;background-position: 0 50%;}
+.addons .share .addons_button:before{width: 18px;height: 17px;background-position: -37px 50%;}
+.addons .print .addons_button:before{width: 18px;height: 17px;background-position: 100% 100%;}
+
+.addons .share{position:relative}
+.addons .share_item{display:inline-block; margin-left:5px}
+.addons .share_panel{display:none; position:absolute; top:0; right:100%; white-space:nowrap}
+.addons .share_list{display:inline-block}
+.addons .share_anchor{display:block; width:20px; height:20px; background-color:#000}
+.addons .share_hide{display:inline-block; margin-left:5px; width:20px; height:20px; background:#999; vertical-align:top}
+.addons .share.active .share_panel{display:block}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Tenada */
+@font-face{
+    font-family:'Tenada';
+    font-weight: 400;
+    src:url("../font/Tenada.woff") format('woff'),
+    url("../font/Tenada.woff2") format('woff2');
+}
+
+/* Montserrat */
+@font-face{
+    font-family:'Montserrat';
+    font-weight: 300;
+    src:url("../font/Montserrat-Light.woff") format('woff'),
+    url("../font/Montserrat-Light.woff2") format('woff2');
+}
+
+@font-face{
+    font-family:'Montserrat';
+    font-weight: 400;
+    src:url("../font/Montserrat-Regular.woff") format('woff'),
+    url("../font/Montserrat-Regular.woff2") format('woff2');
+}
+
+@font-face{
+    font-family:'Montserrat';
+    font-weight: 600;
+    src:url("../font/Montserrat-Bold.woff") format('woff'),
+    url("../font/Montserrat-Bold.woff2") format('woff2');
+}
