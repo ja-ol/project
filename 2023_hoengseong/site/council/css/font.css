@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* EliceDigitalBaeum */
+@font-face{
+    font-family:'EliceDigitalBaeum';
+    font-weight: 400;
+    src:url("../font/EliceDigitalBaeum_Regular.woff2") format('woff2'),
+    url("../font/EliceDigitalBaeum_Regular.woff") format('woff');
+}
+@font-face{
+    font-family:'EliceDigitalBaeum';
+    font-weight: 600;
+    src:url("../font/EliceDigitalBaeum_Bold.woff2") format('woff2'),
+    url("../font/EliceDigitalBaeum_Bold.woff") format('woff');
+}
