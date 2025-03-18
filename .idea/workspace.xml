@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2024_웰니스관광">
+    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2023_강릉시">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/2023/강릉테섭" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/2023/김포뉴스포털" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742264432120</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2023_강릉시">
+      <created>1742270883776</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742270883776</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +148,8 @@
     <MESSAGE value="2024_구미통합예약" />
     <MESSAGE value="2024_청운대학교" />
     <MESSAGE value="2024_웰니스관광" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024_웰니스관광" />
+    <MESSAGE value="2024_강릉시" />
+    <MESSAGE value="2023_강릉시" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023_강릉시" />
   </component>
 </project>
