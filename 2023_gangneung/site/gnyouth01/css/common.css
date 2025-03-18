@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* lnb */
+@media all and (min-width:1501px){
+    .lnb .menu .depth1_list{padding-right:48px;}
+    .lnb .menu .depth1_text{margin:0 51px;}
+}
+@media all and (max-width:1500px) and (min-width:1201px){
+    .lnb .menu .depth1_text{margin:0 20px;}
+}
+@media all and (max-width:1200px) and (min-width:1001px){
+    .lnb .menu .depth1_list{padding-left:335px;}
+}

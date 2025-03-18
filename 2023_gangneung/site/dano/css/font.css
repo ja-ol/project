@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/* NEXONLv2Gothic */
+@font-face{
+    font-family: 'NEXONLv2Gothic';
+    font-weight: 400;
+    src: url("../font/NEXONLv2GothicRegular.woff") format('woff');,
+    src: url("../font/NEXONLv2GothicRegular.woff2") format('woff2');
+}
+@font-face{
+    font-family: 'NEXONLv2Gothic';
+    font-weight: 600;
+    src: url("../font/NEXONLv2GothicBold.woff") format('woff');,
+    src: url("../font/NEXONLv2GothicBold.woff2") format('woff2');
+}
+
+/* GmarketSansTTFBold */
+@font-face{
+    font-family: 'Gmarket';
+    font-weight: 600;
+    src: url("../font/GmarketSansTTFBold.woff") format('woff');,
+    src: url("../font/GmarketSansTTFBold.woff2") format('woff2');
+}

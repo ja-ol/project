@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* TTTogether */
+@font-face{
+    font-family: 'TTTogether';
+    font-weight: 400;
+    src: url("../font/TTTogether.woff") format('woff');,
+    src: url("../font/TTTogether.woff2") format('woff2');
+}

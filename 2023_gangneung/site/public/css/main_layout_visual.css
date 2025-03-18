@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+/* layout */
+html:not(.lnb_open) #header,
+html:not(.lnb_open) .gnb,
+html:not(.lnb_open) #header .group:before,
+html:not(.lnb_open) .lnb .menu{background-color:transparent}
+html:not(.lnb_open) .lnb .wrap:before{background-color:#fff;opacity:.3}
+.lnb_open .gnb,
+.lnb_open .lnb .menu{background-color:#fff}
+@media (min-width:1001px){
+html:not(.lnb_open) .gnb .site_link .link_item:after{background-color:#fff}
+html:not(.lnb_open) .gnb .site_link .link_anchor span,
+html:not(.lnb_open) .logo .logo_anchor .logo_text,
+html:not(.lnb_open) .lnb .menu .depth1_text{color:#fff}
+html:not(.lnb_open) #header .shortcut_item .search_btn:after{background-position:74.713% 96.133%;}
+html:not(.lnb_open) #header .shortcut_item .sitemap_anchor:after{background-position:74.444% 75%;}
+}

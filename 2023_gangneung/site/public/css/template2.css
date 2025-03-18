@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+/* 아트센터&시립미술관 */
+h3{color:#121212; font-size:26px; line-height:34px;}
+h4{color:#009fa1; font-size:22px; font-weight:400;}
+@media all and (max-width:640px){
+    h3{font-size:20px; line-height:30px;}
+    h4{font-size:18px;}
+}
+
+/* 목록*/
+.blt{padding-left:10px;}
+.bu li:before, .blt:before{background:#212121;}
+
+.bu ul li:before{background-color:#6a6a6a;}
+.bu ul ul li:before{background-color:#bababa;}
+
+.num li:before{border-color:#000; background:#090909; color:#fff;}
+.num ul li:before, .num ol li:before{border:1px solid #c6c6c6; background-color:#fff; color:#4e4e4e;}
+.num ul ul li:before, .num ol ol li:before{border:none; background-color:#f7f7f8;}
+
+/* 상단개요박스 */
+.top_box{border-radius:0 30px 0 0;}
+@media all and (min-width:641px){
+    .top_box .box_wrap{padding-top:65px;}
+}
+
+/* 버튼 */
+.btn, .btn.blank, .btn.down, .btn.view{min-width:196px;}
+.btn{height:55px; padding-top:16px; padding-bottom:16px; border-radius:0;}
+.btn:hover{border-color:#000; background-color:#000;}
+
+.btn_box{border-radius:0;}
+@media all and (max-width:640px){
+    .btn, .btn.blank, .btn.down, .btn.view{min-width:137px;}
+}
+
+/* 오시는길 */
+.box.map .map_info .map_btn{background:#000;}
+.box.map .map_info .map_btn:hover{background:#009fa1;}
+
+.box.map .map_info .info_item+.info_item{margin-left:80px;}
+.box.map .root_daum_roughmap{border-radius:0;}
+
+.guide_box{display:block; position:relative; width:100%; margin-top:50px;}
+.guide_box .guide_list{font-size:0; line-height:0;}
+.guide_box .guide_list .guide_item{display:inline-block; position:relative; width:calc(50% - 10px); height:454px; margin-right:20px; padding:214px 50px 64px; border:1px solid #d9d9d9; text-align:center; vertical-align:top; box-sizing:border-box;}
+.guide_box .guide_list .guide_item:last-child{margin-right:0;}
+.guide_box .guide_list .guide_item:before{display:block; position:absolute; top:60px; left:0; right: 0; width:115px; height:115px; margin: 0 auto; border-radius:50%;}
+.guide_box .guide_list .guide_item.bus:before{background:#fbfbfb url("/site/artscenter/images/contents/cts5725_icon01.png") no-repeat center center;}
+.guide_box .guide_list .guide_item.parking:before{background:#fbfbfb url("/site/artscenter/images/contents/cts5725_icon02.png") no-repeat center center;}
+.guide_box .guide_list .guide_item.car:before{background:#fbfbfb url("/site/mu/images/contents/cts6117_icon01.png") no-repeat center center;}
+.guide_box .guide_list .guide_item .title{margin-bottom:30px; color:#121212; font-size:24px; font-weight:500; line-height:normal; letter-spacing:-0.01em;}
+.guide_box .guide_list .guide_item .blt{margin-top:33px; margin-bottom:30px; line-height: 24px;}
+.guide_box .guide_list .guide_item:nth-child(2) .blt{margin-bottom:15px;}
+.guide_box .guide_list .guide_item .caution.red{display:inline-block;}
+@media all and (max-width:1500px){
+    .box.map .map_info .info_item.fax{display:inline-block; margin-top:0;}
+}
+@media all and (max-width:1200px){
+    .box.map .map_info .info_item+.info_item{margin-left:0;}
+    .box.map .map_info .info_item.fax{margin-top:15px;}
+}
+@media all and (min-width: 1001px) {
+    .guide_box .guide_list .guide_item:first-child{padding: 214px 37px 64px;}
+}
+@media (min-width: 641px) and (max-width: 1000px) {
+    .guide_box .guide_list .guide_item{display: block; width: 100%; height: auto; margin-right: 0; margin-bottom: 20px; padding: 30px 30px 30px 165px; text-align: left;}
+    .guide_box .guide_list .guide_item:before{left:30px; top:30px; right: auto;}
+}
+@media all and (max-width:1000px){
+    .guide_box .guide_list .guide_item:before{width:95px; height:95px;}
+    .guide_box .guide_list .guide_item .title{font-size:22px;}
+}
+@media all and (max-width:640px){
+    .guide_box .guide_list .guide_item{width:100%; height:auto; margin-right:0; margin-bottom:20px; padding:160px 30px 30px;}
+    .guide_box .guide_list .guide_item:before{top:40px;}
+    .guide_box .guide_list .guide_item .title{font-size:20px; line-height:30px;}
+}
+
+/* 링크박스 */
+.link_box .box_wrap:before,
+.link_box .box_wrap:after,
+.link_box .box_cont{border-radius:0;}
+
+/* 폼스타일 */
+.gn_input input, .gn_input input.search, .gn_input select{border-radius:0;}
+.gn_input.withbtn button{width:84px; height:46px; border-radius:0;}
+.gn_input input:focus,
+.gn_input select:focus{border-color:#009fa1; outline:1px solid #009fa1; box-shadow:rgba(135, 177, 170, 0.15) 0 0 15px;}
+.gn_input input[type="checkbox"]:checked + label:before, .gn_input input[type="radio"]:checked + label:before{border-color:#000; background-color:#000;}
+
+/* 탭메뉴 */
+.template_tab .tab_item{display:inline-block; position:relative; width:calc((100% - 20px) / 5); margin-top:5px; margin-right:5px;vertical-align:top}
+.template_tab .tab_item:nth-child(4n){margin-right:5px;}
+.template_tab .tab_item:nth-child(5n){margin-right:0;}
+.template_tab .tab_item.active .tab_button{border-color:#000; background-color:#000;}
+.template_tab .tab_button{height:62px;}
+
+@media all and (max-width:640px){
+    .template_tab.type1.active .tab_select{border-color:#000; background-color:#000;}
+}

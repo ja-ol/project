@@ -1,0 +1,232 @@
+@charset "UTF-8";
+
+/* 일정관리 */
+.schedule_program .schedule_wrap{}
+.schedule_program .schedule_wrap .calender_header{margin-top:82px; margin-bottom:42px; text-align:center;}
+.schedule_program .schedule_wrap .calender_header .calender_header_inner{display:inline-block; position:relative;}
+.schedule_program .calender_header .schedule_select{display:inline-block; position:relative; padding:0 50px;}
+.schedule_program .calender_header .schedule_select select.p-schedule{width:198px; height:46px; margin:0; padding:3px 0 2px 18px; border-radius:7px; border:1px solid #c8c8c8; background:#fff url('/site/public/images/program/calendar_select.png') no-repeat right 22px center; color:#535353;}
+.schedule_program .calender_header .schedule_select select.p-schedule+select.p-schedule{margin-left:5px;}
+.schedule_program .calender_header .schedule_select select.p-schedule:focus{border:2px solid #038e78; color:#1a1a1a; font-weight:500;}
+.schedule_program .calender_header .calender_header_inner .button{display:inline-block; position:absolute; width:30px; height:46px; background-repeat:no-repeat; background-position:center center;}
+.schedule_program .calender_header .calender_header_inner .calendar_prev{left:0; background-image:url('/site/public/images/program/calendar_button1.png');}
+.schedule_program .calender_header .calender_header_inner .calendar_next{right:0; background-image:url('/site/public/images/program/calendar_button2.png');}
+
+.schedule_program .schedule_wrap .category_list{position:relative; margin-bottom:18px; padding:18px 20px 17px; border-radius:10px; background-color:#fbfbfb; font-size:0; line-height:0; text-align:center;}
+.schedule_program .schedule_wrap .category_item{display:inline-block; color:#535353; font-size:15px; line-height:29px; letter-spacing:-0.025em; font-weight:400; vertical-align:top;}
+.schedule_program .schedule_wrap .category_item+.category_item{margin-left:38px;}
+.schedule_program .schedule_wrap .category_item .category_type{width:29px; height:29px; margin-right:7px; border-radius:50%; color:#fff; font-size:12px; line-height:29px; letter-spacing:-0.005em; font-weight:500; text-align:center; vertical-align:top;}
+.schedule_program .schedule_wrap .category_item .category_type.n1{background-color:#009fa1;}
+.schedule_program .schedule_wrap .category_item .category_type.n2{background-color:#088ac1;}
+.schedule_program .schedule_wrap .category_item .category_type.n3{background-color:#d9642b;}
+.schedule_program .schedule_wrap .category_item .category_type.n4{background-color:#d63636;}
+.schedule_program .schedule_wrap .category_item .category_type.n5{background-color:#225d6b;}
+.schedule_program .schedule_wrap .category_item .category_type.n6{background-color:#0e9488;}
+.schedule_program .schedule_wrap .category_item .category_type.n7{background-color:#67408b;}
+
+.schedule_program .p-calendar-list th{padding:16px 0; border:none; background:#fff; color:#373636; font-size:15px; font-weight:400;}
+.schedule_program .p-calendar-list th.sun{color:#ea1600;}
+.schedule_program .p-calendar-list thead tr:first-child th{border-bottom:1px solid #e3e3e3;}
+.schedule_program .p-calendar-list th:first-child{border-left:1px solid #e3e3e3;}
+.schedule_program .p-calendar-list th:last-child{border-right:1px solid #e3e3e3;}
+.schedule_program .p-calendar-list td{border-color:#e3e3e3;}
+.schedule_program .calendar_table tbody td{position:inherit; height:auto;}
+.schedule_program .calendar_table tbody td > div{height:auto;}
+.schedule_program .calendar_table tbody td:hover{background-color:transparent;}
+.schedule_program .calendar_table tbody td.today:hover{background-color:#fbfbfb;}
+.schedule_program .calendar_table tbody td .day{position:relative;}
+.schedule_program .calendar_table tbody td .day span{position:relative; margin-left:4px; color:#535353; font-size:14px; line-height:14px;}
+.schedule_program .calendar_table tbody td.sun .day span{color:#ea1600;}
+.schedule_program .calendar_table tbody td .calendar_inner{padding:8px 8px 8px 10px;}
+.schedule_program .calendar_table tbody td span{position:relative; top:auto; left:auto;}
+.schedule_program .calendar_table tbody .today{border:none; background-color:#fbfbfb;}
+.schedule_program .calendar_table tbody .today:before{display:block; position:absolute; top:0; left:0; font-size:0; line-height:0; content:'오늘';}
+.schedule_program .calendar_table tbody .today span{border:none;}
+.schedule_program .calendar_table tbody .today .day span{border-bottom:1px solid #535353;}
+.schedule_program .calendar_table tbody .today .day span{color:#151515; font-weight:600;}
+.schedule_program .calendar_table tbody td .event_content{margin-top:10px; min-height:82px;}
+.schedule_program .calendar_table tbody td .event_content .event_list{}
+.schedule_program .calendar_table tbody td .event_content .event_item{display:block;}
+.schedule_program .calendar_table tbody td .event_content .event_item+.event_item{margin-top:4px;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn{display:block; font-size:13px; line-height:21px; text-decoration:none;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_type{display:inline-block; width:21px; border-radius:50%; color:#fff; font-size:11px; font-weight:500; letter-spacing:-0.005em; text-align:center; vertical-align:middle;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_type.n1{background-color:#009fa1;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_type.n2{background-color:#088ac1;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_type.n3{background-color:#d9642b;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_type.n4{background-color:#d63636;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_type.n5{background-color:#225d6b;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_type.n6{background-color:#0e9488;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_type.n7{background-color:#67408b;}
+.schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_subject{overflow:hidden; display:inline-block; width:calc(100% - 25px); padding-left:3px; line-height:19px; letter-spacing:-0.02em; vertical-align:middle; white-space:nowrap; text-overflow:ellipsis;}
+/* 일정관리 레이어팝업 */
+.schedule_program .event_item .event_layer{opacity:0; visibility:hidden; display:block; position:absolute; z-index:20; top:0; left:0; right:0; bottom:0; width:540px; height:300px; margin:auto; border:1px solid #000; padding:37px 34px; background-color:#fff; transition:all 0.25s ease-in-out;}
+.schedule_program .event_item .event_layer .layer_panel{position:relative; font-size:0; line-height:0;}
+.schedule_program .event_item .event_layer .layer_panel .layer_image{overflow:hidden; display:inline-block; width:158px; height:224px; background:#000 url('/site/public/images/program/layer_noimage.png') no-repeat center center;}
+.schedule_program .event_item .event_layer .layer_panel .layer_image .image{display:block; width:100%; height:100%; background-repeat:no-repeat; background-position:center center; background-size:cover; vertical-align:top;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content{display:inline-block; width:calc(100% - 188px); margin-left:30px; vertical-align:top;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_type{min-width:95px; padding:8px 10px 6px; border-radius:30px; color:#fff; font-size:13px; line-height:15px; letter-spacing:0; text-align:center;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_type.n1{background-color:#009fa1;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_type.n2{background-color:#088ac1;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_type.n3{background-color:#d9642b;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_type.n4{background-color:#d63636;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_type.n5{background-color:#225d6b;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_type.n6{background-color:#0e9488;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_type.n7{background-color:#67408b;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_title{overflow:hidden; display:block; margin-top:23px; color:#000; font-size:20px; line-height:30px; letter-spacing:0; font-weight:500; text-overflow:ellipsis; white-space:nowrap;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_info{margin-top:18px; margin-left:2px; font-size:0; line-height:0; letter-spacing:0;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_info .info_item span{font-size:14px; line-height:22px;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_info .info_item .dt{display:inline-block; position:relative; width:54px; padding-left:11px; color:#393939; vertical-align:top;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_info .info_item .dt:before{position:absolute; display:block; top:8px; left:0; width:4px; height:4px; border-radius:50%; background-color:#4c4c4c;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_info .info_item .dd{overflow:hidden; display:inline-block; width:calc(100% - 54px); color:#808080; vertical-align:top; text-overflow:ellipsis; white-space:nowrap;}
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_view{display:block; width:105px; margin-top:23px; padding:8px 10px 7px; border-radius:7px; border:1px solid #c8c8c8; color:#333; font-size:14px; line-height:18px; letter-spacing:0; font-weight:300; text-align:center; transition:all 0.25s ease-in-out;}
+.schedule_program .event_item .event_layer .layer_close{position:absolute; top:2px; right:-5px; width:23px; height:23px; background:url('/site/public/images/program/layer_close.png') no-repeat; font-size:0; line-height:0;}
+/* hover */
+.schedule_program .event_item .event_layer .layer_panel .layer_content .layer_view:hover{border-color:#f4f4f4; background-color:#f4f4f4; color:#010101;}
+/* 활성화 */
+.schedule_program .event_item.active .event_layer{opacity:1; visibility:visible;}
+@media all and (max-width:765px){
+    .schedule_program .calendar_table{padding-bottom:5px; max-width:100%; overflow-x:auto;}
+    .schedule_program .p-calendar-list{min-width:765px;}
+    .schedule_program .p-calendar-list thead{display:table-header-group;}
+    .schedule_program .p-calendar-list thead th{display:table-cell;}
+    .schedule_program .calendar_table tbody td{border-top:1px solid #e3e3e3; display:table-cell;}
+}
+@media all and (max-width:640px){
+    .schedule_program .schedule_wrap .calender_header{margin-top:50px; margin-bottom:30px;}
+    .schedule_program .calender_header .schedule_select{padding:0 35px;}
+    .schedule_program .calender_header .schedule_select select.p-schedule{width:120px; background-position:right 10px center;}
+    .schedule_program .calender_header .calender_header_inner .button{width:20px;}
+
+    .schedule_program .schedule_wrap .category_list{padding:14px 15px 4px;}
+    .schedule_program .schedule_wrap .category_item{margin-bottom:10px; font-size:13px; line-height:20px;}
+    .schedule_program .schedule_wrap .category_item+.category_item{margin-left:18px;}
+    .schedule_program .schedule_wrap .category_item .category_type{width:20px; height:20px; margin-right:5px; font-size:11px; line-height:20px;}
+
+    .schedule_program .p-calendar-list thead th{padding:12px 0; font-size:14px;}
+    .schedule_program .calendar_table tbody td .calendar_inner{padding:5px 5px 10px 5px;}
+    .schedule_program .calendar_table tbody td .day{line-height:16px;}
+    .schedule_program .calendar_table tbody td .day span{font-size:12px; line-height:12px;}
+    .schedule_program .calendar_table tbody td .event_content{min-height:75px;}
+    .schedule_program .calendar_table tbody td .event_content .event_item .event_btn{font-size:12px; line-height:18px;}
+    .schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_type{width:18px; font-size:10px;}
+    .schedule_program .calendar_table tbody td .event_content .event_item .event_btn .category_subject{width:calc(100% - 22px); padding-left:0; line-height:16px;}
+    .schedule_program .event_item .event_layer{width:320px; height:468px; padding:25px 20px;}
+    .schedule_program .event_item .event_layer .layer_panel .layer_image{display:block; margin-left:auto; margin-right:auto;}
+    .schedule_program .event_item .event_layer .layer_panel .layer_content{width:100%; margin-top:15px; margin-left:0;}
+    .schedule_program .event_item .event_layer .layer_panel .layer_content .layer_type{min-width:80px; padding:5px 10px 5px; font-size:12px; line-height:14px;}
+    .schedule_program .event_item .event_layer .layer_panel .layer_content .layer_title{margin-top:10px; font-size:16px; line-height:26px;}
+    .schedule_program .event_item .event_layer .layer_panel .layer_content .layer_info{margin-top:10px;}
+    .schedule_program .event_item .event_layer .layer_panel .layer_content .layer_info .info_item span{font-size:13px; line-height:21px;}
+    .schedule_program .event_item .event_layer .layer_panel .layer_content .layer_info .info_item .dt{width:50px;}
+    .schedule_program .event_item .event_layer .layer_panel .layer_content .layer_info .info_item .dd{width:calc(100% - 50px);}
+    .schedule_program .event_item .event_layer .layer_panel .layer_content .layer_view{width:85px; margin:15px auto 0; padding:5px 10px 4px; font-size:12px;}
+    .schedule_program .event_item .event_layer .layer_close{top:-10px;}
+}
+
+/* 노인종합복지관 행사관리 */
+.schedule_program.silver .schedule_wrap .category_item .category_type.n1{background-color:#019c7d;}
+.schedule_program.silver .schedule_wrap .category_item .category_type.n2{background-color:#088ac1;}
+.schedule_program.silver .schedule_wrap .category_item .category_type.n3{background-color:#d63636;}
+.schedule_program.silver .calendar_table tbody td .event_content .event_item .event_btn .category_type.n1{background-color:#019c7d;}
+.schedule_program.silver .calendar_table tbody td .event_content .event_item .event_btn .category_type.n2{background-color:#088ac1;}
+.schedule_program.silver .calendar_table tbody td .event_content .event_item .event_btn .category_type.n3{background-color:#d63636;}
+.schedule_program.silver .event_item .event_layer{height:411px;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_image{background:#efefef url('/site/public/images/program/silver_layer_noimage.png') no-repeat center center;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_title{display:-webkit-box; height:52px; margin-top:25px; line-height:26px; word-break:keep-all; white-space:normal; word-wrap:break-word; -webkit-line-clamp:2; -webkit-box-orient:vertical;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_type{min-width:62px;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_type.n1{background-color:#019c7d;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_type.n2{background-color:#088ac1;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_type.n3{background-color:#d63636;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_info{margin-top:24px;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_info .info_item .dt{width:60px;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_info .info_item .dd{width:calc(100% - 60px); padding-left:4px;}
+.schedule_program.silver .event_item .event_layer .layer_panel .layer_text{overflow:hidden; display:-webkit-box; height:89px; margin-top:23px; padding-top:22px; background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAYAAAD5PA/NAAAAAXNSR0IArs4c6QAAABNJREFUGFdjrK+v/9/Y2MjIAAUANBIEAlkWXbEAAAAASUVORK5CYII=') repeat-x; color:#808080; font-size:14px; line-height:22px; letter-spacing:0; text-overflow:ellipsis; white-space:normal; word-wrap:break-word; -webkit-line-clamp:3; -webkit-box-orient:vertical;}
+@media all and (max-width:640px){
+    .schedule_program.silver .event_item .event_layer{height:538px;}
+    .schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_title{margin-top:10px;}
+    .schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_info{margin-top:10px;}
+    .schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_info .info_item .dt{width:57px;}
+    .schedule_program.silver .event_item .event_layer .layer_panel .layer_content .layer_info .info_item .dd{width:calc(100% - 57px); padding-left:2px;}
+    .schedule_program.silver .event_item .event_layer .layer_panel .layer_text{height:75px; margin-top:13px; padding-top:12px; font-size:13px; line-height:21px;}
+}
+
+/* 2023개편 사이트맵 */
+.sitemap{max-width: 100%; font-size: 0; line-height: 0;}
+.sitemap .sitemap_col{width: 100%; margin: 0;}
+.sitemap .sitemap_box{float: none; width: 100%; margin: 0 0 53px 0;}
+#contents .sitemap .sitemap_box h3,
+#contents .sitemap .sitemap_box h3 a{position:relative; background-color:inherit; color:#038e78; font-size:24px; line-height:26px; font-weight:500; text-align: left;}
+#contents .sitemap .sitemap_box h3{padding: 0; margin-bottom: 27px;}
+#contents .sitemap .sitemap_box h3:before{display: block; position: absolute; bottom:3px; right: 0; width: calc(100% - 233px); height: 4px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAYAAACzzX7wAAAAAXNSR0IArs4c6QAAABdJREFUGFdj3Lhx439/f39GBhyAkfYKAPMqEAUs4WgDAAAAAElFTkSuQmCC);}
+#contents .sitemap .sitemap_box h3 a{width: 233px;}
+#contents .sitemap .sitemap_box h3 a:before{display: block; position: absolute; bottom:3px; right:17px; width: 37px; height: 1px; background-color: #262626;}
+.sitemap .sm2depth > li{display:inline-block; width:calc((100% - 92px) / 5); margin-right: 23px; margin-bottom:18px; padding: 0; text-align: center; vertical-align: top;}
+.sitemap .sm2depth > li:nth-child(5n){margin-right:0;}
+.sitemap .sm2depth > li > a{margin: 0; padding: 13px 0 12px; border-color: #e9e9e9; border-radius: 8px; font-size: 16px; line-height: 20px; letter-spacing: -0.025em; font-weight: 400; color: #646464}
+.sitemap .sm2depth > li:hover > a{border-color: #048e8b; color: #048e8b; box-shadow: 3px 4px 20px 0 rgba(36, 143, 127, 0.07);}
+.sitemap .sm3depth{margin-top: 18px; margin-bottom: 6px; text-align: left;}
+.sitemap .sm3depth li{position:relative; padding-left:23px; padding-bottom: 6px; text-align: left;}
+.sitemap .sm3depth li:before{display: block; position: absolute; top:8px; left:7px; width:8px; height: 8px; border: 2px solid #9c9c9c; border-radius: 50%; box-sizing: border-box; }
+.sitemap .sm3depth a{display:inline-block; padding:0; margin:0; background: inherit; font-size: 15px; line-height: 22px; letter-spacing: -0.025em; font-weight: 300; color: #535353; word-break: keep-all;}
+.sitemap .sm3depth li:hover a{color: #048e8b; text-decoration: underline;}
+
+@media all and (max-width: 1500px) {
+    .sitemap .sm2depth > li{width:calc((100% - 60px) / 4); margin-right: 20px;}
+    .sitemap .sm2depth > li:nth-child(5n){margin-right:20px;}
+    .sitemap .sm2depth > li:nth-child(4n){margin-right:0;}
+}
+
+@media all and (max-width: 800px) {
+    .sitemap .sm2depth > li{width:calc((100% - 40px) / 3);}
+    .sitemap .sm2depth > li:nth-child(5n){margin-right:20px;}
+    .sitemap .sm2depth > li:nth-child(4n){margin-right:20px;}
+    .sitemap .sm2depth > li:nth-child(3n){margin-right: 0;}
+}
+@media all and (max-width: 640px) {
+    #contents .sitemap .sitemap_box h3,
+    #contents .sitemap .sitemap_box h3 a{font-size: 20px; line-height: 25px;}
+    #contents .sitemap .sitemap_box h3:before{width: 100%;}
+    #contents .sitemap .sitemap_box h3 a{width: auto; padding-right: 15px; background-color: #fff;}
+    #contents .sitemap .sitemap_box h3 a:before{display: none;}
+    .sitemap .sm2depth > li > a{font-size: 15px;}
+    .sitemap .sm3depth a{font-size: 14px;}
+    .sitemap .sm3depth li{padding-left: 16px;}
+    .sitemap .sm3depth li:before{left:0; width: 6px; height: 6px;}
+    .sitemap .sm2depth > li{width:calc((100% - 10px) / 2); margin-right: 10px; margin-bottom: 10px;}
+    .sitemap .sm2depth > li:nth-child(5n),
+    .sitemap .sm2depth > li:nth-child(4n),
+    .sitemap .sm2depth > li:nth-child(3n){margin-right:10px;}
+    .sitemap .sm2depth > li:nth-child(2n){margin-right: 0;}
+    .sitemap .sm3depth{margin-top: 10px;}
+    .sitemap .sm3depth li:before{top: 7px;}
+}
+
+/* 소장품 */
+.museum_search.box.type4{padding:33px; border-radius:10px; border:none; background:#fbfbfb;}
+.museum_search.program_search .search_title{display:none;}
+.museum_search.program_search .point_line{display:none;}
+.museum_search.program_search .search_select{min-width:198px; margin-right:6px; border:none; height:46px; vertical-align:top;}
+.museum_search.program_search .search_select select{width:100%; height:100%; padding:10px 40px 10px 18px; border-radius:8px; border:1px solid #c8c8c8; font-size:16px; line-height:18px; background:url('/site/public/images/template/arrow_bottom.png') no-repeat right 22px center; appearance:none; -moz-appearance:none; -webkit-appearance:none; -ms-appearance:none;}
+.museum_search.program_search .search_select select:focus{border-color:#038e78; outline:1px solid #038e78; box-shadow:unset;}
+.museum_search.program_search .input_text{border:none; width:298px; height:46px;}
+.museum_search.program_search .input_text input{width:100%; height:100%; margin:0; padding:0 12px 2px; border-radius:8px; border:1px solid #c8c8c8; background-color:transparent;}
+.museum_search.program_search .input_text input:focus{border-color:#038e78; outline:1px solid #038e78; box-shadow:unset;}
+.museum_search.program_search .search_btn{margin-left:6px;}
+.museum_search.program_search .search_btn .btn_submit{width:116px; height:46px; border-radius:8px; border:none; background-color:#225d6b;}
+.museum_search.program_search .search_btn input[type="submit"]{width:100%; padding:0; background:transparent;}
+
+
+.webzine_list.collection{width:auto; margin:0 0 0 -27px; padding-bottom:15px; border-bottom:none; font-size:0; line-height:0;}
+.webzine_list.collection li{float:none; display:inline-block; width:calc(25% - 27px); margin:0 0 48px 27px; vertical-align:top;}
+.webzine_list.collection li a{display:block; width:100%; height:100%;}
+
+.webzine_list.collection .image{height:269px; border-radius:20px; border:1px solid #fbfbfb; background-color:#fbfbfb; transition:all 0.35s ease-in-out;}
+.webzine_list.collection .image:not(.no_img) img{box-shadow:0 20px 40px 0 rgba(57, 57, 57, 0.2);}
+
+.webzine_list.collection .title{display:block; width:100%; height:auto; margin-top:21px; background:none;}
+.webzine_list.collection .title em{color:#000; font-size:18px; line-height:24px; letter-spacing:-0.01em; font-weight:500; transition:all 0.35s ease-in-out;}
+
+
+.webzine_list.collection a:hover .image{border-color:#225d6b;}
+.webzine_list.collection a:hover .image:not(.no_img) img{transform:scale(1.2); transition:all 0.35s ease-in-out;}
+.webzine_list.collection a:hover .title em{color:#225d6b;}

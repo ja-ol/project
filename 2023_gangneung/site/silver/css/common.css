@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* gnb 글자확대축소 */
+.gnb{padding-top:15px;}
+.gnb .site_link .link_item.zoom{display:inline-block;}
+.gnb .site_link .link_item.zoom:after{display:none;}
+.gnb .site_link .link_item.zoom .zoom_button{display:inline-block; position:relative; width:22px; height:22px; border-radius:50%; font-size:0; line-height:0; vertical-align:top;}
+.gnb .site_link .link_item.zoom #zoom_plus{background:url('../images/common/zoom_button1.png') no-repeat center center;}
+.gnb .site_link .link_item.zoom #zoom_minus{background:url('../images/common/zoom_button2.png') no-repeat center center;}
+.gnb .site_link .link_item.zoom .zoom_text{display:inline-block; margin:0 8px; color:#646464; font-size:14px; line-height:22px; font-weight:400; letter-spacing:-0.025em; vertical-align:top;}

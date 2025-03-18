@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}" />
+    <meta name="description" content="@@{siteInfo.siteDc}" />
+    <link rel="stylesheet" type="text/css" href="../../common/css/font.css" />
+    <link rel="stylesheet" type="text/css" href="../../site/public/css/font.css" />
+    <link rel="stylesheet" href="../../site/silver/css/main.css" />
+    <script src="../../common/js/jquery-1.12.4.HS-20200709.min.js"></script>
+    <script src="../../common/js/plugins.js"></script>
+    <script src="../../site/public/js/common.js"></script>
+    <script src="../../site/silver/js/common.js"></script>
+    <script src="../../site/silver/js/main.js"></script>
+    <link rel="icon" href="../../site/public/images/common/favicon.ico" type="image/x-icon">
+    <title>강릉노인종합복지관</title>
+</head>
+<body id="${siteInfo.tmplatId}" class="@@{siteInfo.siteId} page@@{key}">
+<div id="wrapper">
+
+    <header id="header">
+        <div class="accessibility">
+            <a href="#contents">본문 바로가기</a>
+        </div>
+        <div class="gnb">
+            <div class="wrap clearfix">
+                <div class="site_link right">
+                    <ul class="clearfix">
+                        <li class="link_item zoom">
+                            <button type="button" id="zoom_plus" class="zoom_button">글자 크게</button>
+                            <span class="zoom_text">100%</span>
+                            <button type="button" id="zoom_minus" class="zoom_button">글자 작게</button>
+                        </li>
+                        <li class="link_item login"><a href="" class="link_anchor"><span>로그인</span></a></li>
+                        <!-- <li class="link_item logout"><a href="" class="link_anchor"><span>로그아웃</span></a></li> -->
+                        <li class="link_item www"><a href="" class="link_anchor"><span>강릉시청</span></a></li>
+                        <li class="link_item cult"><a href="" class="link_anchor"><span>문화관광</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>  <!--//gnb-->
+        <div class="group">
+            <div class="logo">
+                <div class="wrap">
+                    <a href="./index.do" class="logo_anchor">
+                        <img src="/site/public/images/common/logo.svg" alt="솔향강릉 PINE CITY Gangneung">
+                        <span class="logo_text">노인종합복지관(본관)</span>
+                    </a>
+                </div>
+            </div>  <!--//logo-->
+            <div class="lnb">
+                <div class="menu_show">
+                    <button type="button" class="menu_btn">주메뉴 열기</button>
+                </div>
+                <nav class="menu after eachdown multiple init">
+                    <h2 class="skip">주메뉴</h2>
+                    <div class="menu_header">
+                        <div class="site_link">
+                            <ul class="clearfix">
+                                <li class="link_item login"><a href="" class="link_anchor"><span>로그인</span></a></li>
+                                <!-- <li class="link_item logout"><a href="" class="link_anchor"><span>로그아웃</span></a></li> -->
+                                <li class="link_item www"><a href="" class="link_anchor"><span>강릉시청</span></a></li>
+                                <li class="link_item cult"><a href="" class="link_anchor"><span>문화관광</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="wrap">
+                        <!--
+                            차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 : depth#, depth#_#)
+
+                            현재 페이지의 depth#_text 메뉴에 .spy 붙여주세요. (예 : 아래 메뉴명 4차메뉴_spy)
+                        -->
+                        <div class="depth depth1">
+                            <ul class="depth_list depth1_list cut">
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>소개</span></a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list cut">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                        </ul>
+                                    </div>  <!--//depth2-->
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>소식</span></a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list cut">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_blank" rel="noopener noreferrer" title="새창" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text spy"><span>4차메뉴_spy</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                        </ul>
+                                    </div>  <!--//depth2-->
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>복지관사업안내</span></a>
+                                    <div class="depth depth2">
+                                        <ul class="depth_list depth2_list cut">
+                                            <li class="depth_item depth2_item">
+                                                <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                <div class="depth depth3">
+                                                    <ul class="depth_list depth3_list">
+                                                        <li class="depth_item depth3_item">
+                                                            <a href="#n" target="_self" class="depth_text depth3_text"><span>3차메뉴</span></a>
+                                                            <div class="depth depth4">
+                                                                <ul class="depth_list depth4_list cut">
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_self" class="depth_text depth4_text"><span>4차메뉴</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth4_item">
+                                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="depth_text depth4_text"><span>4차메뉴_새창</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>  <!--//depth4-->
+                                                        </li>
+                                                    </ul>
+                                                </div>  <!--//depth3-->
+                                            </li>
+                                        </ul>
+                                    </div>  <!--//depth2-->
+                                </li>
+                            </ul>
+                        </div>  <!--//depth1-->
+                    </div>
+                    <div class="menu_hide">
+                        <button type="button" class="menu_btn">주메뉴 닫기</button>
+                    </div>
+                </nav>
+            </div>  <!--//lnb-->
+            <div class="shortcut">
+                <div class="wrap">
+                    <ul class="shortcut_list">
+                        <li class="shortcut_item search">
+                            <button type="button" class="search_btn">검색열기</button>
+                        </li>
+                        <li class="shortcut_item sitemap">
+                            <a href="./sitemap.do" class="sitemap_anchor">사이트맵</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>  <!--//shortcut-->
+            <div class="search_box">
+                <div class="wrap">
+                    <div class="search">
+                        <div class="search_con">
+                            <div class="title_box">
+                                <h2 class="skip">통합검색</h2>
+                            </div>
+                            <form class="search_form" action="">
+                                <fieldset>
+                                    <legend>통합검색</legend>
+                                    <div class="input_box">
+                                        <label for="total_search" class="skip">검색어를 입력하세요</label>
+                                        <input type="search" id="total_search" class="total_search" placeholder="검색어를 입력하세요">
+                                        <span class="submit_box">
+                                            <input type="submit" value="검색">
+                                        </span>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div class="search_keyword">
+                                <div class="keywrod_box">
+                                    <div class="keyword_title"><span>인기검색어</span></div>
+                                    <div class="keyword_list">
+                                        <div class="keyword_item title">
+                                            <span>인기검색어</span>
+                                        </div>
+                                        <div class="keyword_item">
+                                            <a href=""><span>인기검색어1</span></a>
+                                        </div>
+                                        <div class="keyword_item">
+                                            <a href=""><span>인기검색어2</span></a>
+                                        </div>
+                                        <div class="keyword_item">
+                                            <a href=""><span>인기검색어3</span></a>
+                                        </div>
+                                        <div class="keyword_item">
+                                            <a href=""><span>인기검색어4</span></a>
+                                        </div>
+                                        <div class="keyword_item">
+                                            <a href=""><span>인기검색어5</span></a>
+                                        </div>
+                                        <div class="keyword_item">
+                                            <a href=""><span>인기검색어5</span></a>
+                                        </div>
+                                        <div class="keyword_item">
+                                            <a href=""><span>인기검색어5</span></a>
+                                        </div>
+                                        <div class="keyword_item">
+                                            <a href=""><span>인기검색어5</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="search_close">검색닫기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>  <!--//shortcut-->
+        </div>
+    </header>  <!--//header-->
+
+    <div id="container">
+
+        <main>
+
+            <div class="rowgroup">
+                <section class="visual">
+                    <h2 class="skip">비주얼영역</h2>
+                    <div class="visual_list">
+                        <div class="visual_item">
+                            <span class="visual_image" style="background-image:url('./images/main/visual_img1.jpg')"></span>
+                            <div class="wrap">
+                                <div class="visual_title">
+                                    <span class="sub_title">건강튼튼! <em>행복충전!</em></span>
+                                    <span class="title">강릉시 노인종합복지관</span>
+                                    <p class="text">어르신이 행복하고 건강한 지역사회와 함께하는<br/> 복지관이 되겠습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="visual_item">
+                            <span class="visual_image" style="background-image:url('./images/main/visual_img2.jpg')"></span>
+                            <div class="wrap">
+                                <div class="visual_title">
+                                    <span class="sub_title">건강튼튼! <em>행복충전!</em></span>
+                                    <span class="title">강릉시 노인종합복지관</span>
+                                    <p class="text">어르신이 행복하고 건강한 지역사회와 함께하는<br/> 복지관이 되겠습니다.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="visual_count">
+                        <span class="visual_current"></span>
+                        <span class="visual_total"></span>
+                    </div>
+                    <div class="visual_control">
+                        <div class="visual_button">
+                            <button type="button" class="visual_prev">이전</button>
+                            <button type="button" class="visual_auto">재생</button>
+                            <button type="button" class="visual_next">다음</button>
+                        </div>
+                        <span class="progress_bar on"><span class=""></span></span>
+                    </div>
+                </section>
+            </div>
+
+            <div class="rowgroup2">
+                <div class="wrap">
+                    <div class="colgroup">
+                        <h2 class="skip">안내</h2>
+                        <div class="information">
+                            <ul class="information_list">
+                                <li class="information_item n1">
+                                    <span class="title">이용시간</span>
+                                    <p class="text">평일 오전9시~오후 5시 <em>(※주말 및 공휴일 휴관)</em></p>
+                                </li>
+                                <li class="information_item n2">
+                                    <span class="title">문의전화</span>
+                                    <p class="text">033) 640-4809~11</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="menu">
+                            <span class="menu_title">오늘의 식단</span>
+                            <div class="menu_list">
+                                <div class="menu_item">
+                                    <span class="date">2023.08.24<em>(목)</em></span>
+                                    <p class="text">잡곡밥, 낙지연포탕,<br/> 두부까스&소스, 느타리버섯무침, 참나물겉절이, 배추김치</p>
+                                </div>
+                                <div class="menu_item">
+                                    <span class="date">2023.08.25<em>(금)</em></span>
+                                    <p class="text">잡곡밥, 낙지연포탕,<br/> 두부까스&소스, 느타리버섯무침, 참나물겉절이, 배추김치</p>
+                                </div>
+                                <div class="menu_item">
+                                    <span class="date">2023.08.26<em>(토)</em></span>
+                                    <p class="text">잡곡밥, 낙지연포탕,<br/> 두부까스&소스, 느타리버섯무침, 참나물겉절이, 배추김치</p>
+                                </div>
+                            </div>
+                            <div class="menu_control">
+                                <button type="button" class="menu_prev">이전</button>
+                                <button type="button" class="menu_next">다음</button>
+                                <a href="#" class="menu_more">더보기</a>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="shortcut">
+                        <ul class="shortcut_list">
+                            <li class="shortcut_item n1"><a href="#" class="shortcut_anchor"><span>프로그램시간표</span></a></li>
+                            <li class="shortcut_item n2"><a href="#" class="shortcut_anchor"><span>회원등록</span></a></li>
+                            <li class="shortcut_item n3"><a href="#" class="shortcut_anchor"><span>자원봉사안내</span></a></li>
+                            <li class="shortcut_item n4"><a href="#" class="shortcut_anchor"><span>시설안내</span></a></li>
+                            <li class="shortcut_item n5"><a href="#" class="shortcut_anchor"><span>찾아오시는길</span></a></li>
+                            <li class="shortcut_item n6"><a href="#" class="shortcut_anchor"><span>건강정보</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup3">
+                <div class="wrap">
+                    <section class="notice">
+                        <h2 class="main_title">공지사항</h2>
+                        <ul class="notice_list">
+                            <li class="notice_item">
+                                <a href="#" class="notice_anchor">
+                                    <span class="subject">2023년 생활과학교실 수강생 모집</span>
+                                    <span class="date">2023.08.21</span>
+                                </a>
+                            </li>
+                            <li class="notice_item">
+                                <a href="#" class="notice_anchor">
+                                    <span class="subject">2023년 8월 10일(목) 복지관 휴관 알림</span>
+                                    <span class="date">2023.08.09</span>
+                                </a>
+                            </li>
+                            <li class="notice_item">
+                                <a href="#" class="notice_anchor">
+                                    <span class="subject">2023년 제30회 신사임당 얼 선양 여성 문예 경연대회 수상자</span>
+                                    <span class="date">2023.07.28</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="notice_more">더보기</a>
+                    </section>
+                    <section class="popupzone">
+                        <h2 class="skip">팝업존</h2>
+                        <div class="popupzone_list">
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="./images/main/popup_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="./images/main/popup_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="./images/main/popup_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popupzone_control">
+                            <div class="popupzone_count">
+                                <span class="popupzone_current"></span>
+                                <span class="popupzone_total"></span>
+                            </div>
+                            <div class="popupzone_button">
+                                <button type="button" class="popupzone_prev">이전</button>
+                                <button type="button" class="popupzone_auto">재생</button>
+                                <button type="button" class="popupzone_next">다음</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup4">
+                <div class="wrap">
+                    <div class="schedule">
+                        <h2 class="skip">일정안내</h2>
+                        <div class="schedule_header">
+                            <span class="title"><em>09</em>월 일정안내</span>
+                            <div class="schedule_button">
+                                <button type="button" class="button schedule_prev"><span class="skip">이전 월 보기</span></button>
+                                <button type="button" class="button schedule_next"><span class="skip">다음 월 보기</span></button>
+                                <a href="#" class="schedule_more">더보기</a>
+                            </div>
+                        </div>
+                        <div class="schedule_box">
+                            <div class="day_scroll">
+                                <ul class="day_list">
+                                    <!--
+                                        오늘 : today,
+                                        일요일 : sunday,
+                                        일정 있음 : on,
+                                        선택됨 : active
+                                    -->
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">1</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">2</button>
+                                    </li>
+                                    <li class="day_item sunday"><!-- 일요일 : sunday -->
+                                        <button type="button" class="day_button">3</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">4</button>
+                                    </li>
+                                    <li class="day_item today"><!-- 오늘 : today -->
+                                        <button type="button" class="day_button">5</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">6</button>
+                                    </li>
+                                    <li class="day_item on active"><!-- 일정있음 : on, 선택됨 : active -->
+                                        <button type="button" class="day_button">7</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">8</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">9</button>
+                                    </li>
+                                    <li class="day_item sunday"><!-- 일요일 : sunday -->
+                                        <button type="button" class="day_button">10</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">11</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">12</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">13</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">14</button>
+                                    </li>
+                                    <li class="day_item on">
+                                        <button type="button" class="day_button">15</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">16</button>
+                                    </li>
+                                    <li class="day_item sunday"><!-- 일요일 : sunday -->
+                                        <button type="button" class="day_button">17</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">18</button>
+                                    </li>
+                                    <li class="day_item on"><!-- 일정있음 : on -->
+                                        <button type="button" class="day_button">19</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">20</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">21</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">22</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">23</button>
+                                    </li>
+                                    <li class="day_item sunday"><!-- 일요일 : sunday -->
+                                        <button type="button" class="day_button">24</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">25</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">26</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">27</button>
+                                    </li>
+                                    <li class="day_item on"><!-- 일정있음 : on -->
+                                        <button type="button" class="day_button">28</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">29</button>
+                                    </li>
+                                    <li class="day_item">
+                                        <button type="button" class="day_button">30</button>
+                                    </li>
+                                </ul>
+                            </div>
+                            <ul class="schedule_list"><!-- 2개까지만 표출되게 해주세요 -->
+                                <li class="schedule_item"><a href="#">지역주민 건강교육 (심폐소생술과 하임리히법 교육)</a></li>
+                                <li class="schedule_item"><a href="#">지역주민 건강교육 (심폐소생술과 하임리히법 교육)22</a></li>
+                                <!-- <li class="schedule_item none">등록된 일정이 없습니다.</li> 일정없는 경우 표출되게 해주세요 -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rowgroup5">
+                <div class="wrap">
+                    <div class="program">
+                        <h2 class="main_title">프로그램 안내</h2>
+                        <section class="program_tab">
+                            <ul class="tab_list">
+                                <li class="tab_item active"><button type="button" class="tab_button"><span>전체</span></button></li>
+                                <li class="tab_item"><button type="button" class="tab_button"><span>특강</span></button></li>
+                                <li class="tab_item"><button type="button" class="tab_button"><span>행사</span></button></li>
+                                <li class="tab_item"><button type="button" class="tab_button"><span>영화</span></button></li>
+                            </ul>
+                        </section>
+                        <div class="program_content">
+                            <div class="program_panel active"><!-- 전체 -->
+                                <div class="program_list n1">
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>8월 청춘영화관(상영작: 관상)</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program_list n2">
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>8월 청춘영화관(상영작: 관상)</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program_control">
+                                    <button type="button" class="program_prev">이전</button>
+                                    <button type="button" class="program_next">다음</button>
+                                    <a href="#" class="program_more"><span>더보기</span></a>
+                                </div>
+                            </div>
+                            <div class="program_panel"><!-- 특강 -->
+                                <div class="program_list n1">
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육2</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육3</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육4</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program_list n2">
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육2</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육3</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img2.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>특강</span></span>
+                                            <span class="program_title">
+                                                <span>금융사기 피해예방 교육4</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program_control">
+                                    <button type="button" class="program_prev">이전</button>
+                                    <button type="button" class="program_next">다음</button>
+                                    <a href="#" class="program_more"><span>더보기</span></a>
+                                </div>
+                            </div>
+                            <div class="program_panel"><!-- 행사 -->
+                                <div class="program_list n1">
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀2</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀3</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀4</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program_list n2">
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀2</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀3</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img1.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>행사</span></span>
+                                            <span class="program_title">
+                                                <span>행사 타이틀 행사 타이틀4</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program_control">
+                                    <button type="button" class="program_prev">이전</button>
+                                    <button type="button" class="program_next">다음</button>
+                                    <a href="#" class="program_more"><span>더보기</span></a>
+                                </div>
+                            </div>
+                            <div class="program_panel"><!-- 영화 -->
+                                <div class="program_list n1">
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)2</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)3</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)4</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program_list n2">
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)2</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)3</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                    <div class="program_item">
+                                        <div class="program_image">
+                                            <span class="image" style="background-image:url('./images/main/program_img3.jpg')"></span>
+                                        </div>
+                                        <div class="program_inner">
+                                            <span class="program_type"><span>영화</span></span>
+                                            <span class="program_title">
+                                                <span>6월 청춘영화관(상영작: 미워도 다시 한번)4</span>
+                                            </span>
+                                            <span class="program_date">
+                                                <span>일시 : 2023년 8월 18일 / 09:30</span>
+                                            </span>
+                                            <p class="program_text">사람의 얼굴에는 세상 삼라만상이 모두 다 들어있소이다!<br/> 얼굴을 보면 그 사람의 모든 것을 꿰뚫어보는 천재...</p>
+                                            <a href="#" class="program_view">자세히보기</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="program_control">
+                                    <button type="button" class="program_prev">이전</button>
+                                    <button type="button" class="program_next">다음</button>
+                                    <a href="#" class="program_more"><span>더보기</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rowgroup6">
+                <div class="wrap">
+                    <div class="photo">
+                        <h2 class="main_title">포토갤러리</h2>
+                        <p class="main_text">지금 강릉시 노인종합복지관의 모습을 만나보세요</p>
+                        <div class="photo_list">
+                            <div class="photo_item">
+                                <a href="#" class="photo_anchor">
+                                    <span class="photo_image">
+                                        <span style="background-image:url('./images/main/photo_img1.jpg')"></span>
+                                    </span>
+                                    <div class="photo_content">
+                                        <span class="photo_title">2023년 강릉 세계합창대회 우정 콘서트공연</span>
+                                        <span class="photo_date">2023.07.13</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="photo_item">
+                                <a href="#" class="photo_anchor">
+                                    <span class="photo_image">
+                                        <span style="background-image:url('./images/main/photo_img2.jpg')"></span>
+                                    </span>
+                                    <div class="photo_content">
+                                        <span class="photo_title">2023년 강릉 세계합창대회 우정 콘서트(7월 12일)</span>
+                                        <span class="photo_date">2023.07.12</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="photo_item">
+                                <a href="#" class="photo_anchor">
+                                    <span class="photo_image">
+                                        <span style="background-image:url('./images/main/photo_img3.jpg')"></span>
+                                    </span>
+                                    <div class="photo_content">
+                                        <span class="photo_title">디지털배움터 『에듀버스_키오스크』 교육</span>
+                                        <span class="photo_date">2023.08.22</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="photo_item">
+                                <a href="#" class="photo_anchor">
+                                    <span class="photo_image">
+                                        <span style="background-image:url('./images/main/photo_img4.jpg')"></span>
+                                    </span>
+                                    <div class="photo_content">
+                                        <span class="photo_title">2023년 강릉시노인종합복지관 신규회원 인권교육</span>
+                                        <span class="photo_date">2023.08.18</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="photo_item">
+                                <a href="#" class="photo_anchor">
+                                    <span class="photo_image">
+                                        <span style="background-image:url('./images/main/photo_img5.jpg')"></span>
+                                    </span>
+                                    <div class="photo_content">
+                                        <span class="photo_title">2023년 노년사회화교육프로그램 하반기 수강신청 접수</span>
+                                        <span class="photo_date">2023.07.14</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="photo_item">
+                                <a href="#" class="photo_anchor">
+                                    <span class="photo_image">
+                                        <span style="background-image:url('./images/main/photo_img6.jpg')"></span>
+                                    </span>
+                                    <div class="photo_content">
+                                        <span class="photo_title">종사자대상 인권보장서약, 노인 인권보호 및 노인학대금지 노인학대금지</span>
+                                        <span class="photo_date">2023.07.14</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+    </div>  <!--//container-->
+
+    <footer id="footer" class="footer">
+        <div class="toTop">
+            <button type="button">화면 맨위로 이동</button>
+        </div>
+        <div class="wrap">
+            <div class="link">
+                <h2 class="skip">바로가기</h2>
+                <ul class="link_list">
+                    <li class="link_item"><a href="" class="link_anchor">개인정보 처리방침</a></li>
+                    <li class="link_item"><a href="" class="link_anchor">이메일 무단수집 거부</a></li>
+                    <li class="link_item"><a href="" class="link_anchor">저작권 정책</a></li>
+                </ul>
+            </div>  <!--//link-->
+            <div class="site">
+                <h2 class="skip">관련사이트</h2>
+                <button type="button" class="site_button" title="목록 열기"><span>관련 사이트</span></button>
+                <ul class="site_list">
+                    <li class="site_item">
+                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트1</span></a>
+                    </li>
+                    <li class="site_item">
+                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트2</span></a>
+                    </li>
+                    <li class="site_item">
+                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트3</span></a>
+                    </li>
+                    <li class="site_item">
+                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트4</span></a>
+                    </li>
+                    <li class="site_item">
+                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트5</span></a>
+                    </li>
+                    <li class="site_item">
+                        <a href="" class="site_anchor" target="_blank" rel="noopener noreferrer"><span>관련 사이트6</span></a>
+                    </li>
+                </ul>
+            </div>  <!--//site-->
+            <div class="footer_content">
+                <div class="info">
+                    <address>
+                        <span class="info_address">[25537] 강원특별자치도 강릉시 경강로 1956(홍제동)</span>
+                        <span class="info_tel">대표전화 : 033-640-4809~11</span>
+                        <span class="info_fax">팩스번호 : 033-662-5500</span>
+                    </address>
+                    <p class="info_copyright">Copyrightⓒ Gangneung-si. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>  <!--//footer-->
+</div>
+</body>
