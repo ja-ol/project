@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2023_강릉시">
+    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2023_김포뉴스포털">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023_gimponews/site/news_2023/css/sub.css" beforeDir="false" afterPath="$PROJECT_DIR$/2023_gimponews/site/news_2023/css/sub.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023_gimponews/site/news_2023/css/sub_layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/2023_gimponews/site/news_2023/css/sub_layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023_gimponews/site/news_2023/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023_gimponews/site/news_2023/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023_gimponews/site/news_2023/sub.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023_gimponews/site/news_2023/sub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023_gimponews/site/news_2023/sub3.html" beforeDir="false" afterPath="$PROJECT_DIR$/2023_gimponews/site/news_2023/sub3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742270883776</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2023_김포뉴스포털">
+      <created>1742272701288</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1742272701288</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +162,7 @@
     <MESSAGE value="2024_웰니스관광" />
     <MESSAGE value="2024_강릉시" />
     <MESSAGE value="2023_강릉시" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023_강릉시" />
+    <MESSAGE value="2023_김포뉴스포털" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023_김포뉴스포털" />
   </component>
 </project>
