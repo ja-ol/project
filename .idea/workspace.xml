@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2024_구미통합예약">
+    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2024_청운대학교">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/2024/청운대테섭" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/2024/충북웰니스테섭2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742172533752</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2024_청운대학교">
+      <created>1742177051816</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742177051816</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +132,7 @@
     <MESSAGE value="새 폴더 추가" />
     <MESSAGE value="2024_안양보건소" />
     <MESSAGE value="2024_구미통합예약" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024_구미통합예약" />
+    <MESSAGE value="2024_청운대학교" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024_청운대학교" />
   </component>
 </project>
