@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+/* Montserrat */
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 300;
+    /*src: url("../font/Montserrat-Light.woff2") format('woff2'),*/
+    url("../font/Montserrat-Light.woff") format('woff');
+}
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    /*src: url("../font/Montserrat-Medium.woff2") format('woff2'),*/
+    url("../font/Montserrat-Medium.woff") format('woff');
+}
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    /*src: url("../font/Montserrat-Black.woff2") format('woff2'),*/
+url("../font/Montserrat-Black.woff") format('woff');
+}
+
+/* 땅스부대찌개 */
+@font-face{
+    font-family:'TangsBudaeJjigae';
+    font-weight: 600;
+    src: url("../font/TangsBudaeJjigae-Bold.woff2") format('woff2'),
+    url("../font/TangsBudaeJjigae-Bold.woff") format('woff');
+}
+
+/* 원모바일 */
+@font-face{
+    font-family:'ONEMobile';
+    font-weight: 400;
+    src: url("../font/ONEMobileTitle.woff2") format('woff2'),
+    url("../font/ONEMobileTitle.woff") format('woff');
+}

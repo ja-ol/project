@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes"/>
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}"/>
+    <meta name="description" content="@@{siteInfo.siteDc}"/>
+    <link rel="stylesheet" type="text/css" href="../../common/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="../../common/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../../common/css/font.css" />
+    <link rel="stylesheet" type="text/css" href="../../site/lifemap/css/main_layout.css" />
+    <script src="../../site/lifemap/js/jquery-1.12.4.HS-20200709.min.js"></script>
+    <link rel="icon" href="../../site/public/favicon.ico" type="image/x-icon">
+    <title>여주시 생활지도</title>
+</head>
+<body id="main" class="lifemap">
+
+<header id="header">
+    <div class="header_wrap">
+
+        <div class="menu_btn">
+            <button type="button"><span>메뉴 열기</span></button>
+        </div>
+
+        <div class="header_top">
+            <div class="logo">
+                <span class="title">여주시생활지도</span>
+            </div>
+
+            <div class="lnb_top">
+                <div class="local">
+                    <button type="button" title="목록열기" class="local_select"><span>읍면동</span></button>
+                    <div class="local_layer">
+                        <ul class="local_list">
+                            <li class="local_item"><button type="button" data-dong="0" class="local_btn">가남읍</button></li>
+                            <li class="local_item"><button type="button" data-dong="1" class="local_btn">점동면</button></li>
+                            <li class="local_item"><button type="button" data-dong="2" class="local_btn">세종대왕면</button></li>
+                            <li class="local_item"><button type="button" data-dong="3" class="local_btn">흥천면</button></li>
+                            <li class="local_item"><button type="button" data-dong="4" class="local_btn">금사면</button></li>
+                            <li class="local_item"><button type="button" data-dong="5" class="local_btn">산북면</button></li>
+                            <li class="local_item"><button type="button" data-dong="6" class="local_btn">대신면</button></li>
+                            <li class="local_item"><button type="button" data-dong="7" class="local_btn">북내면</button></li>
+                            <li class="local_item"><button type="button" data-dong="8" class="local_btn">강천면</button></li>
+                            <li class="local_item"><button type="button" data-dong="9" class="local_btn">여흥동</button></li>
+                            <li class="local_item"><button type="button" data-dong="10" class="local_btn">중앙동</button></li>
+                            <li class="local_item"><button type="button" data-dong="11" class="local_btn">오학동</button></li>
+                        </ul>
+                        <button type="button" class="local_close"><span class="skip">닫기</span></button>
+                    </div>
+                </div>
+                <div class="search">
+                    <form action="" method="get" class="">
+                        <fieldset class="search_fieldset">
+                            <legend>검색</legend>
+                            <div class="search_box">
+                                <input type="search" class="search_query" id="search" name="search" title="검색어 입력" placeholder="검색어를 입력하세요">
+                                <span class="search_submit"><input type="submit" value="검색"></span>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="lnb">
+            <div class="menu">
+                <div class="depth depth1">
+                    <ul class="depth_list depth1_list clearfix">
+                        <li class="depth_item depth1_item" data-category="1">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>공공의료</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>국립농산물품질관리원 경기지원 여주사무소</span></button></li> <!-- data-code="" 2차카테고리 -->
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>여주시보건소</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>가남보건지소</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>접동보건지소</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>오버시 언더라인으로 라인 효과 적용</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>홍천보건지소</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>금사보건지소</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공의료 공공의료1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공의료 공공의료2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공의료 공공의료3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공의료 공공의료4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공의료 공공의료5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공의료 공공의료6</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="2">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>공공청사<em>(서비스)</em></span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공청사1</span></button></li> <!-- data-code="" 2차카테고리 -->
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공청사2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공청사3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공청사4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공청사5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공청사6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공청사7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공공청사8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#n" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="3">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>공원·수목원</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공원·수목원1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공원·수목원2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공원·수목원3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공원·수목원4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공원·수목원5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공원·수목원6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공원·수목원7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>공원·수목원8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="depth_list depth1_list clearfix">
+                        <li class="depth_item depth1_item" data-category="4">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>대중교통</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>대중교통1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>대중교통2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>대중교통3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>대중교통4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>대중교통5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>대중교통6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>대중교통7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>대중교통8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="5">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>도서관</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>도서관1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>도서관2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>도서관3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>도서관4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>도서관5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>도서관6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>도서관7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>도서관8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="6">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>모범음식점</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>모범음식점1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>모범음식점2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>모범음식점3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>모범음식점4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>모범음식점5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>모범음식점6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>모범음식점7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>모범음식점68</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="depth_list depth1_list clearfix">
+                        <li class="depth_item depth1_item" data-category="7">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>무인민원발급기</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>무인민원발급기1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>무인민원발급기2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>무인민원발급기3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>무인민원발급기4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>무인민원발급기5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>무인민원발급기6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>무인민원발급기7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>무인민원발급기8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="8">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>문화재</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>문화재1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>문화재2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>문화재3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>문화재4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>문화재5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>문화재6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>문화재7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>문화재8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="9">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>민박</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민박1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민박2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민박3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민박4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민박5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민박6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민박7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민박8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="depth_list depth1_list clearfix">
+                        <li class="depth_item depth1_item" data-category="10">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>민방위대피시설</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민방위대피시설1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민방위대피시설2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민방위대피시설3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민방위대피시설4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민방위대피시설5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민방위대피시설6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민방위대피시설7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>민방위대피시설8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="11">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>박물관</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>박물관1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>박물관2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>박물관3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>박물관4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>박물관5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>박물관6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>박물관7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>박물관8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="12">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>숙박업소</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>숙박업소1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>숙박업소2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>숙박업소3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>숙박업소4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>숙박업소5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>숙박업소6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>숙박업소7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>숙박업소8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="depth_list depth1_list clearfix">
+                        <li class="depth_item depth1_item" data-category="13">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>여주도자기</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>여주도자기1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>여주도자기2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>여주도자기3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>여주도자기4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>여주도자기5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>여주도자기6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>여주도자기7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>여주도자기8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="14">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>유관기관</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>유관기관1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>유관기관2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>유관기관3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>유관기관4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>유관기관5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>유관기관6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>유관기관7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>유관기관8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                        <li class="depth_item depth1_item" data-category="15">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>콘도·호텔</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>콘도·호텔1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>콘도·호텔2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>콘도·호텔3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>콘도·호텔4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>콘도·호텔5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>콘도·호텔6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>콘도·호텔7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>콘도·호텔8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="depth_list depth1_list clearfix">
+                        <li class="depth_item depth1_item" data-category="16">
+                            <a href="#" title="목록열기" class="depth_text depth1_text">
+                                <span>평생교육</span>
+                                <span class="num">(23)</span>
+                            </a>
+                            <div class="depth depth2">
+                                <ul class="depth_list depth2_list">
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>평생교육1</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>평생교육2</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>평생교육3</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>평생교육4</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>평생교육5</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>평생교육6</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>평생교육7</span></button></li>
+                                    <li class="depth_item depth2_item"><button type="button" data-code="" class="depth_text depth2_text"><span>평생교육8</span></button></li>
+                                </ul>
+                                <div class="btn_wrap">
+                                    <a href="#" class="download btn"><span>조회목록 다운로드</span></a>
+                                    <button type="button" class="reload btn"><span>새로고침</span></button>
+                                </div>
+                                <button type="button" class="depth2_close"><span class="skip">닫기</span></button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</header>
+
+<div id="container">
+    <main>
+        <div class="mapbox">
+
+            <!-- 지도 버튼 -->
+            <div class="map_control">
+                <div class="map_type">
+                    <button type="button" data-type="roadmap" title="선택됨" class="type_btn active">지도</button>
+                    <button type="button" data-type="skyview" class="type_btn">스카이뷰</button>
+                </div>
+                <div class="mousecontrol_wrap">
+                    <span class="mousecontrol_title">지도 드래그이동</span>
+                    <button type="button" title="지도 드래그이동 끄기" class="mousecontrol active"></button>
+                </div>
+                <div class="custom_zoomcontrol">
+                    <button type="button" class="zoomin" onclick="zoomIn();" title="확대">확대</button>
+                    <button type="button" class="zoomout" onclick="zoomOut();" title="축소">축소</button>
+                </div>
+            </div>
+            <!-- //지도 버튼 -->
+
+
+            <div id="map" class="map">
+
+                <div class="detailoverlay active">
+                    <div class="overlaybox">
+                        <div class="titlebox">
+                            <div class="title">점동보건지소</div>
+                        </div>
+                        <ul class="listbox">
+                            <li class="listitem clearfix department">
+                                <span class="title">담당부서</span>
+                                <span class="text">보건행정과</span>
+                            </li>
+                            <li class="listitem clearfix tel">
+                                <span class="title">전화번호</span>
+                                <span class="text">031-887-3641</span>
+                            </li>
+                            <li class="listitem clearfix address">
+                                <span class="title">주소</span>
+                                <span class="text">경기도 여주시 점동면 청안2길 20</span>
+                            </li>
+                            <li class="listitem clearfix homepage">
+                                <span class="title">홈페이지</span>
+                                <span class="text"><a href="www.yeoju.go.kr/main/health" target="_blank" title="새창" rel="noopener noreferrer">www.yeoju.go.kr/main/health</a></span>
+                            </li>
+                            <li class="listitem clearfix detail">
+                                <span class="title">상세내용</span>
+                                <span class="text">상세내용이 길어지면 자동으로 높이도 조정되게~</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <button type="button" class="close_overlay"><span class="skip">닫기</span></button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
+
+<script src="../../site/lifemap/js/map.js"></script>
+<script>
+    var mapContainer = document.getElementById('map'), // 지도를 표시할 div
+        mapOption = {
+            center: new kakao.maps.LatLng(37.297300897263, 127.63944484378), // 지도의 중심좌표
+            level: 5 // 지도의 확대 레벨
+        };
+
+    var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+    function setDraggable(draggable) {
+        // 마우스 드래그로 지도 이동 가능여부를 설정합니다
+        map.setDraggable(draggable);
+    }
+    function setZoomable(zoomable) {
+        // 마우스 휠로 지도 확대,축소 가능여부를 설정합니다
+        map.setZoomable(zoomable);
+    }
+
+    setZoomable(true);
+
+    function zoomIn() {
+        map.setLevel(map.getLevel() - 1);
+    }
+
+    // 지도 확대, 축소 컨트롤에서 축소 버튼을 누르면 호출되어 지도를 확대하는 함수입니다
+    function zoomOut() {
+        map.setLevel(map.getLevel() + 1);
+    }
+
+    function changeMarkers() {
+        if(customOverlay) {
+            customOverlay.setMap(null);
+        }
+        // 커스텀 오버레이가 있을 때
+        if(DetailOverlay) {
+            DetailOverlay.setMap(null);
+        }
+        closeNumOverlayAll();
+        clearCircle();
+        overlayMulti();
+    }
+
+    // 스카이뷰 버튼
+    $('.map_control .type_btn').on('click', function() {
+        var $this = $(this),
+            IsActive = $this.is('.active'),
+            Type = $this.attr('data-type'),
+            $OtherBtn = $this.siblings('.type_btn');
+        if (!IsActive) {
+            if (Type === 'roadmap') {
+                map.setMapTypeId(kakao.maps.MapTypeId.ROADMAP);
+            } else {
+                map.setMapTypeId(kakao.maps.MapTypeId.HYBRID);
+            }
+            $OtherBtn.removeClass('active').removeAttr('title');
+            $this.addClass('active').attr('title', '선택됨');
+        }
+    });
+
+    //파라미터 얻기
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+    $(function() {
+
+        //지도 드래그 이동
+        $('.mousecontrol').on('click', function() {
+            var $this = $(this),
+                IsActive = $this.is('.active');
+            if(!IsActive){
+                $this.addClass('active').attr('title', '지도 드래그이동 끄기').text('지도 드래그이동 끄기');
+                setDraggable(true);
+                setZoomable(true);
+            } else{
+                $this.removeClass('active').attr('title', '지도 드래그이동 켜기').text('지도 드래그이동 켜기');
+                setDraggable(false);
+                setZoomable(false);
+            }
+        });
+
+        /* 읍면동 선택 */
+        $('.header_top .local .local_select').on('click', function() {
+            var $this = $(this),
+                $Parent = $this.parent('.local'),
+                IsActive = $Parent.is('.active'),
+                $Layer = $this.siblings('.local_layer');
+            if(!IsActive){
+                $Parent.addClass('active');
+                $this.attr('title', '목록닫기');
+                $Layer.slideDown();
+            } else{
+                $Parent.removeClass('active');
+                $this.attr('title', '목록열기');
+                $Layer.slideUp();
+            }
+        });
+        $('.header_top .local .local_close').on('click', function(){
+            $('.local_close').parents('.local').removeClass('active');
+            $('.local_close').parent('.local_layer').slideUp();
+        });
+
+
+        $('.header_top .local .local_layer .local_btn').on('click', function() {
+            var $this = $(this),
+                DataDong = $this.attr('data-dong'),
+                ThisText = $this.text(),
+                $MyParent = $this.parent('.local_item'),
+                IsActive = $MyParent.is('.active'),
+                $OtherParents = $MyParent.siblings('.local_item'),
+                $OtherBtns = $OtherParents.find('.local_btn'),
+                $Parent = $this.parents('.local'),
+                $Layer = $this.parents('.local_layer'),
+                $SelectBtn = $Layer.siblings('.local_select'),
+                MarkerLoaded = $MapBox.is('.loaded');
+            if(DataDong==0){
+                ThisText = ThisText;
+            }
+            if(!IsActive){
+                $SelectBtn.find('span').text(ThisText);
+                $OtherParents.removeClass('active');
+                $OtherBtns.removeAttr('title');
+                $MyParent.addClass('active');
+                $this.attr('title', '선택됨');
+            }
+            $Parent.removeClass('active');
+            $SelectBtn.attr('title', '목록열기');
+            $Layer.slideUp();
+        });
+
+
+        /* 1차 카테고리 */
+        $('.lnb .menu .depth1_text').on('click', function() {
+            var $this = $(this),
+                DataDong = $this.attr('data-dong'),
+                ThisText = $this.text(),
+                $MyParent = $this.parent('.depth1_item'),
+                $MyParent2 = $this.parent('.depth1_item').parent('.depth1_list'),
+                Category = $this.attr('data-category'),
+                IsActive = $MyParent.is('.active'),
+                $MyLayer = $this.siblings('.depth2'),
+                $OtherParents = $MyParent.siblings('.depth1_item'),
+                $OtherParents2 = $MyParent.siblings('.depth1_item').parent('.depth1_list').siblings().children('.depth1_item'),
+                $OtherParents3 = $MyParent2.siblings('.depth1_list'),
+                $OtherBtns = $OtherParents.find('.depth1_text'),
+                $OtherBtns2 = $OtherParents2.find('.depth1_text'),
+                $OtherLayers = $OtherParents.find('.depth2'),
+                $OtherLayers2 = $OtherParents2.find('.depth2');
+            if(!IsActive){
+                $OtherParents.removeClass('active');
+                $OtherLayers.slideUp();
+                $OtherParents2.removeClass('active');
+                $OtherLayers2.slideUp();
+                $OtherParents3.removeClass('active');
+                $OtherBtns.attr('title', '목록열기');
+                $MyParent.addClass('active');
+                $MyParent2.addClass('active');
+                $('#header').addClass('active');
+                $('#header').addClass('list'+($MyParent2.index() + 1));
+                $MyLayer.slideDown();
+                $this.attr('title', '목록닫기');
+            } else{
+                $MyParent.removeClass('active');
+                $MyParent2.removeClass('active');
+                $MyLayer.slideUp();
+                $this.attr('title', '목록열기');
+                $('#header').removeClass('active');
+                $('#header').removeClass('list'+($MyParent2.index() + 1));
+            }
+
+            $OtherBtns2.on('click', function() {
+                $('#header').removeClass('list'+($MyParent2.index() + 1));
+                $('#header').removeClass('scroll_ing');
+            });
+        });
+
+
+        /* 2차 카테고리 */
+        $('.lnb .menu .depth2_text').on('click', function() {
+            var $this = $(this),
+                ThisText = $this.text(),
+                ThisCode = $this.attr('data-code'),
+                $MyParent = $this.parent('.depth2_item'),
+                ParentIndex = $MyParent.index(),
+                IsSelected = $MyParent.is('.active'),
+                $OtherParents = $MyParent.siblings('.depth2_item'),
+                $SelectedItems = $MyParent.siblings('.depth2_item.active'),
+                SelectedItemsLength = $SelectedItems.length,
+                $ParentDepth2 = $this.parents('.depth2'),
+                $ThisDepth1Btn = $ParentDepth2.siblings('.depth1_text'),
+                CateText = $ThisDepth1Btn.find('span').text(),
+                $ParentDepth1 = $this.parents('.depth1_item'),
+                $OtherParentDepth1 = $ParentDepth1.siblings('.depth1_item'),
+                $OtherDepth1Btns = $OtherParentDepth1.find('.depth1_text'),
+                $OtherDepth1BtnsTitle = $OtherDepth1Btns.find('.skip_title'),
+                $OtherDepth2Items = $OtherParentDepth1.find('.depth2_item'),
+                $OtherDepth2Btns = $OtherDepth2Items.find('.depth2_text'),
+
+                NowDong = $('.lnb .local .local_select').find('span').text();
+
+            if(!IsSelected){
+                $MyParent.addClass('active');
+                $OtherParentDepth1.removeClass('active');
+                $OtherParents.removeClass('active');
+                $OtherDepth1BtnsTitle.empty();
+                $OtherDepth2Items.removeClass('active');
+                $OtherDepth2Btns.removeAttr('title');
+            } else{
+                $MyParent.removeClass('selected');
+                $OtherDepth2Items.removeClass('selected');
+                $this.removeAttr('title');
+                if(SelectedItemsLength==0){
+                    clearReload();
+                }
+            }
+        });
+
+        $('.lnb .menu .depth2 .depth2_close').on('click', function(){
+
+            var $MyParent2 = $(this).parents('.depth1_item').parent('.depth1_list');
+
+            $('.depth2_close').parents('.depth1_item').removeClass('active');
+            $('.depth2_close').parents('.depth1_list').removeClass('active');
+            $('.depth2_close').parents('.depth2').slideUp();
+            $('#header').removeClass('active');
+            $('#header').removeClass('list'+($MyParent2.index() + 1));
+            $('#header').removeClass('scroll_ing');
+            $('#header').removeClass('top');
+            $("#header").removeClass('end');
+        });
+
+        /* 스크롤 */
+        $('.header_wrap .lnb').on('scroll',function(){
+            var listTop = $('.depth1_list').first().offset().top,
+                lnbTop = $(this).offset().top,
+                scrollTop = $(this).scrollTop(),
+                innerHeight = $(this).innerHeight(),
+                scrollHeight = $(this).prop('scrollHeight'),
+                IsActive = $('#header').is('.active');
+
+            $('#header').addClass('scroll_ing');
+            $('#header').removeClass('top');
+            $("#header").removeClass('end');
+
+            if (listTop === lnbTop){
+                $('#header').removeClass('scroll_on');
+                $('#header').addClass('top');
+            }
+            else if (scrollTop + innerHeight >= scrollHeight) {
+                $("#header").addClass('end');
+            }
+            else{
+                $('#header').addClass('scroll_on');
+                $("#header").removeClass('end');
+            }
+        });
+    });
+
+    /* 반응형 메뉴 */
+    $('.menu_btn').on('click',function(){
+        if($(this).hasClass('active')){
+            $(this).removeClass('active');
+            $('html').removeClass('lnb_show');
+            $('.menu_btn span').text('메뉴 열기');
+        }else{
+            $(this).addClass('active');
+            $('html').addClass('lnb_show');
+            $('.menu_btn span').text('메뉴 닫기');
+        }
+    });
+
+    $('.close_overlay').on('click',function(){
+        $('.detailoverlay').removeClass('active');
+    });
+</script>
+

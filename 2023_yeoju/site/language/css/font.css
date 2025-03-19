@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/* TTTogether */
+@font-face{
+    font-family: 'TTTogether';
+    font-weight: 400;
+    src: url("../font/TTTogether.woff2") format('woff2'),
+    url("../font/TTTogether.woff") format('woff');
+}
+
+/* Montserrat */
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    src: /*url("../font/Montserrat-ExtraBold.woff2") format('woff2'),*/
+    url("../font/Montserrat-ExtraBold.woff") format('woff');
+}
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    src: /*url("../font/Montserrat-Black.woff2") format('woff2'),*/
+    url("../font/Montserrat-Black.woff") format('woff');
+}
+
+/* BickhamScriptPro */
+@font-face{
+    font-family: 'BickhamScriptPro';
+    font-weight: 400;
+    src: url("../font/BickhamScriptPro-Regular.woff2") format('woff2'),
+    url("../font/BickhamScriptPro-Regular.woff") format('woff');
+}
+
+
+/* PlayfairDisplay */
+@font-face{
+    font-family: 'PlayfairDisplay';
+    font-weight: 500;
+    src: url("../font/PlayfairDisplay-Medium.woff2") format('woff2'),
+    url("../font/PlayfairDisplay-Medium.woff") format('woff');
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.logo .logo_anchor{margin-top:53px;}
+.logo .logo_anchor img{width:221px; height:41px;}
+
+@media all and (min-width:1001px){
+    .lnb:after{display:block; position:absolute; left:0; bottom:-1px; width:100vw; height:1px; background-color:rgba(0,0,0,0.2);}
+    .lnb .menu .depth1_list{padding-right:0;}
+    .lnb .menu .depth_list.cut>.depth_item:nth-child(6) .depth1_text{margin-right:0;}
+}
+@media all and (max-width:1000px){
+    .logo .logo_anchor{margin-top:26px; margin-bottom:28px;}
+    .logo .logo_anchor img{width:139px; height:26px;}
+    .lnb .menu_show{right:20px;}
+}

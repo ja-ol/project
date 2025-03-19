@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/* NotoKr */
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 100;
+	src: url("../font/NotoSansCJKkr-DemiLight.woff2") format('woff2'),
+	url("../font/NotoSansCJKkr-DemiLight.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 200;
+	src: url("../font/NotoSansCJKkr-DemiLight.woff2") format('woff2'),
+	url("../font/NotoSansCJKkr-DemiLight.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 300;
+	src: url("../font/NotoSansCJKkr-DemiLight.woff2") format('woff2'),
+	url("../font/NotoSansCJKkr-DemiLight.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 400;
+	src: url("../font/NotoSansCJKkr-Regular.woff2") format('woff2'),
+	url("../font/NotoSansCJKkr-Regular.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 500;
+	src: url("../font/NotoSansCJKkr-Medium.woff2") format('woff2'),
+	url("../font/NotoSansCJKkr-Medium.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 600;
+	src: url("../font/NotoSansCJKkr-Bold.woff2") format('woff2'),
+	url("../font/NotoSansCJKkr-Bold.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 700;
+	src: url("../font/NotoSansCJKkr-Black.woff2") format('woff2'),
+	url("../font/NotoSansCJKkr-Black.woff") format('woff');
+}
+
+
+/* 넥센타이어 */
+@font-face{
+	font-family: 'Nexen';
+	font-weight: 400;
+	src: /* url("../font/NEXEN-TIRE_Bold.woff2") format('woff2'),*/
+		url("../font/NEXEN-TIRE_Regular.woff") format('woff');
+}
+@font-face{
+	font-family: 'Nexen';
+	font-weight: 600;
+	src: /* url("../font/NEXEN-TIRE_Bold.woff2") format('woff2'),*/
+		url("../font/NEXEN-TIRE_Bold.woff") format('woff');
+}
+
+/* Montserrat */
+@font-face{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	src: url("../font/Montserrat-Regular.woff2") format('woff2'),
+	url("../font/Montserrat-Regular.woff") format('woff');
+}
+
+@font-face{
+	font-family: 'Montserrat';
+	font-weight: 500;
+	src: url("../font/Montserrat-Medium.woff2") format('woff2'),
+	url("../font/Montserrat-Medium.woff") format('woff');
+}
+
+@font-face{
+	font-family: 'Montserrat';
+	font-weight: 600;
+	src: url("../font/Montserrat-SemiBold.woff2") format('woff2'),
+	url("../font/Montserrat-SemiBold.woff") format('woff');
+}
+
+@font-face{
+	font-family: 'Montserrat';
+	font-weight: 700;
+	src: url("../font/Montserrat-Bold.woff2") format('woff2'),
+	url("../font/Montserrat-Bold.woff") format('woff');
+}
+
+@font-face{
+	font-family: 'Montserrat';
+	font-weight: 900;
+	src: url("../font/Montserrat-Black.woff2") format('woff2'),
+	url("../font/Montserrat-Black.woff") format('woff');
+}
+
+/* Gmarket */
+@font-face{
+	font-family: 'Gmarket';
+	font-weight: 200;
+	src: url("../font/GmarketSansTTFLight.woff2") format('woff2'),
+	url("../font/GmarketSansTTFLight.woff") format('woff');
+}
+
+
+@font-face{
+	font-family: 'Gmarket';
+	font-weight: 400;
+	src: url("../font/GmarketSansTTFMedium.woff2") format('woff2'),
+	url("../font/GmarketSansTTFMedium.woff") format('woff');
+}
+
+
+@font-face{
+	font-family: 'Gmarket';
+	font-weight: 600;
+	src: url("../font/GmarketSansTTFBold.woff2") format('woff2'),
+	url("../font/GmarketSansTTFBold.woff") format('woff');
+}
+
+
+/* SpoqaHanSans */
+@font-face{
+	font-family: 'SpoqaHanSans';
+	font-weight: 200;
+	src: url("../font/SpoqaHanSansNeo-Regular.woff2") format('woff2'),
+	url("../font/SpoqaHanSansNeo-Regular.woff") format('woff');
+}
+@font-face{
+	font-family: 'SpoqaHanSans';
+	font-weight: 300;
+	src: url("../font/SpoqaHanSansNeo-Regular.woff2") format('woff2'),
+	url("../font/SpoqaHanSansNeo-Regular.woff") format('woff');
+}
+@font-face{
+	font-family: 'SpoqaHanSans';
+	font-weight: 400;
+	src: url("../font/SpoqaHanSansNeo-Regular.woff2") format('woff2'),
+	url("../font/SpoqaHanSansNeo-Regular.woff") format('woff');
+}
+
+@font-face{
+	font-family: 'SpoqaHanSans';
+	font-weight: 600;
+	src: url("../font/SpoqaHanSansNeo-Bold.woff2") format('woff2'),
+	url("../font/SpoqaHanSansNeo-Bold.woff") format('woff');
+}
+
+/* ELANDNiceM */
+@font-face {
+	font-family: 'ELANDNiceM';
+	font-weight: 400;
+	src: url("../font/ELAND_Nice_M.woff2") format('woff2'),
+	url("../font/ELAND_Nice_M.woff") format('woff');
+}
+
+
+/* Pretendard */
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 400;
+	src: url("../font/Pretendard-Regular.woff2") format('woff2'),
+	url("../font/Pretendard-Regular.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 500;
+	src: url("../font/Pretendard-Medium.woff2") format('woff2'),
+	url("../font/Pretendard-Medium.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'Pretendard';
+	font-weight: 600;
+	src: url("../font/Pretendard-Bold.woff2") format('woff2'),
+	url("../font/Pretendard-Bold.woff") format('woff');
+}
+
+/* Pretendard */
+@font-face {
+	font-family: 'Saira';
+	font-weight: 500;
+	src: url("../font/Saira-Medium.woff2") format('woff2'),
+	url("../font/Saira-Medium.woff") format('woff');
+}
+
+/* HSBombaram */
+@font-face {
+	font-family: 'HSBombaram';
+	font-weight: 400;
+	src: url("../font/HSBombaram.woff2") format('woff2'),
+	url("../font/HSBombaram.woff") format('woff');
+}
+
+/* jalnan */
+@font-face {
+	font-family: 'yg-jalnan';
+	src: url('/common/font/Jalnan.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* 원스토어 */
+@font-face{
+	font-family: 'OneMobile';
+	font-weight: 400;
+	src: /* url("../font/ONEMobileTitle.woff2") format('woff2'),*/
+		url("../font/ONEMobileTitle.woff") format('woff');
+}
+

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* logo */
+.logo .logo_anchor .logo_text{color:#0098d9;}
+
+/* footer */
+#footer .link_list{padding-top:52px;}
+#footer .footer_content .info_address{min-width:319px;}
+#footer .footer_content .info_tel{min-width:161px; margin-right:32px;}
+#footer .info .info_copyright{margin-top:28px;}
+@media all and (max-width:1000px){
+    #footer .link_list{padding-top:42px;}
+}
+@media all and (max-width:800px){
+    #footer .footer_content address+address{margin-top:10px;}
+    #footer .footer_content .info_address{display:block; min-width:auto;}
+    #footer .footer_content .info_tel{min-width:auto;}
+}
+@media all and (max-width:640px){
+    #footer{padding-bottom:48px;}
+    #footer .link_list{padding-top:24px;}
+    #footer .footer_content address+address{margin-top:6px;}
+    #footer .info .info_copyright{margin-top:18px;}
+}

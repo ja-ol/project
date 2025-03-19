@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* Cafe24 */
+@font-face{
+    font-family:'Cafe24';
+    font-weight: 400;
+    src: url("../font/Cafe24Classictype.woff2") format('woff2'),
+    url("../font/Cafe24Classictype.woff") format('woff');
+}
+
+/* lotteria */
+@font-face{
+    font-family:'lotteria-ddag';
+    font-weight: 400;
+    src: url("../font/lotteria-ddag.woff2") format('woff2'),
+    url("../font/lotteria-ddag.woff") format('woff');
+}

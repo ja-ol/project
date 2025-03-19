@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* 넥슨풋볼 */
+@font-face{
+    font-family:'NEXON';
+    font-weight: 600;
+    src: url("../font/NEXON_Football.woff2") format('woff2'),
+    url("../font/NEXON_Football.woff") format('woff');
+}
