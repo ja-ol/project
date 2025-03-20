@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes"/>
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}"/>
+    <meta name="description" content="@@{siteInfo.siteDc}"/>
+    <link rel="stylesheet" type="text/css" href="../../common/css/default.css"/>
+    <link rel="stylesheet" type="text/css" href="../../common/css/program.css"/>
+    <link rel="stylesheet" type="text/css" href="../../common/css/font.css"/>
+    <link rel="stylesheet" type="text/css" href="../../site/public/css/template.css"/>
+    <link rel="stylesheet" href="../../site/map/css/map.css">
+    <script src="../../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../../common/js/plugins.js"></script>
+    <link rel="icon" href="../../site/public/images/common/favicon.png" type="image/x-icon">
+    <title>동해시 통합일정</title>
+</head>
+<body>
+<div id="wrapper">
+
+    <header id="header">
+        <div class="wrap clearfix">
+            <h1 class="logo">
+                <a href="/www/index.do" class="logo_anchor">
+                    <img src="../public/images/common/logo_white.svg" alt="동해시 DONGHAE CITY">
+                    <span class="logo_text">통합일정</span>
+                </a>
+            </h1>
+            <span class="header_text">동해시 일원에서 개최되는 다양한 행사·소식을 전합니다</span>
+        </div>
+    </header>
+
+    <div id="container">
+        <div class="wrap clearfix">
+
+            <!-- 달력 년,월 -->
+            <div class="side">
+                <div class="calendar">
+                    <div class="calendar_header">
+                        <a href="#" class="calender_button prev"><span class="skip">이전 월 보기</span></a>
+                        <span class="text">
+                            <span class="year">2022</span>
+                        </span>
+                        <a href="#" class="calender_button next"><span class="skip">다음 월 보기</span></a>
+                    </div>
+                    <div class="calendar_wrap">
+                        <ul class="calendar_list">
+                            <li class="calendar_item active"><!-- 선택된 월 'active' -->
+                                <a href="#" class="calendar_anchor">01 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">02 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">03 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">04 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">05 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">06 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">07 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">08 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">09 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">10 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">11 <span>월</span></a>
+                            </li>
+                            <li class="calendar_item">
+                                <a href="#" class="calendar_anchor">12 <span>월</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- //달력 년,월-->
+
+            <main class="clearfix">
+
+                <div class="rowgroup">
+                    <!-- 왼쪽 -->
+                    <div class="colgroup col_left">
+                        <div class="col_inner">
+
+                            <div class="select_tab">
+                                <div class="select_tab_button">
+                                    <ul class="button_list">
+                                        <li class="button_item map active">
+                                            <button class="button"><span>지도로 보기</span></button>
+                                        </li>
+                                        <li class="button_item calendar">
+                                            <button class="button"><span>달력으로 보기</span></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col_box map active">
+                                <div class="schedule">
+                                    <h2 class="title">01월 <span>일정</span></h2>
+                                    <div class="schedule_content">
+                                        <div class="schedule_tab">
+                                            <ul class="tab_list">
+                                                <li class="tab_item active" data-category="all"><!-- 전체 data-category="all" -->
+                                                    <button class="tab_button"><span>전체</span></button>
+                                                </li>
+                                                <li class="tab_item" data-category="event"><!-- 행사 data-category="event" -->
+                                                    <button class="tab_button"><span>행사</span></button>
+                                                </li>
+                                                <li class="tab_item" data-category="festival"><!-- 축제 data-category="festival" -->
+                                                    <button class="tab_button"><span>축제</span></button>
+                                                </li>
+                                                <li class="tab_item" data-category="exhibit"><!-- 전시 data-category="exhibit" -->
+                                                    <button class="tab_button"><span>전시</span></button>
+                                                </li>
+                                                <li class="tab_item" data-category="show"><!-- 공연 data-category="show" -->
+                                                    <button class="tab_button"><span>공연</span></button>
+                                                </li>
+                                                <li class="tab_item" data-category="education"><!-- 교육 data-category="education" -->
+                                                    <button class="tab_button"><span>교육</span></button>
+                                                </li>
+                                                <li class="tab_item" data-category="administration"><!-- 행정 data-category="administration" -->
+                                                    <button class="tab_button"><span>행정</span></button>
+                                                </li>
+                                                <li class="tab_item" data-category="etc"><!-- 기타 data-category="etc" -->
+                                                    <button class="tab_button"><span>기타</span></button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <span class="schedule_total">
+                                            <span>총 : <em>254</em>건</span>
+                                        </span>
+                                        <div class="schedule_wrap">
+                                            <div class="schedule_panel">
+                                                <ul class="schedule_list">
+                                                    <li class="schedule_item" data-category="event"><!-- 행사 data-category="event" -->
+                                                        <button type="button" class="schedule_button">
+                                                            <span class="schedule_flag">
+                                                                <span class="date">30</span>
+                                                                <span class="schedule_type event">행사</span><!-- 행사 'schedule_type event' -->
+                                                            </span>
+                                                            <span class="subject">양성평등주간 기념 유공자 시상식 시상식</span>
+                                                        </button>
+                                                    </li>
+                                                    <li class="schedule_item" data-category="festival"><!-- 축제 data-category="festival" -->
+                                                        <button type="button" class="schedule_button">
+                                                            <span class="schedule_flag">
+                                                                <span class="date">22</span>
+                                                                <span class="schedule_type festival">축제</span><!-- 축제 'schedule_type festival' -->
+                                                            </span>
+                                                            <span class="subject">2022 문화공감학교 문화예술교육 참가자</span>
+                                                        </button>
+                                                    </li>
+                                                    <li class="schedule_item" data-category="exhibit"><!-- 전시 data-category="exhibit" -->
+                                                        <button type="button" class="schedule_button">
+                                                            <span class="schedule_flag">
+                                                                <span class="date">15</span>
+                                                                <span class="schedule_type exhibit">전시</span><!-- 전시 'schedule_type exhibit' -->
+                                                            </span>
+                                                            <span class="subject">드론 항공 방제&정비 전문가 양성과정 교육 교육</span>
+                                                        </button>
+                                                    </li>
+                                                    <li class="schedule_item" data-category="show"><!-- 공연 data-category="show" -->
+                                                        <button type="button" class="schedule_button">
+                                                            <span class="schedule_flag">
+                                                                <span class="date">12</span>
+                                                                <span class="schedule_type show">공연</span><!-- 공연 'schedule_type show' -->
+                                                            </span>
+                                                            <span class="subject">2022 삼화사 수륙재 공개행사</span>
+                                                        </button>
+                                                    </li>
+                                                    <li class="schedule_item" data-category="education"><!-- 교육 data-category="education" -->
+                                                        <button type="button" class="schedule_button">
+                                                            <span class="schedule_flag">
+                                                                <span class="date">05</span>
+                                                                <span class="schedule_type education">교육</span><!-- 교육 'schedule_type education' -->
+                                                            </span>
+                                                            <span class="subject">2022년 지역 현안 토론회</span>
+                                                        </button>
+                                                    </li>
+                                                    <li class="schedule_item" data-category="administration"><!-- 행정 data-category="administration" -->
+                                                        <button type="button" class="schedule_button">
+                                                            <span class="schedule_flag">
+                                                                <span class="date">12</span>
+                                                                <span class="schedule_type administration">행정</span><!-- 행정 'schedule_type administration' -->
+                                                            </span>
+                                                            <span class="subject">2022 삼화사 수륙재 공개행사</span>
+                                                        </button>
+                                                    </li>
+                                                    <li class="schedule_item" data-category="etc"><!-- 기타 data-category="etc" -->
+                                                        <button type="button" class="schedule_button">
+                                                            <span class="schedule_flag">
+                                                                <span class="date">05</span>
+                                                                <span class="schedule_type etc">기타</span><!-- 기타 'schedule_type etc' -->
+                                                            </span>
+                                                            <span class="subject">2022년 지역 현안 토론회</span>
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col_box calendar">
+                                <div class="calendar">
+                                    <h2 class="title">01월 <span>일정</span></h2>
+                                    <div class="calender_box">
+                                        <div class="calender_inner">
+                                            <div class="p-calendar">
+                                                <table class="p-calendar-list">
+                                                    <caption>주요 일정 - SUN, MON ,TUE, WED, THU, FRI, SAT 정보 제공</caption>
+                                                    <thead>
+                                                    <tr>
+                                                        <th scope="col" class="sun">SUN</th><!-- 일요일 'sun' -->
+                                                        <th scope="col">MON</th>
+                                                        <th scope="col">TUE</th>
+                                                        <th scope="col">WED</th>
+                                                        <th scope="col">THU</th>
+                                                        <th scope="col">FRI</th>
+                                                        <th scope="col" class="sat">SAT</th><!-- 토요일 'sat' -->
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody class="text_center">
+                                                    <!--
+                                                    td 클래스
+                                                    오늘 : today
+                                                    선택한 날 : active
+                                                    일정 없는 날 : empty
+                                                    -->
+                                                    <tr>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td>
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>01</span></button>
+                                                                <span class="number" title="일정있음">20건</span><!-- title '일정있음' -->
+                                                            </div>
+                                                        </td>
+                                                        <td class="active" title="선택됨"><!-- 선택한 날 'active' -->
+                                                            <div class="day">
+                                                                <button type="button"><span>02</span></button>
+                                                                <span class="number">20건</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>03</span></button>
+                                                                <span class="number" title="일정있음">20건</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>04</span></button>
+                                                                <span class="number" title="일정있음">20건</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty"><!-- 일정 없는 날 'empty' -->
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>05</span></button>
+                                                                <span class="number" title="일정없음">건</span><!-- title '일정없음' -->
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>06</span></button>
+                                                                <span class="number" title="일정없음">건</span><!-- title '일정없음' -->
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>07</span></button>
+                                                                <span class="number" title="일정없음">건</span><!-- title '일정없음' -->
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>08</span></button>
+                                                                <span class="number" title="일정없음">건</span><!-- title '일정없음' -->
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>09</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="today"><!-- 오늘 'today' -->
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>10</span></button>
+                                                                <span class="number" title="일정있음">20건</span>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>11</span></button>
+                                                                <span class="number" title="일정있음">20건</span>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>12</span></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>13</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>14</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>15</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>16</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>17</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>18</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>19</span></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>20</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>21</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>22</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>23</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>24</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>25</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>26</span></button>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>27</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>28</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>29</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty">
+                                                            <div class="day">
+                                                                <button type="button" onclick=""><span>30</span></button>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                        <td></td>
+                                                        <td></td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- //왼쪽 -->
+
+                    <!-- 오른쪽 -->
+                    <div class="colgroup col_right">
+
+                        <div class="col_box map active">
+                            <div class="map_box">
+                                <div id="map">
+                                    <img src="./images/map.jpg" alt="" style="width:100%; height:100%;">
+                                    <!-- 팝업 -->
+                                    <div class="overlay active">
+                                        <div class="overlay_title">
+                                            <!--
+                                              event : 행사
+                                              festival : 축제
+                                              exhibit : 전시
+                                              show : 공연
+                                              education : 교육
+                                              administration : 행정
+                                              etc : 기타
+                                             -->
+                                            <span class="schedule_type event">행사</span>
+                                            <span class="subject">통일평생교육 상반기 교육강좌 수강생 모집</span>
+                                        </div>
+                                        <div class="overlay_content">
+                                            <div class="overlay_inner">
+                                                <ul class="bu dl">
+                                                    <li>
+                                                        <span class="dt">기간</span>
+                                                        <span class="dd date">2022-01-25~2022-01-29</span>
+                                                    </li>
+                                                    <li>
+                                                        <span class="dt">시간</span>
+                                                        <span class="dd time">09:18</span>
+                                                    </li>
+                                                    <li style="margin-top:6px;">
+                                                        <span class="dt">장소</span>
+                                                        <span class="dd">통일평생교육원 홈페이지</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="overlay_btn_wrap">
+                                                <a href="#" target="_blank" title="새창" rel="noopener noreferrer" class="btn small view">상세보기</a>
+                                            </div>
+                                        </div>
+                                        <button type="button" onclick="" class="overlay_close">닫기</button>
+                                    </div>
+                                    <!-- //팝업 -->
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col_box calendar">
+                            <div class="schedule">
+                                <div class="schedule_content">
+                                    <h2 class="title">01월 3일 <span>일정</span></h2>
+                                    <div class="schedule_tab">
+                                        <ul class="tab_list">
+                                            <li class="tab_item active" data-category="all">
+                                                <button class="tab_button"><span>전체</span></button>
+                                            </li>
+                                            <li class="tab_item" data-category="event">
+                                                <button class="tab_button"><span>행사</span></button>
+                                            </li>
+                                            <li class="tab_item" data-category="festival">
+                                                <button class="tab_button"><span>축제</span></button>
+                                            </li>
+                                            <li class="tab_item" data-category="exhibit">
+                                                <button class="tab_button"><span>전시</span></button>
+                                            </li>
+                                            <li class="tab_item" data-category="show">
+                                                <button class="tab_button"><span>공연</span></button>
+                                            </li>
+                                            <li class="tab_item" data-category="etc">
+                                                <button class="tab_button"><span>기타</span></button>
+                                            </li>
+                                            <li class="tab_item" data-category="education">
+                                                <button class="tab_button"><span>교육</span></button>
+                                            </li>
+                                            <li class="tab_item" data-category="administration">
+                                                <button class="tab_button"><span>행정</span></button>
+                                            </li>
+                                        </ul>
+                                        <span class="schedule_total">
+                                            <span>총 : <em>254</em>건</span>
+                                        </span>
+                                    </div>
+                                    <div class="schedule_panel">
+                                        <div class="schedule_wrap">
+                                            <ul class="schedule_list">
+                                                <li class="schedule_item" data-category="event">
+                                                    <div class="con_box">
+                                                        <span class="schedule_type event">행사</span><!-- 행사 'schedule_type event' -->
+                                                        <span class="subject">드론 항공 방제&정비 전문가 양성과정 교육참여자 모집</span>
+                                                        <ul class="bu dl">
+                                                            <li>
+                                                                <span class="dt">기간</span>
+                                                                <span class="dd">2022-01-25~2022-01-29</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">시간</span>
+                                                                <span class="dd">09:18</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">장소</span>
+                                                                <span class="dd">통일평생교육원 홈페이지</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="btn_box">
+                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="btn small view">상세보기</a>
+                                                    </div>
+                                                </li>
+                                                <li class="schedule_item" data-category="festival">
+                                                    <div class="con_box">
+                                                        <span class="schedule_type festival">축제</span><!-- 축제 'schedule_type festival' -->
+                                                        <span class="subject">드론 항공 방제&정비 전문가 양성과정 교육참여자 모집</span>
+                                                        <ul class="bu dl">
+                                                            <li>
+                                                                <span class="dt">기간</span>
+                                                                <span class="dd">2022-01-25~2022-01-29</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">시간</span>
+                                                                <span class="dd">09:18</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">장소</span>
+                                                                <span class="dd">통일평생교육원 홈페이지</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="btn_box">
+                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="btn small view">상세보기</a>
+                                                    </div>
+                                                </li>
+                                                <li class="schedule_item" data-category="exhibit">
+                                                    <div class="con_box">
+                                                        <span class="schedule_type exhibit">전시</span><!-- 전시 'schedule_type exhibit' -->
+                                                        <span class="subject">드론 항공 방제&정비 전문가 양성과정 교육 교육</span>
+                                                        <ul class="bu dl">
+                                                            <li>
+                                                                <span class="dt">기간</span>
+                                                                <span class="dd">2022-01-25~2022-01-29</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">시간</span>
+                                                                <span class="dd">09:18</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">장소</span>
+                                                                <span class="dd">통일평생교육원 홈페이지</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="btn_box">
+                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="btn small view">상세보기</a>
+                                                    </div>
+                                                </li>
+                                                <li class="schedule_item" data-category="show">
+                                                    <div class="con_box">
+                                                        <span class="schedule_type show">공연</span><!-- 공연 'schedule_type show' -->
+                                                        <span class="subject">드론 항공 방제&정비 전문가 양성과정 교육참여자 모집</span>
+                                                        <ul class="bu dl">
+                                                            <li>
+                                                                <span class="dt">기간</span>
+                                                                <span class="dd">2022-01-25~2022-01-29</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">시간</span>
+                                                                <span class="dd">09:18</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">장소</span>
+                                                                <span class="dd">통일평생교육원 홈페이지</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="btn_box">
+                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="btn small view">상세보기</a>
+                                                    </div>
+                                                </li>
+                                                <li class="schedule_item" data-category="education">
+                                                    <div class="con_box">
+                                                        <span class="schedule_type education">교육</span><!-- 교육 'schedule_type education' -->
+                                                        <span class="subject">드론 항공 방제&정비 전문가 양성과정 교육참여자 모집</span>
+                                                        <ul class="bu dl">
+                                                            <li>
+                                                                <span class="dt">기간</span>
+                                                                <span class="dd">2022-01-25~2022-01-29</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">시간</span>
+                                                                <span class="dd">09:18</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">장소</span>
+                                                                <span class="dd">통일평생교육원 홈페이지</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="btn_box">
+                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="btn small view">상세보기</a>
+                                                    </div>
+                                                </li>
+                                                <li class="schedule_item" data-category="administration">
+                                                    <div class="con_box">
+                                                        <span class="schedule_type administration">행정</span><!-- 행정 'schedule_type administration' -->
+                                                        <span class="subject">드론 항공 방제&정비 전문가 양성과정 교육참여자 모집</span>
+                                                        <ul class="bu dl">
+                                                            <li>
+                                                                <span class="dt">기간</span>
+                                                                <span class="dd">2022-01-25~2022-01-29</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">시간</span>
+                                                                <span class="dd">09:18</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">장소</span>
+                                                                <span class="dd">통일평생교육원 홈페이지</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="btn_box">
+                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="btn small view">상세보기</a>
+                                                    </div>
+                                                </li>
+                                                <li class="schedule_item" data-category="etc">
+                                                    <div class="con_box">
+                                                        <span class="schedule_type etc">기타</span><!-- 기타 'schedule_type etc' -->
+                                                        <span class="subject">드론 항공 방제&정비 전문가 양성과정 교육참여자 모집</span>
+                                                        <ul class="bu dl">
+                                                            <li>
+                                                                <span class="dt">기간</span>
+                                                                <span class="dd">2022-01-25~2022-01-29</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">시간</span>
+                                                                <span class="dd">09:18</span>
+                                                            </li>
+                                                            <li>
+                                                                <span class="dt">장소</span>
+                                                                <span class="dd">통일평생교육원 홈페이지</span>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="btn_box">
+                                                        <a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="btn small view">상세보기</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- //오른쪽 -->
+                </div>
+
+            </main>
+
+        </div>
+    </div>
+
+
+    <div id="footer" class="footer">
+        <div class="footer_content">
+            <p class="info_copyright">COPYRIGHT©DONGHAE CITY
+                .<br/>ALL RIGHTS RESERVED.</p>
+        </div>
+    </div>
+
+</div>
+
+<script>
+
+    /* 달력 월 */
+    var $calendar = $('.side .calendar .calendar_list'),
+        $calendarList = $('.side .calendar .calendar_list'),
+
+        calendarSlickOption = {
+            slidesToScroll: 1,
+            autoplay : false,
+            dots : false,
+            swipe : false,
+            draggable : false,
+            infinite: false,
+            arrows : false,
+            responsive: [
+                {
+                    breakpoint: 641,
+                    settings: {
+                        swipe : true,
+                        draggable : true,
+                        slidesToShow : 6,
+                        swipeToSlide : true,
+                    }
+                }
+            ]
+        };
+    function calendarSlickResize(){
+        if( $(window).width() > 640){
+            $calendarList.slick('unslick');
+        } else {
+            $calendarList.slick(calendarSlickOption);
+        }
+    }
+    calendarSlickResize();
+
+    $(window).on('resize',function (){
+        calendarSlickResize();
+    });
+
+
+    /* 보기 선택 */
+    $('.colgroup .select_tab .button_item').on('click', function (){
+        var $this = $(this),
+            Index = $this.index(),
+            $OtherBtn = $this.siblings('.button_item'),
+            IsActive = $this.is('active'),
+            $MyColBox = $('.col_left').find('.col_box').eq(Index),
+            $OtherColBox = $MyColBox.siblings('.col_box'),
+            $MyColBox2 = $('.col_right').find('.col_box').eq(Index),
+            $OtherColBox2 = $MyColBox2.siblings('.col_box');
+        if(!IsActive){
+            $OtherBtn.removeClass('active').removeAttr('title');
+            $this.addClass('active').attr('title', '선택됨');
+            $OtherColBox.removeClass('active');
+            $MyColBox.addClass('active');
+            $OtherColBox2.removeClass('active');
+            $MyColBox2.addClass('active');
+        }
+    });
+
+
+    var $scheduletab = $('.col_left .schedule_tab'),
+        $scheduletabList = $scheduletab.find('.tab_list');
+
+    scheduletabList = {
+        autoplay: false,
+        infinite: false,
+        slidesToShow : 5,
+        slidesToScroll : 5,
+        variableWidth : true,
+    };
+    $(window).on('load resize', function() {
+        if($(window).width() < 1001) {
+            $scheduletabList.slick('unslick');
+        }else{
+            $scheduletabList.not('.slick-initialized').slick(scheduletabList);
+        }
+    });
+
+
+    /* 탭 카테고리 선택 */
+    var $tabButton = $('.schedule_tab .tab_item'),
+        $scheduleList1 = $('.col_left .schedule_panel .schedule_list'),
+        $scheduleItem1 = $('.col_left .schedule_panel .schedule_item'),
+        $scheduleList2 = $('.col_right .schedule_panel .schedule_list'),
+        $scheduleItem2 = $('.col_right .schedule_panel .schedule_item');
+    $tabButton.on('click', function(event) {
+        var $this = $(this),
+            data = $this.data();
+
+        $this.addClass('active').siblings().removeClass('active');
+        $this.attr('title', '선택됨').siblings().removeAttr('title');
+
+        if($this.parents('.colgroup').hasClass('col_left')){
+            $scheduleItem1.remove();
+            $scheduleList1.append((data.category === 'all') ? $scheduleItem1 : $scheduleItem1.filter('[data-category="' + data.category + '"]'));
+        }else{
+            $scheduleItem2.remove();
+            $scheduleList2.append((data.category === 'all') ? $scheduleItem2 : $scheduleItem2.filter('[data-category="' + data.category + '"]'));
+        }
+    }).filter('.active').triggerHandler('click');
+
+
+    /* 일정 달력 */
+    $('.calender_box .p-calendar-list td:not(.empty) button').on('click', function(){
+        $(document).on('click','.p-calendar-list td:not(.empty)', function() {
+            $('.p-calendar-list td:not(.empty)').removeClass('active').removeAttr('title');
+            $(this).addClass('active').attr('title', '선택됨');
+            return false;
+        });
+    });
+
+
+    /* 지도 팝업 */
+    $('.overlay_close').on('click',function(){
+        $('.overlay').removeClass('active');
+    });
+
+</script>
+
+</body>
+</html>
