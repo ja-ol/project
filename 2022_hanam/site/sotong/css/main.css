@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* Layout */
+@import url('../../../common_2020/css/default.css');
+@import url('../../../public/css/common.css');
+@import url('font.css');
+@import url('main_layout.css');

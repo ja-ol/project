@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.01.paging {width:15px; height:14px; background:url('paging_sprite.png') no-repeat left top;}
+.02.paging {width:15px; height:14px; background:url('paging_sprite.png') no-repeat left -24px;}
+.03.paging {width:15px; height:14px; background:url('paging_sprite.png') no-repeat left -48px;}
+.04.paging {width:15px; height:14px; background:url('paging_sprite.png') no-repeat left -72px;}
+
+/* 가변 크기 */
+.01.paging {background-size:100% 614.28%;}
+.02.paging {background-position:left 33.33%; background-size:100% 614.28%;}
+.03.paging {background-position:left 66.66%; background-size:100% 614.28%;}
+.04.paging {background-position:left 100%; background-size:100% 614.28%;}

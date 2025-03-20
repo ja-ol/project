@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* 하남체 제목 */
+@font-face{
+    font-family:'NotoKr';
+    font-weight: 200;
+    src:url("../font/NotoSansCJKkr-Light.woff2") format('woff2'),
+    url("../font/NotoSansCJKkr-Light.woff") format('woff');
+}
+
+
+/* 하남체 제목 */
+@font-face{
+    font-family:'HanamT';
+    font-weight: 400;
+    src:url("../font/HANAMDAUM.woff2") format('woff2'),
+    url("../font/HANAMDAUM.woff") format('woff');
+}
+
+
+/* 하남체 본문 */
+@font-face{
+    font-family:'HanamB';
+    font-weight: 400;
+    src:url("../font/HANAMDAUMBody.woff2") format('woff2'),
+    url("../font/HANAMDAUMBody.woff") format('woff');
+}
+

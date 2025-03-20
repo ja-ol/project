@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+.01.check {width:20px; height:20px; background:url('check_sprite.png') no-repeat left top;}
+.02.check {width:20px; height:20px; background:url('check_sprite.png') no-repeat left -30px;}
+.03.check {width:20px; height:20px; background:url('check_sprite.png') no-repeat left -60px;}
+
+/* 가변 크기 */
+.01.check {background-size:100% 400%;}
+.02.check {background-position:left 50%; background-size:100% 400%;}
+.03.check {background-position:left 100%; background-size:100% 400%;}
