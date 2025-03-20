@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2022_하남시">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2022_포천미디어센터" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742454163176</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="2022_포천미디어센터">
+      <created>1742454570238</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1742454570238</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +217,7 @@
     <MESSAGE value="2023_강릉시" />
     <MESSAGE value="2025_한눈에 김포" />
     <MESSAGE value="2022_하남시" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022_하남시" />
+    <MESSAGE value="2022_포천미디어센터" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022_포천미디어센터" />
   </component>
 </project>

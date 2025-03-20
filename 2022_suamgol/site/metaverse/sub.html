@@ -1,0 +1,262 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}" />
+    <meta name="description" content="@@{siteInfo.siteDc}" />
+    <link rel="stylesheet" href="../../site/metaverse/css/sub.css">
+    <script src="../../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../../site/metaverse/js/plugins.js"></script>
+    <script src="../../site/metaverse/js/common.js"></script>
+    <script src="../../site/metaverse/js/sub.js"></script>
+    <title>@@{menuInfo.cntntsNm} - @@{siteInfo.siteNm}</title>
+</head>
+
+<body id="${siteInfo.tmplatId}" class="@@{siteInfo.siteId} page@@{key}">
+<div id="wrapper">
+
+    <header id="header">
+        <div class="accessibility">
+            <a href="#contents">본문 바로가기</a>
+        </div>
+
+        <div class="gnb">
+            <div class="gnb_wrap wrap">
+                <div class="logo">
+                    <a href="./index.do" class="logo_anchor"><img src="./images/common/logo.png" alt="수암골메타버스"></a>
+                </div>
+
+                <div class="link">
+                    <ul class="link_list">
+                        <li class="link_item sns"><a href="#" class="link_anchor">SNS인증</a></li>
+                        <li class="link_item sitemap"><a href="#" class="link_anchor">사이트맵</a></li>
+                    </ul>
+                    <ul class="sns_list">
+                        <li class="sns_item youtube"><a href="#" class="sns_anchor">유튜브</a></li>
+                        <li class="sns_item blog"><a href="#" class="sns_anchor">블로그</a></li>
+                        <li class="sns_item facebook"><a href="#" class="sns_anchor">페이스북</a></li>
+                        <li class="sns_item twitter"><a href="#" class="sns_anchor">트위터</a></li>
+                        <li class="sns_item insta"><a href="#" class="sns_anchor">인스타그램</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="lnb">
+                <div class="menu_show">
+                    <button type="button" class="menu_btn">주메뉴 열기</button>
+                </div>
+                <nav class="menu after eachdown">
+                    <h2 class="skip">주메뉴</h2>
+
+                    <div class="wrap">
+                        <div class="depth depth1"><!-- 차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 : depth#, depth#_#) -->
+                            <ul class="depth_list depth1_list cut">
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>수암골이야기</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>마을소개</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>시설 및 상점 안내</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>오시는길</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>관광안내</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>추천코스</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>주변관광지</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>쿠폰안내</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>단체예약</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>소식정보</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>공지알림</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>이벤트</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>방문후기</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>문화플랫폼</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>시민문화사진</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>시민문화영상</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>수암골공연</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>가상여행</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>메타버스여행</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>AR여행</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="menu_header">
+
+                        <div class="logo">
+                            <a href="./index.do" class="logo_anchor"><img src="./images/common/m_logo.png" alt="수암골메타버스"></a>
+                        </div>
+                        <div class="link">
+                            <ul class="link_list">
+                                <li class="link_item sns"><a href="#" class="link_anchor">SNS인증</a></li>
+                                <li class="link_item sitemap"><a href="#" class="link_anchor">사이트맵</a></li>
+                            </ul>
+                            <ul class="sns_list">
+                                <li class="sns_item youtube"><a href="#" class="sns_anchor">유튜브</a></li>
+                                <li class="sns_item blog"><a href="#" class="sns_anchor">블로그</a></li>
+                                <li class="sns_item facebook"><a href="#" class="sns_anchor">페이스북</a></li>
+                                <li class="sns_item twitter"><a href="#" class="sns_anchor">트위터</a></li>
+                                <li class="sns_item insta"><a href="#" class="sns_anchor">인스타그램</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="menu_hide">
+                        <button type="button" class="menu_btn">주메뉴 닫기</button>
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <div id="container">
+
+        <div class="sub_head">
+            <div class="sub_visual">
+                <span class="sub_visual_img"></span>
+                <div class="sub_title"><!-- 현재 메뉴명 넣어 주세요 -->
+                    <h2>현재콘텐츠명 46pt #fff</h2>
+                </div>
+            </div>
+
+            <div class="wrap clearfix">
+                <div class="breadcrumbs">
+                    <ul class="breadcrumbs_list">
+                        <!-- 차수에 맞게 링크 추가해주세요! -->
+                        <li class="breadcrumbs_item home"><a href="./index.do" class="breadcrumbs_anchor">홈</a></li>
+                        <li class="breadcrumbs_item n1"><a href="#n" class="breadcrumbs_anchor">1차메뉴명</a></li>
+                        <li class="breadcrumbs_item n2"><a href="#n" class="breadcrumbs_anchor">2차메뉴명</a></li>
+                    </ul>
+                </div>
+
+                <div class="addons">
+                    <ul class="addons_list">
+                        <li class="addons_item share">
+                            <button type="button" class="addons_button">공유하기</button>
+                            <div class="share_panel">
+                                <ul class="share_list">
+                                    <li class="share_item n1"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="share_anchor">유튜브</a></li>
+                                    <li class="share_item n2"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="share_anchor">블로그</a></li>
+                                    <li class="share_item n3"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="share_anchor">페이스북</a></li>
+                                    <li class="share_item n4"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="share_anchor">트위터</a></li>
+                                    <li class="share_item n5"><a href="#n" target="_blank" title="새창" rel="noopener noreferrer" class="share_anchor">인스타그램</a></li>
+                                </ul>
+                                <button type="button" class="share_close">닫기</button>
+                            </div>
+                        </li>
+                        <li class="addons_item print">
+                            <button type="button" class="addons_button">인쇄</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="wrap clearfix">
+            <main class="colgroup">
+                <article>
+                    <div id="contents" class="cts@@{key}">
+                        contents
+                    </div>
+                </article>
+            </main>
+
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="wrap">
+            <button type="button" class="up_button">맨위로</button>
+            <div class="footer_content">
+                <div class="link">
+                    <h2 class="skip">바로가기</h2>
+                    <ul class="link_list">
+                        <li class="link_item"><a href="#n" class="link_anchor">이용약관</a></li>
+                        <li class="link_item"><a href="#n" class="link_anchor">저작권정책</a></li>
+                        <li class="link_item privacy"><a href="#n" class="link_anchor">개인정보처리방침</a></li>
+                        <li class="link_item"><a href="#n" class="link_anchor">이메일무단수집거부</a></li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <address>
+                        <span class="address">28527 충청북도 청주시 상당구 상당로69번길 38 <span>(청주시청 임시청사)</span></span>
+                        <span class="tel">TEL : (043)201-0001 </span>
+                    </address>
+                    <p class="copyright">Copyrightⓒ Cheongju City. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>
