@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2023_여주시">
+    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2023_강릉시">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742344568079</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="2023_강릉시">
+      <created>1742451621500</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742451621500</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,11 +191,11 @@
     <MESSAGE value="2024_청운대학교" />
     <MESSAGE value="2024_웰니스관광" />
     <MESSAGE value="2024_강릉시" />
-    <MESSAGE value="2023_강릉시" />
     <MESSAGE value="2023_김포뉴스포털" />
     <MESSAGE value="2023_보은군" />
     <MESSAGE value="2023_횡성군의회" />
     <MESSAGE value="2023_여주시" />
-    <option name="LAST_COMMIT_MESSAGE" value="2023_여주시" />
+    <MESSAGE value="2023_강릉시" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023_강릉시" />
   </component>
 </project>
