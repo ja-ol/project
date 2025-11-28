@@ -4,7 +4,217 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2022_수암골메타버스">
+    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2025_강릉시">
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/common_2020/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/common_2020/css/program.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/common_2020/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/common_2020/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/common_2020/js/program.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/css/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/calendar_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/check_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/close_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/depth_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/down_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/download_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/home_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/keyword_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/keyword_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/media_img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/media_img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/media_img03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/media_img04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/media_img05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/media_img06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/media_img07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/media_img08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/my_delete_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/none_searching_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_doc_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_file_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_hwp_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_jpg_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_mov_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_pdf_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_png_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_ppt_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_xls_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/p_zip_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/page_link_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/reset_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/return_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/section_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/submit_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/up_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/images/view_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/search_2025/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/css/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/GmarketSans-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/GmarketSans-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/GmarketSans-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/GmarketSans-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/GmarketSans-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/GmarketSans-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-DemiLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-DemiLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/fonts/NotoSansCJKkr-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/js/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www/js/sub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/css/font.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/css/main_layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/css/sub.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/css/sub_layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/JalnanGothicTTF.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/JalnanGothicTTF.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Lato-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Lato-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Montserrat-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Montserrat-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Montserrat-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Montserrat-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Montserrat-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Montserrat-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Montserrat-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/Montserrat-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/PretendardGOV-Regular.subset.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/PretendardGOV-Regular.subset.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/SBAggroM.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/SBAggroM.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/SCDream-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/SCDream-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/SCDream-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/SCDream-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/SCDream-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/SCDream-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/goormsans-medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/font/goormsans-medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/banner_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/family_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/family_bg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/family_bg02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/family_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/family_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/footer_call_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/footer_sns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/footer_sns_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/footer_sns_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/keyword_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/language_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/language_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/language_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/language_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/link_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/lnb_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/lnb_depth4_icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/lnb_depth4_icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/lnb_sector_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/lnb_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/m_family_bg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/m_family_bg02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/menu_header_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/menu_show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/search_show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/top_banner_icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/common/up_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/board1_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/board2_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/board_date_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/favorite_check01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/favorite_check02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/favorite_icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/favorite_icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/favorite_popup_deco01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/favorite_popup_deco02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/favorite_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/header_pop_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/header_pop_check01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/header_pop_check02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/header_pop_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/header_pop_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/magazine_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/magazine_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/magazine_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/main_banner_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/mayor_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/mayor_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/mayor_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/popupzone_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/reset_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/rowgroup4_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/rowgroup4_deco02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/rowgroup5_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/rowgroup5_deco02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/rowgroup_deco01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/rowgroup_deco02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/rowgroup_deco03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/save_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service1_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service2_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service3_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service4_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_bg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_bg02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_bg03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_icon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_info_icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/service_info_icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/shortcut_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns1_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns2_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_deco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_img01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_img02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_tab_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_tab_bg02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_tab_bg03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_tab_bg04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_tab_deco01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/sns_tab_deco02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/tour_img01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/tour_img02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/tour_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/visual_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/visual_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/main/weather_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/addons_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/breadcrumbs_icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/breadcrumbs_icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/keyword_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/search_deco01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/search_deco02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/side_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/side_sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/sub_head_bg01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/images/sub/sub_head_bg02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/js/sub.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/sub.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,14 +261,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/2022/동해시테섭" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/2025/강릉테섭" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\프로젝트\2025_gangneung\site\www_2025\images\common" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,6 +287,8 @@
       <workItem from="1741918925140" duration="318000" />
       <workItem from="1741919251413" duration="1483000" />
       <workItem from="1741920749774" duration="2487000" />
+      <workItem from="1742517407529" duration="1813000" />
+      <workItem from="1764304350359" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="2024_보은청년플랫폼">
       <created>1741917016667</created>
@@ -192,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742454962187</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="2022_동해시">
+      <created>1742456651980</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1742456651980</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +452,8 @@
     <MESSAGE value="2022_하남시" />
     <MESSAGE value="2022_포천미디어센터" />
     <MESSAGE value="2022_수암골메타버스" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022_수암골메타버스" />
+    <MESSAGE value="2022_동해시" />
+    <MESSAGE value="2025_강릉시" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025_강릉시" />
   </component>
 </project>

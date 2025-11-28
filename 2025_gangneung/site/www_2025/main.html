@@ -1,0 +1,2347 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}" />
+    <meta name="description" content="@@{siteInfo.siteDc}" />
+    <link rel="stylesheet" type="text/css" href="../../site/www/css/font.css" />
+    <link rel="stylesheet" href="../../site/www_2025/css/main.css">
+    <script src="../../common_2020/js/jquery-1.12.4.min.js"></script>
+    <script src="../../common_2020/js/jquery.easing.1.3.js"></script>
+    <script src="../../site/www/js/plugins.js"></script>
+    <script src="../../site/www/js/layout.js"></script>
+    <script src="../../site/www_2025/js/common.js"></script>
+    <script src="../../site/www_2025/js/main.js"></script>
+    <link rel="icon" href="../../site/www_2025/images/common/favicon.ico" type="image/x-icon">
+    <title>강릉시청</title>
+</head>
+
+<body id="${siteInfo.tmplatId}" class="@@{siteInfo.siteId} page@@{key}">
+<div id="wrapper">
+
+    <div class="top_banner">
+        <div class="inner">
+            <span class="nuri_text">이 누리집은 대한민국 공식 전자정부 누리집입니다.</span>
+        </div>
+    </div>
+
+    <header id="header">
+        <h1 class="skip">@@{siteInfo.siteNm}</h1>
+        <div class="accessibility">
+            <a href="#container">본문 바로가기</a>
+        </div>
+
+        <div class="gnb">
+            <div class="wrap clearfix">
+                <div class="site">
+                    <ul class="site_list">
+                        <li class="site_item"><a href="" class="site_anchor">강릉관광</a></li>
+                        <li class="site_item"><a href="" class="site_anchor">강릉시의회</a></li>
+                        <li class="site_item"><a href="" class="site_anchor">통합예약</a></li>
+                    </ul>
+                </div>
+                <div class="link">
+                    <ul class="link_list">
+                        <li class="link_item language">
+                            <button class="language_show link_anchor" title="언어 선택 열기"><span>KOR</span></button>
+                            <div class="language_panel">
+                                <i class="icon"></i>
+                                <ul class="language_list">
+                                    <li class="language_item"><a href="#n" class="language_anchor">English</a></li>
+                                    <li class="language_item"><a href="#n" class="language_anchor">Chinese</a></li>
+                                    <li class="language_item"><a href="#n" class="language_anchor">Japanese</a></li>
+                                    <li class="language_item"><a href="#n" class="language_anchor">Vietnamese</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="link_item family">
+                            <button class="family_show link_anchor"><span>주요사이트</span></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="group">
+            <div class="logo">
+                <div class="wrap">
+                    <a href="./index.do" class="logo_anchor">
+                        <img src="../../site/www_2025/images/common/logo.png" alt="솔향강릉 PINE CITY Gangneung">
+                    </a>
+                </div>
+            </div>
+
+            <div class="lnb">
+                <div class="search_show">
+                    <button type="button" class="search_btn">검색창 열기</button>
+                </div>
+                <div class="menu_show">
+                    <button type="button" class="menu_btn">주메뉴 열기</button>
+                </div>
+
+                <nav class="menu after eachdown">
+                    <h2 class="skip">주메뉴</h2>
+
+                    <div class="menu_header">
+                        <div class="link">
+                            <ul class="link_list">
+                                <li class="link_item login"><a href="#" class="link_anchor">본인인증</a></li>
+                                <!--<li class="link_item logout"><a href="#" class="link_anchor">로그아웃</a></li>-->
+                                <li class="link_item language">
+                                    <button class="language_show link_anchor">KOR</button>
+                                    <div class="language_panel">
+                                        <i class="icon"></i>
+                                        <ul class="language_list">
+                                            <li class="language_item"><a href="#n" class="language_anchor">English</a></li>
+                                            <li class="language_item"><a href="#n" class="language_anchor">Chinese</a></li>
+                                            <li class="language_item"><a href="#n" class="language_anchor">Japanese</a></li>
+                                            <li class="language_item"><a href="#n" class="language_anchor">Vietnamese</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="link_item family">
+                                    <button type="button" class="link_anchor family_show"><span>주요사이트</span></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="site">
+                            <ul class="site_list">
+                                <li class="site_item"><a href="" class="site_anchor">강릉관광</a></li>
+                                <li class="site_item"><a href="" class="site_anchor">강릉시의회</a></li>
+                                <li class="site_item"><a href="" class="site_anchor">통합예약</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="wrap">
+                        <div class="depth depth1"><!-- 차수에 맞는 숫자와 조합하여 클래스를 넣어주세요 (예 : depth#, depth#_#) -->
+                            <ul class="depth_list depth1_list cut">
+                                <li class="depth_item depth1_item n1">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>민원안내</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">민원안내</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">강릉시 민원 절차 및 정보를<br> 안내해드립니다.</p><!-- 1차 메뉴명마다 다르게 작업되어 있습니다. -->
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item active">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #323746</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item active">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list">
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #6b7384</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blnk" title="새창" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                                <div class="depth depth4">
+                                                                    <ul class="depth_list depth4_list">
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_self" class="depth_text depth4_text">4차메뉴 #6b7384</a>
+                                                                        </li>
+                                                                        <li class="depth_item depth4_item">
+                                                                            <a href="#n" target="_blnk" title="새창" class="depth_text depth4_text">4차메뉴 새창으로</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" class="depth_text depth2_text"><span>2차메뉴(새창)</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴명이 길때는 줄바꿈 해주세요. line-height:22px</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item n2">
+                                    <a href="#n" target="_self" title="새창" rel="noopener noreferrer" class="depth_text depth1_text"><span>알림소식</span></a><!-- 새창일 경우 -->
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">알림소식</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">강릉시의 최신 정보와<br>소식을 전해드립니다.</p><!-- 1차 메뉴명마다 다르게 작업되어 있습니다. -->
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item active">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #323746</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" class="depth_text depth2_text"><span>2차메뉴(새창)</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴명이 길때는 줄바꿈 해주세요. line-height:22px</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item n3">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>행정정보</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">행사정보</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">강릉시의 행사정보를<br>알려드립니다.</p><!-- 1차 메뉴명마다 다르게 작업되어 있습니다. -->
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item active">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #323746</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" class="depth_text depth2_text"><span>2차메뉴(새창)</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴명이 길때는 줄바꿈 해주세요. line-height:22px</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item n4">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>시민참여</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">시민참여</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">시민의 목소리를 듣고<br>함께 소통합니다.</p><!-- 1차 메뉴명마다 다르게 작업되어 있습니다. -->
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item active">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #323746</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" class="depth_text depth2_text"><span>2차메뉴(새창)</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴명이 길때는 줄바꿈 해주세요. line-height:22px</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item n5">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>분야별정보</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">분야별정보</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">생활에 필요한 강릉시의<br>정보를 확인하세요.</p><!-- 1차 메뉴명마다 다르게 작업되어 있습니다. -->
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>복지</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>일자리/청년/산업</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>교육</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>도시/건축/건설</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>문화/체육</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>교통/항만/철도</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>환경/생태/에너지</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>보건/건강</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>농·축·수산</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>재난/안전</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="depth_item depth1_item n6">
+                                    <a href="#n" target="_self" class="depth_text depth1_text"><span>강릉소개</span></a>
+                                    <div class="depth depth2">
+                                        <div class="depth2_content">
+                                            <div class="depth_title depth2_title">
+                                                <div class="depth2_info">
+                                                    <span class="depth2_slogan">강릉소개</span><!-- 현재 1차메뉴명 -->
+                                                    <p class="depth2_subject">시민과 함께하는<br>강릉시를 소개합니다.</p><!-- 1차 메뉴명마다 다르게 작업되어 있습니다. -->
+                                                </div>
+                                            </div>
+                                            <ul class="depth_list depth2_list cut">
+                                                <li class="depth_item depth2_item active">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴명 #323746</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_blank" title="새창" class="depth_text depth3_text">3차메뉴 새창일때</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_blank" title="새창" class="depth_text depth2_text"><span>2차메뉴(새창)</span></a>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                    <div class="depth depth3">
+                                                        <ul class="depth_list depth3_list">
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴 16px; #6b7384</a>
+                                                            </li>
+                                                            <li class="depth_item depth3_item">
+                                                                <a href="#n" target="_self" class="depth_text depth3_text">3차메뉴명이 길때는 줄바꿈 해주세요. line-height:22px</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth2_item">
+                                                    <a href="#n" target="_self" class="depth_text depth2_text"><span>2차메뉴</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu_hide">
+                        <button type="button" class="menu_btn">주메뉴 닫기</button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="lnb_link">
+                <div class="wrap">
+                    <ul class="link_list">
+                        <li class="link_item login"><a href="#" class="link_anchor">로그인</a></li>
+                        <!-- <li class="link_item logout"><a href="#" class="link_anchor">로그아웃</a></li> -->
+                        <li class="link_item sitemap">
+                            <a href="#" class="link_anchor">사이트맵</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="family_panel">
+            <div class="wrap">
+                <div class="family_box">
+                    <div class="family_top">
+                        <span>강릉시 주요 홈페이지를 한눈에!</span>
+                        <p>강릉시 <em>주요사이트</em> 모아보기</p>
+                    </div>
+                    <div class="family_list">
+                        <div class="family_item">
+                            <div class="family_title">
+                                <span>강릉시</span>
+                                <button type="button" class="family_tab_button">강릉시</button>
+                            </div>
+                            <div class="family_content">
+                                <ul>
+                                    <li><a href="#" target="_blank" title="새창" rel="noreferrer noopener"><span>열린시장실</span></a></li>
+                                    <li><a href="#" target="_blank" title="새창" rel="noreferrer noopener"><span>보건소</span></a></li>
+                                    <li><a href="#" target="_blank" title="새창" rel="noreferrer noopener"><span>농업기술센터</span></a></li>
+                                    <li><a href="#" target="_blank" title="새창" rel="noreferrer noopener"><span>체육시설사업소</span></a></li>
+                                    <li><a href="#" target="_blank" title="새창" rel="noreferrer noopener"><span>통합예약시스템</span></a></li>
+                                    <li><a href="#" target="_blank" title="새창" rel="noreferrer noopener"><span>고향사랑기부제</span></a></li>
+                                    <li><a href="#" target="_blank" title="새창" rel="noreferrer noopener"><span>복지포털</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="family_item">
+                            <div class="family_title">
+                                <span>민원·생활</span>
+                                <button type="button" class="family_tab_button">민원·생활</button>
+                            </div>
+                            <div class="family_content">
+                                <ul>
+                                    <li><a href="#"><span>교통정보(ITS)</span></a></li>
+                                    <li><a href="#"><span>강릉시 동물사랑센터</span></a></li>
+                                    <li><a href="#"><span>강릉시 버스정보</span></a></li>
+                                    <li><a href="#"><span>강릉시 자원봉사센터</span></a></li>
+                                    <li><a href="#"><span>계약정보공개시스템</span></a></li>
+                                    <li><a href="#"><span>강릉시 정신건강복지센터</span></a></li>
+                                    <li><a href="#"><span>수도요금인터넷납부</span></a></li>
+                                    <li><a href="#"><span>대형생활폐기물 배출신청</span></a></li>
+                                    <li><a href="#"><span>건축행정시스템(새움터)</span></a></li>
+                                    <li><a href="#"><span>부동산거래관리시스템</span></a></li>
+                                    <li><a href="#"><span>농업기계임대</span></a></li>
+                                    <li><a href="#"><span>킥보드 민원신고시스템</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="family_item">
+                            <div class="family_title">
+                                <span>문화·관광</span>
+                                <button type="button" class="family_tab_button">문화·관광</button>
+                            </div>
+                            <div class="family_content">
+                                <ul>
+                                    <li><a href="#"><span>강릉관광</span></a></li>
+                                    <li><a href="#"><span>오죽헌·시립박물관</span></a></li>
+                                    <li><a href="#"><span>강릉솔향수목원</span></a></li>
+                                    <li><a href="#"><span>강릉아트센터</span></a></li>
+                                    <li><a href="#"><span>강릉커피축제</span></a></li>
+                                    <li><a href="#"><span>강릉시립예술단</span></a></li>
+                                    <li><a href="#"><span>정동-심곡바다부채길</span></a></li>
+                                    <li><a href="#"><span>강릉시립미술관</span></a></li>
+                                    <li><a href="#"><span>연곡해변솔향기캠핑장</span></a></li>
+                                    <li><a href="#"><span>단오제전수교육관</span></a></li>
+                                    <li><a href="#"><span>강릉오죽한옥마을</span></a></li>
+                                    <li><a href="#"><span>강릉단오제</span></a></li>
+                                    <li><a href="#"><span>임해자연휴양림</span></a></li>
+                                    <li><a href="#"><span>정동진모래시계공원</span></a></li>
+                                    <li><a href="#"><span>녹색도시체험센터</span></a></li>
+                                    <li><a href="#"><span>강릉생태관광</span></a></li>
+                                    <li><a href="#"><span>올림픽파크</span></a></li>
+                                    <li><a href="#"><span>메타버스체험관</span></a></li>
+                                    <li><a href="#"><span>유네스코 미식 창의도시 강릉</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="family_item">
+                            <div class="family_title">
+                                <span>교육·시설</span>
+                                <button type="button" class="family_tab_button">교육·시설</button>
+                            </div>
+                            <div class="family_content">
+                                <ul>
+                                    <li><a href="#"><span>평생학습관</span></a></li>
+                                    <li><a href="#"><span>강릉시립도서관</span></a></li>
+                                    <li><a href="#"><span>청소년수련시설포털</span></a></li>
+                                    <li><a href="#"><span>책문화센터</span></a></li>
+                                    <li><a href="#"><span>노인종합복지관</span></a></li>
+                                    <li><a href="#"><span>장난감도서관</span></a></li>
+                                    <li><a href="#"><span>국민체육센터(수영장)</span></a></li>
+                                    <li><a href="#"><span>육아종합지원센터</span></a></li>
+                                    <li><a href="#"><span>드림스타트센터</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="family_item">
+                            <div class="family_title">
+                                <span>산하기관</span>
+                                <button type="button" class="family_tab_button">산하기관</button>
+                            </div>
+                            <div class="family_content">
+                                <ul>
+                                    <li><a href="#"><span>강릉관광개발공사</span></a></li>
+                                    <li><a href="#"><span>강릉과학산업진흥원</span></a></li>
+                                    <li><a href="#"><span>강릉문화재단</span></a></li>
+                                    <li><a href="#"><span>강릉미래인재육성재단</span></a></li>
+                                    <li><a href="#"><span>강릉시민축구단</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="family_hide">주요누리집 닫기</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile_search">
+            <h2 class="skip">통합검색</h2>
+            <div class="search_box">
+                <form name="searchForm" id="searchForm" method="post" action="" target="search" class="" onsubmit="">
+                    <input type="hidden" name="" value="">
+                    <fieldset>
+                        <legend>통합검색</legend>
+                        <div class="search_inner">
+                            <label for="search_query" class="skip">검색어 입력</label>
+                            <input type="search" name="search_query" id="search_query" class="search_query" title="검색어 입력" placeholder="강릉, 무엇이 궁금하신가요?">
+                            <button type="submit" class="search_submit">검색</button>
+                        </div>
+                    </fieldset>
+                </form>
+                <div class="keyword">
+                    <div class="keyword_title">인기검색어</div>
+                    <div class="keyword_list">
+                        <div class="keyword_item"><a href="#" class="keyword_anchor">#대형폐기물</a></div>
+                        <div class="keyword_item"><a href="#" class="keyword_anchor">#여권발급</a></div>
+                        <div class="keyword_item"><a href="#" class="keyword_anchor">#정보화교육</a></div>
+                        <div class="keyword_item"><a href="#" class="keyword_anchor">#주택공시지가</a></div>
+                        <div class="keyword_item"><a href="#" class="keyword_anchor">#차량등록</a></div>
+                        <div class="keyword_item"><a href="#" class="keyword_anchor">#대형폐기물</a></div>
+                        <div class="keyword_item"><a href="#" class="keyword_anchor">#여권발급</a></div>
+                    </div>
+
+                </div>
+            </div>
+            <button type="button" class="search_hide">검색창 닫기</button>
+        </div>
+
+    </header>
+
+    <!-- 즐겨찾기 팝업 -->
+    <div class="favorite_layer">
+        <!-- 나의 즐겨찾기 -->
+        <div class="favorite_popup setting">
+            <div class="favorite_inner">
+                <div class="favorite_title">
+                    <span>나의 즐겨찾기 설정</span>
+                    <p>즐겨찾는 나만의 메뉴를 바로가기로 설정하여 편리하게 사용해보세요.</p>
+                </div>
+                <div class="favorite_content">
+                    <div class="favorite_form">
+                        <!-- 기본메뉴 8개 (통합예약, 민원신청, 업무검색, 상하수도요금, 버스정보, 고시공고, 대형생활폐기물, 평생학습관) 적용해주세요 -->
+                        <!--
+                         favorite_icon 클래스
+                         n1 : 통합예약,
+                         n2 : 민원신청,
+                         n3 : 업무검색,
+                         n4 : 상하수도요금,
+                         n5 : 버스정보,
+                         n6 : 고시공고,
+                         n7 : 대형생활폐기물,
+                         n8 : 평생학습관,
+                         n9 : 여권,
+                         n10 : 조직도,
+                         n11 : 청사안내,
+                         n12 : 읍면동안내,
+                         n13 : 주요민원전화번호,
+                         n14 : 주민자치센터강좌,
+                         n15 : 교통정보,
+                         n16 : 주정차단속알림,
+                         n17 : 생활지도서비스,
+                         n18 : 정보화교육,
+                         n19 : 계약/입찰정보,
+                         n20 : 고향사랑기부제,
+                         n21 : 이달의 행사,
+                         n22 : 킥보드 민원신고,
+                         -->
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item1" id="item1" checked="" data-id="item1">
+                            <label for="item1">
+                                <i class="favorite_icon n1"></i>
+                                <span class="favorite_label">통합예약</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item2" id="item2" checked="" data-id="item2">
+                            <label for="item2">
+                                <i class="favorite_icon n2"></i>
+                                <span class="favorite_label">민원신청</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item3" id="item3" checked="" data-id="item3">
+                            <label for="item3">
+                                <i class="favorite_icon n3"></i>
+                                <span class="favorite_label">업무검색</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item4" id="item4" checked="" data-id="item4">
+                            <label for="item4">
+                                <i class="favorite_icon n4"></i>
+                                <span class="favorite_label">상하수도요금</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item5" id="item5" checked="" data-id="item5">
+                            <label for="item5">
+                                <i class="favorite_icon n5"></i>
+                                <span class="favorite_label">버스정보</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item6" id="item6" checked="" data-id="item6">
+                            <label for="item6">
+                                <i class="favorite_icon n6"></i>
+                                <span class="favorite_label">고시공고</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item7" id="item7" checked="" data-id="item7">
+                            <label for="item7">
+                                <i class="favorite_icon n7"></i>
+                                <span class="favorite_label">대형생활폐기물</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item8" id="item8" checked="" data-id="item8">
+                            <label for="item8">
+                                <i class="favorite_icon n8"></i>
+                                <span class="favorite_label">평생학습관</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item9" id="item9" data-id="item9">
+                            <label for="item9">
+                                <i class="favorite_icon n9"></i>
+                                <span class="favorite_label">여권</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item10" id="item10" data-id="item10">
+                            <label for="item10">
+                                <i class="favorite_icon n10"></i>
+                                <span class="favorite_label">조직도</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item11" id="item11" data-id="item11">
+                            <label for="item11">
+                                <i class="favorite_icon n11"></i>
+                                <span class="favorite_label">청사안내</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item12" id="item12" data-id="item12">
+                            <label for="item12">
+                                <i class="favorite_icon n12"></i>
+                                <span class="favorite_label">읍면동안내</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item13" id="item13" data-id="item13">
+                            <label for="item13">
+                                <i class="favorite_icon n13"></i>
+                                <span class="favorite_label">주요민원전화번호</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item14" id="item14" data-id="item14">
+                            <label for="item14">
+                                <i class="favorite_icon n14"></i>
+                                <span class="favorite_label">주민자치센터강좌</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item15" id="item15" data-id="item15">
+                            <label for="item15">
+                                <i class="favorite_icon n15"></i>
+                                <span class="favorite_label">교통정보</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item16" id="item16" data-id="item16">
+                            <label for="item16">
+                                <i class="favorite_icon n16"></i>
+                                <span class="favorite_label">주정차단속알림</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item17" id="item17" data-id="item17">
+                            <label for="item17">
+                                <i class="favorite_icon n17"></i>
+                                <span class="favorite_label">생활지도서비스</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item18" id="item18" data-id="item18">
+                            <label for="item18">
+                                <i class="favorite_icon n18"></i>
+                                <span class="favorite_label">정보화교육</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item19" id="item19" data-id="item19">
+                            <label for="item19">
+                                <i class="favorite_icon n19"></i>
+                                <span class="favorite_label">계약/입찰정보</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item20" id="item20" data-id="item20">
+                            <label for="item20">
+                                <i class="favorite_icon n20"></i>
+                                <span class="favorite_label">고향사랑기부제</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item21" id="item21" data-id="item21">
+                            <label for="item21">
+                                <i class="favorite_icon n21"></i>
+                                <span class="favorite_label">이달의 행사</span>
+                            </label>
+                        </div>
+                        <div class="favorite_menu">
+                            <input type="checkbox" value="item22" id="item22" data-id="item22">
+                            <label for="item22">
+                                <i class="favorite_icon n22"></i>
+                                <span class="favorite_label">킥보드 민원신고</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="favorite_btn_wrap">
+                    <button type="button" class="favorite_button reset"><span>초기화</span></button>
+                    <button type="button" class="favorite_button save"><span>저장</span></button>
+                </div>
+                <button type="button" class="favorite_close">즐겨찾는 메뉴 나의 즐겨찾기 닫기</button>
+            </div>
+        </div>
+        <!-- //나의 즐겨찾기 -->
+
+        <!-- 즐겨찾기 더보기 -->
+        <div class="favorite_popup more">
+            <div class="favorite_inner">
+                <div class="favorite_title"><span>즐겨찾는 메뉴 모두보기</span></div>
+                <div class="favorite_content">
+                    <ul class="favorite_list">
+                        <li class="favorite_item n1"><a href=""><i class="favorite_icon"></i><span>통합예약</span></a></li>
+                        <li class="favorite_item n2"><a href=""><i class="favorite_icon"></i><span>민원신청</span></a></li>
+                        <li class="favorite_item n3"><a href=""><i class="favorite_icon"></i><span>업무검색</span></a></li>
+                        <li class="favorite_item n4"><a href=""><i class="favorite_icon"></i><span>상하수도요금</span></a></li>
+                        <li class="favorite_item n5"><a href=""><i class="favorite_icon"></i><span>버스정보</span></a></li>
+                        <li class="favorite_item n6"><a href=""><i class="favorite_icon"></i><span>고시공고</span></a></li>
+                        <li class="favorite_item n7"><a href=""><i class="favorite_icon"></i><span>대형생활폐기물</span></a></li>
+                        <li class="favorite_item n8"><a href=""><i class="favorite_icon"></i><span>평생학습관</span></a></li>
+                        <li class="favorite_item n9"><a href=""><i class="favorite_icon"></i><span>여권</span></a></li>
+                        <li class="favorite_item n10"><a href=""><i class="favorite_icon"></i><span>조직도</span></a></li>
+                        <li class="favorite_item n11"><a href=""><i class="favorite_icon"></i><span>청사안내</span></a></li>
+                        <li class="favorite_item n12"><a href=""><i class="favorite_icon"></i><span>읍면동안내</span></a></li>
+                        <li class="favorite_item n13"><a href=""><i class="favorite_icon"></i><span>주요민원전화번호</span></a></li>
+                        <li class="favorite_item n14"><a href=""><i class="favorite_icon"></i><span>주민자치센터강좌</span></a></li>
+                        <li class="favorite_item n15"><a href=""><i class="favorite_icon"></i><span>교통정보</span></a></li>
+                        <li class="favorite_item n16"><a href=""><i class="favorite_icon"></i><span>주정차단속알림</span></a></li>
+                        <li class="favorite_item n17"><a href=""><i class="favorite_icon"></i><span>생활지도서비스</span></a></li>
+                        <li class="favorite_item n18"><a href=""><i class="favorite_icon"></i><span>정보화교육</span></a></li>
+                        <li class="favorite_item n19"><a href=""><i class="favorite_icon"></i><span>계약/입찰정보</span></a></li>
+                        <li class="favorite_item n20"><a href=""><i class="favorite_icon"></i><span>고향사랑기부제</span></a></li>
+                        <li class="favorite_item n21"><a href=""><i class="favorite_icon"></i><span>이달의 행사</span></a></li>
+                        <li class="favorite_item n22"><a href=""><i class="favorite_icon"></i><span>킥보드 민원신고</span></a></li>
+                    </ul>
+                </div>
+                <button type="button" class="favorite_close">즐겨찾는 메뉴 더보기 닫기</button>
+            </div>
+        </div>
+        <!-- //즐겨찾기 더보기 -->
+    </div>
+    <!-- //즐겨찾기 팝업 -->
+
+    <!-- 매인배너 모아보기 팝업 -->
+    <div class="visual_all">
+        <div class="visual_all_box">
+            <div class="visual_all_title">
+                <span>매인배너 모아보기</span>
+                <p>총 <em>15</em>개의 메인배너가 있습니다.</p>
+            </div>
+            <div class="visual_all_list"></div>
+            <div class="visual_all_control">
+                <button type="button" class="visual_all_button prev">이전</button>
+                <div class="visual_all_count">
+                    <span class="visual_current"></span>
+                    <span class="visual_total"></span>
+                </div>
+                <button type="button" class="visual_all_button next">다음</button>
+            </div>
+            <button type="button" class="visual_close">매인배너 모아보기 닫기</button>
+        </div>
+    </div>
+    <!-- //매인배너 모아보기 팝업 -->
+
+    <!-- 알림존 모아보기 팝업 -->
+    <div class="popupzone_all">
+        <div class="popupzone_all_box">
+            <div class="popupzone_all_title">
+                <span>알림존 팝업 모아보기</span>
+                <p>총 <em>15</em>개의 팝업이 있습니다.</p>
+            </div>
+            <div class="popupzone_all_list"></div>
+            <div class="popupzone_all_control">
+                <button type="button" class="popupzone_all_button prev">이전</button>
+                <div class="popupzone_all_count">
+                    <span class="popupzone_current"></span>
+                    <span class="popupzone_total"></span>
+                </div>
+                <button type="button" class="popupzone_all_button next">다음</button>
+            </div>
+            <button type="button" class="popupzone_close">알림존 팝업 모아보기 닫기</button>
+        </div>
+    </div>
+    <!-- //알림존 모아보기 팝업 -->
+
+    <div id="container">
+        <main>
+
+            <div class="rowgroup">
+                <div class="wrap">
+                    <div class="colgruop">
+                        <div class="weather">
+                            <h2 class="skip">날씨</h2>
+                            <div class="weather_box type2">
+                                <!-- 맑음:type1, 구름조금:type2, 구름많음:type3, 흐림:type4, 비:type5, 눈:type6, 비/눈:type7, 낙뢰:type8 -->
+                                <i class="weather_icon"></i>
+                                <div class="weather_info">
+                                    <span class="weather_celsius"><span>33</span><em>˚</em></span>
+                                    <span class="weather_sate">맑음</span>
+                                    <div class="weather_indicator">
+                                        <div class="weather_aqi type2">
+                                            <!-- 매우좋음:type1, 좋음:type2, 보통:type3, 나쁨:type4, 매우나쁨:type5 -->
+                                            <span class="weather_title">미세먼지</span>
+                                            <span class="weather_index"><span>좋음</span> (10㎍/m³)</span>
+                                        </div>
+                                        <div class="weather_aqi type4">
+                                            <!-- 매우좋음:type1, 좋음:type2, 보통:type3, 나쁨:type4, 매우나쁨:type5 -->
+                                            <span class="weather_title">초미세먼지</span>
+                                            <span class="weather_index"><span>나쁨</span> (50㎍/m³)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <section class="search">
+                            <h2 class="skip">통합검색</h2>
+                            <div class="search_box">
+                                <form name="searchForm" id="searchForm" method="post" action="" target="search" class="" onsubmit="">
+                                    <input type="hidden" name="" value="">
+                                    <fieldset>
+                                        <legend>통합검색</legend>
+                                        <div class="search_inner">
+                                            <label for="search_query" class="skip">검색어 입력</label>
+                                            <input type="search" name="search_query" id="search_query" class="search_query" title="검색어 입력" placeholder="강릉, 무엇이 궁금하신가요?">
+
+                                            <!-- 검색어 입력시 보이게 해주세요 ↓↓↓ -->
+                                            <!-- 연관 검색어 예) 대형폐기물 입력시 ↓ -->
+                                            <div id="search_result" class="search_logs">
+                                                <ul class="autolist">
+                                                    <li><a href="#n"><span>대형폐기물</span> 인터넷신고</a></li>
+                                                    <li><a href="#n"><span>대형폐기물</span> 스티커</a></li>
+                                                    <li><a href="#n"><span>대형폐기물</span> 신고</a></li>
+                                                    <li><a href="#n"><span>대형폐기물</span> 수거</a></li>
+                                                    <li><a href="#n"><span>대형폐기물</span> 가격</a></li>
+                                                    <li><a href="#n"><span>대형폐기물</span> 기준</a></li>
+                                                    <li><a href="#n">강원도 <span>대형폐기물</span></a></li>
+                                                    <li><a href="#n">강릉시 <span>대형폐기물</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <!-- 검색어 입력시 보이게 해주세요 ↑↑↑ -->
+
+                                            <button type="submit" class="search_submit">검색</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                                <div class="keyword">
+                                    <div class="keyword_title">인기검색어</div>
+                                    <div class="keyword_control">
+                                        <button type="button" class="keyword_button prev">이전</button>
+                                        <button type="button" class="keyword_button auto"></button>
+                                        <button type="button" class="keyword_button next">다음</button>
+                                    </div>
+                                    <div class="keyword_list">
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#대형폐기물</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#여권발급</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#정보화교육</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#주택공시지가</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#차량등록</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#대형폐기물</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#여권발급</a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <script>
+
+                                /* 연관검색어 자동완성 */
+                                var $searchInput = $('.search_query');
+
+                                $searchInput.each(function () {
+                                    var $input = $(this);
+                                    var $searchBox = $input.closest('.search_box');
+
+                                    // 내부 구조 감싸기
+                                    if (!$input.closest('.search_inner').length) {
+                                        $input.wrap('<div class="search_inner"></div>');
+                                    }
+
+                                    // 자동완성 박스 생성
+                                    if (!$input.next('.search_logs').length) {
+                                        $input.after($('<div>', { class: 'search_logs' }).append($('<ul>')));
+                                    }
+
+                                    var $searchLogs = $input.next('.search_logs');
+
+                                    // 검색어 입력 시
+                                    $input.on('input', function () {
+                                        var query = $input.val();
+
+                                        if (query.length < 1) {
+                                            $searchLogs.removeClass('active').height(0).find('a, button').attr('tabindex', -1);
+                                            $searchBox.removeClass('logs_open');
+                                        } else {
+                                            $searchLogs.addClass('active');
+                                            $searchBox.addClass('logs_open active');
+
+                                            // 자동완성 리스트 높이 계산
+                                            var innerH = $searchLogs.find('ul').innerHeight();
+                                            $searchLogs.height(innerH).find('a, button').attr('tabindex', 0);
+                                        }
+                                    });
+
+                                    // 포커스 진입 시
+                                    $input.on('focusin', function () {
+                                        if ($searchLogs.hasClass('active')) {
+                                            var innerH = $searchLogs.find('ul').innerHeight();
+                                            $searchBox.addClass('logs_open');
+                                            $searchLogs.height(innerH).find('a, button').attr('tabindex', 0);
+                                        }
+                                    });
+
+                                    // 포커스 아웃 시
+                                    $input.on('focusout', function () {
+                                        setTimeout(function () {
+                                            if ($(document.activeElement).closest('.search_logs').length) return;
+                                            $searchBox.removeClass('logs_open active');
+                                            $searchLogs.removeClass('active').height(0).find('a, button').attr('tabindex', -1);
+                                        }, 10);
+                                    });
+
+                                    // 브라우저 리사이즈 시 자동완성 닫기
+                                    $(window).on('resize', function () {
+                                        $searchBox.removeClass('logs_open');
+                                        $searchLogs.removeClass('active').height(0).find('a, button').attr('tabindex', -1);
+                                    });
+                                });
+                            </script>
+
+                        </section>
+
+                        <div class="main_banner">
+                            <h2 class="skip">바로가기</h2>
+                            <a href="#" class="main_banner_anchor">
+                                <span class="main_banner_title">강릉고향사랑기부제</span>
+                                <p class="main_banner_text">기부는 고향을 응원하는 마음입니다.</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <section class="favorite">
+                        <h2 class="skip">즐겨찾기</h2>
+                        <div class="favorite_wrap">
+                            <!-- 기본메뉴 8개 (통합예약, 민원신청, 업무검색, 상하수도요금, 버스정보, 고시공고, 대형생활폐기물, 평생학습관) 적용해주세요 -->
+                            <ul class="favorite_list">
+                                <li class="favorite_item n1">
+                                    <a href="#" class="favorite_anchor" data-id="item1">
+                                        <i class="favorite_icon"></i>
+                                        <span>통합예약</span>
+                                    </a>
+                                </li>
+                                <li class="favorite_item n2">
+                                    <a href="#" class="favorite_anchor" data-id="item2">
+                                        <i class="favorite_icon"></i>
+                                        <span>민원신청</span>
+                                    </a>
+                                </li>
+                                <li class="favorite_item n3">
+                                    <a href="#" class="favorite_anchor" data-id="item3">
+                                        <i class="favorite_icon"></i>
+                                        <span>업무검색</span>
+                                    </a>
+                                </li>
+                                <li class="favorite_item n4">
+                                    <a href="#" class="favorite_anchor" data-id="item4">
+                                        <i class="favorite_icon"></i>
+                                        <span>상하수도요금</span>
+                                    </a>
+                                </li>
+                                <li class="favorite_item n5">
+                                    <a href="#" class="favorite_anchor" data-id="item5">
+                                        <i class="favorite_icon"></i>
+                                        <span>버스정보</span>
+                                    </a>
+                                </li>
+                                <li class="favorite_item n6">
+                                    <a href="#" class="favorite_anchor" data-id="item6">
+                                        <i class="favorite_icon"></i>
+                                        <span>고시공고</span>
+                                    </a>
+                                </li>
+                                <li class="favorite_item n7">
+                                    <a href="#" class="favorite_anchor" data-id="item7">
+                                        <i class="favorite_icon"></i>
+                                        <span>대형생활폐기물</span>
+                                    </a>
+                                </li>
+                                <li class="favorite_item n8">
+                                    <a href="#" class="favorite_anchor" data-id="item8">
+                                        <i class="favorite_icon"></i>
+                                        <span>평생학습관</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="favorite_box">
+                                <button type="button" class="favorite_button setting"><span>나의 즐겨찾기</span></button>
+                                <button type="button" class="favorite_button more"><span>더보기</span></button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup2">
+                <div class="wrap">
+                    <section class="visual">
+                        <h2 class="skip">매인배너</h2>
+                        <div class="visual_list">
+                            <div class="visual_item">
+                                <a href="#" class="visual_anchor">
+                                    <img src="../../site/www_2025/images/main/visual_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="visual_item">
+                                <a href="#" target="_blank" title="새창" class="visual_anchor"><!-- 새창일 경우 -->
+                                    <img src="../../site/www_2025/images/main/visual_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="visual_item">
+                                <a href="#" class="visual_anchor">
+                                    <img src="../../site/www_2025/images/main/visual_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="visual_item">
+                                <a href="#" class="visual_anchor">
+                                    <img src="../../site/www_2025/images/main/visual_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="visual_item">
+                                <a href="#" class="visual_anchor">
+                                    <img src="../../site/www_2025/images/main/visual_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="visual_item">
+                                <a href="#" class="visual_anchor">
+                                    <img src="../../site/www_2025/images/main/visual_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="visual_control">
+                            <div class="visual_box">
+                                <span class="visual_title">POPUP ZONE</span>
+                                <div class="visual_count">
+                                    <span class="visual_current"></span>
+                                    <span class="visual_total"></span>
+                                </div>
+                                <button type="button" class="visual_button auto"></button>
+                                <button type="button" class="visual_more">매인배너 모아보기</button>
+                            </div>
+                            <button type="button" class="visual_button prev">이전</button>
+                            <button type="button" class="visual_button next">다음</button>
+                        </div>
+                    </section>
+
+                    <div class="colgroup">
+                        <section class="mayor">
+                            <h2 class="skip">열린시장실</h2>
+                            <div class="mayor_box">
+                                <a href="#" target="_blank" title="새창" class="mayor_anchor">
+                                    <p>시민과 함께하는</p>
+                                    <span><em>김홍규</em>입니다.</span>
+                                    <i class="mayor_icon"></i>
+                                </a>
+                                <ul class="mayor_link">
+                                    <li><a href="#" target="_blank" title="새창" data-text="공약과 실천"><span>공약과 실천</span></a></li>
+                                    <li><a href="#" target="_blank" title="새창" data-text="시정활동"><span>시정활동</span></a></li>
+                                </ul>
+                                <img src="../../site/www_2025/images/main/mayor_img.png" class="mayor_img" alt="강릉시장 김홍규">
+                            </div>
+                        </section>
+                        <div class="shortcut">
+                            <ul class="shortcut_list">
+                                <li class="shortcut_item n1"><a href="#" class="shortcut_anchor"><span>청사안내</span></a></li>
+                                <li class="shortcut_item n2"><a href="#" class="shortcut_anchor"><span>조직안내</span></a></li>
+                                <li class="shortcut_item n3"><a href="#" class="shortcut_anchor"><span>업무검색</span></a></li>
+                                <li class="shortcut_item n4"><a href="#" class="shortcut_anchor"><span>오시는 길</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rowgroup3">
+                <div class="wrap">
+                    <section class="board">
+                        <h2 class="board_title">강릉은 <span>지금,</span></h2>
+                        <div class="board_tab">
+                            <ul class="tab_list">
+                                <!-- all:전체, type01:공지사항, type02:고시공고, type03:채용정보, type04:보도자료, type05:교육강좌 -->
+                                <li class="tab_item all active"><button type="button" class="tab_button" title="선택됨"><span>전체소식</span></button></li>
+                                <li class="tab_item type01" data-type="1"><button type="button" class="tab_button"><span>공지사항</span></button></li>
+                                <li class="tab_item type02" data-type="2"><button type="button" class="tab_button"><span>고시공고</span></button></li>
+                                <li class="tab_item type03" data-type="3"><button type="button" class="tab_button"><span>채용정보</span></button></li>
+                                <li class="tab_item type04" data-type="4"><button type="button" class="tab_button"><span>보도자료</span></button></li>
+                                <li class="tab_item type05" data-type="5"><button type="button" class="tab_button"><span>교육강좌</span></button></li>
+                            </ul>
+                        </div>
+                        <div class="board_content">
+                            <h3 class="skip">전체소식 목록</h3>
+                            <!-- board_item 클래스 : type01:공지사항, type02:고시공고, type03:채용정보, type04:보도자료, type05:교육강좌 -->
+                            <div class="board_panel all active">
+                                <div class="board_list">
+                                    <div class="board_item type01">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">공지사항</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type02">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">고시공고</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type03">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">채용정보</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type04">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">보도자료</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type05">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">교육강좌</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="board_control">
+                                    <button type="button" class="board_button prev">이전</button>
+                                    <button type="button" class="board_button next">다음</button>
+                                    <a href="#" class="board_more">더보기</a>
+                                </div>
+                            </div>
+                            <div class="board_panel">
+                                <div class="board_list">
+                                    <div class="board_item type01">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">공지사항</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type01">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">공지사항</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type01">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">공지사항</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type01">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">공지사항</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type01">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">공지사항</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="board_control">
+                                    <button type="button" class="board_button prev">이전</button>
+                                    <button type="button" class="board_button next">다음</button>
+                                    <a href="#" class="board_more">더보기</a>
+                                </div>
+                            </div>
+                            <div class="board_panel">
+                                <div class="board_list">
+                                    <div class="board_item type02">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">고시공고</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type02">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">고시공고</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type02">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">고시공고</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type02">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">고시공고</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type02">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">고시공고</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="board_control">
+                                    <button type="button" class="board_button prev">이전</button>
+                                    <button type="button" class="board_button next">다음</button>
+                                    <a href="#" class="board_more">더보기</a>
+                                </div>
+                            </div>
+                            <div class="board_panel">
+                                <div class="board_list">
+                                    <div class="board_item type03">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">채용정보</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type03">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">채용정보</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type03">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">채용정보</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type03">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">채용정보</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type03">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">채용정보</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="board_control">
+                                    <button type="button" class="board_button prev">이전</button>
+                                    <button type="button" class="board_button next">다음</button>
+                                    <a href="#" class="board_more">더보기</a>
+                                </div>
+                            </div>
+                            <div class="board_panel">
+                                <div class="board_list">
+                                    <div class="board_item type04">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">보도자료</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type04">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">보도자료</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type04">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">보도자료</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type04">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">보도자료</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type04">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">보도자료</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="board_control">
+                                    <button type="button" class="board_button prev">이전</button>
+                                    <button type="button" class="board_button next">다음</button>
+                                    <a href="#" class="board_more">더보기</a>
+                                </div>
+                            </div>
+                            <div class="board_panel">
+                                <div class="board_list">
+                                    <div class="board_item type05">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">교육강좌</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type05">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">교육강좌</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type05">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">교육강좌</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type05">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">교육강좌</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                    <div class="board_item type05">
+                                        <a href="#" class="board_anchor">
+                                            <i class="board_icon"></i>
+                                            <span class="board_type">교육강좌</span>
+                                            <p class="board_subject">제32회 강원 여성 문예경연 대회 연기 일정 확정 안내</p>
+                                            <p class="board_text">연기되었던 32회 강원 여성 문예경연대회 일정이 확정되어 재안내드립니다.</p>
+                                            <div class="board_date">2025.04.22</div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="board_control">
+                                    <button type="button" class="board_button prev">이전</button>
+                                    <button type="button" class="board_button next">다음</button>
+                                    <a href="#" class="board_more">더보기</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="magazine">
+                        <h2 class="skip">강릉 잡지</h2>
+                        <div class="magazine_tab">
+                            <ul class="magazine_list">
+                                <li class="tab_item n1 active"><button type="button" class="tab_button" title="선택됨"><span>강릉플러스</span></button></li>
+                                <li class="tab_item n2"><button type="button" class="tab_button"><span>솔향강릉</span></button></li>
+                            </ul>
+                        </div>
+                        <div class="magazine_content">
+                            <h3 class="skip">강릉플러스</h3>
+                            <div class="magazine_panel active">
+                                <div class="magazine_box">
+                                    <a href="#" class="magazine_anchor">
+                                        <span class="magazine_img">
+                                            <span style="background-image:url('../../site/www_2025/images/main/magazine_img.jpg')"></span>
+                                        </span>
+                                        <div class="magazine_date">2025년 <span>4월<em>호</em></span></div>
+                                    </a>
+                                    <a href="#" class="magazine_more"><span>더보기</span></a>
+                                </div>
+                            </div>
+                            <div class="magazine_panel">
+                                <div class="magazine_box">
+                                    <a href="#" class="magazine_anchor">
+                                        <span class="magazine_img">
+                                            <span style="background-image:url('../../site/www_2025/images/main/magazine_img.jpg')"></span>
+                                        </span>
+                                        <div class="magazine_date">2025년 <span>5월<em>호</em></span></div>
+                                    </a>
+                                    <a href="#" class="magazine_more"><span>더보기</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rowgroup4">
+                <div class="wrap">
+                    <section class="service">
+                        <h2 class="service_title">강릉 <span>맞춤형 서비스</span></h2>
+                        <div class="service_list">
+                            <div class="service_item n1">
+                                <button type="button" class="service_button">
+                                    <span class="service_button_inner">
+                                        <span class="title">민원/행정</span>
+                                        <span class="text">시민과 함께,<br/> 신뢰를 쌓아가는 강릉시</span>
+                                    </span>
+                                </button>
+                                <div class="service_box">
+                                    <span class="service_subject">민원/행정</span>
+                                    <div class="service_box_inner">
+                                        <div class="service_slick">
+                                            <div class="service_slick_item n1">
+                                                <div class="title"><span>민원안내</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>민원신청</span></a></li>
+                                                    <li><a href=""><span>무인민원발급기</span></a></li>
+                                                    <li><a href=""><span>민원서식</span></a></li>
+                                                    <li><a href=""><span>분야별민원 한눈에 보기</span></a></li>
+                                                    <li><a href=""><span>민원실</span></a></li>
+                                                    <li><a href=""><span>인터넷민원발급 (정부24)</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service_slick_item n2">
+                                                <div class="title"><span>정보공개</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>정보공개청구</span></a></li>
+                                                    <li><a href=""><span>계약/입찰 정보</span></a></li>
+                                                    <li><a href=""><span>통계정보</span></a></li>
+                                                    <li><a href=""><span>업무추진비</span></a></li>
+                                                    <li><a href=""><span>사전정보공표</span></a></li>
+                                                    <li><a href=""><span>공공데이터</span></a></li>
+                                                    <li><a href=""><span>재정(예산)정보</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="service_control">
+                                            <button type="button" class="service_prev">이전</button>
+                                            <button type="button" class="service_next">다음</button>
+                                        </div>
+                                        <div class="service_dots"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service_item n2">
+                                <button type="button" class="service_button">
+                                    <span class="service_button_inner">
+                                        <span class="title">이용자별 서비스</span>
+                                        <span class="text">나에게 꼭 필요한,<br/> 나에게 딱 맞는 정보만.</span>
+                                    </span>
+                                </button>
+                                <div class="service_box">
+                                    <span class="service_subject">이용자별 서비스</span>
+                                    <div class="service_box_inner">
+                                        <div class="service_slick">
+                                            <div class="service_slick_item n1">
+                                                <div class="title"><span>강릉시민</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>시민제안</span></a></li>
+                                                    <li><a href=""><span>공직부조리 신고</span></a></li>
+                                                    <li><a href=""><span>주민참여예산</span></a></li>
+                                                    <li><a href=""><span>설문조사</span></a></li>
+                                                    <li><a href=""><span>읍면동안내</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service_slick_item n2">
+                                                <div class="title"><span>사업자</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>계약/입찰정보</span></a></li>
+                                                    <li><a href=""><span>사회적기업 지원</span></a></li>
+                                                    <li><a href=""><span>지원/접수</span></a></li>
+                                                    <li><a href=""><span>중소기업 지원</span></a></li>
+                                                    <li><a href=""><span>소상공인 지원</span></a></li>
+                                                    <li><a href=""><span>강릉페이 가맹점 등록</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service_slick_item n3">
+                                                <div class="title"><span>관광객</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>관광안내책자</span></a></li>
+                                                    <li><a href=""><span>테마여행</span></a></li>
+                                                    <li><a href=""><span>교통안내</span></a></li>
+                                                    <li><a href=""><span>길(트래킹) 전통시장</span></a></li>
+                                                    <li><a href=""><span>관광안내소</span></a></li>
+                                                    <li><a href=""><span>무장애관광 (누구나강릉)</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service_slick_item n4">
+                                                <div class="title"><span>아동</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>보육료/양육수당 지원</span></a></li>
+                                                    <li><a href=""><span>강릉시 장난감도서관</span></a></li>
+                                                    <li><a href=""><span>아이돌봄서비스</span></a></li>
+                                                    <li><a href=""><span>강릉시 육아종합지원센터</span></a></li>
+                                                    <li><a href=""><span>다함께돌봄센터</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service_slick_item n5">
+                                                <div class="title"><span>청소년</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>청소년수련시설 포털</span></a></li>
+                                                    <li><a href=""><span>청소년 상담</span></a></li>
+                                                    <li><a href=""><span>청소년증 발급</span></a></li>
+                                                    <li><a href=""><span>초·중·고 입학준비금</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service_slick_item n6">
+                                                <div class="title"><span>청년</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>온통청년 홈페이지</span></a></li>
+                                                    <li><a href=""><span>직접일자리(공공근로 등)</span></a></li>
+                                                    <li><a href=""><span>청년일자리지원</span></a></li>
+                                                    <li><a href=""><span>일자리기관 모음</span></a></li>
+                                                    <li><a href=""><span>청년지원사업</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service_slick_item n7">
+                                                <div class="title"><span>노인</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>기초연금</span></a></li>
+                                                    <li><a href=""><span>노인일자리</span></a></li>
+                                                    <li><a href=""><span>어르신이미용권</span></a></li>
+                                                    <li><a href=""><span>노인종합복지관</span></a></li>
+                                                    <li><a href=""><span>노인맞춤돌봄</span></a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="service_slick_item n8">
+                                                <div class="title"><span>여성/가족</span></div>
+                                                <ul class="service_info">
+                                                    <li><a href=""><span>임신·출산지원</span></a></li>
+                                                    <li><a href=""><span>1인가구 지원사업</span></a></li>
+                                                    <li><a href=""><span>다자녀 가정 지원</span></a></li>
+                                                    <li><a href=""><span>전입지원</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="service_control">
+                                            <button type="button" class="service_prev">이전</button>
+                                            <button type="button" class="service_next">다음</button>
+                                        </div>
+                                        <div class="service_dots"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="service_item n3 active" title="선택됨">
+                                <button type="button" class="service_button">
+                                    <span class="service_button_inner">
+                                        <span class="title">분야별 정보</span>
+                                        <span class="text">시민과 함께 만드는 강릉,<br/> 강릉시의 모든 것</span>
+                                    </span>
+                                </button>
+                                <div class="service_box">
+                                    <span class="service_subject">분야별 정보</span>
+                                    <div class="service_box_inner">
+                                        <div class="service_slick">
+                                            <div class="service_slick_item n1">
+                                                <a href="#"><i class="service_icon"></i><span>복지</span></a>
+                                            </div>
+                                            <div class="service_slick_item n2">
+                                                <a href="#"><i class="service_icon"></i><span>일자리/청년/산업</span></a>
+                                            </div>
+                                            <div class="service_slick_item n3">
+                                                <a href="#"><i class="service_icon"></i><span>교육</span></a>
+                                            </div>
+                                            <div class="service_slick_item n4">
+                                                <a href="#"><i class="service_icon"></i><span>도시/건축/건설</span></a>
+                                            </div>
+                                            <div class="service_slick_item n5">
+                                                <a href="#"><i class="service_icon"></i><span>문화/체육</span></a>
+                                            </div>
+                                            <div class="service_slick_item n6">
+                                                <a href="#"><i class="service_icon"></i><span>교통/항만/철도</span></a>
+                                            </div>
+                                            <div class="service_slick_item n7">
+                                                <a href="#"><i class="service_icon"></i><span>환경/생태/에너지</span></a>
+                                            </div>
+                                            <div class="service_slick_item n8">
+                                                <a href="#"><i class="service_icon"></i><span>보건/건강</span></a>
+                                            </div>
+                                            <div class="service_slick_item n9">
+                                                <a href="#"><i class="service_icon"></i><span>농·축·수산</span></a>
+                                            </div>
+                                            <div class="service_slick_item n10">
+                                                <a href="#"><i class="service_icon"></i><span>재난/안전</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="service_control">
+                                            <button type="button" class="service_prev">이전</button>
+                                            <button type="button" class="service_next">다음</button>
+                                        </div>
+                                        <div class="service_dots"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup5">
+                <div class="wrap">
+                    <div class="sns">
+                        <h2 class="skip">강릉 SNS</h2>
+                        <div class="sns_wrap">
+                            <div class="sns_title">강릉과 <span>#소통해요</span></div>
+                            <div class="sns_tab">
+                                <ul class="sns_list">
+                                    <li class="tab_item youtube active"><button type="button" class="tab_button" title="선택됨"><span>유튜브</span></button></li>
+                                    <li class="tab_item blog"><button type="button" class="tab_button"><span>블로그</span></button></li>
+                                </ul>
+                            </div>
+                            <div class="sns_content">
+                                <div class="sns_panel youtube active">
+                                    <div class="sns_list">
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img01.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img01.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img01.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img01.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img01.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="sns_control">
+                                        <button type="button" class="sns_button prev">이전</button>
+                                        <button type="button" class="sns_button next">다음</button>
+                                    </div>
+                                </div>
+                                <div class="sns_panel blog">
+                                    <div class="sns_list">
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img02.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img02.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img02.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img02.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="sns_item">
+                                            <a href="#" class="sns_anchor">
+                                                <span class="sns_img">
+                                                    <span style="background-image:url('../../site/www_2025/images/main/sns_img02.jpg')"></span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="sns_control">
+                                        <button type="button" class="sns_button prev">이전</button>
+                                        <button type="button" class="sns_button next">다음</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sns_link">
+                                <span class="sns_link_title">@gangneung</span>
+                                <ul class="sns_link_list">
+                                    <li class="sns_link_item youtube"><a href="#" target="_blank" title="새창">유튜브</a></li>
+                                    <li class="sns_link_item blog"><a href="#" target="_blank" title="새창">블로그</a></li>
+                                    <li class="sns_link_item instar"><a href="#" target="_blank" title="새창">인스타그램</a></li>
+                                    <li class="sns_link_item facebook"><a href="#" target="_blank" title="새창">페이스북</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <section class="popupzone">
+                        <h2 class="skip">알림존</h2>
+                        <div class="popupzone_list">
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="../../site/www_2025/images/main/popupzone_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="../../site/www_2025/images/main/popupzone_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="../../site/www_2025/images/main/popupzone_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="../../site/www_2025/images/main/popupzone_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="../../site/www_2025/images/main/popupzone_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="../../site/www_2025/images/main/popupzone_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="../../site/www_2025/images/main/popupzone_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                            <div class="popupzone_item">
+                                <a href="#" class="popupzone_anchor">
+                                    <img src="../../site/www_2025/images/main/popupzone_img.jpg" alt="이미지 alt">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="popupzone_control">
+                            <div class="popupzone_box">
+                                <span class="popupzone_title">POPUP ZONE</span>
+                                <div class="popupzone_count">
+                                    <span class="popupzone_current"></span>
+                                    <span class="popupzone_total"></span>
+                                </div>
+                                <button type="button" class="popupzone_button auto"></button>
+                                <button type="button" class="popupzone_more">알림존 팝업 모아보기</button>
+                            </div>
+                            <button type="button" class="popupzone_button prev">이전</button>
+                            <button type="button" class="popupzone_button next">다음</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="rowgroup6">
+                <div class="wrap">
+                    <div class="tour">
+                        <h2 class="skip">강릉 관광</h2>
+                        <div class="tour_title">강릉, <span>향기로 물들다</span></div>
+                        <div class="tour_info">
+                            <ul class="tour_info_list">
+                                <li class="tour_info_item n1">
+                                    <a href="#" target="_blank" title="새창">
+                                        <span>추천여행코스</span>
+                                        <div class="tour_icon"><i></i></div>
+                                    </a>
+                                </li>
+                                <li class="tour_info_item n2">
+                                    <a href="#" target="_blank" title="새창">
+                                        <span>맛집정보</span>
+                                        <div class="tour_icon"><i></i></div>
+                                    </a>
+                                </li>
+                                <li class="tour_info_item n3">
+                                    <a href="#" target="_blank" title="새창">
+                                        <span>숙박안내</span>
+                                        <div class="tour_icon"><i></i></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tour_link">
+                            <ul class="tour_link_list">
+                                <li class="tour_link_item n1">
+                                    <a href="#" target="_blank" title="새창"><span>TV속 강릉</span></a>
+                                </li>
+                                <li class="tour_link_item n2">
+                                    <a href="#" target="_blank" title="새창"><span>강릉 Hot Place</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer id="footer">
+        <div class="banner">
+            <div class="wrap">
+                <div class="banner_title">배너모음</div>
+                <div class="banner_list">
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">정책브리핑</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">도민사이버배움터</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">강릉팜</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">강원특별자치도청</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">강릉미래인재육성재단</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">강릉관광개발공사</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">국민재난안전포털</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">강릉시민구단</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">강릉시자원봉사</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">육아종합지원센터</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">강릉시 동물사랑센터</a></div>
+                    <div class="banner_item"><a href="" target="_blank" title="새창" rel="noopener noreferrer" class="banner_anchor">도로교통공단 강릉운전면허시험장</a></div>
+                </div>
+                <div class="banner_control">
+                    <button type="button" class="banner_prev">이전</button>
+                    <button type="button" class="banner_auto"></button>
+                    <button type="button" class="banner_next">다음</button>
+                    <a href="#" class="banner_more">배너 더보기</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_content">
+            <div class="wrap">
+                <div class="footer_info">
+                    <ul class="link_list">
+                        <li class="link_item first"><a href="" target="_blank" rel="noreferrer noopener">개인정보처리방침</a></li>
+                        <li class="link_item"><a href="" target="_blank" rel="noreferrer noopener">영상정보처리기기방침</a></li>
+                        <li class="link_item"><a href="" target="_blank" rel="noreferrer noopener">저작권정책</a></li>
+                        <li class="link_item"><a href="" target="_blank" rel="noreferrer noopener">오시는 길</a></li>
+                    </ul>
+                    <div class="info_text">
+                        <span class="address">[25522] 강원특별자치도 강릉시 강릉대로 33 (홍제동)</span>
+                        <span class="tel"><em>대표전화</em> <em class="number">033-660-2018</em></span>
+                        <p>본 홈페이지에서 게시된 이메일주소를 자동으로 수집하는 것을 거부하며, 위반 시 관련 법에 의거 처벌 등을 유념하시기 바랍니다.</p>
+                        <p class="copyright">ⓒ GANGNEUNG-SI. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+                <div class="footer_call">
+                    <span class="call_title">강릉시 민원콜센터</span>
+                    <p class="call_number">033.660.2018</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer_box">
+            <div class="footer_sns">
+                <button type="button" class="sns_button" title="SNS 목록 열기"><span>SNS</span></button>
+                <div class="sns_panel">
+                    <ul class="sns_list">
+                        <li class="sns_item youtube"><a href="#" target="_blank" title="새창">유튜브</a></li>
+                        <li class="sns_item blog"><a href="#" target="_blank" title="새창">블로그</a></li>
+                        <li class="sns_item instar"><a href="#" target="_blank" title="새창">인스타그램</a></li>
+                        <li class="sns_item facebook"><a href="#" target="_blank" title="새창">페이스북</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#wrapper" class="up_button">TOP</a>
+        </div>
+
+    </footer>
+</div>
+</body>
+</html>

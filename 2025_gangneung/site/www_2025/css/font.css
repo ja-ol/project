@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+/* SCDream */
+@font-face{
+    font-family:'SCDream';
+    font-weight:400;
+    src:url("../font/SCDream-Regular.woff2") format('woff2'),
+    url("../font/SCDream-Regular.woff") format('woff');
+}
+@font-face{
+    font-family:'SCDream';
+    font-weight:500;
+    src:url("../font/SCDream-Medium.woff2") format('woff2'),
+    url("../font/SCDream-Medium.woff") format('woff');
+}
+@font-face{
+    font-family:'SCDream';
+    font-weight: 600;
+    src:url("../font/SCDream-Bold.woff2") format('woff2'),
+    url("../font/SCDream-Bold.woff") format('woff');
+}
+
+/* Montserrat */
+@font-face{
+    font-family:'Montserrat';
+    font-weight: 400;
+    src:url("../font/Montserrat-Regular.woff2") format('woff2'),
+    url("../font/Montserrat-Regular.woff") format('woff');
+}
+@font-face{
+    font-family:'Montserrat';
+    font-weight: 500;
+    src:url("../font/Montserrat-Medium.woff2") format('woff2'),
+    url("../font/Montserrat-Medium.woff") format('woff');
+}
+@font-face{
+    font-family:'Montserrat';
+    font-weight: 600;
+    src:url("../font/Montserrat-SemiBold.woff2") format('woff2'),
+    url("../font/Montserrat-SemiBold.woff") format('woff');
+}
+@font-face{
+    font-family:'Montserrat';
+    font-weight: 700;
+    src:url("../font/Montserrat-Bold.woff2") format('woff2'),
+    url("../font/Montserrat-Bold.woff") format('woff');
+}
+
+/* Jalnan */
+@font-face{
+    font-family:'Jalnan';
+    font-weight: 600;
+    src:url("../font/JalnanGothicTTF.woff2") format('woff2'),
+    url("../font/JalnanGothicTTF.woff") format('woff');
+}
+
+/* PretendardGOV */
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight: 400;
+    src:url("../font/PretendardGOV-Regular.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-Regular.subset.woff") format('woff');
+}
+
+/* goormsans */
+@font-face{
+    font-family:'goormsans';
+    font-weight: 500;
+    src:url("../font/goormsans-medium.woff2") format('woff2'),
+    url("../font/goormsans-medium.woff") format('woff');
+}
+
+/* SBAggro */
+@font-face{
+    font-family:'SBAggro';
+    font-weight: 500;
+    src:url("../font/SBAggroM.woff2") format('woff2'),
+    url("../font/SBAggroM.woff") format('woff');
+}
+
+/* Lato */
+@font-face{
+    font-family:'Lato';
+    font-weight: 400;
+    src:url("../font/Lato-Regular.woff2") format('woff2'),
+    url("../font/Lato-Regular.woff") format('woff');
+}

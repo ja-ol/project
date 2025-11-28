@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes"/>
+    <meta name="keywords" content="@@{siteInfo.siteKwrd}"/>
+    <meta name="description" content="@@{siteInfo.siteDc}"/>
+    <link rel="stylesheet" type="text/css" href="../site/www/css/font.css" />
+    <link rel="stylesheet" type="text/css" href="../site/www_2025/css/font.css" />
+    <link rel="stylesheet" href="../common_2020/css/default.css">
+    <link rel="stylesheet" href="../site/www/css/layout.css">
+    <link rel="stylesheet" href="../common_2020/css/program.css">
+    <link rel="stylesheet" href="../search_2025/css/search.css">
+    <script src="../common_2020/js/jquery-1.12.4.min.js"></script>
+    <script src="../common_2020/js/jquery.easing.1.3.js"></script>
+    <script src="../site/www/js/plugins.js"></script>
+    <script src="../common_2020/js/program.min.js"></script>
+    <script src="js/search.js"></script>
+    <link rel="icon" href="../site/www_2025/images/common/favicon.ico" type="image/x-icon">
+    <title>강릉시청 - 통합검색</title>
+</head>
+
+<body id="${siteInfo.tmplatId}" class="@@{siteInfo.siteId} page@@{key}">
+<div id="wrapper">
+
+    <header id="header">
+        <div class="accessibility">
+            <a href="#contents">본문 바로가기</a>
+        </div>
+        <div class="header_inner">
+            <div class="wrap">
+                <div class="header_top">
+                    <div class="site">
+                        <ul class="site_list">
+                            <li class="site_item"><a href="/www/index.do" class="site_anchor">강릉시청</a></li>
+                            <li class="site_item"><a href="#" class="site_anchor">강릉관광</a></li>
+                            <li class="site_item"><a href="#" class="site_anchor">강릉시의회</a></li>
+                            <li class="site_item"><a href="#" class="site_anchor">통합예약</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header_box">
+                    <h1 class="logo">
+                        <a href="">
+                            <img src="./images/logo.png" alt="솔향강릉 PINE CITY Gangneung">
+                            <span class="logo_text">통합예약</span>
+                        </a>
+                    </h1>
+
+                    <!-- search -->
+                    <!-- 성북구청 참고해서 작업해주세요! -->
+                    <section class="search_box">
+                        <form id="" action="">
+                            <fieldset>
+                                <legend>통합검색</legend>
+                                <div class="search clearfix">
+                                    <h2 class="skip">통합검색</h2>
+                                    <div class="search_inner">
+                                        <label for="search_query" class="skip">검색어 입력</label>
+                                        <input type="search" name="" id="search_query" class="search_query" placeholder="강릉, 무엇이 궁금하신가요?">
+
+                                        <!-- 검색어 입력시 보이게 해주세요 ↓↓↓ -->
+                                        <!-- 연관 검색어 예) 대형폐기물 입력시 ↓ -->
+                                        <div id="search_result" class="search_logs">
+                                            <ul class="autolist">
+                                                <li><a href="#n"><span>대형폐기물</span> 인터넷신고</a></li>
+                                                <li><a href="#n"><span>대형폐기물</span> 스티커</a></li>
+                                                <li><a href="#n"><span>대형폐기물</span> 신고</a></li>
+                                                <li><a href="#n"><span>대형폐기물</span> 수거</a></li>
+                                                <li><a href="#n"><span>대형폐기물</span> 가격</a></li>
+                                                <li><a href="#n"><span>대형폐기물</span> 기준</a></li>
+                                                <li><a href="#n">강원도 <span>대형폐기물</span></a></li>
+                                                <li><a href="#n">강릉시 <span>대형폐기물</span></a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- 검색어 입력시 보이게 해주세요 ↑↑↑ -->
+
+                                        <input type="submit" value="검색" class="search_submit"/>
+                                    </div>
+                                    <div class="search_right">
+                                        <button type="button" class="detail_search"><span>상세검색</span></button>
+                                        <div class="research">
+                                            <input type="checkbox" id="reSearch" name="" class="p-form-checkbox__input">
+                                            <label for="reSearch" class="p-form-checkbox__label">결과 내 재검색</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 상세검색 -->
+                                <div class="detail_box" title="상세검색 닫힘">
+                                    <div class="inner_box">
+                                        <ul>
+                                            <li class="list list01 period">
+                                                <span class="icon"><span>검색기간</span></span>
+                                                <div class="listbox clearfix">
+                                                    <div class="itembox item01">
+                                                        <span class="p-form-checkbox">
+                                                            <input type="checkbox" id="aaa" class="p-form-checkbox__input" name="" value=""/>
+                                                            <label for="aaa" class="p-form-checkbox__label">전체기간</label>
+                                                        </span>
+                                                    </div>
+                                                    <div class="itembox item02">
+                                                        <div class="p-date-group">
+                                                            <div class="p-form-group p-date" data-date="datepicker">
+                                                                <input type="text" name="" class="p-input" value="" placeholder="yyyy-mm-dd" title="검색기간 시작날짜" readonly>
+                                                                <div class="p-input__split">
+                                                                    <button type="button" class="p-input__item p-date__icon">달력 열기</button>
+                                                                </div>
+                                                            </div>
+                                                            <span class="p-form__split">~</span>
+                                                            <div class="p-form-group p-date" data-date="datepicker">
+                                                                <input type="text" name="" class="p-input" value="" placeholder="yyyy-mm-dd" title="검색기간 마감날짜" readonly>
+                                                                <div class="p-input__split">
+                                                                    <button type="button" class="p-input__item p-date__icon">달력 열기</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="itembox item03">
+                                                        <button type="button" class="period_btn" name="date" value="" id="">1주</button>
+                                                        <!-- 활성화 됐을때 'active' 붙여주세요! -->
+                                                        <button type="button" class="period_btn active" name="date" value="" id="">1개월</button>
+                                                        <button type="button" class="period_btn" name="date" value="" id="">1년</button>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list list02">
+                                                <span class="icon"><span>검색방법</span></span>
+                                                <div class="listbox clearfix">
+                                                    <div class="itembox item01">
+                                                        <span class="p-form-radio">
+                                                            <input type="radio" name="method1" id="method1" class="p-form-radio__input"/>
+                                                            <label for="method1" class="p-form-radio__label">하나라도 포함된결과(OR)</label>
+                                                        </span>
+                                                    </div>
+                                                    <div class="itembox item02">
+                                                        <span class="p-form-radio">
+                                                            <input type="radio" name="method1" id="method2" class="p-form-radio__input"/>
+                                                            <label for="method2" class="p-form-radio__label">제외하는 단어</label>
+                                                        </span>
+                                                        <span class="textbox">
+                                                            <label for="method3" class="skip">제외하는 단어</label>
+                                                            <input type="text" id="method3" class="p-input" name=""/>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="list list03">
+                                                <span class="icon"><span>검색범위</span></span>
+                                                <div class="listbox">
+                                                    <div class="itembox range item01">
+                                                        <span class="p-form-checkbox">
+                                                            <input type="checkbox" id="range1" class="p-form-checkbox__input" name="" value=""/>
+                                                            <label for="range1" class="p-form-checkbox__label">전체</label>
+                                                        </span>
+                                                    </div>
+                                                    <div class="itembox range item02">
+                                                        <span class="p-form-checkbox">
+                                                            <input type="checkbox" id="range2" class="p-form-checkbox__input" name="" value=""/>
+                                                            <label for="range2" class="p-form-checkbox__label">제목</label>
+                                                        </span>
+                                                    </div>
+                                                    <div class="itembox range item03">
+                                                        <span class="p-form-checkbox">
+                                                            <input type="checkbox" id="range3" class="p-form-checkbox__input" name="" value=""/>
+                                                            <label for="range3" class="p-form-checkbox__label">내용</label>
+                                                        </span>
+                                                    </div>
+                                                    <div class="itembox range item04">
+                                                        <span class="p-form-checkbox">
+                                                            <input type="checkbox" id="range4" class="p-form-checkbox__input" name="" value=""/>
+                                                            <label for="range4" class="p-form-checkbox__label">파일명</label>
+                                                        </span>
+                                                    </div>
+                                                    <div class="itembox range item05">
+                                                        <span class="p-form-checkbox">
+                                                            <input type="checkbox" id="range5" class="p-form-checkbox__input" name="" value=""/>
+                                                            <label for="range5" class="p-form-checkbox__label">파일내용</label>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="detail_btn_box">
+                                        <button type="reset" class="detail_btn reset"><span>초기화</span></button>
+                                        <button type="submit" class="detail_btn submit"><span>검색</span></button>
+                                    </div>
+                                    <button type="button" class="detail_close">닫기</button>
+                                </div>
+                                <!-- //상세검색 -->
+
+                                <!-- 인기검색어 -->
+                                <div class="keyword">
+                                    <div class="keyword_title">인기검색어</div>
+                                    <div class="keyword_control">
+                                        <button type="button" class="keyword_button prev">이전</button>
+                                        <button type="button" class="keyword_button auto"></button>
+                                        <button type="button" class="keyword_button next">다음</button>
+                                    </div>
+                                    <div class="keyword_list">
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#대형폐기물</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#여권발급</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#정보화교육</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#주택공시지가</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#차량등록</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#대형폐기물</a></div>
+                                        <div class="keyword_item"><a href="#" class="keyword_anchor">#여권발급</a></div>
+                                    </div>
+                                </div>
+                                <!-- //인기검색어 -->
+
+                            </fieldset>
+                        </form>
+                    </section>
+                    <!-- //search -->
+
+                    <script>
+
+                        /* 연관검색어 자동완성 */
+                        var $searchInput = $('.search_query');
+
+                        $searchInput.each(function () {
+                            var $input = $(this);
+                            var $searchBox = $input.closest('.search_box');
+
+                            // 내부 구조 감싸기
+                            if (!$input.closest('.search_inner').length) {
+                                $input.wrap('<div class="search_inner"></div>');
+                            }
+
+                            // 자동완성 박스 생성
+                            if (!$input.next('.search_logs').length) {
+                                $input.after($('<div>', { class: 'search_logs' }).append($('<ul>')));
+                            }
+
+                            var $searchLogs = $input.next('.search_logs');
+
+                            // 검색어 입력 시
+                            $input.on('input', function () {
+                                var query = $input.val();
+
+                                if (query.length < 1) {
+                                    $searchLogs.removeClass('active').height(0).find('a, button').attr('tabindex', -1);
+                                    $searchBox.removeClass('logs_open');
+                                } else {
+                                    $searchLogs.addClass('active');
+                                    $searchBox.addClass('logs_open active');
+
+                                    // 자동완성 리스트 높이 계산
+                                    var innerH = $searchLogs.find('ul').innerHeight();
+                                    $searchLogs.height(innerH).find('a, button').attr('tabindex', 0);
+                                }
+                            });
+
+                            // 포커스 진입 시
+                            $input.on('focusin', function () {
+                                if ($searchLogs.hasClass('active')) {
+                                    var innerH = $searchLogs.find('ul').innerHeight();
+                                    $searchBox.addClass('logs_open');
+                                    $searchLogs.height(innerH).find('a, button').attr('tabindex', 0);
+                                }
+                            });
+
+                            // 포커스 아웃 시
+                            $input.on('focusout', function () {
+                                setTimeout(function () {
+                                    if ($(document.activeElement).closest('.search_logs').length) return;
+                                    $searchBox.removeClass('logs_open active');
+                                    $searchLogs.removeClass('active').height(0).find('a, button').attr('tabindex', -1);
+                                }, 10);
+                            });
+
+                            // 브라우저 리사이즈 시 자동완성 닫기
+                            $(window).on('resize', function () {
+                                $searchBox.removeClass('logs_open');
+                                $searchLogs.removeClass('active').height(0).find('a, button').attr('tabindex', -1);
+                            });
+                        });
+                    </script>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="search_menu">
+            <div class="wrap">
+                <nav class="search_nav">
+                    <h2 class="skip">주메뉴</h2>
+                    <div class="depth depth1">
+                        <ul class="depth_list depth1_list" id="main_category">
+                            <li class="depth_item depth1_item active">
+                                <a href="" class="depth_text depth1_text"><span>통합검색</span></a>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a href="" class="depth_text depth1_text"><span>메뉴검색</span></a>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a href="" class="depth_text depth1_text"><span>직원/업무</span></a>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a href="" class="depth_text depth1_text"><span>게시판</span></a>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a href="" class="depth_text depth1_text"><span>웹페이지</span></a>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a href="" class="depth_text depth1_text"><span>민원서식</span></a>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a href="" class="depth_text depth1_text"><span>멀티미디어</span></a>
+                            </li>
+                            <li class="depth_item depth1_item">
+                                <a href="" class="depth_text depth1_text"><span>첨부파일</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="container">
+        <div class="wrap clearfix">
+            <main class="colgroup">
+                <!-- 검색결과가 없을 경우 나오는 화면 -->
+                <!--
+                <article>
+                    <header class="sub_head none_searching">
+                        <div class="sub_title">
+                            <h2><span class="search_word">&ldquo;ageragh&rdquo;</span>에 대한 검색결과가 없습니다.</h2>
+                            <ul class="bu">
+                                <li>단어의 철자가 정확한지 확인해 보세요.</li>
+                                <li>검색어가 바르게 입력되었는지 확인해 보세요.</li>
+                                <li>비슷한 단어로 다시 검색해 보세요.</li>
+                            </ul>
+                        </div>
+                        <div class="btn_wrap">
+                            <a href="#"><span>이전화면으로</span></a>
+                        </div>
+                    </header>
+                </article>
+                -->
+                <!-- //검색결과가 없을 경우 나오는 화면 끝 -->
+
+                <article>
+                    <header class="sub_head">
+                        <div class="sub_title">
+                            <h2>검색어 <span class="search_word">&ldquo;강릉&rdquo;</span>에 대한 전체 <mark>&ldquo;1,234&rdquo;</mark>개의 결과를 찾았습니다.
+                            </h2>
+                        </div>
+                    </header>
+                    <div id="contents">
+                        <!-- 메뉴검색 -->
+                        <!-- 검색한 단어 em_red 클래스 넣어주세요! -->
+                        <!-- 통합검색 화면: 5건 출력/ 카테고리별 상세 화면: 10건 출력 -->
+                        <section class="menu_search">
+                            <h3>메뉴검색 (<span class="index">86</span>건)</h3>
+                            <ul class="menu_list">
+                                <li class="menu_item">
+                                    <a href="" class="menu_anchor">
+                                        <span class="category">[<em class="em_red">강릉</em>시민자전거보험]</span>
+                                        <span><em class="em_red">강릉</em>시청 &gt; 재난/안전 &gt; <em class="em_red">강릉</em> 시민자전거보험</span>
+                                    </a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu_anchor">
+                                        <span class="category">[<em class="em_red">강릉</em>시민안전보험]</span>
+                                        <span><em class="em_red">강릉</em>시청 &gt; 재난/안전 &gt; <em class="em_red">강릉</em> 시민안전보험</span>
+                                    </a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu_anchor">
+                                        <span class="category">[<em class="em_red">강릉</em> 농수산물도매시장]</span>
+                                        <span><em class="em_red">강릉</em>시청 &gt; 농축수산 &gt; 농정 &gt; <em class="em_red">강릉</em>농수산물도매시장</span>
+                                    </a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu_anchor">
+                                        <span class="category">[<em class="em_red">강릉</em> 솔향수목원]</span>
+                                        <span><em class="em_red">강릉</em>시청 &gt; 환경/생태/에너지 &gt; <em class="em_red">강릉</em>솔향수목원</span>
+                                    </a>
+                                </li>
+                                <li class="menu_item">
+                                    <a href="" class="menu_anchor">
+                                        <span class="category">[<em class="em_red">강릉</em> 생태관광]</span>
+                                        <span><em class="em_red">강릉</em>시청 &gt; 환경/생태/에너지 &gt; 생태복원 &gt; <em class="em_red">강릉</em>생태관광</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="" class="more">더보기</a><!-- 카테고리에서는 안보이게 -->
+                        </section>
+                        <!-- //메뉴검색 -->
+
+
+                        <!-- 직원/업무 -->
+                        <!-- 검색한 단어 em_red 클래스 넣어주세요! -->
+                        <!-- 통합검색 화면: 5건 출력/ 카테고리별 상세 화면: 10건 출력 -->
+                        <section class="staff">
+                            <h3>직원업무 (<span class="index">51</span>건)</h3>
+                            <!-- 성명 및 직위는 표출하지 않음 -->
+                            <table class="table responsive">
+                                <caption>직원 및 업무 - 부서, 팀명, 전화번호, 담당업무 순으로 정보제공</caption>
+                                <colgroup>
+                                    <col style="width:20%"/>
+                                    <col style="width:20%"/>
+                                    <col style="width:20%"/>
+                                    <col/>
+                                </colgroup>
+                                <thead>
+                                <tr>
+                                    <th scope="col" data-test="n1111">부서</th>
+                                    <th scope="col">팀명</th>
+                                    <th scope="col">전화번호</th>
+                                    <th scope="col">담당업무</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><em class="em_red">강릉</em>아트센터</td>
+                                    <td><em class="em_red">강릉</em>아트센터</td>
+                                    <td class="text_center">033-660-2450</td>
+                                    <td><em class="em_red">강릉</em>아트센터 업무총괄</td>
+                                </tr>
+                                <tr>
+                                    <td><em class="em_red">강릉</em>아트센터</td>
+                                    <td><em class="em_red">강릉</em>아트센터</td>
+                                    <td class="text_center">033-660-2450</td>
+                                    <td><em class="em_red">강릉</em>아트센터 업무총괄</td>
+                                </tr>
+                                <tr>
+                                    <td><em class="em_red">강릉</em>아트센터</td>
+                                    <td>공연기획</td>
+                                    <td class="text_center">033-660-2450</td>
+                                    <td><em class="em_red">강릉</em>아트센터 공연기획 총괄</td>
+                                </tr>
+                                <tr>
+                                    <td><em class="em_red">강릉</em>아트센터</td>
+                                    <td>공연기획</td>
+                                    <td class="text_center">033-660-2450</td>
+                                    <td><em class="em_red">강릉</em>아트센터 공연기획 총괄</td>
+                                </tr>
+                                <tr>
+                                    <td><em class="em_red">강릉</em>아트센터</td>
+                                    <td>공연기획</td>
+                                    <td class="text_center">033-660-2450</td>
+                                    <td><em class="em_red">강릉</em>아트센터 공연기획 총괄</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <a href="" class="more">더보기</a><!-- 카테고리에서는 안보이게 -->
+                        </section>
+                        <!-- //직원/업무 -->
+
+
+                        <!-- 게시판 -->
+                        <!-- 검색한 단어 em_red 클래스 넣어주세요! -->
+                        <!-- 통합검색 화면: 5건 출력/ 카테고리별 상세 화면: 10건 출력 -->
+                        <section class="board">
+                            <h3>게시판 (<span class="index">2</span>건)</h3>
+                            <ul class="result_list">
+                                <li class="result_card">
+                                    <div class="result_top">
+                                        <a href="#n" class="result_anchor">
+                                            <p class="result_title">[공고 제2025-819호] <em class="em_red">강릉</em>시 폐기물처리시설 관리 및 운영에 관한 조례 일부개정조례안 입법예고</p>
+                                            <div class="result_write">
+                                                <span class="date">2025-04-23</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <p class="result_text">「<em class="em_red">강릉</em>시 폐기물처리시설 관리 및 운영에 관한 조례」를 일부 개정함에 있어 개정이유와 주요 내용을 시민들에게 널리 알려 의견을 듣고자 [강릉시 입법예고에 관한조례] 제4조의 규정에 의하여 다음과 같이 공고하고자 합니다.</p>
+                                    <div class="result_group">
+                                        <div class="result_file">
+                                            <div class="file_name">강릉시 폐기물처리시설 관리 및 운영에 관한 조례 일부개정조례안 입법예고문.hwp</div>
+                                            <div class="file_box">
+                                                <span class="file_form">hwp 파일</span>
+                                                <a href="" class="file_down"><span class="skip">다운로드</span></a>
+                                                <a href="" class="file_preview"><span class="skip">미리보기</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="result_file">
+                                            <div class="file_name"><span>입법예고 사항에 대한 의견제출서.hwp</span></div>
+                                            <div class="file_box">
+                                                <span class="file_form">hwp 파일</span>
+                                                <a href="" class="file_down"><span class="skip">다운로드</span></a>
+                                                <a href="" class="file_preview"><span class="skip">미리보기</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card_path">
+                                        <p><span>강릉시청 &gt; 시정소식 &gt; 새소식 &gt; 입법예고</span></p>
+                                    </div>
+                                </li>
+                                <li class="result_card">
+                                    <div class="result_top">
+                                        <a href="#n" class="result_anchor">
+                                            <p class="result_title">[공고 제2025-819호] <em class="em_red">강릉</em>시 폐기물처리시설 관리 및 운영에 관한 조례 일부개정조례안 입법예고</p>
+                                            <div class="result_write">
+                                                <span class="date">2025-04-23</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <p class="result_text">「<em class="em_red">강릉</em>시 폐기물처리시설 관리 및 운영에 관한 조례」를 일부 개정함에 있어 개정이유와 주요 내용을 시민들에게 널리 알려 의견을 듣고자 [강릉시 입법예고에 관한조례] 제4조의 규정에 의하여 다음과 같이 공고하고자 합니다.</p>
+                                    <div class="result_group">
+                                        <div class="result_file">
+                                            <div class="file_name">강릉시 폐기물처리시설 관리 및 운영에 관한 조례 일부개정조례안 입법예고문.hwp</div>
+                                            <div class="file_box">
+                                                <span class="file_form">hwp 파일</span>
+                                                <a href="" class="file_down"><span class="skip">다운로드</span></a>
+                                                <a href="" class="file_preview"><span class="skip">미리보기</span></a>
+                                            </div>
+                                        </div>
+                                        <div class="result_file">
+                                            <div class="file_name"><span>입법예고 사항에 대한 의견제출서.hwp</span></div>
+                                            <div class="file_box">
+                                                <span class="file_form">hwp 파일</span>
+                                                <a href="" class="file_down"><span class="skip">다운로드</span></a>
+                                                <a href="" class="file_preview"><span class="skip">미리보기</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card_path">
+                                        <p><span>강릉시청 &gt; 시정소식 &gt; 새소식 &gt; 입법예고</span></p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" class="more">더보기</a>
+                        </section>
+                        <!-- //게시판 -->
+
+
+                        <!-- 웹페이지 -->
+                        <!-- 검색한 단어 em_red 클래스 넣어주세요! -->
+                        <!-- 통합검색 화면: 5건 출력/ 카테고리별 상세 화면: 10건 출력 -->
+                        <section class="board">
+                            <h3>웹페이지 (<span class="index">261</span>건)</h3>
+                            <ul class="result_list">
+                                <li class="result_card">
+                                    <div class="result_top">
+                                        <a href="#n" class="result_anchor">
+                                            <p class="result_title"><em class="em_red">강릉</em>시민자전거보험</p>
+                                        </a>
+                                    </div>
+                                    <p class="result_text">보험계약자 : <em class="em_red">강릉</em>시청 피보험자 : <em class="em_red">강릉</em>시에 주민등록이 되어 있는 모든 시민 보험수익자 : 피보험자 본인 (사망시에는 법적 상속인) 가입절차 : <em class="em_red">강릉</em>시민 전체 자동가입 (※별도의 가입절차 없음) 보험기간 : 2025. 4. 4. ~ 2026. 4. 3. (1년)  보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751</p>
+                                    <div class="card_path">
+                                        <p><span>강릉시청 &gt; 재난/안전 &gt; 강릉시민자전거보험</span></p>
+                                    </div>
+                                </li>
+                                <li class="result_card">
+                                    <div class="result_top">
+                                        <a href="#n" class="result_anchor">
+                                            <p class="result_title"><em class="em_red">강릉</em>시민자전거보험</p>
+                                        </a>
+                                    </div>
+                                    <p class="result_text">보험계약자 : <em class="em_red">강릉</em>시청 피보험자 : <em class="em_red">강릉</em>시에 주민등록이 되어 있는 모든 시민 보험수익자 : 피보험자 본인 (사망시에는 법적 상속인) 가입절차 : <em class="em_red">강릉</em>시민 전체 자동가입 (※별도의 가입절차 없음) 보험기간 : 2025. 4. 4. ~ 2026. 4. 3. (1년)  보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751</p>
+                                    <div class="card_path">
+                                        <p><span>강릉시청 &gt; 재난/안전 &gt; 강릉시민자전거보험</span></p>
+                                    </div>
+                                </li>
+                                <li class="result_card">
+                                    <div class="result_top">
+                                        <a href="#n" class="result_anchor">
+                                            <p class="result_title"><em class="em_red">강릉</em>시민자전거보험</p>
+                                        </a>
+                                    </div>
+                                    <p class="result_text">보험계약자 : <em class="em_red">강릉</em>시청 피보험자 : <em class="em_red">강릉</em>시에 주민등록이 되어 있는 모든 시민 보험수익자 : 피보험자 본인 (사망시에는 법적 상속인) 가입절차 : <em class="em_red">강릉</em>시민 전체 자동가입 (※별도의 가입절차 없음) 보험기간 : 2025. 4. 4. ~ 2026. 4. 3. (1년)  보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751</p>
+                                    <div class="card_path">
+                                        <p><span>강릉시청 &gt; 재난/안전 &gt; 강릉시민자전거보험</span></p>
+                                    </div>
+                                </li>
+                                <li class="result_card">
+                                    <div class="result_top">
+                                        <a href="#n" class="result_anchor">
+                                            <p class="result_title"><em class="em_red">강릉</em>시민자전거보험</p>
+                                        </a>
+                                    </div>
+                                    <p class="result_text">보험계약자 : <em class="em_red">강릉</em>시청 피보험자 : <em class="em_red">강릉</em>시에 주민등록이 되어 있는 모든 시민 보험수익자 : 피보험자 본인 (사망시에는 법적 상속인) 가입절차 : <em class="em_red">강릉</em>시민 전체 자동가입 (※별도의 가입절차 없음) 보험기간 : 2025. 4. 4. ~ 2026. 4. 3. (1년)  보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751</p>
+                                    <div class="card_path">
+                                        <p><span>강릉시청 &gt; 재난/안전 &gt; 강릉시민자전거보험</span></p>
+                                    </div>
+                                </li>
+                                <li class="result_card">
+                                    <div class="result_top">
+                                        <a href="#n" class="result_anchor">
+                                            <p class="result_title"><em class="em_red">강릉</em>시민자전거보험</p>
+                                        </a>
+                                    </div>
+                                    <p class="result_text">보험계약자 : <em class="em_red">강릉</em>시청 피보험자 : <em class="em_red">강릉</em>시에 주민등록이 되어 있는 모든 시민 보험수익자 : 피보험자 본인 (사망시에는 법적 상속인) 가입절차 : <em class="em_red">강릉</em>시민 전체 자동가입 (※별도의 가입절차 없음) 보험기간 : 2025. 4. 4. ~ 2026. 4. 3. (1년)  보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751 보험사 : DB손해보험(주) TEL 1899-7751</p>
+                                    <div class="card_path">
+                                        <p><span>강릉시청 &gt; 재난/안전 &gt; 강릉시민자전거보험</span></p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="more">더보기</a><!-- 카테고리에서는 안보이게 -->
+                        </section>
+                        <!-- //웹페이지 -->
+
+
+                        <!-- 민원서식 -->
+                        <!-- 검색한 단어 em_red 클래스 넣어주세요! -->
+                        <!-- 통합검색 화면: 5건 출력/ 카테고리별 상세 화면: 10건 출력 -->
+                        <section class="board">
+                            <h3>민원서식 (<span class="index">2</span>건)</h3>
+                            <ul class="result_list">
+                                <li class="result_card">
+                                    <div class="result_top">
+                                        <a href="#n" class="result_anchor">
+                                            <p class="result_title"><em class="em_red">강릉</em>시 아이돌봄서비스 지원 신청서</p>
+                                        </a>
+                                    </div>
+                                    <p class="result_text">양육공백 발생하여 아이돌봄서비스 이용시 유형별 본인부담금 환급</p>
+                                    <div class="result_group">
+
+                                        <!-- 파일이 여러개일 경우 -->
+                                        <div class="result_file add">
+                                            <div class="file_name">[별지 제1호서식]아이돌봄서비스 지원 신청서(강릉시 아이돌봄서비스 지원에 관한 조례).hwp 외 1건</div>
+                                            <button type="button" class="file_box" title="파일목록 더보기 열기">
+                                                <span class="file_form">파일목록</span>
+                                                <span class="file_more">파일 더보기</span>
+                                            </button>
+                                        </div>
+
+                                        <!-- 파일 종류 : xlsx(xls), ppt(pptx), pdf, hwp(hwpx), doc(docx), mov, jpg(jpeg), png, file, zip
+                                        파일 종류에 따라 class, 텍스트 변경해주세요 -->
+                                        <div class="result_file_wrap" title="파일목록 닫힘">
+                                            <div class="result_file type2">
+                                                <div class="file_name">
+                                                    <span class="p-icon p-icon__hwp">hwp 파일 첨부</span>
+                                                    [서식] 강릉시 인구늘리기 지원 신청서(강릉시 인구늘리기 지원에 관한 조례).hwp
+                                                </div>
+                                                <div class="file_box">
+                                                    <a href="" class="file_down"><span class="skip">다운로드</span></a>
+                                                    <a href="" class="file_preview"><span class="skip">미리보기</span></a>
+                                                </div>
+                                            </div>
+                                            <div class="result_file type2">
+                                                <div class="file_name">
+                                                    <span class="p-icon p-icon__xls">xls 파일 첨부</span>
+                                                    [서식] 강릉시 인구늘리기 지원 신청서(강릉시 인구늘리기 지원에 관한 조례).xls
+                                                </div>
+                                                <div class="file_box">
+                                                    <a href="" class="file_down"><span class="skip">다운로드</span></a>
+                                                    <a href="" class="file_preview"><span class="skip">미리보기</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //파일이 여러개일 경우 -->
+
+                                        <!--
+                                         파일이 한개일 경우 이것만 표출되게 해주세요!
+                                        <div class="result_file type2">
+                                                <div class="file_name">
+                                                    <span class="p-icon p-icon__hwp">hwp 파일 첨부</span>
+                                                    [서식] 강릉시 인구늘리기 지원 신청서(강릉시 인구늘리기 지원에 관한 조례).hwp
+                                                </div>
+                                                <div class="file_box">
+                                                    <a href="" class="file_down"><span class="skip">다운로드</span></a>
+                                                    <a href="" class="file_preview"><span class="skip">미리보기</span></a>
+                                                </div>
+                                            </div>
+                                         -->
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="#" class="more">더보기</a>
+                        </section>
+                        <!-- //게시판 -->
+
+
+                        <!-- 멀티미디어 -->
+                        <!-- 통합검색 화면: 4건씩 2줄 총8건 출력/ 카테고리별 상세 화면: 4건씩 3줄 총12건 출력 -->
+                        <section class="multimedia">
+                            <h3>멀티미디어 (<span class="index">4650</span>건)</h3>
+                            <ul class="media_list">
+                                <li class="media_item" style="background-image:url('./images/media_img01.jpg');">
+                                    <a href="" class="media_anchor">
+                                        <p class="media_text">
+                                            <span class="media_title">2025년 상반기 노인자살예방 캠페인</span>
+                                            <span class="media_date">2025-04-25</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="media_item" style="background-image:url('./images/media_img02.jpg');">
+                                    <a href="" class="media_anchor">
+                                        <p class="media_text">
+                                            <span class="media_title">2025년 상반기 노인자살예방 캠페인</span>
+                                            <span class="media_date">2025-04-25</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="media_item" style="background-image:url('./images/media_img03.jpg');">
+                                    <a href="" class="media_anchor">
+                                        <p class="media_text">
+                                            <span class="media_title">2025년 상반기 노인자살예방 캠페인</span>
+                                            <span class="media_date">2025-04-25</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="media_item" style="background-image:url('./images/media_img04.jpg');">
+                                    <a href="" class="media_anchor">
+                                        <p class="media_text">
+                                            <span class="media_title">2025년 상반기 노인자살예방 캠페인</span>
+                                            <span class="media_date">2025-04-25</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="media_item" style="background-image:url('./images/media_img05.jpg');">
+                                    <a href="" class="media_anchor">
+                                        <p class="media_text">
+                                            <span class="media_title">2025년 상반기 노인자살예방 캠페인</span>
+                                            <span class="media_date">2025-04-25</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="media_item" style="background-image:url('./images/media_img06.jpg');">
+                                    <a href="" class="media_anchor">
+                                        <p class="media_text">
+                                            <span class="media_title">2025년 상반기 노인자살예방 캠페인</span>
+                                            <span class="media_date">2025-04-25</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="media_item" style="background-image:url('./images/media_img07.jpg');">
+                                    <a href="" class="media_anchor">
+                                        <p class="media_text">
+                                            <span class="media_title">2025년 상반기 노인자살예방 캠페인</span>
+                                            <span class="media_date">2025-04-25</span>
+                                        </p>
+                                    </a>
+                                </li>
+                                <li class="media_item" style="background-image:url('./images/media_img08.jpg');">
+                                    <a href="" class="media_anchor">
+                                        <p class="media_text">
+                                            <span class="media_title">2025년 상반기 노인자살예방 캠페인</span>
+                                            <span class="media_date">2025-04-25</span>
+                                        </p>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="" class="more">더보기</a> <!-- 카테고리에서는 안보이게 -->
+                        </section>
+                        <!-- //멀티미디어 -->
+
+
+                        <!-- 첨부파일 -->
+                        <!-- 첨부파일 화면: 4건씩 2줄 총8건 출력 / 카테고리별 상세 화면: 4건씩 3줄 총12건 출력 -->
+                        <section class="result file">
+                            <h3>첨부파일 (<span class="index">4650</span>건)</h3>
+                            <ul class="file_list">
+                                <!-- 파일 종류 : xlsx(xls), ppt(pptx), pdf, hwp(hwpx), doc(docx), mov, jpg(jpeg), png, file, zip
+                                파일 종류에 따라 class, 텍스트 변경해주세요 -->
+                                <li class="file_item">
+                                    <div class="file_name">
+                                        <span class="p-icon p-icon__xlsx">xlsx 파일 첨부</span>
+                                        <span>민원사무처리기준표 (2025.5.5.기준).xlsx</span>
+                                    </div>
+                                    <div class="file_btn_box">
+                                        <a href="" class="file_down"><span>다운로드</span></a>
+                                        <a href="" class="file_view"><span>미리보기</span></a>
+                                    </div>
+                                </li>
+                                <li class="file_item">
+                                    <div class="file_name">
+                                        <span class="p-icon p-icon__ppt">ppt 파일 첨부</span>
+                                        <span>2025년 제15차 건축전문 위원회 심의.ppt</span>
+                                    </div>
+                                    <div class="file_btn_box">
+                                        <a href="" class="file_down"><span>다운로드</span></a>
+                                        <a href="" class="file_view"><span>미리보기</span></a>
+                                    </div>
+                                </li>
+                                <li class="file_item">
+                                    <div class="file_name">
+                                        <span class="p-icon p-icon__pdf">pdf 파일 첨부</span>
+                                        <span>2025 주요업무계획 (성과관리).pdf</span>
+                                    </div>
+                                    <div class="file_btn_box">
+                                        <a href="" class="file_down"><span>다운로드</span></a>
+                                        <a href="" class="file_view"><span>미리보기</span></a>
+                                    </div>
+                                </li>
+                                <li class="file_item">
+                                    <div class="file_name">
+                                        <span class="p-icon p-icon__hwp">hwp 파일 첨부</span>
+                                        <span>제18차 강원특별자치도 공동주택관리.hwp</span>
+                                    </div>
+                                    <div class="file_btn_box">
+                                        <a href="" class="file_down"><span>다운로드</span></a>
+                                        <a href="" class="file_view"><span>미리보기</span></a>
+                                    </div>
+                                </li>
+                                <li class="file_item">
+                                    <div class="file_name">
+                                        <span class="p-icon p-icon__doc">doc 파일 첨부</span>
+                                        <span>2025년 제3회 강릉시 건축위원회 심사.doc</span>
+                                    </div>
+                                    <div class="file_btn_box">
+                                        <a href="" class="file_down"><span>다운로드</span></a>
+                                        <a href="" class="file_view"><span>미리보기</span></a>
+                                    </div>
+                                </li>
+                                <li class="file_item">
+                                    <div class="file_name">
+                                        <span class="p-icon p-icon__jpg">jpg 파일 첨부</span>
+                                        <span>2025년 강릉작가와의 만남 운영, 5월.jpg</span>
+                                    </div>
+                                    <div class="file_btn_box">
+                                        <a href="" class="file_down"><span>다운로드</span></a>
+                                        <a href="" class="file_view"><span>미리보기</span></a>
+                                    </div>
+                                </li>
+                                <li class="file_item">
+                                    <div class="file_name">
+                                        <span class="p-icon p-icon__png">png 파일 첨부</span>
+                                        <span>2025년 제3회 강릉시 건축위원회 심사.png</span>
+                                    </div>
+                                    <div class="file_btn_box">
+                                        <a href="" class="file_down"><span>다운로드</span></a>
+                                        <a href="" class="file_view"><span>미리보기</span></a>
+                                    </div>
+                                </li>
+                                <li class="file_item">
+                                    <div class="file_name">
+                                        <span class="p-icon p-icon__zip">zip 파일 첨부</span>
+                                        <span>2025년 제3회 강릉시 건축위원회 심사.zip</span>
+                                    </div>
+                                    <div class="file_btn_box">
+                                        <a href="" class="file_down"><span>다운로드</span></a>
+                                        <a href="" class="file_view"><span>미리보기</span></a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <a href="" class="more">더보기</a> <!-- 카테고리에서는 안보이게 -->
+                        </section>
+                        <!-- //첨부파일 -->
+
+
+                        <!-- 카테고리별 상세보기에서 사용할 페이징 -->
+                        <div class="p-pagination">
+                            <div class="p-page">
+                                <span class="p-page__control">
+                                    <a href="#" class="p-page__link prev-end"><span class="skip">처음 페이지</span></a>
+                                    <a href="#" class="p-page__link prev"><span class="skip">이전 10 페이지</span></a>
+                                    <a href="#" class="p-page__link prev-one">이전 페이지</a>
+                                </span>
+                                <span class="p-page__link-group">
+                                    <strong title="현재 1페이지" class="p-page__link active">1</strong>
+                                    <a href="" title="2페이지 이동" class="p-page__link">2</a>
+                                    <a href="" title="3페이지 이동" class="p-page__link">3</a>
+                                    <a href="" title="4페이지 이동" class="p-page__link">4</a>
+                                    <a href="" title="5페이지 이동" class="p-page__link">5</a>
+                                    <a href="" title="6페이지 이동" class="p-page__link">6</a>
+                                    <a href="" title="7페이지 이동" class="p-page__link">7</a>
+                                    <a href="" title="8페이지 이동" class="p-page__link">8</a>
+                                    <a href="" title="9페이지 이동" class="p-page__link">9</a>
+                                    <a href="" title="10페이지 이동" class="p-page__link">10</a>
+                                </span>
+                                <span class="p-page__control">
+                                    <a href="#" class="p-page__link next-one">다음 페이지</a>
+                                    <a href="#" class="p-page__link next"><span class="skip">다음 10 페이지</span></a>
+                                    <a href="#" class="p-page__link next-end"><span class="skip">끝 페이지</span></a>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- //카테고리별 상세보기에서 사용할 페이징 -->
+
+                    </div>
+                </article>
+            </main>
+
+            <div class="side">
+                <div class="rank">
+                    <h2>인기검색어</h2>
+                    <div class="tab_menu">
+                        <div class="tab_nav">
+                            <button type="button" class="day active" title="선택됨">일간</button>
+                            <button type="button" class="week">주간</button>
+                        </div>
+                        <div class="tab_contents">
+                            <div class="tab_content day active" title="선택됨">
+                                <ol class="rank_list">
+                                    <li><a href="">보건증</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                    <li><a href="">채용공고</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                    <li><a href="">소상공인</a><span class="rank_state up"><span>상승</span>2</span></li>
+                                    <li><a href="">재난지원금</a><span class="rank_state up"><span>상승</span>2</span></li>
+                                    <li><a href="">폐기물</a><span class="rank_state down"><span>하락</span>1</span></li>
+                                    <li><a href="">여권</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                    <li><a href="">자매결연</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                    <li><a href="">독감</a><span class="rank_state down"><span>하락</span>2</span></li>
+                                    <li><a href="">조직도</a><span class="rank_state new"><span class="new">NEW</span></span></li>
+                                    <li><a href="">소상공인2차재난지원금</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                </ol>
+                            </div>
+                            <div class="tab_content week">
+                                <ol class="rank_list">
+                                    <li><a href="">보건증2</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                    <li><a href="">채용공고2</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                    <li><a href="">소상공인2</a><span class="rank_state up"><span>상승</span>2</span></li>
+                                    <li><a href="">재난지원금2</a><span class="rank_state up"><span>상승</span>2</span></li>
+                                    <li><a href="">폐기물2</a><span class="rank_state down"><span>하락</span>1</span></li>
+                                    <li><a href="">여권2</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                    <li><a href="">자매결연2</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                    <li><a href="">독감2</a><span class="rank_state down"><span>하락</span>2</span></li>
+                                    <li><a href="">조직도2</a><span class="rank_state new"><span class="new">NEW</span></span></li>
+                                    <li><a href="">소상공인2차재난지원금2</a><span class="rank_state same"><span>동일</span>0</span></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="my">
+                    <h2>내가 찾은 검색어</h2>
+                    <div class="my_content">
+                        <ul class="clearfix my_list">
+                            <li><a class="my_query">민원</a><a class="my_delete">삭제</a></li>
+                            <li><a class="my_query">여권</a><a class="my_delete">삭제</a></li>
+                            <li><a class="my_query">독감</a><a class="my_delete">삭제</a></li>
+                            <li><a class="my_query">재난지원금</a><a class="my_delete">삭제</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="wrap">
+            <div class="footer_info">COPYRIGHT ⓒ GANGNEUNG-SI. ALL RIGHTS RESERVED.</div>
+        </div>
+    </footer>
+
+
+</div>
+</body>
+</html>
