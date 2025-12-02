@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2025_강릉시">
+    <list default="true" id="806f237a-90df-4de6-a224-f5794e1dab82" name="Changes" comment="2025_대전시">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025_gangneung/site/www_2025/css/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/2025_gangneung/site/www_2025/css/common.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../project/2025/대전통합예약테섭" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,7 +78,9 @@
       <workItem from="1741919251413" duration="1483000" />
       <workItem from="1741920749774" duration="2487000" />
       <workItem from="1742517407529" duration="1813000" />
-      <workItem from="1764304350359" duration="7247000" />
+      <workItem from="1764304350359" duration="8138000" />
+      <workItem from="1764651109229" duration="17000" />
+      <workItem from="1764651139302" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="2024_보은청년플랫폼">
       <created>1741917016667</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1764307603716</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2025_대전시">
+      <created>1764312838350</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1764312838350</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +260,7 @@
     <MESSAGE value="2022_수암골메타버스" />
     <MESSAGE value="2022_동해시" />
     <MESSAGE value="2025_강릉시" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025_강릉시" />
+    <MESSAGE value="2025_대전시" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025_대전시" />
   </component>
 </project>
