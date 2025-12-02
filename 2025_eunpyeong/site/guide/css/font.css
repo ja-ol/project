@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* PretendardGOV */
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight:100;
+    src:url("../font/PretendardGOV-Thin.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-Thin.subset.woff") format('woff');
+}
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight:200;
+    src:url("../font/PretendardGOV-Light.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-Light.subset.woff") format('woff');
+}
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight:300;
+    src:url("../font/PretendardGOV-ExtraLight.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-ExtraLight.subset.woff") format('woff');
+}
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight:400;
+    src:url("../font/PretendardGOV-Regular.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-Regular.subset.woff") format('woff');
+}
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight:500;
+    src:url("../font/PretendardGOV-Medium.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-Medium.subset.woff") format('woff');
+}
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight:600;
+    src:url("../font/PretendardGOV-Bold.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-Bold.subset.woff") format('woff');
+}
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight:700;
+    src:url("../font/PretendardGOV-SemiBold.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-SemiBold.subset.woff") format('woff');
+}
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight:800;
+    src:url("../font/PretendardGOV-ExtraBold.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-ExtraBold.subset.woff") format('woff');
+}
+@font-face{
+    font-family:'PretendardGOV';
+    font-weight:900;
+    src:url("../font/PretendardGOV-ExtraBold.subset.woff2") format('woff2'),
+    url("../font/PretendardGOV-ExtraBold.subset.woff") format('woff');
+}

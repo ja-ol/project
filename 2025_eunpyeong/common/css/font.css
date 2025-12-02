@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* 본고딕 */
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 200;
+	src: url("/common/fonts/NotoSansCJKkr-Light.woff2") format('woff2'),
+	url("/common/fonts/NotoSansCJKkr-Light.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 300;
+	src: url("../fonts/NotoSansCJKkr-DemiLight.woff2") format('woff2'),
+	url("../fonts/NotoSansCJKkr-DemiLight.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 400;
+	src: url("../fonts/NotoSansCJKkr-Regular.woff2") format('woff2'),
+		url("../fonts/NotoSansCJKkr-Regular.woff") format('woff');
+}
+@font-face{
+	font-family: 'NotoKr';
+	font-weight: 500;
+	src: url("../fonts/NotoSansCJKkr-Medium.woff2") format('woff2'),
+	url("../fonts/NotoSansCJKkr-Medium.woff") format('woff');
+}
+
+/* Montserrat */
+/*@font-face{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	src: url("../fonts/Montserrat-Regular.woff2") format('woff2'),
+	url("../fonts/Montserrat-Regular.woff") format('woff');
+}*/
+@font-face{
+	font-family: 'Montserrat';
+	font-weight: 600;
+	src: url("../fonts/Montserrat-SemiBold.woff2") format('woff2'),
+	url("../fonts/Montserrat-SemiBold.woff") format('woff');
+}
+
+/* Rix열정도 */
+@font-face{
+	font-family: 'RixYeoljeongdo';
+	font-weight: 400;
+	src: url("../fonts/RixYeoljeongdo-Regula.woff2") format('woff2'),
+	url("../fonts/RixYeoljeongdo-Regula.woff") format('woff');
+}
+
+/* SCDream */
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 400;
+	src: url("../fonts/SCDream-Regular.woff2") format('woff2'),
+	url("../fonts/SCDream-Regular.woff") format('woff');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 500;
+	src: url("../fonts/SCDream-Medium.woff2") format('woff2'),
+	url("../fonts/SCDream-Medium.woff") format('woff');
+}
+@font-face{
+	font-family: 'SCDream';
+	font-weight: 600;
+	src: url("../fonts/SCDream-Bold.woff2") format('woff2'),
+	url("../fonts/SCDream-Bold.woff") format('woff');
+}
+
+/* 샌드박스 어그로체 */
+@font-face{
+	font-family: 'SBAggro';
+	font-weight: 200;
+	src: url("../fonts/SBAggro-Light.woff2") format('woff2'),
+	url("../fonts/SBAggro-Light.woff") format('woff');
+}
+@font-face{
+	font-family: 'SBAggro';
+	font-weight: 500;
+	src: url("../fonts/SBAggro-Medium.woff2") format('woff2'),
+	url("../fonts/SBAggro-Medium.woff") format('woff');
+}
+@font-face{
+	font-family: 'SBAggro';
+	font-weight: 600;
+	src: url("../fonts/SBAggro-Bold.woff2") format('woff2'),
+	url("../fonts/SBAggro-Bold.woff") format('woff');
+}
+
+/* 여기어때 잘난체 */
+@font-face{
+	font-family: 'Jalnan';
+	font-weight: 400;
+	src: url("../fonts/Jalnan.woff2") format('woff2'),
+	url("../fonts/Jalnan.woff") format('woff');
+}
+
+@font-face{
+	font-family: 'remixicon';
+	src: url("../fonts/remixicon.woff2") format('woff2'),
+	url("../fonts/remixicon.woff") format('woff');
+}
+/* 상주곶감체 */
+@font-face{
+	font-family: 'SANGJU-Gotgam';
+	src: url("../fonts/SANGJU-Gotgam.woff2") format('woff2'),
+	url("../fonts/SANGJU-Gotgam.woff") format('woff');
+}
+
+/* Pretendard GOV - 대한민국 공공 서비스 */
+@font-face {
+font-family: "Pretendard GOV Variable", "Pretendard GOV", -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+font-weight: normal;
+font-style: normal;
+}

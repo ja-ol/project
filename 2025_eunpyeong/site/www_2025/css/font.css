@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* RiaSans */
+@font-face{
+    font-family:'RiaSans';
+    font-weight:700;
+    src:url("../font/RiaSans-ExtraBold.woff2") format('woff2'),
+    url("../font/RiaSans-ExtraBold.woff") format('woff');
+}
+
+/* JalnanGothic */
+@font-face{
+    font-family:'JalnanGothic';
+    font-weight:600;
+    src:local(""),
+    url("../font/JalnanGothicTTF.woff2") format('woff2'),
+    url("../font/JalnanGothicTTF.woff") format('woff');
+}
+
+
+/* HakgyoansimPuzzle */
+@font-face{
+    font-family:'HakgyoansimPuzzle';
+    font-weight:600;
+    src:url("../font/HakgyoansimPuzzle-Outline.woff2") format('woff2'),
+    url("../font/HakgyoansimPuzzle-Outline.woff") format('woff');
+}
+@font-face{
+    font-family:'HakgyoansimPuzzle';
+    font-weight:800;
+    src:url("../font/HakgyoansimPuzzle-Black.woff2") format('woff2'),
+    url("../font/HakgyoansimPuzzle-Black.woff") format('woff');
+}
