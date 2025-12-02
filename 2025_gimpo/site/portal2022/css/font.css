@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* 지마켓 */
+
+@font-face{
+	font-family: 'GmarketSans';
+	font-weight: 300;
+	src:  url('../fonts/GmarketSansTTFLight.eot') format('embedded-opentype'),url('../font/GmarketSansTTFLight.ttf') format('ttf'),
+	url('../font/GmarketSansLight.otf') format('opentype');
+}
+@font-face{
+	font-family: 'GmarketSans';
+	font-weight: 400;
+	src: url('../fonts/GmarketSansTTFMedium.eot') format('embedded-opentype'),url('../font/GmarketSansTTFMedium.ttf') format('ttf'),
+	url('../font/GmarketSansMedium.otf') format('opentype');
+}
+@font-face{
+	font-family: 'GmarketSans';
+	font-weight: 700;
+	src: url('../fonts/GmarketSansTTFBold.eot') format('embedded-opentype'), url('../font/GmarketSansTTFBold.ttf') format('ttf'),
+	url('../font/GmarketSansBold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'PuradakGentleGothicR';
+	src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.1/PuradakGentleGothicR.woff2') format('woff2'),
+	url("../fonts/PuradakGentleGothicOTF.otf") format('opentype'),    url("../fonts/PuradakGentleGothicR.eot") format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'Pretendard-Bold';
+	font-weight: 700;
+	src: local('Pretendard Bold'), url('../fonts/Pretendard-Bold.woff2') format('woff2'), url('../fonts/Pretendard-Bold.woff') format('woff'), url('../fonts/Pretendard-Bold.ttf') format('ttf');
+}

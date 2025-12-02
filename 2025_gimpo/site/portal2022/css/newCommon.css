@@ -1,0 +1,373 @@
+
+@charset "utf-8";
+
+a{display: inline-block;}
+:root{
+    --m--col-:#EA616F;
+    --m--font: "GmarketSans", sans-serif;
+}
+.lnb .menu{border:0; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);}
+#header .logo {top:66px}
+#header .logo .wrap a {width: 200px;}
+
+#header .gnb{background-color: #fff;}
+#header .gnb .gnb_left li{background-color: #fff; font-family: "GmarketSans", sans-serif; position: relative;}
+#header .gnb .gnb_left li a, #header .gnb .gnb_right .link li a{color:#333; font-size: 15px; font-weight: 400; padding: 10px 16px 11px 20px;}
+
+
+/* 2025-07-01 한눈의 김포 */
+#header .gnb .gnb_right .login_link{position:relative; padding-top:13px; padding-left:10px; padding-right:10px; line-height:1.5;}
+#header .gnb .gnb_right .login_link:before{display:inline-block; position:absolute; left:0; width:13px; height:16px; background:url("../images/main/login_icon.png") center center no-repeat; content:"";}
+#header .gnb .gnb_right .login_link:after{display:block; position:absolute; top:46%; right:0; width:1px; height:17px; background-color:#E8E8E8; transform:translateY(-50%);}
+#header .gnb .gnb_right .login_link a{display:block; position:relative; padding-left:5px; color:#333; font-size:15px; font-family:"GmarketSans"; text-decoration:none;}
+
+#header .gnb .gnb_left li.active{margin:0; }
+#header .gnb .gnb_left li.active a{font-weight: 700; color:#333; font-family: "GmarketSans", sans-serif;}
+
+
+#header .gnb .gnb_left > .link> li:not(:first-child):before{
+    content:"";
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: #FBADB5;
+    position: absolute;
+    left:0;
+    top:50%;
+    bottom: auto;
+    transform: translateY(-50%);
+}
+#header .gnb .gnb_right .link > li + li:before,#header .gnb .gnb_left > .link> li:first-child::before{display: none;}
+#header .gnb .gnb_left li.active + li:before{display:inline-block;}
+
+
+#header .gnb .gnb_right{display: flex;}
+/* 날씨 */
+#header .head_weather{display: inline-block;padding:10px 25px; overflow: hidden; font-family: "GmarketSans", sans-serif;}
+#header .head_weather .weather_sate{display: block;width: 24px;  height: 24px;margin-right: 5px;background-repeat: no-repeat;background-position: center center; background-size: 100%; float:left;}
+#header .head_weather .weather_sate.type1{background-image: url('https://www.gimpo.go.kr/site/portal2022/images/main/weather_icon1.png');}
+#header .head_weather .weather_sate.type2{background-image: url('https://www.gimpo.go.kr/site/portal2022/images/main/weather_icon2.png');}
+#header .head_weather .weather_sate.type3{background-image: url('https://www.gimpo.go.kr/site/portal2022/images/main/weather_icon3.png');}
+#header .head_weather .weather_sate.type4{background-image: url('https://www.gimpo.go.kr/site/portal2022/images/main/weather_icon4.png');}
+#header .head_weather .weather_sate.type5{background-image: url('https://www.gimpo.go.kr/site/portal2022/images/main/weather_icon5.png');}
+#header .head_weather .weather_sate.type6{background-image: url('https://www.gimpo.go.kr/site/portal2022/images/main/weather_icon6.png');}
+#header .head_weather .weather_info{padding-top: 4px;vertical-align:middle; float:left;}
+#header .head_weather .weather_info .weather_celsius{display: block;margin-bottom: 3px;font-size: 16px;line-height: 20px; float:left; margin-right:16px;}
+#header .head_weather .weather_info .weather_celsius .number{padding-left: 3px; font-size: 15px; font-weight: 700;}
+#header .head_weather .weather_info .weather_dust{font-size: 14px;line-height:20px; float: left;}
+#header .head_weather .weather_info .weather_level{padding-left: 3px;}
+#header .head_weather .weather_info .weather_level.type1{color: #4f9b04;}
+#header .head_weather .weather_info .weather_level.type2{color: #1873de;}
+#header .head_weather .weather_info .weather_level.type3{color: #f76645;}
+#header .head_weather .weather_info .weather_level.type4{color: #0d4eba;}
+#header .head_weather .weather_info .weather_level.type5{color: #c24864;}
+/* 패밀리사이트 */
+#header .gnb .gnb_right .link li.family {padding-left:30px; padding-right:130px; position: relative;  font-family: var(--m--font); font-size:15px; color:#fff; }
+#header .gnb .gnb_right .link li button.family_open{color:#fff;}
+
+#header .gnb .gnb_right .link li button.family_open:before{
+    width: 18px;
+    height: 18px;
+    background: url("../images/main/famsite_icon.png") center center no-repeat;
+}
+#header .gnb .gnb_right .link li button.family_open:hover{color:#fff;}
+
+
+#header .gnb .gnb_right .link li.family::before{
+    content:"";
+    display: inline-block;
+    width: 650px;
+    height: 40px;
+    background-color: #9c9c9c;
+    border-radius: 0 0 0 46px;
+    position: absolute;
+    left:0;
+    top:0;
+}
+#header .gnb .gnb_right .link li.family::after{
+    content:"";
+    display: inline-block;
+    width: 92px;
+    height: 62px;
+    background-image: url("../images/main/gimpoIcon01.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+
+@media screen and (min-width: 1001px){
+    .lnb .menu .depth1_list{margin-left:206px;margin-right: 150px;}
+    .lnb .depth1_text{padding: 54px 10px 26px 10px;}
+
+    /* 2025-07-01 한눈의 김포 */
+    .lnb .depth1_item.glance{margin-left:50px; margin-right:0;}
+    .lnb .depth1_item.glance .depth1_text{padding-left:48px; padding-right:20px; color:#fff; font-size:18px; letter-spacing:0; font-weight:700;}
+    .lnb .depth1_item.glance .depth1_text:after{z-index:-1; top:42px; left:0; width:100%; height:40px; border-radius:30px; background:url('../images/main/glance_icon.png') no-repeat top -1px left, linear-gradient(332deg,rgba(224, 55, 118, 1) 0%, rgba(172, 70, 236, 1) 100%);}
+
+}
+
+/* 로그인, language , 사이트맵*/
+.depth_right{ position: relative; font-size: 15px;  z-index: 30; }
+.depth_right_panel{position: absolute; top:51px; right:0; display: flex; align-items: center; justify-content: flex-end;}
+.depth_right li{position: relative;line-height: 1.5;padding: 0px 10px;}
+.depth_right li >a{display: block;  position: relative;}
+
+.depth_right .login_link a{padding-left:5px}
+.depth_right .login_link::before{
+    content:"";
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    background: url("../images/main/login_icon.png") center center no-repeat;
+    position: absolute;
+    left:0;
+}
+.depth_right_panel li:not(.depth_language,.site_map):after{
+    content:"";
+    display: inline-block;
+    width: 1px;
+    height:17px;
+    background-color: #E8E8E8;
+    position: absolute;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+
+}
+
+.depth_right .depth_language{ position: relative;}
+.depth_right .depth_language button{padding:0 5px;}
+.depth_right .depth_language ul{display: none; position: absolute; left:0; top:30px; border:2px solid #EA616F; border-radius: 15px; background-color: #fff; padding:5px 3px; }
+.depth_right .depth_language ul li{    padding: 0px 5px; margin-top: 5px;}
+.depth_right .depth_language ul li a{ padding:8px 5px 3px; text-align: center; font-size:13px; border-radius: 10px;}
+.depth_right .depth_language ul li a:hover,.depth_right .depth_language ul li a:focus{background-color: #EA616F; color:#fff;}
+.depth_right .depth_language button::before{
+    content:"";
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background:url("../images/main/lang_icon.png") center center no-repeat;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.depth_right .depth_language button:after{
+    content:"▼";
+    display: inline-block;
+    font-size:12px;
+    vertical-align: middle;
+    margin-left:8px;
+}
+
+.depth_right .depth_language.active button:after{
+    content:"▲";
+}
+.depth_right .depth_language ul li::after{display: none;}
+
+.depth_right .site_map{padding:0 5px; font-size:0; line-height:0;}
+
+
+.depth_right .site_map .ham-box{display: block;}
+.depth_right .site_map .ham-inner{ width: 24px;  position: relative; padding:10px 0;}
+.depth_right .site_map .ham-inner span{display: inline-block; width: 18px; height: 3px; background-color: #333; position: absolute; right:0; top:8px; transition: width 0.3s;}
+.depth_right .site_map .ham-inner::before,
+.depth_right .site_map .ham-inner::after{
+    content:"";
+    display: inline-block;
+    width: 24px;
+    height: 3px;
+    background-color: #333;
+    position: absolute;
+    left:0;
+}
+.depth_right .site_map .ham-inner::before{top:0;}
+.depth_right .site_map .ham-inner::after{bottom:0;}
+.depth_right .site_map .ham-box:focus .ham-inner span,.depth_right .site_map .ham-box:hover .ham-inner span{width: 24px;}
+
+
+
+.depth_right::after{content:""; display: block; clear: both;}
+
+@media all and (max-width:1400px){
+    #header .logo {top: 70px;}
+    #header .logo .wrap img{width: 168px;}
+    .lnb .menu .depth1_list{margin-left:166px; /*margin-right:379px;*/}
+}
+@media (max-width:1400px) and (min-width:1001px){
+    #header .head_weather{padding-left:10px; padding-right:10px;}
+    #header .head_weather .weather_info .weather_celsius{margin-right:11px;}
+    #header .gnb .gnb_left li a, #header .gnb .gnb_right .link li a{padding-left:15px; padding-right:11px;}
+    #header .gnb .gnb_left li.active a{padding-right:14px;}
+    #header .gnb .gnb_right .link li.family{padding-left:10px; padding-right:110px;}
+
+    .lnb .depth1_item{margin:0 12px;}
+    .lnb .depth1_item.glance{margin-left:12px;}
+}
+@media all and (max-width:1240px){
+    /* 2025-07-01 한눈의 김포 */
+    #header .gnb .gnb_right .login_link{padding-top:9px;}
+    #header .gnb .gnb_right .login_link:after{display:none;}
+
+    #header .logo {top: 82px;}
+    #header .logo .wrap img{width: 125px;}
+    .lnb .menu .depth1_list {
+        margin-left: 140px;
+        margin-right: 38px;
+    }
+    .lnb .depth1_text{font-size: 16px;         padding: 54px 10px 26px 10px;}
+    #header .head_weather{display: none;}
+    .depth_right li:not(.site_map){display: none;}
+    .lnb .menu_show .menu_button{display: block;}
+
+}
+
+@media all and (max-width:1000px){
+    #header .logo{top:0; padding-top: 20px; border-bottom:none; box-shadow:0 0 27px 0 rgba(0,0,0,0.13);}
+    .depth_right{display: none;}
+    .lnb .site_link_item{background-color: #EA616F;}
+    .lnb .menu .depth1_list {
+        height: 100%;
+        padding-top: 20px;
+        padding-right: 230px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .lnb .depth1_item.has .depth1_text:before, .lnb .menu .depth1_text:before{background-color: #493B70;}
+    .lnb .menu .depth2_item.active .depth2_text{border-color:#493B70; color:#493B70;}
+}
+
+/* 20240701 s */
+@media all and (min-width:481px){
+    .search_show{display: none;}
+    .search_mob_wrap{display: none;}
+}
+@media all and (max-width:480px){
+    .search_show{display: flex; align-items: center; position: absolute; right: 48px; top: 15px; z-index: 50;}
+    .search_show > .help_anchor{margin:0; width: 44px; height: 44px; box-sizing: border-box; padding:0; margin-right: 10px; background-color:transparent; font-size:0; line-height:0;}
+    .search_show > .help_anchor::before{display:inline-block; width:44px; height:44px; margin-right: 0; margin-left: 3px; background:url('../images/main/glance_icon.png') no-repeat top 1px left, linear-gradient(332deg,rgba(244, 55, 118, 1) 0%, rgba(172, 70, 236, 1) 100%); border-radius:100%;}
+    .search_show > .search_button{
+        position:relative;
+        width: 43px;
+        height: 43px;
+        border-radius:50%;
+        z-index: 11;
+        box-shadow:3px 4px 15px 0 rgba(123,57,151,0.35);
+        background:linear-gradient(310deg,rgba(153, 41, 234, 1) 0%, rgba(88, 8, 251, 1) 100%);
+        font-size:0; line-height:0;
+    }
+    .search_show > .search_button:before{display:block; position:absolute; top:0; left:0; right:0; bottom:0; width:19px; height:19px; margin:auto; background:url(../images/main/search_icon.png) no-repeat 0 0 / contain;}
+    .search_mob_wrap{display: none; width: 100%; position: fixed;top: 72px; left:0; z-index: 39; background-color: #fff; padding-bottom: 30px; border-bottom:1px solid #e6e6e6; font-family: "GmarketSans", sans-serif;}
+    .search_mob_wrap .m-search{width: 90%;}
+    .search_mob_wrap  .popular_keyword_wrap a{font-size: 14px; margin-right: 10px;}
+    .search_mob_wrap:before {
+        content:"";
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 40;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        transition-property: visibility, opacity;
+        transition-duration: 0.25s;
+        transition-timing-function: linear;
+    }
+}
+/* 20240701 e */
+/* footer */
+#footer{background-color: #31343d;}
+#footer .footer_content{padding-top:20px; margin-bottom:20px;}
+
+#footer .link_anchor{color:#fff;}
+#footer .link_item:first-child .link_anchor{color:#ea616f;}
+#footer .footer_site{background-color: transparent; top: 18px;}
+#footer .footer_site .site_list .site_item button[type="button"]{border-radius: 10px; background-color: #fff;}
+#footer .footer_site .site_list .site_item .site_list,
+#footer .footer_site .site_list .site_item .site_list ul{background-color: #fff;}
+
+#footer .footer_info{color:#fff;}
+#footer .footer_info address .tel {color:#fff;}
+
+#footer .footer_info p{font-family: "GmarketSans", sans-serif; color:#fff; opacity: 0.7;}
+#footer .footer_info .copy{opacity: 0.3;}
+#footer .footer_info:before{width: 100%; background-color: #464951;}
+
+@media (max-width: 1240px){
+    #footer .footer_content{display: flex; flex-direction: column;}
+    #footer .footer_link{order: 2;}
+    #footer .footer_site{order: 1; position: static;}
+}
+@media screen and (max-width: 1000px){
+    #footer .footer_info{text-align: left; padding-top:40px;}
+    #footer .footer_info:before{display: block;}
+}
+@media all and (max-width:800px){
+    #footer .footer_info address span{display:inline-block;}
+    #footer .footer_info address .address{padding-right:10px;}
+    #footer .footer_info address .tel{padding-right:10px;}
+}
+
+@media all and (max-width:640px){
+    #footer .footer_info p:not(.copy){padding:0;}
+}
+
+/* 20240613 _추가*/
+.footer_call {
+    position: absolute;
+    right: 0;
+    bottom: 74px;
+    color: #fff;
+    width: auto;
+    border-radius: 20px;
+    letter-spacing: -0.025em;
+    padding: 20px;
+    border:1px solid #fff;
+    font-family: var( --m--font);
+}
+.call_number {
+    font-size: 24px;
+    margin-left: 5px;
+    font-weight: 700;
+}
+.call_info {
+    display: block;
+}
+@media screen and (max-width: 1240px) {
+    .footer_call {
+        position: relative;
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .footer_call {
+        position: absolute;
+        left: 3%;
+        right: 3%;
+        bottom: 60px;
+    }
+}
+
+/* 20240820 */
+.footer_mark{position: absolute;right: 300px;bottom: 80px;}
+.footer_mark img{width: 150px;}
+@media screen and (max-width: 1240px) {
+    .footer_mark{right: 20px;bottom: 92px;}
+    .footer_mark img{width: 100px;}
+}
+@media screen and (max-width: 1000px) {
+    .footer_mark{right: 7%;bottom: 80px;}
+}
+@media screen and (max-width: 480px) {
+    #footer{padding-bottom:40px;}
+    #footer .footer_info{padding-bottom:0;}
+    .footer_call{position:static;margin-top: 10px;}
+    .footer_mark{position: static;text-align: center;margin-top: 10px;}
+}
+/* //20240820 */

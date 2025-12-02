@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* WantedSans */
+@font-face{
+    font-family:'WantedSans';
+    font-weight: 400;
+    src:url("../font/WantedSans-Regular.woff2") format('woff2'),
+    url("../font/WantedSans-Regular.woff") format('woff');
+}
+@font-face{
+    font-family:'WantedSans';
+    font-weight: 500;
+    src:url("../font/WantedSans-Medium.woff2") format('woff2'),
+    url("../font/WantedSans-Medium.woff") format('woff');
+}
+@font-face{
+    font-family:'WantedSans';
+    font-weight: 600;
+    src:url("../font/WantedSans-SemiBold.woff2") format('woff2'),
+    url("../font/WantedSans-SemiBold.woff") format('woff');
+}
+@font-face{
+    font-family:'WantedSans';
+    font-weight: 700;
+    src:url("../font/WantedSans-Bold.woff2") format('woff2'),
+    url("../font/WantedSans-Bold.woff") format('woff');
+}
+@font-face{
+    font-family:'WantedSans';
+    font-weight: 800;
+    src:url("../font/WantedSans-ExtraBold.woff2") format('woff2'),
+    url("../font/WantedSans-ExtraBold.woff") format('woff');
+}
+
+
+/* JalnanGothic */
+@font-face{
+    font-family:'JalnanGothic';
+    font-weight: 600;
+    src:url("../font/JalnanGothicTTF.woff2") format('woff2'),
+    url("../font/JalnanGothicTTF.woff") format('woff');
+}
+
+/* Jalnan */
+@font-face{
+    font-family:'Jalnan';
+    font-weight: 600;
+    src:url("../font/Jalnan.woff2") format('woff2'),
+    url("../font/Jalnan.woff") format('woff');
+}
+
+/* Montserrat */
+@font-face{
+    font-family:'Montserrat';
+    font-weight: 500;
+    src:url("../font/Montserrat-Medium.woff2") format('woff2'),
+    url("../font/Montserrat-Medium.woff") format('woff');
+}
+@font-face{
+    font-family:'Montserrat';
+    font-weight: 600;
+    src:url("../font/Montserrat-Bold.woff2") format('woff2'),
+    url("../font/Montserrat-Bold.woff") format('woff');
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+article,aside,audio,blockquote,body,canvas,caption,dd,details,div,dl,dt,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,iframe,legend,li,main,menu,nav,ol,p,pre,section,summary,table,tbody,td,template,textarea,tfoot,th,thead,tr,ul,video{margin:0;padding:0;border:0;font-size:inherit;font-family:inherit;box-sizing:border-box;word-break:break-all}
+a,em,span{display:inline-block;margin:0;padding:0;box-sizing:border-box;}
+
+
+/* slick */
+.slick-slider{position:relative}
+.slick-list{overflow:hidden; position:relative}
+.slick-track{position:relative; top:0; left:0; margin-right:auto; margin-left:auto}
+.slick-track:after,.slick-track:before{display:table}
+.slick-track:after{clear:both}
+.slick-loading .slick-track{visibility:hidden}
+.slick-slide{display:none; float:left}
+.slick-slide.slick-loading img{display:none}
+.slick-initialized .slick-slide{display:block}
+.slick-loading .slick-slide{visibility:hidden}
+.slick-vertical .slick-slide{display:block}
