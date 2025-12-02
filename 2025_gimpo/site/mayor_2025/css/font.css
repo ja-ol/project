@@ -2,6 +2,38 @@
 
 /* Pretendard */
 @font-face{
+    font-family: 'SCDream';
+    font-weight: 200;
+    src: url("../font/SCDream-ExtraLight.woff2") format('woff2'),
+    url("../font/SCDream-ExtraLight.woff") format('woff');
+}
+@font-face{
+    font-family: 'SCDream';
+    font-weight: 300;
+    src: url("../font/SCDream-light.woff2") format('woff2'),
+    url("../font/SCDream-light.woff") format('woff');
+}
+@font-face{
+    font-family: 'SCDream';
+    font-weight: 400;
+    src: url("../font/SCDream-Regular.woff2") format('woff2'),
+    url("../font/SCDream-Regular.woff") format('woff');
+}
+@font-face{
+    font-family: 'SCDream';
+    font-weight: 500;
+    src: url("../font/SCDream-Medium.woff2") format('woff2'),
+    url("../font/SCDream-Medium.woff") format('woff');
+}
+@font-face{
+    font-family: 'SCDream';
+    font-weight: 600;
+    src: url("../font/SCDream-bold.woff2") format('woff2'),
+    url("../font/SCDream-bold.woff") format('woff');
+}
+
+/* Pretendard */
+@font-face{
     font-family: 'Pretendard';
     font-weight: 300;
     src: url("../font/Pretendard-Light.woff2") format('woff2'),
@@ -46,4 +78,28 @@
     font-weight: 600;
     src: url("../font/SBAggroB.woff2") format('woff2'),
     url("../font/SBAggroB.woff") format('woff');
+}
+
+/* Montserrat */
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    src: url("../font/Montserrat-Regular.woff2") format('woff2'),
+    url("../font/Montserrat-Regular.woff") format('woff');
+}
+
+/* RixYeoljeongdo */
+@font-face{
+    font-family: 'RixYeoljeongdo';
+    font-weight: 400;
+    src: url("../font/RixYeoljeongdo-Regular.woff2") format('woff2'),
+    url("../font/RixYeoljeongdo-Regular.woff") format('woff');
+}
+
+/* NotoKr */
+@font-face{
+    font-family: 'NotoKr';
+    font-weight: 600;
+    src: url("../font/NotoSansCJKkr-Bold.woff2") format('woff2'),
+    url("../font/NotoSansCJKkr-Bold.woff") format('woff');
 }
